@@ -25,7 +25,8 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
             Request a Callout
           </Link>
           <a
-            href=""
+            href="tel+447961609836"
+            aria-label="Call First Response Drainage on 07961609836"
             className="text-fr-white font-bold block hover:text-fr-yellow transition-colors duration-300"
           >
             Call today on 07961 609836
@@ -38,6 +39,7 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
         width={700}
         height={700}
         className="w-full object-cover h-[50vw] md:top-0 md:left-0 md:h-[40vw] md:min-h-102 lg:h-125 absolute -z-10"
+        priority
       />
     </div>
   );
