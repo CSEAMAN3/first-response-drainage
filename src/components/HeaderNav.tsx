@@ -14,6 +14,8 @@ export default function HeaderNav() {
   const pathname = usePathname();
   const shouldReduceMotion = useReducedMotion();
 
+  const filteredNav = headerNav.filter((link) => link.title !== "Home");
+
   useEffect(() => {
     const updateNavWidth = () => {
       if (innerWidth < 550) {
@@ -33,7 +35,7 @@ export default function HeaderNav() {
   }, []);
 
   return (
-    <div className="">
+    <div>
       {/* mobile nav */}
       <motion.div animate={toggleNav ? "open" : "close"} initial="close">
         <motion.div
@@ -165,7 +167,7 @@ export default function HeaderNav() {
         <motion.div
           className={`w-full h-1.5 ${
             toggleNav ? "bg-fr-white" : "bg-fr-dark-blue"
-          } group-hover:bg-fr-red transition-colors duration-150 absolute`}
+          } group-hover:bg-fr-light-blue transition-colors duration-150 absolute`}
           style={{
             top: "0%",
             y: "0%",
@@ -188,7 +190,7 @@ export default function HeaderNav() {
         <motion.div
           className={`w-full h-1.5 ${
             toggleNav ? "bg-fr-white" : "bg-fr-dark-blue"
-          } group-hover:bg-fr-red transition-colors duration-150 absolute`}
+          } group-hover:bg-fr-light-blue transition-colors duration-150 absolute`}
           style={{
             top: "50%",
             y: "-50%",
@@ -207,7 +209,7 @@ export default function HeaderNav() {
         <motion.div
           className={`w-full h-1.5 ${
             toggleNav ? "bg-fr-white" : "bg-fr-dark-blue"
-          } group-hover:bg-fr-red transition-colors duration-150 absolute`}
+          } group-hover:bg-fr-light-blue transition-colors duration-150 absolute`}
           style={{
             top: "100%",
             y: "-100%",
@@ -228,6 +230,29 @@ export default function HeaderNav() {
         />
       </motion.button>
       {/* desktop nav */}
+      <nav className="hidden lg:block w-fit absolute top-11.5 left-[50%] -translate-x-1/2">
+        <ul className="flex gap-8">
+          {filteredNav.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <li
+                key={link.href}
+                className={`font-bold hover:text-fr-light-blue cursor-pointer ${
+                  isActive ? "text-fr-mid-blue" : "text-fr-dark-blue"
+                } transition-colors duration-150`}
+              >
+                <Link href={link.href}>{link.title}</Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
+      <Link
+        href="/contact"
+        className="hidden lg:block absolute top-5 right-8 bg-fr-red hover:bg-fr-dark-red text-fr-white font-bold rounded-sm px-8 py-4 transition-all duration-400"
+      >
+        Request Callout
+      </Link>
     </div>
   );
 }

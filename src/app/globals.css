@@ -7,6 +7,7 @@
   --fr-mid-blue: #0c5ba2;
   --fr-light-blue: #2896e8;
   --fr-red: #ed1c26;
+  --fr-dark-red: #c61018;
   --fr-yellow: #f0b516;
   --fr-light-grey: #ebebeb;
 }
@@ -18,6 +19,7 @@
   --color-fr-mid-blue: var(--fr-mid-blue);
   --color-fr-light-blue: var(--fr-light-blue);
   --color-fr-red: var(--fr-red);
+  --color-fr-dark-red: var(--fr-dark-red);
   --color-fr-yellow: var(--fr-yellow);
   --color-fr-light-grey: var(--fr-light-grey);
   --font-sans: var(--font-geist-sans);
