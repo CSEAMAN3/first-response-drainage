@@ -1,13 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface HeroProps {
   heading: string;
   paraOne: string;
+  photo: string;
 }
 
-export default function Hero({ heading, paraOne }: HeroProps) {
+export default function Hero({ heading, paraOne, photo }: HeroProps) {
   return (
-    <div>
+    <div className="relative">
       <div className="w-full md:w-fit lg:w-1/2 px-8 py-16 bg-fr-dark-blue  md:min-h-[40vw] lg:min-h-125 lg:max-h-125 grid md:place-content-center md:rounded-tr-full md:rounded-br-full overflow-hidden">
         <div className="">
           <h1 className="text-fr-white font-bold text-xl max-w-[34ch] mb-4 text-balance">
@@ -30,6 +32,13 @@ export default function Hero({ heading, paraOne }: HeroProps) {
           </a>
         </div>
       </div>
+      <Image
+        src={`/images/${photo}`}
+        alt="test image"
+        width={700}
+        height={700}
+        className="w-full object-cover h-[50vw] md:top-0 md:left-0 md:h-[40vw] md:min-h-102 lg:h-125 absolute -z-10"
+      />
     </div>
   );
 }
