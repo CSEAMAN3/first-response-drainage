@@ -108,6 +108,7 @@ export default function HeaderNav() {
                   >
                     <Link
                       href={link.href}
+                      onClick={() => setToggleNav(!toggleNav)}
                       aria-current={isActive ? "page" : undefined}
                       className={`font-bold text-xl ${
                         isActive ? "text-fr-light-blue" : "text-fr-white"
