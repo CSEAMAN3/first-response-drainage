@@ -10,7 +10,7 @@ export default function Hero({ heading, paraOne }: HeroProps) {
     <div>
       <div className="w-full md:w-fit lg:w-1/2 px-8 py-16 bg-fr-dark-blue  md:min-h-[40vw] lg:min-h-125 lg:max-h-125 grid md:place-content-center md:rounded-tr-full md:rounded-br-full overflow-hidden">
         <div className="">
-          <h1 className="text-fr-white font-bold text-xl max-w-[34ch] mb-4">
+          <h1 className="text-fr-white font-bold text-xl max-w-[34ch] mb-4 text-pretty">
             {heading}
           </h1>
           <p className="text-fr-white font-light mb-8 max-w-[50ch] md:max-w-[46ch] lg:max-w-[50ch] text-pretty">
