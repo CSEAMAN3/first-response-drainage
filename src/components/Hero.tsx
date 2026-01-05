@@ -38,7 +38,7 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
         alt="test image"
         width={700}
         height={700}
-        className="w-full object-cover md:w-[80vw] h-[50vw] md:top-0 md:right-0 md:h-[40vw] md:min-h-102 lg:h-125 absolute -z-10"
+        className="w-full object-cover md:w-[80vw] h-[50vw] md:top-0 md:right-0 md:h-[40vw] md:min-h-102 lg:h-125 md:absolute -z-10"
         priority
       />
     </div>
