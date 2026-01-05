@@ -42,19 +42,19 @@ export default function CoverageTabs() {
         </button>
       </div>
       {coverageArea === "Norfolk" && (
-        <p className="font-light text-base text-fr-mid-blue mb-8 min-h-14 max-w-[60ch]">
+        <p className="font-light text-sm mb-8 min-h-14 max-w-[60ch]">
           We cover the whole of Norfolk including the following locations:
           Norwich, Dereham, Kings Lynn, Great Yarmouth, North Norfolk Coast,
           Thetford and all surrounding towns and villages.
         </p>
       )}
       {coverageArea === "Suffolk" && (
-        <p className="font-light mb-8 max-w-[60ch] text-base text-fr-mid-blue">
+        <p className="font-light mb-8 max-w-[60ch] text-sm">
           We cover the whole of Suffolk including the following locations:
         </p>
       )}
       {coverageArea === "Cambridgeshire" && (
-        <p className="font-light mb-8 max-w-[60ch] text-base text-fr-mid-blue">
+        <p className="font-light mb-8 max-w-[60ch] text-sm">
           We cover the whole of Cambridgeshire including the following
           locations:{" "}
         </p>
