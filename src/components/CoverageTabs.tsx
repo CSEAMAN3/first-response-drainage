@@ -12,30 +12,30 @@ export default function CoverageTabs() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-0 md:gap-4 mb-4 max-w-100">
         <button
           onClick={() => setCoverageArea("Norfolk")}
-          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-purple transition-colors duration-150 ${
+          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-primary transition-colors duration-150 ${
             coverageArea === "Norfolk"
-              ? "text-fr-light-purple underline"
-              : "text-fr-dark-purple"
+              ? "text-fr-primary underline"
+              : "text-fr-primary-dark"
           }`}
         >
           Norfolk
         </button>
         <button
           onClick={() => setCoverageArea("Suffolk")}
-          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-purple transition-colors duration-150 ${
+          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-primary transition-colors duration-150 ${
             coverageArea === "Suffolk"
-              ? "text-fr-light-purple underline"
-              : "text-fr-dark-purple"
+              ? "text-fr-primary underline"
+              : "text-fr-primary-dark"
           }`}
         >
           Suffolk
         </button>
         <button
           onClick={() => setCoverageArea("Cambridgeshire")}
-          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-purple transition-colors duration-150 ${
+          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-primary transition-colors duration-150 ${
             coverageArea === "Cambridgeshire"
-              ? "text-fr-light-purple underline"
-              : "text-fr-dark-purple"
+              ? "text-fr-primary underline"
+              : "text-fr-primary-dark"
           }`}
         >
           Cambridgeshire
@@ -61,7 +61,7 @@ export default function CoverageTabs() {
       )}
       <Link
         href="/locations"
-        className="font-bold hover:text-fr-red transition-colors duration-150"
+        className="font-bold hover:text-fr-accent-one transition-colors duration-150"
       >
         Locations Directory <FaArrowRight className="inline-block mb-0.5" />
       </Link>

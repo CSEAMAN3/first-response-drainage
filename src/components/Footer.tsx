@@ -4,7 +4,7 @@ import { FaHeart } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-fr-light-purple">
+    <footer className="bg-fr-primary">
       <div className="px-8 py-8 max-w-300 mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
           {/* company info */}
@@ -17,24 +17,24 @@ export default function Footer() {
             />
             <a
               href="tel+447961609836"
-              className="text-fr-white font-bold hover:text-fr-yellow w-fit transition-colors duration-150"
+              className="text-fr-white font-bold hover:text-fr-accent-two w-fit transition-colors duration-150"
             >
               24/7 callout on 07961 609836
             </a>
             <a
               href="mailto:info@1stresponsedrainage.co.uk"
-              className="text-fr-white font-bold hover:text-fr-yellow w-fit transition-colors duration-150"
+              className="text-fr-white font-bold hover:text-fr-accent-two w-fit transition-colors duration-150"
             >
               info@1stresponsedrainage.co.uk
             </a>
             <Link
               href="/contact"
-              className="font-bold bg-fr-red w-fit px-8 py-4 text-fr-white rounded-sm hover:bg-fr-mid-red transition-colors duration-150"
+              className="font-bold bg-fr-accent-one w-fit px-8 py-4 text-fr-white rounded-sm hover:bg-fr-accent-one-mid transition-colors duration-150"
             >
               Contact Us Online
             </Link>
             <div>
-              <h5 className="font-bold text-fr-yellow mb-2">
+              <h5 className="font-bold text-fr-accent-two mb-2">
                 Visit Us On Social
               </h5>
               <Link
@@ -45,7 +45,7 @@ export default function Footer() {
                 className="block w-fit"
               >
                 <FaFacebook
-                  className="text-fr-white hover:text-fr-yellow transition-colors duration-150"
+                  className="text-fr-white hover:text-fr-accent-two transition-colors duration-150"
                   size="32"
                 />
               </Link>
@@ -53,80 +53,80 @@ export default function Footer() {
           </div>
           {/* navigation */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="text-fr-yellow font-bold">Navigation</h5>
+            <h5 className="text-fr-accent-two font-bold">Navigation</h5>
             <Link
               href="/"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Home
             </Link>
             <Link
               href="/drainage-services"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Drainage Services
             </Link>
             <Link
               href="/locations"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Locations
             </Link>
             <Link
               href="/faq"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               FAQs
             </Link>
             <Link
               href="/terms-and-conditions"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               T&Cs
             </Link>
             <Link
               href="/contact"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Contact
             </Link>
           </div>
           {/* Services */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="font-bold text-fr-yellow">Drainage Services</h5>
+            <h5 className="font-bold text-fr-accent-two">Drainage Services</h5>
             <Link
               href="blocked-drains"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Blocked Drains
             </Link>
             <Link
               href="blocked-drains"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               CCTV Drainage Surveys
             </Link>
             <Link
               href="blocked-drains"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               High Pressure Water Jetting
             </Link>
             <Link
               href="blocked-drains"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Patch Liners / No-Dig Repairs
             </Link>
             <Link
               href="blocked-drains"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Root Intrusion Removal
             </Link>
             <Link
               href="blocked-drains"
-              className="text-fr-white hover:text-fr-yellow transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Commercial Drainage
             </Link>
@@ -140,13 +140,13 @@ export default function Footer() {
             </p>
             <Link
               href="/website-terms-and-conditions"
-              className="font-light text-sm text-fr-white hover:text-fr-yellow transition-colors duration-150"
+              className="font-light text-sm text-fr-white hover:text-fr-accent-two transition-colors duration-150"
             >
               Website Terms & Conditions
             </Link>
             <Link
               href="/privacy-policy"
-              className="font-light text-sm text-fr-white hover:text-fr-yellow transition-colors duration-150"
+              className="font-light text-sm text-fr-white hover:text-fr-accent-two transition-colors duration-150"
             >
               Privacy Policy
             </Link>
@@ -156,7 +156,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Website designed and built by Fulltilt Digital"
-            className="font-light text-sm text-fr-white hover:text-fr-yellow lg:mx-auto"
+            className="font-light text-sm text-fr-white hover:text-fr-accent-two sm:mx-auto"
           >
             Website designed, built and maintained with{" "}
             <FaHeart aria-hidden="true" className="inline-block" /> by Fulltilt

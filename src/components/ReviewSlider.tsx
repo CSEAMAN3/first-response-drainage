@@ -21,7 +21,7 @@ export default function ReviewSlider() {
         </div>
       </div>
       <FcGoogle className="absolute top-8 right-8" size={40} />
-      <div className="flex text-xl text-fr-light-purple mb-4">
+      <div className="flex text-xl text-fr-primary mb-4">
         <MdStarRate className="inline-block mb-1" />
         <MdStarRate className="inline-block mb-1" />
         <MdStarRate className="inline-block mb-1" />
@@ -39,17 +39,17 @@ export default function ReviewSlider() {
       </p>
       <button
         onClick={() => setExpanded(!expanded)}
-        className="font-bold text-sm cursor-pointer hover:text-fr-red transition-colors duration-300 mb-8"
+        className="font-bold text-sm cursor-pointer hover:text-fr-accent-one transition-colors duration-300 mb-8"
       >
         {expanded ? "Read Less" : "Read More"}
       </button>
       <div className="flex justify-between font-bold text-sm">
         {/* back button */}
-        <button className="hover:text-fr-light-purple cursor-pointer">
+        <button className="hover:text-fr-primary cursor-pointer">
           <FaChevronLeft className="inline-block mb-0.5 mr-1" /> Previous
         </button>
         {/* forward button */}
-        <button className="hover:text-fr-light-purple cursor-pointer">
+        <button className="hover:text-fr-primary cursor-pointer">
           Next
           <FaChevronRight className="inline-block mb-0.5 ml-1" />
         </button>

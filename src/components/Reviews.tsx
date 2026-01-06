@@ -11,7 +11,7 @@ export default function Reviews() {
     <section className="py-8 px-8 max-w-300 mx-auto">
       <h2 className="text-center font-light mb-8">
         Our Customers say <span className="font-bold text-lg">Excellent</span>{" "}
-        <span className="text-fr-yellow text-xl inline-block">
+        <span className="text-fr-accent-two text-xl inline-block">
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
@@ -23,7 +23,7 @@ export default function Reviews() {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
         <div className="place-content-center">
-          <h3 className="font-bold text-fr-light-purple text-xl text-balance max-w-[40ch] mb-2">
+          <h3 className="font-bold text-fr-primary text-xl text-balance max-w-[40ch] mb-2">
             Trusted by Homeowners & Businesses Across East Anglia
           </h3>
           <p className="font-light text-balance max-w-[60ch] mb-4">
@@ -34,7 +34,7 @@ export default function Reviews() {
           <Link
             target="_blank"
             href="https://www.google.com/search?q=first+response+drainage&oq=first+response+drainage&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCTEwOTIzajBqN6gCCLACAfEFvvbssswiqDjxBb727LLMIqg4&sourceid=chrome&ie=UTF-8&zx=1767615264294&no_sw_cr=1&lqi=ChdmaXJzdCByZXNwb25zZSBkcmFpbmFnZUiqqvvUrbOAgAhaJRAAEAEQAhgAGAEYAiIXZmlyc3QgcmVzcG9uc2UgZHJhaW5hZ2WSARBkcmFpbmFnZV9zZXJ2aWNlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJreFdWcHFSblJrYlhBMldURktkR1JXU25kUmJHaFdXV3QwUWxSc1JSQUL6AQQIHRBG#lkt=LocalPoiReviews&rlimm=14279126173369784989&lrd=0x47d831309e4c57b9:0xc629a599c2b05a9d,3,,,,"
-            className="font-bold text-fr-light-purple hover:text-fr-red transition-colors duration-300"
+            className="font-bold text-fr-primary hover:text-fr-accent-one transition-colors duration-300"
           >
             Review us on Google <FaArrowRight className="inline-block mb-0.5" />
           </Link>

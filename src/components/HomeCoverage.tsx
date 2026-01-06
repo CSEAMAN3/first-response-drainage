@@ -4,7 +4,7 @@ export default function HomeCoverage() {
   return (
     <section className="relative">
       <div className="bg-fr-white grid grid-cols-1 md:grid-cols-2 max-w-300 mx-auto">
-        <div className="absolute bg-fr-light-purple top-0 left-0 right-1/2 bottom-0 -z-10" />
+        <div className="absolute bg-fr-primary top-0 left-0 right-1/2 bottom-0 -z-10" />
         {/* image container */}
         <div className="order-2 md:order-1">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -16,7 +16,7 @@ export default function HomeCoverage() {
         </div>
         {/* content container */}
         <div className="order-1 md:order-2 px-8 py-8 place-content-center">
-          <h3 className="font-bold text-3xl max-w-[20ch] mb-4 text-fr-light-purple">
+          <h3 className="font-bold text-3xl max-w-[20ch] mb-4 text-fr-primary">
             Serving Communities Across East Anglia
           </h3>
           <p className="font-light max-w-[60ch] mb-4 text-pretty">
