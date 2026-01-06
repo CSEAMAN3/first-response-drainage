@@ -24,7 +24,7 @@ export default function Reviews() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
         <div className="place-content-center">
           <h3 className="font-bold text-fr-mid-blue text-xl text-balance max-w-[40ch] mb-2">
-            Tristed by Homeowners & Businesses Across East Anglia
+            Trusted by Homeowners & Businesses Across East Anglia
           </h3>
           <p className="font-light text-balance max-w-[60ch] mb-4">
             We&#39;re proud to support customers across the east of England with
