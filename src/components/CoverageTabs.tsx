@@ -12,30 +12,30 @@ export default function CoverageTabs() {
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-0 md:gap-4 mb-4 max-w-100">
         <button
           onClick={() => setCoverageArea("Norfolk")}
-          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-blue transition-colors duration-150 ${
+          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-purple transition-colors duration-150 ${
             coverageArea === "Norfolk"
-              ? "text-fr-light-blue underline"
-              : "text-fr-mid-blue"
+              ? "text-fr-light-purple underline"
+              : "text-fr-dark-purple"
           }`}
         >
           Norfolk
         </button>
         <button
           onClick={() => setCoverageArea("Suffolk")}
-          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-blue transition-colors duration-150 ${
+          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-purple transition-colors duration-150 ${
             coverageArea === "Suffolk"
-              ? "text-fr-light-blue underline"
-              : "text-fr-mid-blue"
+              ? "text-fr-light-purple underline"
+              : "text-fr-dark-purple"
           }`}
         >
           Suffolk
         </button>
         <button
           onClick={() => setCoverageArea("Cambridgeshire")}
-          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-blue transition-colors duration-150 ${
+          className={`w-fit font-bold cursor-pointer hover:underline hover:text-fr-light-purple transition-colors duration-150 ${
             coverageArea === "Cambridgeshire"
-              ? "text-fr-light-blue underline"
-              : "text-fr-mid-blue"
+              ? "text-fr-light-purple underline"
+              : "text-fr-dark-purple"
           }`}
         >
           Cambridgeshire

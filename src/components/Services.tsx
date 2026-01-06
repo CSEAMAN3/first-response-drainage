@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 export default function Services() {
   return (
     <section className="px-8 pt-8 pb-16 max-w-300 mx-auto">
-      <h3 className="text-balance font-bold text-xl text-fr-mid-blue text-center md:text-2xl mb-2">
+      <h3 className="text-balance font-bold text-xl text-fr-light-purple text-center md:text-2xl mb-2">
         Keeping your drains clear, safe and working properly
       </h3>
       <p className="text-center max-w-[86ch] text-pretty mx-auto mb-8">

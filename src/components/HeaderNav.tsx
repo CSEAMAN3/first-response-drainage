@@ -39,7 +39,7 @@ export default function HeaderNav() {
       {/* mobile nav */}
       <motion.div animate={toggleNav ? "open" : "close"} initial="close">
         <motion.div
-          className="bg-fr-dark-blue h-screen fixed top-0 right-0 overflow-hidden z-50"
+          className="bg-fr-light-purple h-screen fixed top-0 right-0 overflow-hidden z-50"
           style={{ width: "0vw" }}
           variants={{
             open: {
@@ -111,8 +111,8 @@ export default function HeaderNav() {
                       onClick={() => setToggleNav(!toggleNav)}
                       aria-current={isActive ? "page" : undefined}
                       className={`font-bold text-xl ${
-                        isActive ? "text-fr-light-blue" : "text-fr-white"
-                      } hover:text-fr-light-blue transition-colors duration-150`}
+                        isActive ? "text-fr-dark-purple" : "text-fr-white"
+                      } hover:text-fr-dark-purple transition-colors duration-150`}
                     >
                       {link.title}
                     </Link>
@@ -145,7 +145,7 @@ export default function HeaderNav() {
             }}
           >
             Need Drainage Help Today?{" "}
-            <span className="block text-fr-light-blue">
+            <span className="block text-fr-yellow">
               We&#39;re Ready to Respond
             </span>
           </motion.p>
@@ -167,8 +167,8 @@ export default function HeaderNav() {
         {/* top bar */}
         <motion.div
           className={`w-full h-1.5 ${
-            toggleNav ? "bg-fr-white" : "bg-fr-dark-blue"
-          } group-hover:bg-fr-light-blue transition-colors duration-150 absolute`}
+            toggleNav ? "bg-fr-white" : "bg-fr-light-purple"
+          } group-hover:bg-fr-dark-purple transition-colors duration-150 absolute`}
           style={{
             top: "0%",
             y: "0%",
@@ -190,8 +190,8 @@ export default function HeaderNav() {
         {/* middle bar */}
         <motion.div
           className={`w-full h-1.5 ${
-            toggleNav ? "bg-fr-white" : "bg-fr-dark-blue"
-          } group-hover:bg-fr-light-blue transition-colors duration-150 absolute`}
+            toggleNav ? "bg-fr-white" : "bg-fr-light-purple"
+          } group-hover:bg-fr-dark-purple transition-colors duration-150 absolute`}
           style={{
             top: "50%",
             y: "-50%",
@@ -209,8 +209,8 @@ export default function HeaderNav() {
         {/* bottom bar */}
         <motion.div
           className={`w-full h-1.5 ${
-            toggleNav ? "bg-fr-white" : "bg-fr-dark-blue"
-          } group-hover:bg-fr-light-blue transition-colors duration-150 absolute`}
+            toggleNav ? "bg-fr-white" : "bg-fr-light-purple"
+          } group-hover:bg-fr-dark-purple transition-colors duration-150 absolute`}
           style={{
             top: "100%",
             y: "-100%",
@@ -238,8 +238,8 @@ export default function HeaderNav() {
             return (
               <li
                 key={link.href}
-                className={`font-bold hover:text-fr-light-blue cursor-pointer ${
-                  isActive ? "text-fr-mid-blue" : "text-fr-dark-blue"
+                className={`font-bold hover:text-fr-dark-purple cursor-pointer ${
+                  isActive ? "text-fr-dark-purple" : "text-fr-light-purple"
                 } transition-colors duration-150`}
               >
                 <Link href={link.href}>{link.title}</Link>

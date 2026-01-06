@@ -22,7 +22,7 @@ export default function Home() {
         paraOne="Blocked drain? Need a pre-purchase CCTV drainage survey? Our local drainage engineers have you covered 24/7."
         photo="test.jpg"
       />
-      <Scrollbar items={items} className="bg-fr-light-blue py-2" />
+      <Scrollbar items={items} className="bg-fr-mid-purple py-2" />
       <Reviews />
       <Services />
       <WhyUseUs />

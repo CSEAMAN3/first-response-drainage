@@ -42,7 +42,7 @@ export default function FaqAccordion() {
         return (
           <div
             key={question.id}
-            className="border-b border-fr-dark-blue pb-4 group mb-4"
+            className="border-b border-fr-light-purple pb-4 group mb-4"
           >
             <button
               onClick={() => toggleQuestion(question.id)}
@@ -50,13 +50,13 @@ export default function FaqAccordion() {
               aria-expanded={isOpen}
               aria-controls={contentId}
             >
-              <span className="text-fr-dark-blue group-hover:text-fr-mid-blue text-balance">
+              <span className="text-fr-light-purple group-hover:text-fr-dark-purple text-balance cursor-pointer">
                 {question.question}
               </span>
               <motion.span
                 animate={{ rotate: isOpen ? 180 : 0 }}
                 transition={{ duration: 0.2 }}
-                className="text-fr-dark-blue group-hover:text-fr-mid-blue"
+                className="text-fr-light-purple group-hover:text-fr-dark-purple"
               >
                 <FaChevronDown size={20} />
               </motion.span>

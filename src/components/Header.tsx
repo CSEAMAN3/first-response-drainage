@@ -8,7 +8,7 @@ export default function Header() {
         <Link href="/">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/horizontal-logo.svg"
+            src="/images/horizontal-logo-purple.svg"
             alt=""
             className="w-40 md:w-44 h-auto"
           />

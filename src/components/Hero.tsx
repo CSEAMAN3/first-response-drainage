@@ -10,7 +10,7 @@ interface HeroProps {
 export default function Hero({ heading, paraOne, photo }: HeroProps) {
   return (
     <div className="relative">
-      <div className="w-full md:w-fit lg:w-1/2 px-8 py-16 bg-fr-dark-blue  md:min-h-[40vw] lg:min-h-125 lg:max-h-125 grid md:place-content-center md:rounded-tr-full md:rounded-br-full overflow-hidden">
+      <div className="w-full md:w-fit lg:w-1/2 px-8 py-16 bg-fr-light-purple  md:min-h-[40vw] lg:min-h-125 lg:max-h-125 grid md:place-content-center md:rounded-tr-full md:rounded-br-full overflow-hidden">
         <div className="">
           <h1 className="text-fr-white font-bold text-xl max-w-[34ch] mb-4 text-balance">
             {heading}
@@ -20,7 +20,7 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
           </p>
           <Link
             href="/contact"
-            className="text-fr-white bg-fr-red px-8 py-4 rounded-sm block mb-6 w-fit font-bold hover:bg-fr-dark-red transition-colors duration-300 cursor-pointer"
+            className="text-fr-white bg-fr-red px-8 py-4 rounded-sm block mb-6 w-fit font-bold hover:bg-fr-mid-red transition-colors duration-300 cursor-pointer"
           >
             Request a Callout
           </Link>
