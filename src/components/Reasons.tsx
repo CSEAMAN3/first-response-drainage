@@ -44,7 +44,7 @@ Norfolk, Suffolk and Cambridge."
           paragraph="Supporting homeowners, landlords and businesses of all sizes."
         />
         <ReasonCards
-          graphic="shield"
+          graphic="shield-symbol"
           heading="Long lasting"
           headingSplit="solutions"
           paragraph="We fix the cause of the problem, not just the symptoms."
