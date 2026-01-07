@@ -15,6 +15,7 @@
   --fr-dark-red: #821223;
   --fr-yellow: #f0b516;
   --fr-light-grey: #ebebeb;
+  --fr-mid-grey: #d8d8d8;
   --fr-primary: #3b53a4;
   --fr-primary-mid: #2a3c70;
   --fr-primary-dark: #16203a;
@@ -45,6 +46,7 @@
   --color-fr-dark-red: var(--fr-dark-red);
   --color-fr-yellow: var(--fr-yellow);
   --color-fr-light-grey: var(--fr-light-grey);
+  --color-fr-mid-grey: var(--fr-mid-grey);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }

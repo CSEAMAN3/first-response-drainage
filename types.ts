@@ -9,3 +9,8 @@ export type Faq = {
   answer: string;
   category: string;
 };
+
+export type Approach = {
+  heading: string;
+  paragraph: string;
+};

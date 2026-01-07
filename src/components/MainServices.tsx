@@ -10,7 +10,7 @@ export default function MainServices() {
         Explore our full range of professional drainage services, designed to
         resolve problems quickly and keep drainage systems working reliably.
       </p>
-      <div className="px-8 sm:px-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 max-w-300 mx-auto">
+      <div className="px-8 sm:px-0 grid grid-cols-1 mx-1-80 sm:grid-cols-2 sm:max-w-150 lg:grid-cols-3 lg:max-w-200 gap-x-4 gap-y-8 max-w-300 mx-auto">
         <MainServiceCard
           graphic="blocked-drains"
           heading="Blocked"
@@ -55,7 +55,7 @@ export default function MainServices() {
           graphic="root-intrusion-removal"
           heading="Root Intrusion"
           headingSplit="Removal"
-          paragraph="Custom Pricing Applies"
+          paragraph="Custom Pricing"
           paragraphTwo="Terms & Conditions apply"
           link="root-intrusion-removal"
         />

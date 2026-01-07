@@ -21,14 +21,15 @@ export default function MainServiceCard({
     <Link
       href={`/drainage-services/${link}`}
       aria-label={`Link to the ${heading} page`}
-      className="bg-fr-light-grey block p-8 border-b-4 border-fr-red hover:border-fr-primary w-[90%] hover:w-full mx-auto transition-all duration-500 group"
+      className="bg-fr-light-grey hover:bg-fr-accent-two block p-8 border-b-4 border-fr-red hover:border-fr-primary mx-auto transition-all duration-500 group shadow-xl hover:shadow-2xl transform
+    hover:-translate-y-3"
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/images/${graphic}.svg`}
         // need to sort alt
         alt="description here"
-        className="w-[40%] h-auto mx-auto mb-8"
+        className="w-[30%] h-auto mx-auto mb-8"
       />
       <h3 className="text-center font-bold text-xl text-fr-primary-dark mb-4 max-w-[20ch] mx-auto text-balance group-hover:text-fr-primary transition-all duration-300">
         {heading} <span className="block">{headingSplit}</span>
