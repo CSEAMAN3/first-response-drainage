@@ -2,8 +2,8 @@ import MainServiceCard from "./MainServiceCard";
 
 export default function MainServices() {
   return (
-    <section className="px-8 py-8">
-      <h2 className="font-bold text-fr-primary text-xl text-center mb-2">
+    <section className="px-8 py-8 sm:py-16">
+      <h2 className="font-bold text-fr-primary text-xl sm:text-2xl text-center mb-2">
         1st Response Drainage Services
       </h2>
       <p className="font-light text-center text-balance max-w-[60ch] mx-auto mb-8">

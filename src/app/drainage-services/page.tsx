@@ -1,5 +1,6 @@
 import MainServices from "@/src/components/MainServices";
 import Scrollbar from "@/src/components/Scrollbar";
+import WhatWeHelpWith from "@/src/components/WhatWeHelpWith";
 
 export default function DrainageServicesPage() {
   const items = [
@@ -29,6 +30,7 @@ export default function DrainageServicesPage() {
       </section>
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       <MainServices />
+      <WhatWeHelpWith />
     </main>
   );
 }
