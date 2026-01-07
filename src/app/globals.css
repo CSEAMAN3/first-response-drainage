@@ -23,6 +23,7 @@
   --fr-accent-one-mid: #b71828;
   --fr-accent-one-dark: #821223;
   --fr-accent-two: #f0b516;
+  --fr-accent-two-light: #edbe5f;
 }
 
 @theme inline {
@@ -33,6 +34,7 @@
   --color-fr-accent-one-mid: var(--fr-accent-one-mid);
   --color-fr-accent-one-dark: var(--fr-accent-dark);
   --color-fr-accent-two: var(--fr-accent-two);
+  --color-fr-accent-two-light: var(--fr-accent-two-light);
   --color-fr-white: var(--fr-white);
   --color-fr-black: var(--fr-black);
   --color-fr-dark-blue: var(--fr-dark-blue);
