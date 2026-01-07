@@ -34,7 +34,7 @@ export default function MainServiceCard({
         {heading} <span className="block">{headingSplit}</span>
       </h3>
       <p className="font-light text-xl text-center">{paragraph}</p>
-      <p className="text-center mb-8">{paragraphTwo}</p>
+      <p className="text-center mb-8 text-sm">{paragraphTwo}</p>
       <p className="text-xl text-center block text-fr-primary-dark font-bold group-hover:text-fr-primary transition-all duration-300">
         Learn More
       </p>
