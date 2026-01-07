@@ -1,4 +1,5 @@
 import MainServices from "@/src/components/MainServices";
+import Reasons from "@/src/components/Reasons";
 import Scrollbar from "@/src/components/Scrollbar";
 import WhatWeHelpWith from "@/src/components/WhatWeHelpWith";
 
@@ -31,6 +32,7 @@ export default function DrainageServicesPage() {
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       <MainServices />
       <WhatWeHelpWith />
+      <Reasons />
     </main>
   );
 }
