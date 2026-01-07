@@ -1,7 +1,7 @@
 export default function WhatWeHelpWith() {
   return (
     <section className="bg-fr-primary px-8 py-16">
-      <div className="max-w-300 mx-auto">
+      <div className="max-w-200 mx-auto">
         <h3 className="font-bold text-fr-white text-2xl sm:text-3xl md:text-4xl mb-2">
           WHAT WE HELP WITH!
         </h3>

@@ -26,7 +26,7 @@ export default function DrainageServicesPage() {
         </p>
         <a
           href="tel+447961609836"
-          className="text-fr-accent-two font-bold text-xl hover:text-fr-primary-dark w-fit transition-colors duration-150 mx-auto block"
+          className="text-fr-accent-two font-bold text-xl hover:text-fr-white w-fit transition-colors duration-150 mx-auto block"
         >
           Call today on 07961 609836
         </a>
