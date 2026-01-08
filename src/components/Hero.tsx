@@ -10,8 +10,8 @@ interface HeroProps {
 export default function Hero({ heading, paraOne, photo }: HeroProps) {
   return (
     <div className="relative">
-      <div className="w-full md:w-fit lg:w-1/2 px-8 py-16 bg-fr-light-purple  md:min-h-[40vw] lg:min-h-125 lg:max-h-125 grid md:place-content-center md:rounded-tr-full md:rounded-br-full overflow-hidden">
-        <div className="">
+      <div className="w-full md:w-fit lg:w-1/2 px-8 py-16 bg-fr-primary  md:min-h-[40vw] lg:min-h-125 lg:max-h-125 grid md:place-content-center md:rounded-tr-full md:rounded-br-full overflow-hidden">
+        <div>
           <h1 className="text-fr-white font-bold text-xl max-w-[36ch] mb-4 text-balance">
             {heading}
           </h1>
@@ -20,14 +20,14 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
           </p>
           <Link
             href="/contact"
-            className="text-fr-white bg-fr-red px-8 py-4 rounded-sm block mb-6 w-fit font-bold hover:bg-fr-mid-red transition-colors duration-300 cursor-pointer"
+            className="text-fr-white bg-fr-accent-one px-8 py-4 rounded-sm block mb-6 w-fit font-bold hover:bg-fr-accent-one-mid transition-colors duration-300 cursor-pointer"
           >
             Request a Callout
           </Link>
           <a
             href="tel+447961609836"
             aria-label="Call First Response Drainage on 07961609836"
-            className="text-fr-white font-bold block hover:text-fr-yellow transition-colors duration-300"
+            className="text-fr-white font-bold block hover:text-fr-accent-two transition-colors duration-300"
           >
             Call today on 07961 609836
           </a>

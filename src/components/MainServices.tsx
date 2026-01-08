@@ -41,7 +41,7 @@ export default function MainServices() {
           headingSplit="No-Dig Repairs"
           paragraph="From £275 +VAT"
           paragraphTwo="Terms & Conditions apply"
-          link="patch-liners"
+          link="patch-liners-and-no-dig-repairs"
         />
         <MainServiceCard
           graphic="commercial-drainage"
