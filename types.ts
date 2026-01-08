@@ -33,6 +33,7 @@ export type Service = {
 
   problemSection: {
     heading: string;
+    headingSplit: string;
     paragraphOne: string;
     paragraphTwo: string;
     cards: { graphic: string; title: string }[];

@@ -21,7 +21,8 @@ export const services: Service[] = [
       },
     },
     problemSection: {
-      heading: "Blocked Drains Common Problems We See",
+      heading: "Blocked Drains",
+      headingSplit: "Common Problems We See",
       paragraphOne:
         "Blocked drains often start small but can quickly worsen if left untreated.",
       paragraphTwo: "You may be experiencing:",
@@ -131,9 +132,10 @@ export const services: Service[] = [
       },
     },
     problemSection: {
-      heading: "What Is a CCTV Drainage Survey?",
+      heading: "What Is a CCTV",
+      headingSplit: "Drainage Survey?",
       paragraphOne:
-        "A CCTV drainage survey uses high-definition camera equipment to inspect the inside of your drains. The camera is fed through the pipework, allowing us to identify blockages, damage or defects that aren't visible from the surface.",
+        "A CCTV drainage survey uses high-definition camera equipment to inspect the inside of your drains, identifying: blockages damage or defects that aren't visible from the surface.",
       paragraphTwo: "CCTV surveys are commonly used to:",
       cards: [
         {
@@ -240,10 +242,11 @@ export const services: Service[] = [
       },
     },
     problemSection: {
-      heading: "When Is High Pressure Water Jetting Needed?",
+      heading: "When Is High Pressure",
+      headingSplit: "Water Jetting Needed?",
       paragraphOne:
         "Some blockages can't be cleared with basic methods alone. High pressure water jetting is ideal for tougher or recurring drainage problems.",
-      paragraphTwo: "Drainage problems including:",
+      paragraphTwo: "Drainage problems include:",
       cards: [
         {
           graphic: "",
@@ -353,7 +356,8 @@ export const services: Service[] = [
       },
     },
     problemSection: {
-      heading: "When Are Patch Liners or No-Dig Repairs Needed?",
+      heading: "When Are Patch Liners or",
+      headingSplit: "No-Dig Repairs Needed?",
       paragraphOne:
         "Drain damage doesn't always require excavation. Patch lining is an ideal solution for localised damage within an otherwise sound drainage system.",
       paragraphTwo: "No-dig repairs are commonly used to fix:",
@@ -465,10 +469,11 @@ export const services: Service[] = [
       },
     },
     problemSection: {
-      heading: "What Is Root Intrusion and Why Is It a Problem?",
+      heading: "What Is Root Intrusion",
+      headingSplit: "and Why Is It a Problem?",
       paragraphOne:
-        "Tree roots naturally seek out moisture and can enter drainage pipes through small cracks or joints. Once inside, they grow and spread, causing:",
-      paragraphTwo: "",
+        "Tree roots naturally seek out moisture and can enter drainage pipes through small cracks or joints.",
+      paragraphTwo: "Once inside, roots grow and spread, causing:",
       cards: [
         {
           graphic: "",
@@ -574,7 +579,8 @@ export const services: Service[] = [
       },
     },
     problemSection: {
-      heading: "Commercial Drainage Problems We Resolve",
+      heading: "Commercial Drainage",
+      headingSplit: "Problems We Resolve",
       paragraphOne:
         "Commercial drainage systems often face higher usage and greater strain than domestic systems.",
       paragraphTwo: "We regularly assist businesses with:",

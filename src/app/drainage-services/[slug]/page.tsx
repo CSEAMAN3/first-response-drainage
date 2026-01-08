@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { services } from "@/src/lib/services";
 import Hero from "@/src/components/Hero";
+import ServiceProblems from "@/src/components/ServiceProblems";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -56,6 +57,12 @@ export default async function ServicePage({ params }: PageProps) {
         photo={service.hero.photo.src}
       />
       {/* Problem Section */}
+      <ServiceProblems
+        heading={service.problemSection.heading}
+        headingSplit={service.problemSection.headingSplit}
+        paragraphOne={service.problemSection.paragraphOne}
+        paragraphTwo={service.problemSection.paragraphTwo}
+      />
       {/* How Section */}
       {/* Help Section */}
       {/* CTA Section */}
