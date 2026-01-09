@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { services } from "@/src/lib/services";
 import Hero from "@/src/components/Hero";
 import ServiceProblems from "@/src/components/ServiceProblems";
+import Scrollbar from "@/src/components/Scrollbar";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -48,6 +49,13 @@ export default async function ServicePage({ params }: PageProps) {
 
   if (!service) notFound();
 
+  const items = [
+    { label: "No callout fees", iconKey: "badge" },
+    { label: "Local engineers", iconKey: "building" },
+    { label: "Fast response", iconKey: "clock" },
+    { label: "Domestic & commercial", iconKey: "phone" },
+  ] as const;
+
   return (
     <main>
       {/* hero */}
@@ -56,6 +64,7 @@ export default async function ServicePage({ params }: PageProps) {
         paraOne={service.hero.paragraph}
         photo={service.hero.photo.src}
       />
+      <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       {/* Problem Section */}
       <ServiceProblems
         heading={service.problemSection.heading}

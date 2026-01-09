@@ -12,7 +12,7 @@ export default function ReviewSlider() {
   return (
     <div className="bg-fr-light-grey rounded-sm p-8 relative">
       <div className="flex gap-4 items-center mb-4">
-        <div className="w-16 h-16 bg-fr-red rounded-full text-fr-white font-bold text-3xl grid place-content-center">
+        <div className="w-16 h-16 bg-fr-accent-one rounded-full text-fr-white font-bold text-3xl grid place-content-center">
           B
         </div>
         <div>
