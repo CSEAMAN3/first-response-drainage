@@ -19,7 +19,7 @@ export default function Services() {
           paraOne="Blocked drains cleared fast. From toilets, sinks, baths and showers, to full system blockages."
           price="From £95 +VAT"
           terms="Terms and conditions apply"
-          href="/blocked-drains"
+          href="/drainage-services/blocked-drains"
         />
         <ServiceCard
           photo="test.jpg"
@@ -27,7 +27,7 @@ export default function Services() {
           paraOne="Pre-purchase, diagnostic and insurance approved CCTV drainage surveys."
           price="From £190 +VAT"
           terms="Terms and conditions apply"
-          href="/cctv-drainage-surveys"
+          href="/drainage-services/cctv-drainage-surveys"
         />
         <ServiceCard
           photo="test.jpg"
@@ -35,7 +35,7 @@ export default function Services() {
           paraOne="High pressure water jetting clears stubborn blockages and build-ups quickly and safely."
           price="From £95 +VAT"
           terms="Terms and conditions apply"
-          href="/high-pressure-water-jetting"
+          href="/drainage-services/high-pressure-water-jetting"
         />
         <ServiceCard
           photo="test.jpg"
@@ -43,7 +43,7 @@ export default function Services() {
           paraOne="Fix cracked or broken pipes without the need for excavation."
           price="From £275 +VAT"
           terms="Terms and conditions apply"
-          href="/no-dig-repairs"
+          href="/drainage-services/patch-liners-and-no-dig-repairs"
         />
         <ServiceCard
           photo="test.jpg"
@@ -51,7 +51,7 @@ export default function Services() {
           paraOne="Our drainage engineers use specialist cutting tools to remove roots that are invading drains."
           price="Prices Vary"
           terms="Custom Pricing Applies"
-          href="/root-intrusion-removal"
+          href="/drainage-services/root-intrusion-removal"
         />
         <ServiceCard
           photo="test.jpg"
@@ -59,7 +59,7 @@ export default function Services() {
           paraOne="Drainage services for commercial properties: restaurants, landlords, construction sites, facilities and more. "
           price="From £115 +VAT"
           terms="Terms and conditions apply"
-          href="/commercial-drainage"
+          href="/drainage-services/commercial-drainage"
         />
       </div>
     </section>

@@ -8,7 +8,7 @@ interface CtaProps {
 export default function Cta({ heading, paragraph }: CtaProps) {
   return (
     <section className="bg-fr-primary text-fr-white px-8 py-16 md:py-24">
-      <h3 className="text-center font-bold text-xl mb-4 md:text-2xl lg:text-3xl">
+      <h3 className="text-center text-balance font-bold text-xl mb-4 md:text-2xl lg:text-3xl">
         {heading}{" "}
         <span className="block text-fr-accent-two">
           We&#39;re Ready To Respond!
