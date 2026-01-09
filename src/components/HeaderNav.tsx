@@ -250,7 +250,7 @@ export default function HeaderNav() {
       </nav>
       <Link
         href="/contact"
-        className="hidden lg:block absolute top-5 right-8 bg-fr-red hover:bg-fr-accent-one-mid text-fr-white font-bold rounded-sm px-8 py-4 transition-all duration-400"
+        className="hidden lg:block absolute top-5 right-8 bg-fr-accent-one hover:bg-fr-accent-one-mid text-fr-white font-bold rounded-sm px-8 py-4 transition-all duration-400"
       >
         Request Callout
       </Link>
