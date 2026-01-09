@@ -15,6 +15,11 @@ export type Approach = {
   paragraph: string;
 };
 
+export type HelpBullets = {
+  lineOne: string;
+  lineTwo: string;
+};
+
 export type Service = {
   slug: string;
 
@@ -42,15 +47,15 @@ export type Service = {
   howSection: {
     heading: string;
     paragraphOne: string;
-    paragraphTwo?: string;
+    paragraphTwo: string;
     bullets: string[];
-    closingParagraph?: string;
+    closingParagraph: string;
   };
 
   helpSection: {
     openingParagraph: string;
-    bullets: string[];
-    closingParagraph?: string;
+    bullets: HelpBullets[];
+    closingParagraph: string;
   };
 
   ctaSection: {
@@ -59,8 +64,8 @@ export type Service = {
   };
 
   faqSection: {
+    category: string;
     heading: string;
     paragraph: string;
-    questions: { question: string; answer: string }[];
   };
 };

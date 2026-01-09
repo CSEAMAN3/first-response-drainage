@@ -4,6 +4,10 @@ import { services } from "@/src/lib/services";
 import Hero from "@/src/components/Hero";
 import ServiceProblems from "@/src/components/ServiceProblems";
 import Scrollbar from "@/src/components/Scrollbar";
+import HowServiceWorks from "@/src/components/HowServiceWorks";
+import ServiceHelp from "@/src/components/ServiceHelp";
+import Cta from "@/src/components/Cta";
+import Faq from "@/src/components/Faq";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -56,6 +60,8 @@ export default async function ServicePage({ params }: PageProps) {
     { label: "Domestic & commercial", iconKey: "phone" },
   ] as const;
 
+  console.log(service.faqSection.category);
+
   return (
     <main>
       {/* hero */}
@@ -71,11 +77,33 @@ export default async function ServicePage({ params }: PageProps) {
         headingSplit={service.problemSection.headingSplit}
         paragraphOne={service.problemSection.paragraphOne}
         paragraphTwo={service.problemSection.paragraphTwo}
+        cards={service.problemSection.cards}
       />
       {/* How Section */}
+      <HowServiceWorks
+        heading={service.howSection.heading}
+        paragraphOne={service.howSection.paragraphOne}
+        paragraphTwo={service.howSection.paragraphTwo}
+        bullets={service.howSection.bullets}
+        closingParagraph={service.howSection.closingParagraph}
+      />
       {/* Help Section */}
+      <ServiceHelp
+        openingParagraph={service.helpSection.openingParagraph}
+        closingParagraph={service.helpSection.closingParagraph}
+        bullets={service.helpSection.bullets}
+      />
       {/* CTA Section */}
+      <Cta
+        heading={service.ctaSection.heading}
+        paragraph={service.ctaSection.paragraph}
+      />
       {/* Faq Section */}
+      <Faq
+        questionCat={service.faqSection.category}
+        heading={service.faqSection.heading}
+        paragraph={service.faqSection.paragraph}
+      />
     </main>
   );
 }

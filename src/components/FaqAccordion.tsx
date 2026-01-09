@@ -6,32 +6,21 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 
-export default function FaqAccordion() {
-  const pathname = usePathname();
+interface FaqAccordianProps {
+  questionCat: string;
+}
 
+export default function FaqAccordion({ questionCat }: FaqAccordianProps) {
+  const pathname = usePathname();
   const [openQuestion, setOpenQuestion] = useState<number | null>(null);
 
   const toggleQuestion = (id: number) => {
     setOpenQuestion((prev) => (prev === id ? null : id));
   };
 
-  const CATEGORY_BY_PATH: Record<string, string> = {
-    "/": "main",
-    "/blocked-drains": "blocked-drains",
-    "/cctv-drainage-surveys": "cctv",
-    "/high-pressure-water-jetting": "jetting",
-    "/no-dig-repairs": "repairs",
-    "/root-intrusion-removal": "roots",
-    "/commercial-drainage": "commercial",
-    "/faq": "all",
-  };
-
-  const category = CATEGORY_BY_PATH[pathname];
-
-  const questionsToDisplay =
-    !category || category === "all"
-      ? faQuestions
-      : faQuestions.filter((q) => q.category === category);
+  const questionsToDisplay = faQuestions.filter(
+    (q) => q.category === questionCat
+  );
 
   return (
     <div key={pathname} className="max-w-225 mx-auto px-8 mb-12">

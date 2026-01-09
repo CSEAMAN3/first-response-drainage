@@ -28,24 +28,28 @@ export const services: Service[] = [
       paragraphTwo: "You may be experiencing:",
       cards: [
         {
-          graphic: "",
-          title: "Slow-Draining Sinks, Baths or Showers",
+          graphic: "blocked-drains",
+          title: "Slow-Draining Sinks and Baths",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Toilets That Won't Flush Properly",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Bad Smells Coming From Drains",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Gurgling Sounds or Water Backing Up",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "External Drains Overflowing",
+        },
+        {
+          graphic: "blocked-drains",
+          title: "Recurring Drain Blockages",
         },
       ],
     },
@@ -67,12 +71,12 @@ export const services: Service[] = [
       closingParagraph:
         "We work with homeowners, landlords and commercial clients throughout East Anglia.",
       bullets: [
-        "Blocked Toilets",
-        "Blocked Baths & Showers",
-        "Blocked Sinks",
-        "Recurring & Stubborn Blockages",
-        "Blocked Internal Waste Pipes",
-        "Blocked External Drains",
+        { lineOne: "Blocked", lineTwo: "Toilets" },
+        { lineOne: "Blocked Baths", lineTwo: "& Showers" },
+        { lineOne: "Blocked", lineTwo: "Sinks" },
+        { lineOne: "Recurring &", lineTwo: "Stubborn Blockages" },
+        { lineOne: "Blocked Internal", lineTwo: "Waste Pipes" },
+        { lineOne: "Blocked", lineTwo: "External Drains" },
       ],
     },
     ctaSection: {
@@ -81,36 +85,10 @@ export const services: Service[] = [
         "If you're dealing with a blocked drain, don't wait for the problem to get worse. Our engineers are ready to respond quickly.",
     },
     faqSection: {
+      category: "drains",
       heading: "Your Blocked Drain",
       paragraph:
         "We've answered some of the most common questions customers ask about blocked drains, so you know what to expect before booking a visit from our engineers.",
-      questions: [
-        {
-          question: "What causes drains to become blocked?",
-          answer:
-            "Blocked drains are commonly caused by grease, food waste, wipes, hair, soap residue, scale build-up or tree roots entering the pipework.",
-        },
-        {
-          question: "Can you clear recurring drain blockages?",
-          answer:
-            "Yes. If a blockage keeps returning, we can investigate the underlying cause using CCTV inspection and recommend a long-term solution rather than a temporary fix.",
-        },
-        {
-          question: "How quickly can a blocked drain be cleared?",
-          answer:
-            "In many cases, blockages can be cleared during the first visit. More complex issues may require inspection or additional work, which we'll explain clearly.",
-        },
-        {
-          question: "Is drain unblocking messy or disruptive?",
-          answer:
-            "We use professional equipment and methods designed to minimise mess and disruption. Our engineers always work cleanly and respectfully at your property.",
-        },
-        {
-          question: "Should I try to unblock the drain myself?",
-          answer:
-            "Simple blockages can sometimes be resolved, but repeated or severe issues are best handled professionally to avoid pipe damage or incomplete clearance.",
-        },
-      ],
     },
   },
   {
@@ -139,20 +117,28 @@ export const services: Service[] = [
       paragraphTwo: "CCTV surveys are commonly used to:",
       cards: [
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Diagnose Ongoing Drainage Issues",
         },
         {
-          graphic: "",
-          title: "Check Drain Conditions Before Property Purchase",
+          graphic: "blocked-drains",
+          title: "Drain Checks for Property Purchases",
         },
         {
-          graphic: "",
-          title: "Identify Structural Damage or Root Intrusion",
+          graphic: "blocked-drains",
+          title: "Identifying Structural Damage",
         },
         {
-          graphic: "",
-          title: "Support Insurance Claims or Repair Planning",
+          graphic: "blocked-drains",
+          title: "Identifying Root Intrusion",
+        },
+        {
+          graphic: "blocked-drains",
+          title: "Support Insurance Claims",
+        },
+        {
+          graphic: "blocked-drains",
+          title: "Support Repair Planning",
         },
       ],
     },
@@ -175,12 +161,15 @@ export const services: Service[] = [
       closingParagraph:
         "CCTV drainage surveys are available for homeowners, landlords and commercial clients throughout East Anglia.",
       bullets: [
-        "Pre-purchase property inspections",
-        "Diagnosing recurring blockages",
-        "Investigating bad smells or slow drainage",
-        "Identifying root intrusion or structural damage",
-        "Supporting repair or no-dig lining work",
-        "Domestic and commercial drainage systems",
+        { lineOne: "Pre-purchase", lineTwo: "property inspections" },
+        { lineOne: "Diagnosing", lineTwo: "recurring blockages" },
+        { lineOne: "Investigating bad", lineTwo: "smells or slow drainage" },
+        {
+          lineOne: "Identifying root intrusion",
+          lineTwo: "or structural damage",
+        },
+        { lineOne: "Supporting repair or", lineTwo: "no-dig lining work" },
+        { lineOne: "Domestic & commercial", lineTwo: "drainage systems" },
       ],
     },
     ctaSection: {
@@ -189,36 +178,10 @@ export const services: Service[] = [
         "If you're experiencing drainage problems or want peace of mind before buying a property, our CCTV drain surveys provide clear answers and expert guidance.",
     },
     faqSection: {
+      category: "cctv",
       heading: "Your CCTV Drain Survey",
       paragraph:
         "Below are answers to some of the most common questions customers have when considering a CCTV drainage survey, helping you make an informed decision before you book.",
-      questions: [
-        {
-          question: "What is a CCTV drainage survey?",
-          answer:
-            "A CCTV drainage survey uses a specialist camera to inspect the inside of your drains, identifying issues such as blockages, cracks, root intrusion or pipe collapse.",
-        },
-        {
-          question: "When should I have a CCTV drain survey?",
-          answer:
-            "CCTV surveys are recommended for recurring blockages, unexplained drainage issues, or before purchasing a property to identify hidden problems.",
-        },
-        {
-          question: "Do CCTV surveys cause disruption?",
-          answer:
-            "No. CCTV inspections are non-invasive and carried out through existing access points, with no digging required.",
-        },
-        {
-          question: "Will I receive a report after the survey?",
-          answer:
-            "Yes. We provide recorded footage and a clear report outlining any issues found, along with recommendations for repair if needed.",
-        },
-        {
-          question: "Can a CCTV survey help prevent future problems?",
-          answer:
-            "Yes. Identifying issues early can help prevent costly repairs and reduce the risk of repeat blockages or damage.",
-        },
-      ],
     },
   },
   {
@@ -249,24 +212,28 @@ export const services: Service[] = [
       paragraphTwo: "Drainage problems include:",
       cards: [
         {
-          graphic: "",
-          title: "Drains That Keep Blocking Repeatedly",
+          graphic: "blocked-drains",
+          title: "Drains Repeatedly Blocking",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Heavy Grease or Fat Build Up",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Debris, Silt or Scale Restricting Flow",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "External Drain Blockages",
         },
         {
-          graphic: "",
-          title: "Commercial Drainage Systems With High Usage",
+          graphic: "blocked-drains",
+          title: "Preventative Cleaning",
+        },
+        {
+          graphic: "blocked-drains",
+          title: "Commercial Drainage",
         },
       ],
     },
@@ -290,12 +257,15 @@ export const services: Service[] = [
       closingParagraph:
         "We work with homeowners, landlords and commercial clients across East Anglia.",
       bullets: [
-        "Blocked household drains",
-        "External and underground drains",
-        "Kitchen and bathroom waste pipes",
-        "Commercial drainage systems",
-        "Preventative drain maintenance",
-        "Preparing drains for CCTV inspection or lining",
+        { lineOne: "blocked", lineTwo: "household drains" },
+        { lineOne: "External and", lineTwo: "underground drains" },
+        { lineOne: "Kitchen and", lineTwo: "bathroom waste pipes" },
+        { lineOne: "Commercial", lineTwo: "drainage systems" },
+        { lineOne: "Preventative", lineTwo: "drain maintenance" },
+        {
+          lineOne: "Preparing drains for",
+          lineTwo: "CCTV inspection or lining",
+        },
       ],
     },
     ctaSection: {
@@ -304,36 +274,10 @@ export const services: Service[] = [
         "If you're dealing with a stubborn or recurring blockage, high pressure water jetting offers a fast, effective solution.",
     },
     faqSection: {
+      category: "jetting",
       heading: "Your High Pressure Water Jetting",
       paragraph:
         "Find answers to common questions about high pressure water jetting, how it works, and when it's the right solution for your drainage system.",
-      questions: [
-        {
-          question: "What is high pressure water jetting?",
-          answer:
-            "High pressure water jetting uses powerful water jets to remove stubborn blockages, grease, scale and debris from inside drainage pipes.",
-        },
-        {
-          question: "Is water jetting safe for drains?",
-          answer:
-            "Yes. When carried out by trained professionals, jetting is a safe and effective method suitable for most drainage systems.",
-        },
-        {
-          question: "When is jetting better than rodding?",
-          answer:
-            "Jetting is often more effective for heavy build-up, grease, scale and recurring blockages where rodding alone may not fully clear the pipe.",
-        },
-        {
-          question: "Can jetting prevent future blockages?",
-          answer:
-            "Yes. By thoroughly cleaning the pipe interior, jetting reduces the chance of debris building up again quickly.",
-        },
-        {
-          question: "Do you use jetting for commercial drainage?",
-          answer:
-            "Yes. High pressure jetting is commonly used for commercial sites where drains experience higher usage and heavier build-up.",
-        },
-      ],
     },
   },
   {
@@ -363,24 +307,28 @@ export const services: Service[] = [
       paragraphTwo: "No-dig repairs are commonly used to fix:",
       cards: [
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Cracked or Fractured Pipes",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Root Intrusion Points",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Displaced or Leaking Joints",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Minor Collapses or Defects",
         },
         {
-          graphic: "",
-          title: "Recurring Issues Caused by Pipe Damage",
+          graphic: "blocked-drains",
+          title: "Repeat Issues Due to Pipe Damage",
+        },
+        {
+          graphic: "blocked-drains",
+          title: "Preventing Deterioration",
         },
       ],
     },
@@ -403,12 +351,12 @@ export const services: Service[] = [
       closingParagraph:
         "Patch lining is often used as a cost-effective alternative to excavation.",
       bullets: [
-        "Localised pipe cracks or fractures",
-        "Root intrusion damage",
-        "Leaking or misaligned joints",
-        "Preventing recurring blockages",
-        "Domestic drainage systems",
-        "Commercial drainage networks",
+        { lineOne: "Localised pipe", lineTwo: "cracks or fractures" },
+        { lineOne: "Root", lineTwo: "intrusion damage" },
+        { lineOne: "Leaking or", lineTwo: "misaligned joints" },
+        { lineOne: "Preventing ", lineTwo: "recurring blockages" },
+        { lineOne: "Domestic", lineTwo: "drainage systems" },
+        { lineOne: "Commercial", lineTwo: "drainage networks" },
       ],
     },
     ctaSection: {
@@ -417,36 +365,10 @@ export const services: Service[] = [
         "If you're experiencing recurring drainage issues or have been advised that your drain is damaged, patch lining may offer a fast, cost-effective solution.",
     },
     faqSection: {
-      heading: "Your Patch Lining & No Dig Repair",
+      category: "repairs",
+      heading: "Your Patch Liner & No Dig Repair",
       paragraph:
         "We've answered some of the most common questions customers ask about patch lining and no-dig drain repairs, so you know what to expect before booking a visit from our engineers.",
-      questions: [
-        {
-          question: "What is a patch liner repair?",
-          answer:
-            "A patch liner is an internal repair method that seals cracks or damaged sections of pipe without excavation.",
-        },
-        {
-          question: "When is no-dig repair suitable?",
-          answer:
-            "No-dig repairs are suitable for localised damage such as cracks, small fractures or joint defects where the rest of the pipe is in good condition.",
-        },
-        {
-          question: "Is patch lining permanent?",
-          answer:
-            "Patch lining provides a long-lasting repair, extending the life of the pipe and preventing leaks or root ingress.",
-        },
-        {
-          question: "Does patch lining require digging?",
-          answer:
-            "No. Repairs are carried out internally through existing access points, avoiding disruption to floors, gardens or driveways.",
-        },
-        {
-          question: "How do I know if patch lining is right for my drain?",
-          answer:
-            "A CCTV drainage survey is used to assess the condition of the pipe and determine whether patch lining is the most effective solution.",
-        },
-      ],
     },
   },
   {
@@ -476,20 +398,20 @@ export const services: Service[] = [
       paragraphTwo: "Once inside, roots grow and spread, causing:",
       cards: [
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Repeated Drain Blockages",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Slow Drainage and Backups",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Cracked or Displaced Pipes",
         },
         {
-          graphic: "",
-          title: "Structural Damage to the Drainage System",
+          graphic: "blocked-drains",
+          title: "Drainage System Structural Damage",
         },
       ],
     },
@@ -512,12 +434,15 @@ export const services: Service[] = [
       closingParagraph:
         "We work with homeowners, landlords and commercial clients throughout East Anglia, providing effective root removal solutions and advice on preventing future damage.",
       bullets: [
-        "Drains blocked by tree roots",
-        "Recurring blockages caused by root growth",
-        "Cracked or damaged pipes affected by roots",
-        "Domestic drainage systems",
-        "Commercial drainage networks",
-        "Preventative maintenance following CCTV surveys",
+        { lineOne: "Drains blocked", lineTwo: "by tree roots" },
+        { lineOne: "Recurring blockages", lineTwo: "caused by root growth" },
+        { lineOne: "Cracked or damaged", lineTwo: "pipes affected by roots" },
+        { lineOne: "Domestic", lineTwo: "drainage systems" },
+        { lineOne: "Commercial", lineTwo: "drainage networks" },
+        {
+          lineOne: "Preventative maintenance",
+          lineTwo: "following CCTV surveys",
+        },
       ],
     },
     ctaSection: {
@@ -526,36 +451,10 @@ export const services: Service[] = [
         "If you're dealing with recurring blockages or suspect tree roots are damaging your drains, our engineers can identify the issue and remove it safely and effectively.",
     },
     faqSection: {
+      category: "roots",
       heading: "Your Root Intrusion Removal",
       paragraph:
         "We've answered some of the most common questions customers ask about root intrusion removal, so you know what to expect before booking a visit from our engineers.",
-      questions: [
-        {
-          question: "How do tree roots get into drains?",
-          answer:
-            "Roots can enter through small cracks or joints in drainage pipes, attracted by moisture and nutrients.",
-        },
-        {
-          question: "What problems do roots cause in drains?",
-          answer:
-            "Root intrusion can cause blockages, slow drainage, cracks and structural damage to pipework if left untreated.",
-        },
-        {
-          question: "Can roots be removed without replacing the pipe?",
-          answer:
-            "In many cases, yes. Roots can be removed and the pipe repaired internally using patch lining or no-dig methods.",
-        },
-        {
-          question: "Will roots grow back after removal?",
-          answer:
-            "If the pipe is properly repaired after removal, the risk of regrowth is significantly reduced.",
-        },
-        {
-          question: "How can I tell if roots are causing my drainage issue?",
-          answer:
-            "Recurring blockages or slow drainage are common signs. A CCTV survey can confirm whether roots are present.",
-        },
-      ],
     },
   },
   {
@@ -586,28 +485,28 @@ export const services: Service[] = [
       paragraphTwo: "We regularly assist businesses with:",
       cards: [
         {
-          graphic: "",
-          title: "Blocked Toilets, Sinks and Waste Pipes",
+          graphic: "blocked-drains",
+          title: "Blocked Toilets, Sinks, Waste Pipes",
         },
         {
-          graphic: "",
-          title: "Slow Drainage or Recurring Blockages",
+          graphic: "blocked-drains",
+          title: "Slow Drainage or Repeat Blockages",
         },
         {
-          graphic: "",
+          graphic: "blocked-drains",
           title: "Grease and Food Waste Build-Up",
         },
         {
-          graphic: "",
-          title: "External Drain Blockages and Overflows",
+          graphic: "blocked-drains",
+          title: "External Drain Blockages",
         },
         {
-          graphic: "",
-          title: "Root Intrusion and Structural Pipe Damage",
+          graphic: "blocked-drains",
+          title: "Root Intrusion and Pipe Damage",
         },
         {
-          graphic: "",
-          title: "Issues Causing Downtime or Compliance Concerns",
+          graphic: "blocked-drains",
+          title: "Issues Causing Downtime",
         },
       ],
     },
@@ -632,12 +531,12 @@ export const services: Service[] = [
       closingParagraph:
         "Our engineers work efficiently and discreetly, with minimal disruption to your operations.supporting businesses throughout East Anglia with dependable, professional drainage services.",
       bullets: [
-        "Restaurants, cafés and takeaways",
-        "Offices and retail units",
-        "Industrial units and warehouses",
-        "Schools and public buildings",
-        "Landlords and property managers",
-        "Construction sites and developments",
+        { lineOne: "Restaurants,", lineTwo: "cafés and takeaways" },
+        { lineOne: "Offices and", lineTwo: "retail units" },
+        { lineOne: "Industrial units", lineTwo: "and warehouses" },
+        { lineOne: "Schools and", lineTwo: "public buildings" },
+        { lineOne: "Landlords and", lineTwo: "property managers" },
+        { lineOne: "Construction sites", lineTwo: "and developments" },
       ],
     },
     ctaSection: {
@@ -646,36 +545,10 @@ export const services: Service[] = [
         "If your business is experiencing drainage issues or requires professional maintenance support, our team is ready to help.",
     },
     faqSection: {
+      category: "commercial",
       heading: "Your Commercial Drainage",
       paragraph:
         "We've answered some of the most common questions businesses ask about our commercial drainage services, so you know what to expect before booking a visit from our engineers.",
-      questions: [
-        {
-          question: "Do you provide drainage services for businesses?",
-          answer:
-            "Yes. We support a wide range of commercial clients, including offices, retail units, hospitality venues and industrial sites.",
-        },
-        {
-          question: "Can you work outside business hours?",
-          answer:
-            "Where possible, we can arrange visits to minimise disruption to your operations.",
-        },
-        {
-          question: "Do you offer planned maintenance for commercial drains?",
-          answer:
-            "Yes. Regular inspections and cleaning can help prevent unexpected blockages and downtime.",
-        },
-        {
-          question: "Can you handle high-use drainage systems?",
-          answer:
-            "Yes. We use professional equipment suitable for heavy-use commercial drainage systems.",
-        },
-        {
-          question: "Do you provide reports for commercial clients?",
-          answer:
-            "Yes. CCTV surveys and inspections can include written reports and footage for records, compliance or insurance purposes.",
-        },
-      ],
     },
   },
 ];

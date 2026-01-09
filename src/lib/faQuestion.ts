@@ -41,35 +41,35 @@ export const faQuestions: Faq[] = [
     question: "What causes drains to become blocked?",
     answer:
       "Blocked drains are commonly caused by grease, food waste, wipes, hair, soap residue, scale build-up or tree roots entering the pipework.",
-    category: "blocked-drains",
+    category: "drains",
   },
   {
     id: 7,
     question: "Can you clear recurring drain blockages?",
     answer:
       "Yes. If a blockage keeps returning, we can investigate the underlying cause using CCTV inspection and recommend a long-term solution rather than a temporary fix.",
-    category: "blocked-drains",
+    category: "drains",
   },
   {
     id: 8,
     question: "How quickly can a blocked drain be cleared?",
     answer:
       "In many cases, blockages can be cleared during the first visit. More complex issues may require inspection or additional work, which we'll explain clearly.",
-    category: "blocked-drains",
+    category: "drains",
   },
   {
     id: 9,
     question: "Is drain unblocking messy or disruptive?",
     answer:
       "We use professional equipment and methods designed to minimise mess and disruption. Our engineers always work cleanly and respectfully at your property.",
-    category: "blocked-drains",
+    category: "drains",
   },
   {
     id: 10,
     question: "Should I try to unblock the drain myself?",
     answer:
       "Simple blockages can sometimes be resolved, but repeated or severe issues are best handled professionally to avoid pipe damage or incomplete clearance.",
-    category: "blocked-drains",
+    category: "drains",
   },
   {
     id: 11,

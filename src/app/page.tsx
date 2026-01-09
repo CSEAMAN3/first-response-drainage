@@ -31,7 +31,11 @@ export default function Home() {
         heading="Need Drainage Help Today?"
         paragraph="Whether it&#39;s a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across East Anglia. Fast, reliable service, whenever you need it."
       />
-      <Faq />
+      <Faq
+        questionCat="main"
+        heading="Your"
+        paragraph="We&#39;ve answered some of the most common questions we receive about drainage issues, surveys and repairs to help you understand what to expect before you book."
+      />
     </main>
   );
 }

@@ -14,7 +14,7 @@ export default function Cta({ heading, paragraph }: CtaProps) {
           We&#39;re Ready To Respond!
         </span>
       </h3>
-      <p className="font-light text-center text-pretty max-w-[80ch] mx-auto mb-8">
+      <p className="font-light text-center text-balance max-w-[80ch] mx-auto mb-8">
         {paragraph}
       </p>
       <Link
