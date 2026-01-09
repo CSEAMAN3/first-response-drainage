@@ -21,7 +21,7 @@ export default function MainServiceCard({
     <Link
       href={`/drainage-services/${link}`}
       aria-label={`Link to the ${heading} page`}
-      className="bg-fr-light-grey hover:bg-fr-mid-grey block p-8 border-b-4 border-fr-red hover:border-fr-primary mx-auto transition-all duration-500 group shadow-xl hover:shadow-2xl transform hover:-translate-y-3"
+      className="bg-fr-light-grey hover:bg-fr-mid-grey block p-8 border-b-4 border-fr-accent-one hover:border-fr-primary mx-auto transition-all duration-500 group shadow-xl hover:shadow-2xl transform hover:-translate-y-3"
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
