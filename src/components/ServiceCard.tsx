@@ -36,7 +36,7 @@ export default function ServiceCard({
         <p className="font-light text-sm text-fr-white">{terms}</p>
         <Link
           href={`${href}`}
-          className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-fr-white text-fr-primary px-8 py-4 w-[70%] text-center rounded-xl border border-fr-red font-bold hover:bg-fr-accent-two transition-colors duration-150"
+          className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-fr-white text-fr-primary px-8 py-4 w-[70%] text-center rounded-xl border border-fr-accent-one font-bold hover:bg-fr-accent-two transition-colors duration-150"
         >
           Learn More
         </Link>
