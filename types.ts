@@ -21,6 +21,7 @@ export type HelpBullets = {
 };
 
 export type Service = {
+  service: string;
   slug: string;
 
   seo: {

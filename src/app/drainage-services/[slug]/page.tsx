@@ -97,7 +97,7 @@ export default async function ServicePage({ params }: PageProps) {
       <Cta
         heading={service.ctaSection.heading}
         paragraph={service.ctaSection.paragraph}
-        className="bg-fr-primary"
+        classes={true}
       />
       {/* Faq Section */}
       <Faq

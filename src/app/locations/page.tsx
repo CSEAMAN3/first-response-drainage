@@ -1,5 +1,7 @@
+import Cta from "@/src/components/Cta";
 import DirectoryMain from "@/src/components/DirectoryMain";
 import Scrollbar from "@/src/components/Scrollbar";
+import ServicesArea from "@/src/components/ServicesArea";
 import Link from "next/link";
 
 export default function LocationHubPage() {
@@ -40,7 +42,13 @@ export default function LocationHubPage() {
       {/* directory section */}
       <DirectoryMain />
       {/* service availabilty section */}
+      <ServicesArea />
       {/* cta section */}
+      <Cta
+        heading="Need Drainage Help Today?"
+        paragraph="Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across East Anglia. Fast, reliable service, whenever you need it."
+        classes={false}
+      />
     </main>
   );
 }

@@ -2,6 +2,7 @@ import { Service } from "@/types";
 
 export const services: Service[] = [
   {
+    service: "Blocked Drains",
     slug: "blocked-drains",
     seo: {
       metaTitle:
@@ -92,6 +93,7 @@ export const services: Service[] = [
     },
   },
   {
+    service: "CCTV Drainage Surveys",
     slug: "cctv-drainage-surveys",
     seo: {
       metaTitle: "CCTV Drainage Surveys in Norfolk, Suffolk & Cambridgeshire",
@@ -185,6 +187,7 @@ export const services: Service[] = [
     },
   },
   {
+    service: "High Pressure Water Jetting",
     slug: "high-pressure-water-jetting",
     seo: {
       metaTitle:
@@ -281,6 +284,7 @@ export const services: Service[] = [
     },
   },
   {
+    service: "Patch Liners / No-Dig Repairs",
     slug: "patch-liners-and-no-dig-repairs",
     seo: {
       metaTitle: "No-Dig Drain Repairs & Patch Lining | East Anglia",
@@ -372,6 +376,7 @@ export const services: Service[] = [
     },
   },
   {
+    service: "Root Intrusion Removal",
     slug: "root-intrusion-removal",
     seo: {
       metaTitle:
@@ -458,6 +463,7 @@ export const services: Service[] = [
     },
   },
   {
+    service: "Commercial Drainage",
     slug: "commercial-drainage",
     seo: {
       metaTitle:

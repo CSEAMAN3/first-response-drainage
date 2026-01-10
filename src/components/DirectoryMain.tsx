@@ -19,7 +19,7 @@ export default function DirectoryMain() {
         areas. Whether you need help with a blocked drain, a CCTV survey or
         specialist repairs, our team is never far away.
       </p>
-      <div className="max-w-350 lg:mx-auto">
+      <div className="max-w-300 lg:mx-auto">
         {/* Cambridgeshire directory */}
         <div className="grid grid-cols-1 gap-y-8">
           <div>
