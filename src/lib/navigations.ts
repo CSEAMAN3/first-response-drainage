@@ -10,11 +10,11 @@ export const headerNav: Nav[] = [
     title: "Services",
   },
   {
-    href: "/Locations",
+    href: "/locations",
     title: "Locations",
   },
   {
-    href: "/FAQ",
+    href: "/faq",
     title: "FAQs",
   },
   {

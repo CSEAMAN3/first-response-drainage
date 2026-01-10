@@ -30,6 +30,7 @@ export default function Home() {
       <Cta
         heading="Need Drainage Help Today?"
         paragraph="Whether it&#39;s a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across East Anglia. Fast, reliable service, whenever you need it."
+        className="bg-fr-primary"
       />
       <Faq
         questionCat="main"

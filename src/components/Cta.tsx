@@ -3,11 +3,12 @@ import Link from "next/link";
 interface CtaProps {
   heading: string;
   paragraph: string;
+  className: string;
 }
 
-export default function Cta({ heading, paragraph }: CtaProps) {
+export default function Cta({ heading, paragraph, className }: CtaProps) {
   return (
-    <section className="bg-fr-primary text-fr-white px-8 py-16 md:py-24">
+    <section className={`${className} text-fr-white px-8 py-16 md:py-24`}>
       <h3 className="text-center text-balance font-bold text-xl mb-4 md:text-2xl lg:text-3xl">
         {heading}{" "}
         <span className="block text-fr-accent-two">
