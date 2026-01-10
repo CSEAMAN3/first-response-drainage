@@ -69,3 +69,9 @@ export type Service = {
     paragraph: string;
   };
 };
+
+export type Location = {
+  slug: string;
+  location: string;
+  county: string;
+};

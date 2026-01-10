@@ -1,3 +1,4 @@
+import DirectoryMain from "@/src/components/DirectoryMain";
 import Scrollbar from "@/src/components/Scrollbar";
 import Link from "next/link";
 
@@ -37,6 +38,7 @@ export default function LocationHubPage() {
       </div>
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       {/* directory section */}
+      <DirectoryMain />
       {/* service availabilty section */}
       {/* cta section */}
     </main>
