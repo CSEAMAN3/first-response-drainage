@@ -95,37 +95,37 @@ export default function Footer() {
           <div className="grid grid-cols-1 gap-4">
             <h5 className="font-bold text-fr-accent-two">Drainage Services</h5>
             <Link
-              href="blocked-drains"
+              href="/drainage-services/blocked-drains"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Blocked Drains
             </Link>
             <Link
-              href="blocked-drains"
+              href="/drainage-services/cctv-drainage-surveys"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               CCTV Drainage Surveys
             </Link>
             <Link
-              href="blocked-drains"
+              href="/drainage-services/high-pressure-water-jetting"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               High Pressure Water Jetting
             </Link>
             <Link
-              href="blocked-drains"
+              href="/drainage-services/patch-liners-and-no-dig-repairs"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Patch Liners / No-Dig Repairs
             </Link>
             <Link
-              href="blocked-drains"
+              href="/drainage-services/root-intrusion-removal"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Root Intrusion Removal
             </Link>
             <Link
-              href="blocked-drains"
+              href="/drainage-services/commercial-drainage"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
               Commercial Drainage
