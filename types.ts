@@ -81,4 +81,8 @@ export type Location = {
     // ogImage: string;
     // schema: string;
   };
+  heroSection: {
+    heading: string;
+    paragraph: string;
+  };
 };

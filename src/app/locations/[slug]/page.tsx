@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { locations } from "@/src/lib/locations";
-// import Hero from "@/src/components/Hero";
+import Hero from "@/src/components/Hero";
+import Scrollbar from "@/src/components/Scrollbar";
 // import Scrollbar from "@/src/components/Scrollbar";
 // import Cta from "@/src/components/Cta";
 
@@ -49,9 +50,21 @@ export default async function LocationPage({ params }: PageProps) {
 
   if (!location) notFound();
 
+  const items = [
+    { label: "No callout fees", iconKey: "badge" },
+    { label: "Local engineers", iconKey: "building" },
+    { label: "Fast response", iconKey: "clock" },
+    { label: "Domestic & commercial", iconKey: "phone" },
+  ] as const;
+
   return (
     <div>
-      <p>This is a location page for {location.location}</p>
+      <Hero
+        heading={location.heroSection.heading}
+        paraOne={location.heroSection.paragraph}
+        photo={`test.jpg`}
+      />
+      <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
     </div>
   );
 }
