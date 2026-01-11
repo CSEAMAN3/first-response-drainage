@@ -75,4 +75,10 @@ export type Location = {
   slug: string;
   location: string;
   county: string;
+  seo: {
+    metaTitle: string;
+    metaDescription: string;
+    // ogImage: string;
+    // schema: string;
+  };
 };

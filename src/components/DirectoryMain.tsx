@@ -37,7 +37,7 @@ export default function DirectoryMain() {
               {cambridgeshireLocations.map((l) => {
                 return (
                   <Link
-                    href={l.slug}
+                    href={`/locations/${l.slug}`}
                     key={l.location}
                     className="hover:text-fr-accent-one w-fit"
                   >
@@ -62,7 +62,7 @@ export default function DirectoryMain() {
               {norfolkLocations.map((l) => {
                 return (
                   <Link
-                    href={l.slug}
+                    href={`/locations/${l.slug}`}
                     key={l.location}
                     className="hover:text-fr-accent-one w-fit"
                   >
@@ -87,7 +87,7 @@ export default function DirectoryMain() {
               {suffolkLocations.map((l) => {
                 return (
                   <Link
-                    href={l.slug}
+                    href={`/locations/${l.slug}`}
                     key={l.location}
                     className="hover:text-fr-accent-one"
                   >
