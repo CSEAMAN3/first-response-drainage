@@ -48,7 +48,7 @@ export default function Cta({ heading, paragraph, classes }: CtaProps) {
             : "text-fr-primary hover:text-fr-accent-one"
         } transition-colors duration-150 mx-auto`}
       >
-        Call today on 07961609836
+        Call today on 07961 609836
       </a>
     </section>
   );

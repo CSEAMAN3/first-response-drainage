@@ -6,11 +6,11 @@ export default function ServicesArea() {
     <section className="bg-fr-primary px-8 py-16">
       <div className="min-h-100 max-w-300 mx-auto">
         <h4 className="font-bold text-2xl text-fr-white text-balance text-center mx-auto mb-2">
-          Drainage Services Available In Every Area We Cover
+          Drainage Services Available In Every Location
         </h4>
         <p className="font-light text-fr-white text-balance text-center max-w-[80ch] mx-auto mb-8">
           All of our drainage services are available throughout Norfolk, Suffolk
-          and Cambridge. No matter which location you choose, our local
+          and Cambridgeshire. No matter where you&#39;re located, our local
           engineers provide the same professional service, equipment and fast
           response times across the entire region.
         </p>

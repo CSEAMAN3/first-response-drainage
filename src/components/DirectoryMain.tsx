@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { locations } from "../lib/locations";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function DirectoryMain() {
   const cambridgeshireLocations = locations.filter(
@@ -29,6 +30,7 @@ export default function DirectoryMain() {
                 className="hover:text-fr-accent-one"
               >
                 Drainage Services in Cambridgeshire
+                <FaArrowRight className="inline-block ml-2 mb-0.5" size={14} />
               </Link>
             </h3>
             <div className="grid grid-cols-1 gap-y-2 gap-x-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -53,6 +55,7 @@ export default function DirectoryMain() {
                 className="hover:text-fr-accent-one w-fit"
               >
                 Drainage Services in Norfolk
+                <FaArrowRight className="inline-block ml-2 mb-0.5" size={14} />
               </Link>
             </h3>
             <div className="grid grid-cols-1 gap-y-2 gap-x-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -77,6 +80,7 @@ export default function DirectoryMain() {
                 className="hover:text-fr-accent-one"
               >
                 Drainage Services in Suffolk
+                <FaArrowRight className="inline-block ml-2 mb-0.5" size={14} />
               </Link>
             </h3>
             <div className="grid grid-cols-1 gap-y-2 gap-x-4 sm:grid-cols-2 lg:grid-cols-3">
