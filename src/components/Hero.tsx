@@ -12,10 +12,10 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
     <div className="relative">
       <div className="w-full md:w-fit lg:w-1/2 px-8 py-16 bg-fr-primary  md:h-[50vw] md:min-h-120 lg:min-h-125 lg:max-h-125 grid md:place-content-center md:rounded-tr-full md:rounded-br-full overflow-hidden">
         <div>
-          <h1 className="text-fr-white font-bold text-xl max-w-[36ch] mb-4 text-balance">
+          <h1 className="text-fr-white font-bold text-xl max-w-[36ch] md:max-w-[34ch] lg:max-w-[36ch] mb-4 text-balance">
             {heading}
           </h1>
-          <p className="text-fr-white font-light mb-8 max-w-[50ch] md:max-w-[46ch] lg:max-w-[50ch] text-pretty">
+          <p className="text-fr-white font-light mb-8 max-w-[50ch] md:max-w-[46ch] lg:max-w-[50ch] text-balance">
             {paraOne}
           </p>
           <Link

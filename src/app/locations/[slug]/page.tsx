@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { locations } from "@/src/lib/locations";
 import Hero from "@/src/components/Hero";
 import Scrollbar from "@/src/components/Scrollbar";
+import Services from "@/src/components/Services";
 // import Scrollbar from "@/src/components/Scrollbar";
 // import Cta from "@/src/components/Cta";
 
@@ -59,12 +60,18 @@ export default async function LocationPage({ params }: PageProps) {
 
   return (
     <div>
+      {/* hero section */}
       <Hero
         heading={location.heroSection.heading}
         paraOne={location.heroSection.paragraph}
         photo={`test.jpg`}
       />
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
+      {/* services section */}
+      <Services
+        heading="Keeping Your Drains Flowing"
+        paragraph={`All drainage services are available in ${location.location}, including emergency callouts and pre-purchase CCTV drain surveys.`}
+      />
     </div>
   );
 }

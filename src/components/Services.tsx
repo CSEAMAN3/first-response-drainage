@@ -1,15 +1,22 @@
 import ServiceCard from "./ServiceCard";
 
-export default function Services() {
+interface ServicesProps {
+  heading: string;
+  paragraph: string;
+}
+
+export default function Services({ heading, paragraph }: ServicesProps) {
   return (
     <section className="px-8 pt-8 pb-16 max-w-300 mx-auto">
       <h3 className="text-balance font-bold text-xl text-fr-primary text-center md:text-2xl mb-2">
-        Keeping your drains clear, safe and working properly
+        {/* Keeping your drains clear, safe and working properly */}
+        {heading}
       </h3>
-      <p className="text-center max-w-[86ch] text-pretty mx-auto mb-8">
-        Our local engineers help homeowners and businesses across Norfolk,
+      <p className="text-center max-w-[86ch] text-balance mx-auto mb-8">
+        {/* Our local engineers help homeowners and businesses across Norfolk,
         Suffolk & Cambridgeshire with everything from blocked drains to full
-        drainage surveys, delivering a quick, dependable service every time.
+        drainage surveys, delivering a quick, dependable service every time. */}
+        {paragraph}
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-16 sm:gap-x-8 lg:grid-cols-3">
         {/* <div className="flex sm:gap-x-8"> */}

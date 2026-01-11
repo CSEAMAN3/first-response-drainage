@@ -85,4 +85,8 @@ export type Location = {
     heading: string;
     paragraph: string;
   };
+  servicesSection: {
+    heading: string;
+    paragraph: string;
+  };
 };

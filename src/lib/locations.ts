@@ -16,6 +16,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing fast, professional drainage services for homes, landlords and businesses in Cambridge and nearby areas. From blocked drains and CCTV surveys to specialist repairs, our experienced engineers are ready to help.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "chatteris",
@@ -30,6 +34,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Chatteris",
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Chatteris. Our engineers are experienced in resolving blockages, carrying out CCTV surveys and completing drainage repairs efficiently.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -46,6 +54,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for homes and businesses in Ely and surrounding areas. From blocked drains to detailed inspections and repairs, our team is ready to respond quickly.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "great-shelford",
@@ -60,6 +72,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Great Shelford",
       paragraph:
         "We support homeowners and businesses in Great Shelford with dependable drainage services. Whether it's a blocked drain, inspection or repair, our engineers deliver practical solutions with minimal disruption.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -76,6 +92,10 @@ export const locations: Location[] = [
       paragraph:
         "Offering fast, professional drainage services for residential and commercial customers in Littleport. Our experienced engineers handle blockages, inspections and repairs with care and efficiency.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "saffron-walden",
@@ -90,6 +110,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Saffron Walden",
       paragraph:
         "Supplying trusted drainage services for homes and businesses in Saffron Walden. Our team provides effective solutions for blockages, CCTV surveys and ongoing drainage issues.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -106,6 +130,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing dependable drainage services for properties in Soham and nearby areas. From emergency blockages to planned inspections and repairs, our engineers are here to help.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "st-ives",
@@ -121,6 +149,10 @@ export const locations: Location[] = [
       paragraph:
         "Supporting homes and businesses in St Ives with professional drainage services. We respond quickly to blockages, carry out inspections and deliver long-term drainage solutions.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "wisbech",
@@ -135,6 +167,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Wisbech",
       paragraph:
         "Delivering reliable drainage services for domestic and commercial properties in Wisbech. Our engineers are equipped to manage blockages, inspections and drainage repairs efficiently.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   //   Norfolk
@@ -152,6 +188,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for homes and businesses in Attleborough. Our engineers offer fast solutions for blocked drains, inspections and drainage repairs.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "cromer",
@@ -165,7 +205,11 @@ export const locations: Location[] = [
     heroSection: {
       heading: "Drainage Services in Cromer",
       paragraph:
-        "Supporting residential and commercial properties in Cromer with reliable drainage services. From blocked drains to inspections and repairs, our team is ready to assist.",
+        "Supporting residential and commercial properties in Cromer with reliable drainage services. From blocked drains to inspections and repairs, our team is ready to assist",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -182,6 +226,10 @@ export const locations: Location[] = [
       paragraph:
         "Delivering dependable drainage services for properties in Dereham and surrounding areas. Our experienced engineers handle blockages, CCTV surveys and repair work efficiently.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "diss",
@@ -196,6 +244,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Diss",
       paragraph:
         "Providing trusted drainage services for homes and businesses in Diss. We respond quickly to drainage issues and deliver practical, long-lasting solutions.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -212,6 +264,10 @@ export const locations: Location[] = [
       paragraph:
         "Offering professional drainage services for residential and commercial customers in Downham Market. From blocked drains to inspections and repairs, our engineers are on hand to help.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "fakenham",
@@ -226,6 +282,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Fakenham",
       paragraph:
         "Supplying reliable drainage services for homes and businesses in Fakenham. Our engineers deal with blockages, inspections and drainage repairs promptly and professionally.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -242,6 +302,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing dependable drainage services for domestic and commercial properties in Great Yarmouth. Our engineers respond quickly to blocked drains, inspections and ongoing drainage issues.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "hethersett",
@@ -256,6 +320,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Hethersett",
       paragraph:
         "Providing fast, dependable drainage services for properties in Hethersett. Our experienced engineers resolve blockages and carry out inspections with minimal disruption.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -272,6 +340,10 @@ export const locations: Location[] = [
       paragraph:
         "Delivering professional drainage services for residential and commercial properties in Holt. We handle blocked drains, inspections and repair work efficiently.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "kings-lynn",
@@ -286,6 +358,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in King's Lynn",
       paragraph:
         "Offering professional drainage services for homes and businesses in King's Lynn and surrounding areas. From blocked drains to specialist inspections and repairs, we're here to help.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -302,6 +378,10 @@ export const locations: Location[] = [
       paragraph:
         "Supporting homes and businesses in Necton with reliable drainage services. Our team responds quickly to blockages and drainage system issues.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "north-walsham",
@@ -316,6 +396,10 @@ export const locations: Location[] = [
       heading: "North Walsham",
       paragraph:
         "Providing professional drainage services for properties in North Walsham. From blocked drains to inspections and repairs, our engineers deliver effective solutions.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -332,6 +416,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing fast, reliable drainage services for homes and businesses in Norwich and the surrounding area. Our experienced engineers handle blocked drains, inspections and repairs with minimal disruption.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "swaffham",
@@ -346,6 +434,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Swaffham",
       paragraph:
         "Offering dependable drainage services for homes and businesses in Swaffham. Our experienced engineers provide fast assistance with blockages and drainage concerns.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -362,6 +454,10 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Thetford. Our team is equipped to handle blockages, inspections and repairs efficiently.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "watton",
@@ -377,6 +473,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing trusted drainage services for homes and businesses in Watton. We respond quickly to drainage problems and deliver practical solutions.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "wymondham",
@@ -391,6 +491,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Wymondham",
       paragraph:
         "Supporting properties in Wymondham with professional drainage services. From blocked drains to inspections and repairs, our engineers are ready to help.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   //   Suffolk
@@ -408,6 +512,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing reliable drainage services for homes and businesses in Aldeburgh. Our engineers handle blockages, inspections and drainage repairs efficiently.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "beccles",
@@ -422,6 +530,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Beccles",
       paragraph:
         "Delivering professional drainage services for residential and commercial properties in Beccles. We respond quickly to blockages and carry out inspections and repairs.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -438,6 +550,10 @@ export const locations: Location[] = [
       paragraph:
         "Supporting homes and businesses in Beck Row with dependable drainage services. Our engineers provide fast solutions for blocked drains and drainage issues.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "brandon",
@@ -452,6 +568,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Brandon",
       paragraph:
         "Providing trusted drainage services for residential and commercial customers in Brandon. Our team delivers efficient solutions for blockages and inspections.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -468,6 +588,10 @@ export const locations: Location[] = [
       paragraph:
         "Offering professional drainage services for properties in Bungay. From blocked drains to inspections and repairs, our engineers are ready to assist.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "bury-st-edmunds",
@@ -482,6 +606,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Bury St Edmunds",
       paragraph:
         "We provide professional drainage services for homes and businesses in Bury St Edmunds and nearby locations. From emergency blockages to planned CCTV surveys, our engineers deliver dependable solutions.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -498,6 +626,10 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for homes and businesses in Haverhill. We respond promptly to blockages and provide effective drainage solutions.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "ipswich",
@@ -512,6 +644,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Ipswich",
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Ipswich. Our local engineers are equipped to deal with blockages, inspections and long-term drainage repairs.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -528,6 +664,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing dependable drainage services for residential and commercial properties in Mildenhall. Our engineers handle blockages and inspections efficiently.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "newmarket",
@@ -542,6 +682,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Newmarket",
       paragraph:
         "Supporting homes and businesses in Newmarket with professional drainage services. From emergency blockages to planned inspections, our team is here to help.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -558,6 +702,10 @@ export const locations: Location[] = [
       paragraph:
         "Delivering professional drainage services for properties in Red Lodge. Our engineers provide fast assistance with blocked drains and drainage issues.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "stowmarket",
@@ -572,6 +720,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Stowmarket",
       paragraph:
         "Providing trusted drainage services for residential and commercial customers in Stowmarket. We deliver effective solutions for blockages and inspections.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
   {
@@ -588,6 +740,10 @@ export const locations: Location[] = [
       paragraph:
         "Offering reliable drainage services for homes and businesses in Sudbury. Our experienced engineers respond quickly to drainage problems.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "sutton",
@@ -603,6 +759,10 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for properties in Sutton. Our team delivers dependable solutions for blockages and drainage inspections.",
     },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
+    },
   },
   {
     slug: "woolpit",
@@ -617,6 +777,10 @@ export const locations: Location[] = [
       heading: "Drainage Services in Woolpit",
       paragraph:
         "Supporting residential and commercial properties in Woolpit with reliable drainage services. Our engineers respond promptly to drainage issues.",
+    },
+    servicesSection: {
+      heading: "",
+      paragraph: "",
     },
   },
 ];

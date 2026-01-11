@@ -24,7 +24,12 @@ export default function Home() {
       />
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       <Reviews />
-      <Services />
+      <Services
+        heading="Keeping your drains clear, safe and working properly"
+        paragraph="Our local engineers help homeowners and businesses across Norfolk,
+        Suffolk & Cambridgeshire with everything from blocked drains to full
+        drainage surveys, delivering a quick, dependable service every time."
+      />
       <WhyUseUs />
       <HomeCoverage />
       <Cta
