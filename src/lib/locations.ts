@@ -54,6 +54,33 @@ export const locations: Location[] = [
         "Waterbeach",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "chatteris",
@@ -107,6 +134,33 @@ export const locations: Location[] = [
         "Parson Drove",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "ely",
@@ -160,6 +214,33 @@ export const locations: Location[] = [
         "Fordham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "great-shelford",
@@ -213,6 +294,33 @@ export const locations: Location[] = [
         "Pampisford",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "littleport",
@@ -266,6 +374,33 @@ export const locations: Location[] = [
         "Stretham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "saffron-walden",
@@ -319,6 +454,33 @@ export const locations: Location[] = [
         "Arkesden",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "soham",
@@ -372,6 +534,33 @@ export const locations: Location[] = [
         "Haddenham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "st-ives",
@@ -425,6 +614,33 @@ export const locations: Location[] = [
         "Hilton",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "wisbech",
@@ -478,6 +694,33 @@ export const locations: Location[] = [
         "Terrington St Clement",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   //   Norfolk
   {
@@ -532,6 +775,33 @@ export const locations: Location[] = [
         "Watton",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "cromer",
@@ -585,6 +855,33 @@ export const locations: Location[] = [
         "Trimingham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "dereham",
@@ -638,6 +935,33 @@ export const locations: Location[] = [
         "Gressenhall",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "diss",
@@ -691,6 +1015,33 @@ export const locations: Location[] = [
         "Fressingfield",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "downham-market",
@@ -744,6 +1095,33 @@ export const locations: Location[] = [
         "Nordelph",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "fakenham",
@@ -797,6 +1175,33 @@ export const locations: Location[] = [
         "Hindolveston",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "great-yarmouth",
@@ -850,6 +1255,33 @@ export const locations: Location[] = [
         "Winterton-on-Sea",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "hethersett",
@@ -903,6 +1335,33 @@ export const locations: Location[] = [
         "Honingham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "holt",
@@ -956,6 +1415,33 @@ export const locations: Location[] = [
         "Kelling",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "kings-lynn",
@@ -1009,6 +1495,33 @@ export const locations: Location[] = [
         "Middleton",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "necton",
@@ -1062,6 +1575,33 @@ export const locations: Location[] = [
         "Bradenham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "north-walsham",
@@ -1115,6 +1655,33 @@ export const locations: Location[] = [
         "Happisburgh",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "norwich",
@@ -1168,6 +1735,33 @@ export const locations: Location[] = [
         "Watton",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "swaffham",
@@ -1221,6 +1815,33 @@ export const locations: Location[] = [
         "Holme Hale",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "thetford",
@@ -1274,6 +1895,33 @@ export const locations: Location[] = [
         "Lakenheath",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "watton",
@@ -1327,6 +1975,33 @@ export const locations: Location[] = [
         "Old Buckenham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "wymondham",
@@ -1380,6 +2055,33 @@ export const locations: Location[] = [
         "Barford",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   //   Suffolk
   {
@@ -1434,6 +2136,33 @@ export const locations: Location[] = [
         "Friston",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "beccles",
@@ -1487,6 +2216,33 @@ export const locations: Location[] = [
         "Lowestoft",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "beck-row",
@@ -1540,6 +2296,33 @@ export const locations: Location[] = [
         "Freckenham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "brandon",
@@ -1593,6 +2376,33 @@ export const locations: Location[] = [
         "Wangford",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "bungay",
@@ -1646,6 +2456,33 @@ export const locations: Location[] = [
         "Flixton",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "bury-st-edmunds",
@@ -1699,6 +2536,33 @@ export const locations: Location[] = [
         "Nowton",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "haverhill",
@@ -1752,6 +2616,33 @@ export const locations: Location[] = [
         "Wickhambrook",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "ipswich",
@@ -1805,6 +2696,33 @@ export const locations: Location[] = [
         "Felixstowe",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "mildenhall",
@@ -1858,6 +2776,33 @@ export const locations: Location[] = [
         "West Row",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "newmarket",
@@ -1911,6 +2856,33 @@ export const locations: Location[] = [
         "Reach",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "red-lodge",
@@ -1964,6 +2936,33 @@ export const locations: Location[] = [
         "Eriswell",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "stowmarket",
@@ -2017,6 +3016,33 @@ export const locations: Location[] = [
         "Coddenham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "sudbury",
@@ -2070,6 +3096,33 @@ export const locations: Location[] = [
         "Newton",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "sutton",
@@ -2123,6 +3176,33 @@ export const locations: Location[] = [
         "Martlesham",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
   {
     slug: "woolpit",
@@ -2176,5 +3256,32 @@ export const locations: Location[] = [
         "Rattlesden",
       ],
     },
+    LocationFaqs: [
+      {
+        id: 1,
+        question: "This is Question 1",
+        answer: "This is the answer to question 1",
+      },
+      {
+        id: 2,
+        question: "This is Question 2",
+        answer: "This is the answer to question ",
+      },
+      {
+        id: 3,
+        question: "This is Question 3",
+        answer: "This is the answer to question 3",
+      },
+      {
+        id: 4,
+        question: "This is Question 4",
+        answer: "This is the answer to question 4",
+      },
+      {
+        id: 5,
+        question: "This is Question 5",
+        answer: "This is the answer to question 5",
+      },
+    ],
   },
 ];

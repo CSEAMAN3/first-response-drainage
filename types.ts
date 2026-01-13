@@ -71,6 +71,12 @@ export type Service = {
   };
 };
 
+export type LocationFaq = {
+  id: number;
+  question: string;
+  answer: string;
+};
+
 export type Location = {
   slug: string;
   location: string;
@@ -99,4 +105,5 @@ export type Location = {
     closingParagraph: string;
     nearByLocations: string[];
   };
+  LocationFaqs: LocationFaq[];
 };

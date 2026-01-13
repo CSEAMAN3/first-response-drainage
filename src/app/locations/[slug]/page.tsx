@@ -8,7 +8,7 @@ import Reviews from "@/src/components/Reviews";
 import CommonIssues from "@/src/components/CommonIssues";
 import SurroundingAreas from "@/src/components/SurroundingAreas";
 import Cta from "@/src/components/Cta";
-import Faq from "@/src/components/Faq";
+import FaqLocations from "@/src/components/FaqLocations";
 // import Scrollbar from "@/src/components/Scrollbar";
 // import Cta from "@/src/components/Cta";
 
@@ -95,15 +95,15 @@ export default async function LocationPage({ params }: PageProps) {
       />
       {/* cta section */}
       <Cta
-        heading="Need Expert Drainage Help In Norwich"
-        paragraph="Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across Norwich and Norfolk. Fast, reliable service, whenever you need it."
+        heading={`Need Expert Drainage Help In ${location.location}`}
+        paragraph={`Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help in ${location.location} and surrounding areas. Fast, reliable service, whenever you need it.`}
         classes={true}
       />
       {/* faq section */}
-      <Faq
-        heading="You Norwich Drianage"
-        paragraph="We've answered some of the most common questions customers ask about drainage services in Norwich, so you know what to expect before booking a visit from our engineers."
-        questionCat="main"
+      <FaqLocations
+        heading={`Your ${location.location}  Drianage`}
+        paragraph={`We've answered some of the most common questions customers ask about drainage services in ${location.location}, so you know what to expect before booking a visit from our engineers.`}
+        location="Cambridge"
       />
     </main>
   );
