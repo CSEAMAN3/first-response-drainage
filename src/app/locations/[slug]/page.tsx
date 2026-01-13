@@ -76,21 +76,22 @@ export default async function LocationPage({ params }: PageProps) {
       <Reviews />
       {/* services section */}
       <Services
-        heading="Keeping Your Drains Flowing"
-        paragraph={`All drainage services are available in ${location.location}, including emergency callouts and pre-purchase CCTV drain surveys.`}
+        heading={`Our Drainage Services`}
+        paragraph={location.servicesSection.paragraph}
       />
       {/* common issues section */}
       <CommonIssues
         heading={location.commonIssuesSection.heading}
         openingParagraph={location.commonIssuesSection.openingParagraph}
         bullets={location.commonIssuesSection.bullets}
-        closingParagraph={location.commonIssuesSection.closingParagraph}
         photo="test.jpg"
       />
       {/* Surrounding Areas Section */}
       <SurroundingAreas
         location={location.location}
+        openingParagraph={location.surroundingAreas.openingParagraph}
         nearByLocations={location.surroundingAreas.nearByLocations}
+        closingParagraph={location.surroundingAreas.closingParagraph}
       />
       {/* cta section */}
       <Cta

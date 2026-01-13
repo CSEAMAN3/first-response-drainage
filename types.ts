@@ -86,14 +86,12 @@ export type Location = {
     paragraph: string;
   };
   servicesSection: {
-    heading: string;
     paragraph: string;
   };
   commonIssuesSection: {
     heading: string;
     openingParagraph: string;
     bullets: string[];
-    closingParagraph: string;
     //   photo: string;
   };
   surroundingAreas: {

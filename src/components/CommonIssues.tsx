@@ -4,7 +4,6 @@ interface CommonIssuesProps {
   heading: string;
   openingParagraph: string;
   bullets: string[];
-  closingParagraph: string;
   photo: string;
 }
 
@@ -12,17 +11,16 @@ export default function CommonIssues({
   heading,
   openingParagraph,
   bullets,
-  closingParagraph,
   photo,
 }: CommonIssuesProps) {
   return (
     <section className="relative py-8 md:py-16">
       <div className="px-8 max-w-300 mx-auto mb-8">
-        <div className="flex flex-col gap-4 lg:gap-8 lg:flex-row md:items-start">
+        <div className="flex flex-col gap-4 lg:gap-8 lg:flex-row md:items-start mb-8">
           <h3 className="font-bold text-3xl md:text-4xl text-fr-white text-balance shrink-0">
             Common Drainage <span className="block">{heading}</span>
           </h3>
-          <p className="font-light text-fr-white mb-8 flex-1 md:mt-1 max-w-[58ch]">
+          <p className="font-light text-fr-white flex-1 md:mt-1 max-w-[58ch]">
             {openingParagraph}
           </p>
         </div>
@@ -32,7 +30,9 @@ export default function CommonIssues({
           })}
         </ul>
         <p className="text-fr-accent-two font-bold max-w-[60ch] text-balance">
-          {closingParagraph}
+          {/* {closingParagraph} */}
+          We&#39;ll clear the problem effectively, then advise whether CCTV
+          inspection or targeted repairs are needed to prevent it returning.
         </p>
       </div>
       <div className="max-w-300 mx-auto">

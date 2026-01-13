@@ -13,10 +13,10 @@ export default function ReviewSlider() {
     <div className="bg-fr-light-grey rounded-sm p-8 relative">
       <div className="flex gap-4 items-center mb-4">
         <div className="w-12 h-12 bg-fr-accent-one rounded-full text-fr-white font-bold text-2xl grid place-content-center">
-          B
+          K
         </div>
         <div>
-          <p className="font-bold ">Bruce Cracknell</p>
+          <p className="font-bold ">Kevin Hurst</p>
           <p className="font-light text-xs">October 2025</p>
         </div>
       </div>
@@ -31,11 +31,12 @@ export default function ReviewSlider() {
       <p
         className={`font-light mb-4 text-sm ${expanded ? "" : "line-clamp-2"}`}
       >
-        Thank you for the 5-star review, Bruce. We&#39;re so pleased to hear
-        that you were happy with the service you received and that you would
-        recommend 1st Response Drainage as a friendly and efficient emergency
-        drainage company. Please don&#39;t hesitate to reach out anytime you
-        need professional help with your drains.
+        If I could score 10 stars I would. We called on a Sunday morning due to
+        a blocked drain and Andy replied instantly when we message him and was
+        with us within the hour. After some investigation the drain was
+        unblocked and everything left clean and tidy. A very friendly service at
+        a fraction of the cost of the bigger well known companies. In fact I was
+        very pleasantly surprised by the cost. Thank you
       </p>
       <button
         onClick={() => setExpanded(!expanded)}
