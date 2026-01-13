@@ -20,6 +20,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Cambridge",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "chatteris",
@@ -38,6 +50,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Chatteris",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -58,6 +82,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Ely",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "great-shelford",
@@ -76,6 +112,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Great Shelford",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -96,6 +144,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Littleport",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "saffron-walden",
@@ -114,6 +174,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Saffron Walden",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -134,6 +206,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Soham",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "st-ives",
@@ -153,6 +237,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in St Ives",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "wisbech",
@@ -171,6 +267,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Wisbech",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   //   Norfolk
@@ -192,6 +300,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Attleborough",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "cromer",
@@ -210,6 +330,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Cromer",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -230,6 +362,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Dereham",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "diss",
@@ -248,6 +392,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Diss",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -268,6 +424,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Downham Market",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "fakenham",
@@ -286,6 +454,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Fakenham",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -306,6 +486,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Great Yarmouth",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "hethersett",
@@ -324,6 +516,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Hethersett",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -344,6 +548,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Holt",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "kings-lynn",
@@ -362,6 +578,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in King's Lynn",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -382,6 +610,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Necton",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "north-walsham",
@@ -400,6 +640,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in North Walsham",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -420,6 +672,40 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Norwich",
+      openingParagraph:
+        "Drainage issues in busy city areas can build up quickly, especially when pipework is older or shared between properties. If you're experiencing slow drainage, smells, or repeated blockages, it's often best to diagnose and clean the system properly rather than relying on temporary fixes.",
+      bullets: [
+        "Blocked toilets, sinks, baths and showers",
+        "Recurring blockages in kitchens and shared runs",
+        "Bad smells from internal or external drains",
+        "External drains and gullies overflowing",
+        "Build-up and debris restricting flow",
+        "Root intrusion and defects causing repeat issues",
+      ],
+      closingParagraph:
+        "We'll clear the problem effectively, then advise whether CCTV inspection or targeted repairs are needed to prevent it returning.",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [
+        "Cromer",
+        "Dereham",
+        "Diss",
+        "Downham Market",
+        "Fakenham",
+        "Great Yarmouth",
+        "Holt",
+        "King's Lynn",
+        "North Walsham",
+        "Swaffham",
+        "Thetford",
+        "Watton",
+      ],
+    },
   },
   {
     slug: "swaffham",
@@ -438,6 +724,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Swaffham",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -458,6 +756,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Thetford",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "watton",
@@ -477,6 +787,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Watton",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "wymondham",
@@ -495,6 +817,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Wymondham",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   //   Suffolk
@@ -516,6 +850,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Aldeburgh",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "beccles",
@@ -534,6 +880,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Beccles",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -554,6 +912,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Beck Row",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "brandon",
@@ -572,6 +942,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Brandon",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -592,6 +974,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Bungay",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "bury-st-edmunds",
@@ -610,6 +1004,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Bury St Edmunds",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -630,6 +1036,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Haverhill",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "ipswich",
@@ -648,6 +1066,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Ipswich",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -668,6 +1098,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Mildenhall",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "newmarket",
@@ -686,6 +1128,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Newmarket",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -706,6 +1160,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Red Lodge",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "stowmarket",
@@ -724,6 +1190,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Stowmarket",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
   {
@@ -744,6 +1222,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Sudbury",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "sutton",
@@ -763,6 +1253,18 @@ export const locations: Location[] = [
       heading: "",
       paragraph: "",
     },
+    commonIssuesSection: {
+      heading: "Issues in Sutton",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
+    },
   },
   {
     slug: "woolpit",
@@ -781,6 +1283,18 @@ export const locations: Location[] = [
     servicesSection: {
       heading: "",
       paragraph: "",
+    },
+    commonIssuesSection: {
+      heading: "Issues in Woolpit",
+      openingParagraph: "",
+      bullets: ["", "", ""],
+      closingParagraph: "",
+      //   photo: string;
+    },
+    surroundingAreas: {
+      openingParagraph: "",
+      closingParagraph: "",
+      nearByLocations: [""],
     },
   },
 ];

@@ -89,4 +89,16 @@ export type Location = {
     heading: string;
     paragraph: string;
   };
+  commonIssuesSection: {
+    heading: string;
+    openingParagraph: string;
+    bullets: string[];
+    closingParagraph: string;
+    //   photo: string;
+  };
+  surroundingAreas: {
+    openingParagraph: string;
+    closingParagraph: string;
+    nearByLocations: string[];
+  };
 };

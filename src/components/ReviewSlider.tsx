@@ -12,15 +12,15 @@ export default function ReviewSlider() {
   return (
     <div className="bg-fr-light-grey rounded-sm p-8 relative">
       <div className="flex gap-4 items-center mb-4">
-        <div className="w-16 h-16 bg-fr-accent-one rounded-full text-fr-white font-bold text-3xl grid place-content-center">
+        <div className="w-12 h-12 bg-fr-accent-one rounded-full text-fr-white font-bold text-2xl grid place-content-center">
           B
         </div>
         <div>
-          <p className="font-bold text-lg">Bruce Cracknell</p>
-          <p className="font-light text-sm">October 2025</p>
+          <p className="font-bold ">Bruce Cracknell</p>
+          <p className="font-light text-xs">October 2025</p>
         </div>
       </div>
-      <FcGoogle className="absolute top-8 right-8" size={40} />
+      <FcGoogle className="absolute top-8 right-8" size={32} />
       <div className="flex text-xl text-fr-primary mb-4">
         <MdStarRate className="inline-block mb-1" />
         <MdStarRate className="inline-block mb-1" />
@@ -29,7 +29,7 @@ export default function ReviewSlider() {
         <MdStarRate className="inline-block mb-1" />
       </div>
       <p
-        className={`font-light mb-4 text-sm ${expanded ? "" : "line-clamp-3"}`}
+        className={`font-light mb-4 text-sm ${expanded ? "" : "line-clamp-2"}`}
       >
         Thank you for the 5-star review, Bruce. We&#39;re so pleased to hear
         that you were happy with the service you received and that you would

@@ -4,6 +4,11 @@ import { locations } from "@/src/lib/locations";
 import Hero from "@/src/components/Hero";
 import Scrollbar from "@/src/components/Scrollbar";
 import Services from "@/src/components/Services";
+import Reviews from "@/src/components/Reviews";
+import CommonIssues from "@/src/components/CommonIssues";
+import SurroundingAreas from "@/src/components/SurroundingAreas";
+import Cta from "@/src/components/Cta";
+import Faq from "@/src/components/Faq";
 // import Scrollbar from "@/src/components/Scrollbar";
 // import Cta from "@/src/components/Cta";
 
@@ -59,7 +64,7 @@ export default async function LocationPage({ params }: PageProps) {
   ] as const;
 
   return (
-    <div>
+    <main>
       {/* hero section */}
       <Hero
         heading={location.heroSection.heading}
@@ -67,11 +72,38 @@ export default async function LocationPage({ params }: PageProps) {
         photo={`test.jpg`}
       />
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
+      {/* Reviews Section */}
+      <Reviews />
       {/* services section */}
       <Services
         heading="Keeping Your Drains Flowing"
         paragraph={`All drainage services are available in ${location.location}, including emergency callouts and pre-purchase CCTV drain surveys.`}
       />
-    </div>
+      {/* common issues section */}
+      <CommonIssues
+        heading={location.commonIssuesSection.heading}
+        openingParagraph={location.commonIssuesSection.openingParagraph}
+        bullets={location.commonIssuesSection.bullets}
+        closingParagraph={location.commonIssuesSection.closingParagraph}
+        photo="test.jpg"
+      />
+      {/* Surrounding Areas Section */}
+      <SurroundingAreas
+        location={location.location}
+        nearByLocations={location.surroundingAreas.nearByLocations}
+      />
+      {/* cta section */}
+      <Cta
+        heading="Need Expert Drainage Help In Norwich"
+        paragraph="Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across Norwich and Norfolk. Fast, reliable service, whenever you need it."
+        classes={true}
+      />
+      {/* faq section */}
+      <Faq
+        heading="You Norwich Drianage"
+        paragraph="We've answered some of the most common questions customers ask about drainage services in Norwich, so you know what to expect before booking a visit from our engineers."
+        questionCat="main"
+      />
+    </main>
   );
 }
