@@ -103,7 +103,7 @@ export default async function LocationPage({ params }: PageProps) {
       <FaqLocations
         heading={`Your ${location.location}  Drianage`}
         paragraph={`We've answered some of the most common questions customers ask about drainage services in ${location.location}, so you know what to expect before booking a visit from our engineers.`}
-        location="Cambridge"
+        location={location.location}
       />
     </main>
   );

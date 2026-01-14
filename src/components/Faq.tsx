@@ -3,7 +3,7 @@ import FaqAccordion from "./FaqAccordion";
 
 interface FaqProps {
   heading: string;
-  paragraph: string;
+  paragraph?: string;
   questionCat: string;
   showViewMoreLink: boolean;
   classes: boolean;
@@ -26,7 +26,7 @@ export default function Faq({
         >
           {heading} Questions, Answered
         </h2>
-        {classes && (
+        {paragraph && (
           <p className="font-light text-center text-balance max-w-[80ch] mx-auto mb-12">
             {paragraph}
           </p>

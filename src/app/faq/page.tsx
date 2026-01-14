@@ -16,49 +16,42 @@ export default function FaqPage() {
       </p>
       <Faq
         heading="General Drainage"
-        paragraph=""
         questionCat="main"
         showViewMoreLink={false}
         classes={false}
       />
       <Faq
         heading="Blocked Drain"
-        paragraph=""
         questionCat="drains"
         showViewMoreLink={false}
         classes={false}
       />
       <Faq
         heading="CCTV Drainage Survey"
-        paragraph=""
         questionCat="cctv"
         showViewMoreLink={false}
         classes={false}
       />
       <Faq
         heading="High Pressure Water Jetting"
-        paragraph=""
         questionCat="jetting"
         showViewMoreLink={false}
         classes={false}
       />
       <Faq
         heading="Patch Liner / No-Dig Repair"
-        paragraph=""
         questionCat="repairs"
         showViewMoreLink={false}
         classes={false}
       />
       <Faq
         heading="Root Intrusion Removal"
-        paragraph=""
         questionCat="roots"
         showViewMoreLink={false}
         classes={false}
       />
       <Faq
         heading="Commercial Drainage"
-        paragraph=""
         questionCat="commercial"
         showViewMoreLink={false}
         classes={false}
