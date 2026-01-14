@@ -104,6 +104,8 @@ export default async function ServicePage({ params }: PageProps) {
         questionCat={service.faqSection.category}
         heading={service.faqSection.heading}
         paragraph={service.faqSection.paragraph}
+        showViewMoreLink={true}
+        classes={true}
       />
     </main>
   );

@@ -41,6 +41,8 @@ export default function Home() {
         questionCat="main"
         heading="Your"
         paragraph="We&#39;ve answered some of the most common questions we receive about drainage issues, surveys and repairs to help you understand what to expect before you book."
+        showViewMoreLink={true}
+        classes={true}
       />
     </main>
   );
