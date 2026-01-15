@@ -1,4 +1,3 @@
-// import Approach from "@/src/components/Approach";
 import Link from "next/link";
 import Cta from "@/components/Cta";
 import MainServices from "@/components/MainServices";
@@ -47,7 +46,6 @@ export default function DrainageServicesPage() {
         paragraph="Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across East Anglia. Fast, reliable service, whenever you need it."
         classes={true}
       />
-      {/* <Approach /> */}
     </main>
   );
 }
