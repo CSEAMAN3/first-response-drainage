@@ -1,7 +1,7 @@
-import Cta from "@/src/components/Cta";
-import DirectoryMain from "@/src/components/DirectoryMain";
-import Scrollbar from "@/src/components/Scrollbar";
-import ServicesArea from "@/src/components/ServicesArea";
+import Cta from "@/components/Cta";
+import DirectoryMain from "@/components/DirectoryMain";
+import Scrollbar from "@/components/Scrollbar";
+import ServicesArea from "@/components/ServicesArea";
 import Link from "next/link";
 
 export default function LocationHubPage() {

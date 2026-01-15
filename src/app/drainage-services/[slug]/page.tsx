@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { services } from "@/src/lib/services";
-import Hero from "@/src/components/Hero";
-import ServiceProblems from "@/src/components/ServiceProblems";
-import Scrollbar from "@/src/components/Scrollbar";
-import HowServiceWorks from "@/src/components/HowServiceWorks";
-import ServiceHelp from "@/src/components/ServiceHelp";
-import Cta from "@/src/components/Cta";
-import Faq from "@/src/components/Faq";
+import { services } from "@/lib/services";
+import Hero from "@/components/Hero";
+import ServiceProblems from "@/components/ServiceProblems";
+import Scrollbar from "@/components/Scrollbar";
+import HowServiceWorks from "@/components/HowServiceWorks";
+import ServiceHelp from "@/components/ServiceHelp";
+import Cta from "@/components/Cta";
+import Faq from "@/components/Faq";
 
 type PageProps = {
   params: Promise<{ slug: string }>;

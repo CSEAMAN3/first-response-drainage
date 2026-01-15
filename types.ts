@@ -107,3 +107,18 @@ export type Location = {
   };
   LocationFaqs: LocationFaq[];
 };
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  coverImage?: string;
+  coverImageAlt?: string;
+  author?: string;
+  tags?: string[];
+}
+
+export interface BlogPostWithHtml extends BlogPost {
+  contentHtml: string;
+}

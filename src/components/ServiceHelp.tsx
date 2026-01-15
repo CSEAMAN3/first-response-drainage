@@ -1,5 +1,5 @@
 import { IoShieldCheckmark } from "react-icons/io5";
-import { HelpBullets } from "@/types";
+import { HelpBullets } from "../../types";
 
 interface ServiceHelpProps {
   openingParagraph: string;

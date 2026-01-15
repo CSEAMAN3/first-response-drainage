@@ -1,5 +1,5 @@
-import Cta from "@/src/components/Cta";
-import Faq from "@/src/components/Faq";
+import Cta from "@/components/Cta";
+import Faq from "@/components/Faq";
 
 export default function FaqPage() {
   return (

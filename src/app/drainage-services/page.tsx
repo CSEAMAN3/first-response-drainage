@@ -1,10 +1,10 @@
 // import Approach from "@/src/components/Approach";
 import Link from "next/link";
-import Cta from "@/src/components/Cta";
-import MainServices from "@/src/components/MainServices";
-import Reasons from "@/src/components/Reasons";
-import Scrollbar from "@/src/components/Scrollbar";
-import WhatWeHelpWith from "@/src/components/WhatWeHelpWith";
+import Cta from "@/components/Cta";
+import MainServices from "@/components/MainServices";
+import Reasons from "@/components/Reasons";
+import Scrollbar from "@/components/Scrollbar";
+import WhatWeHelpWith from "@/components/WhatWeHelpWith";
 
 export default function DrainageServicesPage() {
   const items = [

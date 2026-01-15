@@ -9,6 +9,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";
 import { usePathname } from "next/navigation";
+import { LocationFaq } from "../../types";
 
 export default function FaqAccordionLoc({ location }: FaqAccordionLocProps) {
   const pathname = usePathname();
@@ -18,7 +19,7 @@ export default function FaqAccordionLoc({ location }: FaqAccordionLocProps) {
     setOpenQuestion((prev) => (prev === id ? null : id));
   };
 
-  const questionsToDisplay = locations.find(
+  const questionsToDisplay: LocationFaq[] = locations.find(
     (l) => l.location === location
   )?.LocationFaqs;
 
