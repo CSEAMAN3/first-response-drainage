@@ -13,10 +13,10 @@ export default async function BlogPage() {
         {/* hero */}
         <div className="pb-16 flex flex-col sm:flex-row gap-2 max-w-200 mx-auto">
           <div className="place-content-center">
-            <h1 className="font-bold text-2xl sm:text-3xl mb-2 text-balance text-fr-white">
+            <h1 className="font-bold text-center sm:text-start text-2xl sm:text-3xl mb-2 text-balance text-fr-white">
               Drainage Advice, Tips & Insights
             </h1>
-            <p className="mb-4 max-w-[60ch] font-light text-balance text-fr-white">
+            <p className="mb-4 max-w-[60ch] font-light text-center sm:text-start text-balance text-fr-white">
               Practical guidance, expert advice and helpful insights from our
               drainage engineers to help you prevent problems and make informed
               decisions.
