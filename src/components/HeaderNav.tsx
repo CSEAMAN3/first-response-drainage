@@ -111,8 +111,8 @@ export default function HeaderNav() {
                       onClick={() => setToggleNav(!toggleNav)}
                       aria-current={isActive ? "page" : undefined}
                       className={`font-bold text-xl ${
-                        isActive ? "text-fr-primary-dark" : "text-fr-white"
-                      } hover:text-fr-primary-dark transition-colors duration-150`}
+                        isActive ? "text-fr-accent-two" : "text-fr-white"
+                      } hover:text-fr-accent-two transition-colors duration-150`}
                     >
                       {link.title}
                     </Link>
@@ -238,8 +238,8 @@ export default function HeaderNav() {
             return (
               <li
                 key={link.href}
-                className={`font-bold hover:text-fr-primary-dark cursor-pointer ${
-                  isActive ? "text-fr-primary-dark" : "text-fr-primary"
+                className={`font-bold hover:text-fr-accent-one cursor-pointer ${
+                  isActive ? "text-fr-accent-one" : "text-fr-primary"
                 } transition-colors duration-150`}
               >
                 <Link href={link.href}>{link.title}</Link>

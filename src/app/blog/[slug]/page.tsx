@@ -96,6 +96,7 @@ export default async function BlogPostPage({ params }: BlogProps) {
             width={1200}
             height={675}
             className="w-full h-90 object-cover mb-12"
+            priority
           />
         )}
         <section
