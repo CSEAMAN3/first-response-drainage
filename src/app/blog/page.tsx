@@ -11,7 +11,7 @@ export default async function BlogPage() {
     <main>
       <div className="py-16 px-8 bg-fr-primary">
         {/* hero */}
-        <div className="pb-16 flex gap-2 max-w-200 mx-auto">
+        <div className="pb-16 flex flex-col sm:flex-row gap-2 max-w-200 mx-auto">
           <div className="place-content-center">
             <h1 className="font-bold text-2xl sm:text-3xl mb-2 text-balance text-fr-white">
               Drainage Advice, Tips & Insights
@@ -21,22 +21,22 @@ export default async function BlogPage() {
               drainage engineers to help you prevent problems and make informed
               decisions.
             </p>
-            <h2 className="font-bold text-fr-accent-two mb-8">
-              Read Our Latest Posts
-            </h2>
           </div>
           <Image
             src="/images/monster-hands.png"
             alt="monster"
             width={200}
             height={200}
-            className="ml-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
+            className="mx-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
           />
         </div>
         {/* blog posts */}
         {/* <h2 className="font-bold text-fr-accent-two text-center mb-8 text-lg">
           Read Our Latest Posts
         </h2> */}
+        <h2 className="font-bold text-center text-lg sm:text-xl text-fr-accent-two mb-8">
+          Read Our Latest Posts
+        </h2>
         <nav>
           <ul className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto max-w-100 sm:max-w-200 md:max-w-300">
             {blogs.map((post) => {
