@@ -34,9 +34,6 @@ export default async function BlogPage() {
         {/* <h2 className="font-bold text-fr-accent-two text-center mb-8 text-lg">
           Read Our Latest Posts
         </h2> */}
-        <h2 className="font-bold text-center text-lg sm:text-xl text-fr-accent-two mb-8">
-          Read Our Latest Posts
-        </h2>
         <nav>
           <ul className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto max-w-100 sm:max-w-200 md:max-w-300">
             {blogs.map((post) => {

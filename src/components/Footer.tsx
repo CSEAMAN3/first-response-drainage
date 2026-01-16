@@ -79,6 +79,12 @@ export default function Footer() {
               FAQs
             </Link>
             <Link
+              href="/blog"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+            >
+              Blog
+            </Link>
+            <Link
               href="/terms-and-conditions"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
             >
