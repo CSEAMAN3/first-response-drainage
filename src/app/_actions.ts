@@ -18,7 +18,7 @@ export async function sendEmail(data: ContactFormInputs) {
     return { success: false, error: z.flattenError(result.error) };
   }
 
-  const { name, phone, email, location, services, message } = result.data;
+  const { name, phone, email, location, service, message } = result.data;
 
   try {
     const sent = await resend.emails.send({
@@ -31,14 +31,14 @@ export async function sendEmail(data: ContactFormInputs) {
         `Phone: ${phone}\n` +
         `Email: ${email}\n` +
         `Location: ${location}\n` +
-        `Services: ${services.join(", ")}\n\n` +
+        `Service: ${service}\n` +
         `Message:\n${message}`,
       react: ContactFormEmail({
         name,
         phone,
         email,
         location,
-        services,
+        service,
         message,
       }),
     });

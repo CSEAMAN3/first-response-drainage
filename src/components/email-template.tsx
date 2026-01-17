@@ -12,7 +12,7 @@ interface ContactFormEmailProps {
   phone: string;
   email: string;
   location: string;
-  services: string[];
+  service: string;
   message: string;
 }
 
@@ -21,7 +21,7 @@ export default function ContactFormEmail({
   phone,
   email,
   location,
-  services,
+  service,
   message,
 }: ContactFormEmailProps) {
   return (
@@ -44,7 +44,7 @@ export default function ContactFormEmail({
             <strong>Location:</strong> {location}
           </Text>
           <Text>
-            <strong>Services:</strong> {services.join(", ")}
+            <strong>Service:</strong> {service}
           </Text>
           <Text>
             <strong>Message:</strong>

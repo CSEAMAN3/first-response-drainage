@@ -1,8 +1,10 @@
 import ContactForm from "@/components/ContactForm";
+import Cta from "@/components/Cta";
+import HomeCoverage from "@/components/HomeCoverage";
 
-export default function page() {
+export default function ContactPage() {
   return (
-    <main className="min-h-screen">
+    <main className="">
       <div className="bg-fr-primary px-8 pt-16 pb-32 text-fr-white">
         <h1 className="font-bold text-xl mb-2 sm:text-center sm:text-2xl">
           Contact 1st Response Drainage
@@ -33,10 +35,16 @@ export default function page() {
         </p>
       </div>
       <div className="max-w-300 mx-auto">
-        <div className="w-[80%] min-h-200 bg-fr-light-grey mx-auto -translate-y-16 shadow-lg rounded-xl">
+        <div className="w-[80%] bg-fr-light-grey mx-auto -translate-y-16 shadow-lg rounded-xl">
           <ContactForm />
         </div>
       </div>
+      <Cta
+        heading="Have a Drainage Emergency?"
+        paragraph="If you're experiencing drainage issues don't hesitate to contact us immedietly. We're available 24/7, either use the contact form above or call us on our emergeny mobile number."
+        classes={true}
+      />
+      <HomeCoverage />
     </main>
   );
 }

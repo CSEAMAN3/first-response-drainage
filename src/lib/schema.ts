@@ -27,6 +27,16 @@ const phoneSchema = z
     message: "Phone number must be 25 characters or less",
   });
 
+const ServiceEnum = z.enum([
+  "blocked-drains",
+  "cctv-surveys",
+  "water-jetting",
+  "patch-lining",
+  "root-removal",
+  "commercial-drainage",
+  "other",
+]);
+
 export const ContactFormSchema = z.object({
   name: trimmedString("Name", 1, 80),
 
@@ -45,10 +55,12 @@ export const ContactFormSchema = z.object({
 
   location: trimmedString("Location", 1, 80),
 
-  services: z
-    .array(z.string().transform((v) => v.trim()))
-    .min(1, { message: "Please select at least one service" })
-    .max(3, { message: "Please select up to 3 services" }),
+  // services: z
+  //   .array(z.string().transform((v) => v.trim()))
+  //   .min(1, { message: "Please select at least one service" })
+  //   .max(3, { message: "Please select up to 3 services" }),
+
+  service: ServiceEnum,
 
   message: z
     .string()
