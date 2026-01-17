@@ -28,7 +28,9 @@ export default function ServiceCard({
         className="w-full h-60 object-cover rounded-t-xl"
       />
       <div className="px-8 pt-8 pb-16 bg-fr-primary text-fr-white rounded-b-xl">
-        <h3 className="font-bold text-xl mb-4 min-h-14">{heading}</h3>
+        <h3 className="font-bold text-xl mb-4 min-h-14 text-balance">
+          {heading}
+        </h3>
         <p className="font-light text-pretty mb-4 min-h-22 max-w-[40ch]">
           {paraOne}
         </p>

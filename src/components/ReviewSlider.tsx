@@ -10,7 +10,7 @@ export default function ReviewSlider() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="bg-fr-light-grey rounded-sm p-8 relative">
+    <div className="bg-fr-light-grey rounded-sm p-8 relative shadow-xl">
       <div className="flex gap-4 items-center mb-4">
         <div className="w-12 h-12 bg-fr-accent-one rounded-full text-fr-white font-bold text-2xl grid place-content-center">
           K

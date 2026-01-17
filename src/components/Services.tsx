@@ -18,7 +18,7 @@ export default function Services({ heading, paragraph }: ServicesProps) {
         drainage surveys, delivering a quick, dependable service every time. */}
         {paragraph}
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-16 sm:gap-x-8 lg:grid-cols-3">
+      <div className="mx-auto max-w-90 grid grid-cols-1 sm:grid-cols-2 sm:max-w-180 gap-y-16 sm:gap-x-8 lg:grid-cols-3 lg:max-w-260">
         {/* <div className="flex sm:gap-x-8"> */}
         <ServiceCard
           photo="test.jpg"
