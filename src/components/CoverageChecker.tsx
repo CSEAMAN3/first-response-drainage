@@ -36,7 +36,7 @@ export default function CoverageChecker() {
           <input
             value={postcode}
             onChange={(e) => setPostcode(e.target.value)}
-            placeholder="e.g. NR1 3AB"
+            placeholder="e.g. NR1, CB2, IP3"
             className="w-full rounded-sm border border-dr-primary p-3"
             autoComplete="postal-code"
           />

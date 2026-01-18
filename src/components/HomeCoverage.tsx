@@ -41,8 +41,8 @@ export default function HomeCoverage() {
           Check Coverage In Your Area
         </h3>
         <p className="font-light md:max-w-[60ch] mx-auto text-balance mb-4 text-center">
-          Enter your postcode to see if our drainage engineers cover your area
-          across Norfolk, Suffolk and Cambridge
+          Enter your postal area code to see if our drainage engineers cover
+          your location across Norfolk, Suffolk and Cambridge
         </p>
         <CoverageChecker />
         <FaMapSigns className="absolute -bottom-2 right-8 text-8xl text-fr-primary" />
