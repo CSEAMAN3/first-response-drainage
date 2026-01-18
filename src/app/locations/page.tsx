@@ -1,8 +1,9 @@
+import CoverageChecker from "@/components/CoverageChecker";
 import Cta from "@/components/Cta";
 import DirectoryMain from "@/components/DirectoryMain";
 import Scrollbar from "@/components/Scrollbar";
 import ServicesArea from "@/components/ServicesArea";
-import Link from "next/link";
+// import Link from "next/link";
 import { MdStarRate } from "react-icons/md";
 
 export default function LocationHubPage() {
@@ -17,10 +18,10 @@ export default function LocationHubPage() {
     <main>
       {/* Hero Section */}
       <div className="px-8 py-16 bg-fr-primary">
-        <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[30ch] sm:text-center sm:mx-auto mb-2">
+        <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[30ch] text-center mx-auto mb-2">
           Drainage Services Throughout Norfolk, Suffolk & Cambridgeshire
         </h1>
-        <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
+        <p className="text-fr-accent-two font-semibold text-sm mb-4 text-center">
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
@@ -30,13 +31,16 @@ export default function LocationHubPage() {
             5.0 Google Rating &#183; 85 reviews
           </span>
         </p>
-        <p className="font-light text-fr-white text-balance sm:mx-auto sm:text-center sm:max-w-[80ch] mb-8">
-          We provide professional drainage services across East Anglia,
+        <p className="font-light text-fr-white text-balance sm:mx-auto text-center max-w-[60ch] mb-8">
+          {/* We provide professional drainage services across East Anglia,
           supporting homes and businesses throughout Norfolk, Suffolk and
           Cambridge. Use the links below to find drainage services in your local
-          area.
+          area. */}
+          Check your postal area code below to see if we have drainage engineers
+          operating local to you.
         </p>
-        <Link
+        <CoverageChecker classes={false} />
+        {/* <Link
           href="/contact"
           className="text-fr-white bg-fr-accent-one px-8 py-4 rounded-sm block mb-6 w-fit font-bold hover:bg-fr-accent-one-mid transition-colors duration-300 cursor-pointer sm:mx-auto"
         >
@@ -47,7 +51,7 @@ export default function LocationHubPage() {
           className="text-fr-accent-two font-bold text-xl hover:text-fr-white w-fit transition-colors duration-150 sm:mx-auto block"
         >
           Call today on 07961 609836
-        </a>
+        </a> */}
       </div>
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       {/* directory section */}

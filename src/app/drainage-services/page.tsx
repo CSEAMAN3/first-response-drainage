@@ -58,7 +58,7 @@ export default function DrainageServicesPage() {
         paragraph="Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across East Anglia. Fast, reliable service, whenever you need it."
         classes={true}
       />
-      <HomeCoverage />
+      <HomeCoverage classes={true} />
     </main>
   );
 }

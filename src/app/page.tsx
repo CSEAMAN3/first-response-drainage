@@ -31,7 +31,7 @@ export default function Home() {
         drainage surveys, delivering a quick, dependable service every time."
       />
       <WhyUseUs />
-      <HomeCoverage />
+      <HomeCoverage classes={true} />
       <Cta
         heading="Need Drainage Help Today?"
         paragraph="Whether it&#39;s a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across East Anglia. Fast, reliable service, whenever you need it."

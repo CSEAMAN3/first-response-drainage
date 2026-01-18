@@ -8,7 +8,11 @@ import {
   getOutcode,
 } from "@/utils/postcodeChecker";
 
-export default function CoverageChecker() {
+interface CoverageCheckerProps {
+  classes: boolean;
+}
+
+export default function CoverageChecker({ classes }: CoverageCheckerProps) {
   const [postcode, setPostcode] = useState("");
   const [result, setResult] = useState<null | {
     covered: boolean;
@@ -37,7 +41,7 @@ export default function CoverageChecker() {
             value={postcode}
             onChange={(e) => setPostcode(e.target.value)}
             placeholder="e.g. NR1, CB2, IP3"
-            className="w-full rounded-sm border border-dr-primary p-3"
+            className={`w-full rounded-sm border ${classes ? "border-fr-primary text-fr-primary" : "border-fr-white placeholder:text-fr-accent-two text-fr-white"} p-3`}
             autoComplete="postal-code"
           />
         </label>
