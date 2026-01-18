@@ -3,6 +3,7 @@ import DirectoryMain from "@/components/DirectoryMain";
 import Scrollbar from "@/components/Scrollbar";
 import ServicesArea from "@/components/ServicesArea";
 import Link from "next/link";
+import { MdStarRate } from "react-icons/md";
 
 export default function LocationHubPage() {
   const items = [
@@ -16,9 +17,19 @@ export default function LocationHubPage() {
     <main>
       {/* Hero Section */}
       <div className="px-8 py-16 bg-fr-primary">
-        <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[30ch] sm:text-center sm:mx-auto mb-4">
+        <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[30ch] sm:text-center sm:mx-auto mb-2">
           Drainage Services Throughout Norfolk, Suffolk & Cambridgeshire
         </h1>
+        <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
+          <MdStarRate className="inline-block mb-1" />
+          <MdStarRate className="inline-block mb-1" />
+          <MdStarRate className="inline-block mb-1" />
+          <MdStarRate className="inline-block mb-1" />
+          <MdStarRate className="inline-block mb-1 mr-1" />
+          <span className="text-fr-white">
+            5.0 Google Rating &#183; 85 reviews
+          </span>
+        </p>
         <p className="font-light text-fr-white text-balance sm:mx-auto sm:text-center sm:max-w-[80ch] mb-8">
           We provide professional drainage services across East Anglia,
           supporting homes and businesses throughout Norfolk, Suffolk and

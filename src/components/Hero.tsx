@@ -38,7 +38,7 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
           <a
             href="tel+447961609836"
             aria-label="Call First Response Drainage on 07961609836"
-            className="text-fr-white font-bold block hover:text-fr-accent-two transition-colors duration-300"
+            className="text-fr-white font-bold block hover:text-fr-accent-two transition-colors duration-300 w-fit"
           >
             Call today on 07961 609836
           </a>
