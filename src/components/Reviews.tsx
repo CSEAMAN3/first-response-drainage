@@ -18,7 +18,7 @@ export default function Reviews() {
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />{" "}
         </span>{" "}
-        5 out of 5 based on 70 reviews{" "}
+        5 out of 5 based on 85 reviews{" "}
         <FcGoogle className="inline-block mb-1" size={32} />
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
