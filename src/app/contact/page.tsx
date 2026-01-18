@@ -55,7 +55,7 @@ export default function ContactPage() {
         paragraph="If you're experiencing drainage issues don't hesitate to contact us immedietly. We're available 24/7, either use the contact form above or call us on our emergeny mobile number."
         classes={true}
       />
-      <HomeCoverage />
+      <HomeCoverage classes={true} />
     </main>
   );
 }
