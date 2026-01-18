@@ -5,6 +5,7 @@ import Reasons from "@/components/Reasons";
 import Scrollbar from "@/components/Scrollbar";
 import WhatWeHelpWith from "@/components/WhatWeHelpWith";
 import { MdStarRate } from "react-icons/md";
+import HomeCoverage from "@/components/HomeCoverage";
 
 export default function DrainageServicesPage() {
   const items = [
@@ -57,6 +58,7 @@ export default function DrainageServicesPage() {
         paragraph="Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help across East Anglia. Fast, reliable service, whenever you need it."
         classes={true}
       />
+      <HomeCoverage />
     </main>
   );
 }

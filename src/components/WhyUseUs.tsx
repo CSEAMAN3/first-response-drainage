@@ -4,7 +4,7 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 export default function WhyUseUs() {
   return (
     <section className="bg-fr-primary">
-      <div className="px-8 py-16 grid grid-cols-1 md:grid-cols-2 md:gap-x-4 md:py-24 max-w-300 mx-auto">
+      <div className="px-8 py-16 grid grid-cols-1 md:grid-cols-2 md:gap-x-4 md:py-24 max-w-280 mx-auto">
         <div className="text-fr-white mb-8">
           <h3 className="font-bold text-3xl text-balance max-w-[22ch] mb-4">
             RELIABLE HELP WHEN YOU NEED IT MOST!
