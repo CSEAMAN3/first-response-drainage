@@ -23,7 +23,7 @@ export default async function BlogPage() {
             </p>
           </div>
           <Image
-            src="/images/monster-hands.png"
+            src="/images/monster-water-gun.png"
             alt="monster"
             width={200}
             height={200}
