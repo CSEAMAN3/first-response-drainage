@@ -23,7 +23,7 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
             <MdStarRate className="inline-block mb-1" />
             <MdStarRate className="inline-block mb-1 mr-1" />
             <span className="text-fr-white">
-              5.0 Google Rating &#183; 85 reviews
+              5.0 Google Rating &#183; 85 Reviews
             </span>
           </p>
           <p className="text-fr-white font-light mb-8 max-w-[50ch] md:max-w-[46ch] lg:max-w-[50ch] text-balance">
