@@ -36,14 +36,14 @@ export default function AlternativeHero() {
           <div className="flex gap-8 place-content-center mb-8">
             <Link
               href="/contact"
-              className="text-fr-white bg-fr-accent-one px-8 py-4 rounded-sm block mb-6 font-bold hover:bg-fr-accent-one-mid transition-colors duration-300 cursor-pointer w-full max-w-60 text-center"
+              className="text-sm sm:text-base text-fr-white bg-fr-accent-one px-8 py-4 rounded-sm mb-6 font-bold hover:bg-fr-accent-one-mid transition-colors duration-300 cursor-pointer w-full max-w-60 text-center grid place-content-center"
             >
-              Request a Callout
+              Request Callout
             </Link>
             <a
               href="tel+447961609836"
               aria-label="Call First Response Drainage on 07961609836"
-              className="text-fr-white border-2 border-fr-accent-two px-8 py-4 rounded-sm block mb-6 font-bold hover:bg-fr-primary-dark transition-colors duration-300 cursor-pointer w-full text-center max-w-60"
+              className="text-fr-white border-2 border-fr-accent-two px-8 py-4 rounded-sm mb-6 font-bold hover:bg-fr-primary-dark transition-colors duration-300 cursor-pointer w-full text-center max-w-60 text-sm sm:text-base grid place-content-center"
             >
               Call Now
             </a>
