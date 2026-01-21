@@ -10,7 +10,7 @@ export default function AlternativeHero() {
         <div className="lg:flex-1 z-10">
           <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[40ch] mb-2 text-center mx-auto lg:mx-0 lg:text-start lg:max-w-[80ch]">
             Rapid Response Drainage Services Across Norfolk, Suffolk &
-            Cambridgeshre
+            Cambridgeshire
           </h1>
           <p className="font-bold text-fr-accent-two mb-4 text-center lg:text-start">
             <MdStarRate className="inline-block mb-1" />
