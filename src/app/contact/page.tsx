@@ -29,7 +29,7 @@ export default function ContactPage() {
         <p className="text-lg font-bold sm:text-center">
           Call Now 24/7 on{" "}
           <a
-            href="tel+447961609836"
+            href="tel:+447961609836"
             className="hover:text-fr-accent-two w-fit transition-colors duration-150"
           >
             07961 609836

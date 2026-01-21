@@ -41,7 +41,7 @@ export default function Cta({ heading, paragraph, classes }: CtaProps) {
         Request a Callout
       </Link>
       <a
-        href="tel+447961609836"
+        href="tel:+447961609836"
         className={`font-bold block w-fit ${
           classes
             ? "text-fr-white hover:text-fr-accent-two"
