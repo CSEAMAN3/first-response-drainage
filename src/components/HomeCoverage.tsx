@@ -29,7 +29,7 @@ export default function HomeCoverage({ classes }: HomeCoverageProps) {
             height={200}
             className="w-30 md:w-42 lg:w-60 absolute bottom-0 left-16 md:left-24 lg:left-40"
           />
-          <div className="w-full h-2 absolute bg-fr-primary-mid bottom-0 left-0 -z-10 rounded-tl-[100%]" />
+          <div className="w-full h-2 absolute bg-fr-primary-mid bottom-0 left-0 -z-10" />
         </div>
       </div>
     </section>
