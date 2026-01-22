@@ -30,7 +30,7 @@ export default function ServiceProblems({
         <p className="font-light md:text-center md:max-w-[60ch] text-pretty mx-auto mb-2">
           {paragraphOne}
         </p>
-        <p className="font-bold text-fr-primary md:text-center text-balance mx-auto md:mb-8">
+        <p className="font-bold text-fr-primary mb-4 md:text-center text-balance mx-auto md:mb-8">
           {paragraphTwo}
         </p>
       </div>
