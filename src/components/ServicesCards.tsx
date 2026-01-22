@@ -96,7 +96,7 @@ export default function ServicesCards() {
               ref={(node) => {
                 cardRefs.current[i] = node;
               }}
-              className="snap-start shrink-0 w-[70vw] sm:w-[50vw] md:w-[38vw] lg:w-[34vw] max-w-96 bg-fr-light-grey rounded-sm overflow-hidden relative group"
+              className="snap-start shrink-0 w-[70vw] sm:w-[50vw] md:w-[38vw] lg:w-[34vw] max-w-96 bg-fr-primary/5 rounded-sm overflow-hidden relative group"
               data-card
             >
               <Link href={`/drainage-services/${s.slug}`}>

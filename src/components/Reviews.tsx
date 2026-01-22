@@ -8,7 +8,7 @@ import ReviewSlider from "./ReviewSlider";
 
 export default function Reviews() {
   return (
-    <section className="py-8 px-8 max-w-280 mx-auto">
+    <section className="pt-8 pb-16 px-8 max-w-280 mx-auto">
       <h2 className="text-center font-light mb-8">
         Our Customers say <span className="font-bold text-lg">Excellent</span>{" "}
         <span className="text-fr-accent-two text-xl inline-block">
