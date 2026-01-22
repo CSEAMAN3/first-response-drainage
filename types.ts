@@ -69,6 +69,11 @@ export type Service = {
     heading: string;
     paragraph: string;
   };
+  carousel: {
+    paragraph: string;
+    price: string;
+    terms: string;
+  };
 };
 
 export type LocationFaq = {

@@ -5,8 +5,9 @@ import Faq from "../components/Faq";
 import HomeCoverage from "../components/HomeCoverage";
 import Reviews from "../components/Reviews";
 import Scrollbar from "../components/Scrollbar";
-import Services from "../components/Services";
+// import Services from "../components/Services";
 import WhyUseUs from "../components/WhyUseUs";
+import ServicesSlider from "@/components/ServicesSlider";
 
 export default function Home() {
   const items = [
@@ -26,12 +27,13 @@ export default function Home() {
       <AlternativeHero />
       <Scrollbar items={items} className="bg-fr-primary-dark py-2" />
       <Reviews />
-      <Services
+      <ServicesSlider />
+      {/* <Services
         heading="Keeping your drains clear, safe and working properly"
         paragraph="Our local engineers help homeowners and businesses across Norfolk,
         Suffolk & Cambridgeshire with everything from blocked drains to full
         drainage surveys, delivering a quick, dependable service every time."
-      />
+      /> */}
       <WhyUseUs />
       <div id="coverage">
         <HomeCoverage classes={true} />

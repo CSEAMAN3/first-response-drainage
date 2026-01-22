@@ -91,6 +91,12 @@ export const services: Service[] = [
       paragraph:
         "We've answered some of the most common questions customers ask about blocked drains, so you know what to expect before booking a visit from our engineers.",
     },
+    carousel: {
+      paragraph:
+        "Blocked drains cleared fast. From toilets, sinks, baths and showers, to full system blockages.",
+      price: "From £95 +VAT",
+      terms: "Terms and conditions apply",
+    },
   },
   {
     service: "CCTV Drainage Surveys",
@@ -184,6 +190,12 @@ export const services: Service[] = [
       heading: "Your CCTV Drain Survey",
       paragraph:
         "Below are answers to some of the most common questions customers have when considering a CCTV drainage survey, helping you make an informed decision before you book.",
+    },
+    carousel: {
+      paragraph:
+        "Pre-purchase, diagnostic and insurance approved CCTV drainage surveys.",
+      price: "From £190 +VAT",
+      terms: "Terms and conditions apply",
     },
   },
   {
@@ -282,6 +294,12 @@ export const services: Service[] = [
       paragraph:
         "Find answers to common questions about high pressure water jetting, how it works, and when it's the right solution for your drainage system.",
     },
+    carousel: {
+      paragraph:
+        "High pressure water jetting clears stubborn blockages and build-ups quickly and safely.",
+      price: "From £95 +VAT",
+      terms: "Terms and conditions apply",
+    },
   },
   {
     service: "Patch Liners / No-Dig Repairs",
@@ -374,6 +392,11 @@ export const services: Service[] = [
       paragraph:
         "We've answered some of the most common questions customers ask about patch lining and no-dig drain repairs, so you know what to expect before booking a visit from our engineers.",
     },
+    carousel: {
+      paragraph: "Fix cracked or broken pipes without the need for excavation.",
+      price: "From £275 +VAT",
+      terms: "Terms and conditions apply",
+    },
   },
   {
     service: "Root Intrusion Removal",
@@ -460,6 +483,12 @@ export const services: Service[] = [
       heading: "Your Root Intrusion Removal",
       paragraph:
         "We've answered some of the most common questions customers ask about root intrusion removal, so you know what to expect before booking a visit from our engineers.",
+    },
+    carousel: {
+      paragraph:
+        "Our drainage engineers use specialist cutting tools to remove roots that are invading drains.",
+      price: "Prices Vary",
+      terms: "Custom Pricing Applies",
     },
   },
   {
@@ -555,6 +584,12 @@ export const services: Service[] = [
       heading: "Your Commercial Drainage",
       paragraph:
         "We've answered some of the most common questions businesses ask about our commercial drainage services, so you know what to expect before booking a visit from our engineers.",
+    },
+    carousel: {
+      paragraph:
+        "Drainage services for commercial properties: restaurants, landlords, construction sites, facilities and more.",
+      price: "From £115 +VAT",
+      terms: "Terms and conditions apply",
     },
   },
 ];
