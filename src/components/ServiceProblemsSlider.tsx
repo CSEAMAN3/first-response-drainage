@@ -101,7 +101,7 @@ export default function ServiceProblemsSlider({
               ref={(node) => {
                 problemRefs.current[i] = node;
               }}
-              className="p-8 bg-fr-light-grey border-b-4 border-fr-accent-one min-w-3/5 sm:min-w-4/9 min-h-70 grid place-content-center snap-start"
+              className="p-4 bg-fr-light-grey border-b-4 border-fr-accent-one min-w-3/5 sm:min-w-4/9 min-h-70 grid place-content-center snap-start"
               data-card
             >
               <Image
