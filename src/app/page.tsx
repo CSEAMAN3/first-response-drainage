@@ -27,7 +27,10 @@ export default function Home() {
       <AlternativeHero />
       <Scrollbar items={items} className="bg-fr-primary-dark py-2" />
       <Reviews />
-      <ServicesSlider />
+      <ServicesSlider
+        heading="Keeping Your Drains Clear, Safe & Working Properly"
+        paragraph="Our local drainage engineers deliver reliable drainage solutions, from clearing blockages to full inspections."
+      />
       {/* <Services
         heading="Keeping your drains clear, safe and working properly"
         paragraph="Our local engineers help homeowners and businesses across Norfolk,

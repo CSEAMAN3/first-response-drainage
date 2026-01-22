@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Cta from "@/components/Cta";
-import MainServices from "@/components/MainServices";
+// import MainServices from "@/components/MainServices";
 import Reasons from "@/components/Reasons";
 import Scrollbar from "@/components/Scrollbar";
 import WhatWeHelpWith from "@/components/WhatWeHelpWith";
 import { MdStarRate } from "react-icons/md";
 import HomeCoverage from "@/components/HomeCoverage";
+import ServicesSlider from "@/components/ServicesSlider";
 
 export default function DrainageServicesPage() {
   const items = [
@@ -50,7 +51,11 @@ export default function DrainageServicesPage() {
         </a>
       </section>
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
-      <MainServices />
+      {/* <MainServices /> */}
+      <ServicesSlider
+        heading="1st Response Drainage Services"
+        paragraph="Explore our full range of professional drainage services, designed to resolve problems quickly and keep drainage systems working reliably."
+      />
       <WhatWeHelpWith />
       <Reasons />
       <Cta
