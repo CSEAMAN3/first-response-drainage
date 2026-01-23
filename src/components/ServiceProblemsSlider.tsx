@@ -16,14 +16,41 @@ export default function ServiceProblemsSlider({
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const problemRefs = useRef<(HTMLDivElement | null)[]>([]);
   const [activeIdx, setActiveIdx] = useState(0);
+  const rafId = useRef<number | null>(null);
 
   const count = cards.length;
+
+  const updateActiveFromScroll = () => {
+    const root = scrollRef.current;
+    if (!root) return;
+
+    const left = root.scrollLeft;
+
+    let bestIndex = 0;
+    let bestDistance = Number.POSITIVE_INFINITY;
+
+    problemRefs.current.forEach((node, i) => {
+      if (!node) return;
+      const dist = Math.abs(left - node.offsetLeft);
+      if (dist < bestDistance) {
+        bestDistance = dist;
+        bestIndex = i;
+      }
+    });
+
+    setActiveIdx((prev) => (prev === bestIndex ? prev : bestIndex));
+  };
+
+  const onScroll = () => {
+    if (rafId.current) cancelAnimationFrame(rafId.current);
+    rafId.current = requestAnimationFrame(updateActiveFromScroll);
+  };
 
   const scrollToTheIndex = (index: number) => {
     const el = problemRefs.current[index];
     if (!el) return;
 
-    setActiveIdx(index);
+    // setActiveIdx(index);
 
     el.scrollIntoView({
       behavior: "smooth",
@@ -36,32 +63,34 @@ export default function ServiceProblemsSlider({
   const goNext = () => scrollToTheIndex(Math.min(count - 1, activeIdx + 1));
 
   useEffect(() => {
+    // ✅ schedule initial sync, not synchronous setState in effect body
+    rafId.current = requestAnimationFrame(updateActiveFromScroll);
+
+    return () => {
+      if (rafId.current) cancelAnimationFrame(rafId.current);
+    };
+  }, []);
+
+  useEffect(() => {
     const root = scrollRef.current;
     if (!root) return;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort(
-            (a, b) => (b.intersectionRatio ?? 0) - (a.intersectionRatio ?? 0),
-          )[0];
+    const setEndPadding = () => {
+      const last = problemRefs.current[count - 1];
+      if (!last) return;
 
-        if (!visible?.target) return;
+      // padding so the last card can align to left edge
+      const padRight = Math.max(0, root.clientWidth - last.offsetWidth);
+      root.style.paddingRight = `${padRight}px`;
+    };
 
-        const idx = problemRefs.current.findIndex((n) => n === visible.target);
-        if (idx !== -1) setActiveIdx(idx);
-      },
-      {
-        root,
-        threshold: 0.6,
-        rootMargin: "0px -40% 0px -40%", // ✅ biases to center-ish
-      },
-    );
+    const id = requestAnimationFrame(setEndPadding);
+    window.addEventListener("resize", setEndPadding);
 
-    problemRefs.current.forEach((node) => node && observer.observe(node));
-
-    return () => observer.disconnect();
+    return () => {
+      cancelAnimationFrame(id);
+      window.removeEventListener("resize", setEndPadding);
+    };
   }, [count]);
 
   return (
@@ -83,7 +112,7 @@ export default function ServiceProblemsSlider({
           onClick={goNext}
           disabled={activeIdx === count - 1}
           className="font-bold border border-fr-primary text-fr-primary px-4 py-2 rounded-sm hover:bg-fr-primary hover:text-fr-white  transition cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
-          aria-label="Previous Service"
+          aria-label="Next Service"
         >
           <IoIosArrowForward />
         </button>
@@ -91,17 +120,18 @@ export default function ServiceProblemsSlider({
       {/* scroll */}
       <div
         ref={scrollRef}
+        onScroll={onScroll}
         className="flex gap-8 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] mb-8"
       >
         {cards.map((c, i) => {
           return (
             <div
               key={c.title}
-              id={c.title}
+              id={`problem-${i}`}
               ref={(node) => {
                 problemRefs.current[i] = node;
               }}
-              className="p-4 bg-fr-light-grey border-b-4 border-fr-accent-one min-w-3/5 sm:min-w-4/9 min-h-70 grid place-content-center snap-start"
+              className="p-4 bg-fr-light-grey border-b-4 border-fr-accent-one w-[68vw] sm:w-[55vw] min-h-70 grid place-content-center snap-start shrink-0 max-w-80"
               data-card
             >
               <Image
