@@ -1,7 +1,10 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import { MdStarRate } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
+
+import CloudinaryOptImage from "./CloudinaryOptImage";
+import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 
 export default function AlternativeHero() {
   return (
@@ -57,7 +60,7 @@ export default function AlternativeHero() {
           </Link>
         </div>
         <div className="w-full lg:flex-1 place-content-center">
-          <Image
+          {/* <Image
             // src="/images/monster-group-vibrant.png"
             src="/images/bright-monster-group.png"
             alt="update this"
@@ -65,6 +68,11 @@ export default function AlternativeHero() {
             height={867}
             className="w-full max-w-120 mx-auto z-10 pl-6"
             priority
+          /> */}
+          <CloudinaryOptImage
+            {...Images.brightmonstergroup}
+            priority
+            className="w-full max-w-120 mx-auto z-10 pl-6"
           />
         </div>
       </div>
