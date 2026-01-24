@@ -1,3 +1,5 @@
+import { ResponseImageKey } from "@/lib/firstResponseImages";
+
 export type Nav = {
   href: string;
   title: string;
@@ -73,6 +75,7 @@ export type Service = {
     paragraph: string;
     price: string;
     terms: string;
+    photo: ResponseImageKey;
   };
 };
 

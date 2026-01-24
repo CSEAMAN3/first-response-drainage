@@ -96,6 +96,7 @@ export const services: Service[] = [
         "Blocked drains cleared fast. From toilets, sinks, baths and showers, to full system blockages.",
       price: "From £95 +VAT",
       terms: "Terms and conditions apply",
+      photo: "test",
     },
   },
   {
@@ -196,6 +197,7 @@ export const services: Service[] = [
         "Pre-purchase, diagnostic and insurance approved CCTV drainage surveys.",
       price: "From £190 +VAT",
       terms: "Terms and conditions apply",
+      photo: "test",
     },
   },
   {
@@ -299,6 +301,7 @@ export const services: Service[] = [
         "High pressure water jetting clears stubborn blockages and build-ups quickly and safely.",
       price: "From £95 +VAT",
       terms: "Terms and conditions apply",
+      photo: "test",
     },
   },
   {
@@ -396,6 +399,7 @@ export const services: Service[] = [
       paragraph: "Fix cracked or broken pipes without the need for excavation.",
       price: "From £275 +VAT",
       terms: "Terms and conditions apply",
+      photo: "test",
     },
   },
   {
@@ -489,6 +493,7 @@ export const services: Service[] = [
         "Our drainage engineers use specialist cutting tools to remove roots that are invading drains.",
       price: "Prices Vary",
       terms: "Custom Pricing Applies",
+      photo: "test",
     },
   },
   {
@@ -590,6 +595,7 @@ export const services: Service[] = [
         "Drainage services for commercial properties: restaurants, landlords, construction sites, facilities and more.",
       price: "From £115 +VAT",
       terms: "Terms and conditions apply",
+      photo: "test",
     },
   },
 ];

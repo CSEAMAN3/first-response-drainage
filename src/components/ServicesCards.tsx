@@ -1,10 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { services } from "@/lib/services";
+
+import CloudinaryUnOptImage from "./CloudinaryUnOptImage";
+import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 
 export default function ServicesCards() {
   const scrollerRef = useRef<HTMLDivElement | null>(null);
@@ -126,11 +128,15 @@ export default function ServicesCards() {
           >
             <Link href={`/drainage-services/${s.slug}`}>
               <div className="w-full h-50 overflow-hidden">
-                <Image
+                {/* <Image
                   src="/images/test.jpg"
                   alt="update this"
                   width={300}
                   height={300}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000"
+                /> */}
+                <CloudinaryUnOptImage
+                  {...Images[s.carousel.photo]}
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000"
                 />
               </div>
