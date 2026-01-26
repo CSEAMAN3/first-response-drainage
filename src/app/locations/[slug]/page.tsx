@@ -9,6 +9,7 @@ import CommonIssues from "@/components/CommonIssues";
 import SurroundingAreas from "@/components/SurroundingAreas";
 import Cta from "@/components/Cta";
 import FaqLocations from "@/components/FaqLocations";
+import ServicesSlider from "@/components/ServicesSlider";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -73,8 +74,12 @@ export default async function LocationPage({ params }: PageProps) {
       {/* Reviews Section */}
       <Reviews />
       {/* services section */}
-      <Services
+      {/* <Services
         heading={`Our Drainage Services`}
+        paragraph={location.servicesSection.paragraph}
+      /> */}
+      <ServicesSlider
+        heading="Our Draniage Services"
         paragraph={location.servicesSection.paragraph}
       />
       {/* common issues section */}
