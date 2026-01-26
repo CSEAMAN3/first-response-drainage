@@ -30,7 +30,7 @@ export default function CountiesLocations({
             return (
               <li key={id} className="capitalize">
                 <Link
-                  href={`/drainage-services/${l.slug}`}
+                  href={`/locations/${l.slug}`}
                   className="flex items-center w-fit hover:text-fr-accent-two transition-all duration-300"
                 >
                   <FaLocationDot className="inline-block mr-2" /> Drainage
