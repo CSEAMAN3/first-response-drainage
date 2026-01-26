@@ -1,11 +1,16 @@
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import { MdStarRate } from "react-icons/md";
+import CloudinaryOptImage from "./CloudinaryOptImage";
+import {
+  firstResponseImages as Images,
+  ResponseImageKey,
+} from "@/lib/firstResponseImages";
 
 interface HeroProps {
   heading: string;
   paraOne: string;
-  photo: string;
+  photo: ResponseImageKey;
 }
 
 export default function Hero({ heading, paraOne, photo }: HeroProps) {
@@ -44,13 +49,17 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
           </a>
         </div>
       </div>
-      <Image
+      {/* <Image
         src={`/images/${photo}`}
         alt="test image"
         width={700}
         height={700}
         className="w-full object-cover md:w-[80vw] h-[50vw] md:top-0 md:right-0 md:h-[50vw] md:min-h-120 lg:h-125 md:absolute -z-10"
         priority
+      /> */}
+      <CloudinaryOptImage
+        {...Images[photo]}
+        className="w-full object-cover md:w-[80vw] h-[50vw] md:top-0 md:right-0 md:h-[50vw] md:min-h-120 lg:h-125 md:absolute -z-10"
       />
     </div>
   );

@@ -17,7 +17,7 @@ export const services: Service[] = [
       paragraph:
         "Blocked drains can quickly become messy and disruptive. Our experienced engineers provide fast, professional unblocking to restore flow and prevent further damage.",
       photo: {
-        src: "test.jpg",
+        src: "test",
         alt: "test image to be updated",
       },
     },
@@ -114,7 +114,7 @@ export const services: Service[] = [
       paragraph:
         "A CCTV drainage survey gives a clear view of your drainage system, helping identify hidden issues before they become costly problems.",
       photo: {
-        src: "test.jpg",
+        src: "cctvSurvey",
         alt: "test image to be updated",
       },
     },
@@ -197,7 +197,7 @@ export const services: Service[] = [
         "Pre-purchase, diagnostic and insurance approved CCTV drainage surveys.",
       price: "From £190 +VAT",
       terms: "Terms and conditions apply",
-      photo: "test",
+      photo: "cctvSurvey",
     },
   },
   {
@@ -217,7 +217,7 @@ export const services: Service[] = [
       paragraph:
         "High pressure water jetting is one of the most effective ways to clear blocked drains and restore full flow, removing stubborn build-up that causes recurring problems.",
       photo: {
-        src: "test.jpg",
+        src: "waterJetting",
         alt: "test image to be updated",
       },
     },
@@ -301,7 +301,7 @@ export const services: Service[] = [
         "High pressure water jetting clears stubborn blockages and build-ups quickly and safely.",
       price: "From £95 +VAT",
       terms: "Terms and conditions apply",
-      photo: "test",
+      photo: "waterJetting",
     },
   },
   {
@@ -320,7 +320,7 @@ export const services: Service[] = [
       paragraph:
         "Patch lining and no-dig drain repairs fix damaged pipes internally, without the need for digging or unnecessary disruption.",
       photo: {
-        src: "test.jpg",
+        src: "patchLining",
         alt: "test image to be updated",
       },
     },
@@ -399,7 +399,7 @@ export const services: Service[] = [
       paragraph: "Fix cracked or broken pipes without the need for excavation.",
       price: "From £275 +VAT",
       terms: "Terms and conditions apply",
-      photo: "test",
+      photo: "patchLining",
     },
   },
   {
@@ -418,7 +418,7 @@ export const services: Service[] = [
       paragraph:
         "Tree roots invading drains are a common cause of recurring blockages and pipe damage. Root intrusion removal restores flow and helps protect your drainage system from further damage.",
       photo: {
-        src: "test.jpg",
+        src: "rootIntrusion",
         alt: "test image to be updated",
       },
     },
@@ -493,7 +493,7 @@ export const services: Service[] = [
         "Our drainage engineers use specialist cutting tools to remove roots that are invading drains.",
       price: "Prices Vary",
       terms: "Custom Pricing Applies",
-      photo: "test",
+      photo: "rootIntrusion",
     },
   },
   {
@@ -513,7 +513,7 @@ export const services: Service[] = [
       paragraph:
         "Commercial drainage issues can cause serious disruption to operations, staff and customers. Effective commercial drainage support helps resolve problems quickly and keep premises running smoothly.",
       photo: {
-        src: "test.jpg",
+        src: "commercialDrainage",
         alt: "test image to be updated",
       },
     },
@@ -595,7 +595,7 @@ export const services: Service[] = [
         "Drainage services for commercial properties: restaurants, landlords, construction sites, facilities and more.",
       price: "From £115 +VAT",
       terms: "Terms and conditions apply",
-      photo: "test",
+      photo: "commercialDrainage",
     },
   },
 ];

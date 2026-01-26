@@ -36,7 +36,7 @@ export type Service = {
   hero: {
     heading: string;
     paragraph: string;
-    photo: { src: string; alt: string };
+    photo: { src: ResponseImageKey; alt: string };
   };
 
   problemSection: {

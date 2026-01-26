@@ -29,13 +29,6 @@ export default function AlternativeHero() {
             Blocked drain? Need a pre-purchase CCTV drainage survey? Our local
             drainage engineers have you covered 24/7.
           </p>
-          {/* <Link
-            href={"#coverage"}
-            className="block text-center font-bold text-fr-accent-two hover:text-fr-white mb-8 lg:text-start transition-colors duration-300"
-          >
-            CHECK COVERAGE IN YOUR AREA{" "}
-            <FaArrowRight className="inline-block mb-1" />
-          </Link> */}
           <div className="flex gap-8 place-content-center mb-8">
             <Link
               href="/contact"
