@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import getFormattedDate from "@/utils/getFormattedDate";
 import Cta from "@/components/Cta";
+import CloudinaryOptImage from "@/components/CloudinaryOptImage";
+import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 
 export default async function BlogPage() {
   const blogs = await getSortedPostData();
@@ -22,11 +24,15 @@ export default async function BlogPage() {
               decisions.
             </p>
           </div>
-          <Image
+          {/* <Image
             src="/images/monster-water-gun.png"
             alt="monster"
             width={200}
             height={200}
+            className="mx-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
+          /> */}
+          <CloudinaryOptImage
+            {...Images.pinkMonsterWaterJetting}
             className="mx-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
           />
         </div>

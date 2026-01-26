@@ -17,6 +17,12 @@ export const firstResponseImages = {
     width: 452,
     height: 452,
   },
+  pinkMonsterWaterJetting: {
+    src: "monster-water-gun_xviuwt.png",
+    alt: "update this",
+    width: 876,
+    height: 876,
+  },
 };
 
 export type ResponseImageKey = keyof typeof firstResponseImages;

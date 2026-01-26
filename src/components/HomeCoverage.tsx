@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import CoverageChecker from "./CoverageChecker";
 import { FaMapSigns } from "react-icons/fa";
 import CloudinaryUnOptImage from "./CloudinaryUnOptImage";
