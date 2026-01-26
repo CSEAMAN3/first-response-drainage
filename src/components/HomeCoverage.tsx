@@ -1,6 +1,8 @@
 import Image from "next/image";
 import CoverageChecker from "./CoverageChecker";
 import { FaMapSigns } from "react-icons/fa";
+import CloudinaryUnOptImage from "./CloudinaryUnOptImage";
+import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 
 // import CoverageTabs from "./CoverageTabs";
 
@@ -22,11 +24,15 @@ export default function HomeCoverage({ classes }: HomeCoverageProps) {
           </p>
           <CoverageChecker classes={classes} />
           <FaMapSigns className="absolute bottom-0 right-[10vw] text-8xl text-fr-primary md:text-[150px] lg:text-[200px] -z-20" />
-          <Image
+          {/* <Image
             src="/images/purple-monster-walking.png"
             alt="update this"
             width={200}
             height={200}
+            className="w-30 md:w-42 lg:w-60 absolute bottom-0 left-16 md:left-24 lg:left-40"
+          /> */}
+          <CloudinaryUnOptImage
+            {...Images.purpleMonsterPlunger}
             className="w-30 md:w-42 lg:w-60 absolute bottom-0 left-16 md:left-24 lg:left-40"
           />
           <div className="w-full h-2 absolute bg-fr-primary-mid bottom-0 left-0 -z-10" />

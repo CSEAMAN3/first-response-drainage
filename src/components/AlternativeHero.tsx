@@ -70,7 +70,7 @@ export default function AlternativeHero() {
             priority
           /> */}
           <CloudinaryOptImage
-            {...Images.brightmonstergroup}
+            {...Images.brightMonsterGroup}
             priority
             className="w-full max-w-120 mx-auto z-10 pl-6"
           />
