@@ -130,3 +130,27 @@ export interface BlogPost {
 export interface BlogPostWithHtml extends BlogPost {
   contentHtml: string;
 }
+
+export type LocationArrayObject = {
+  name: string;
+  slug: string;
+};
+
+export type County = {
+  name: string;
+  hero: {
+    heading: string;
+    paragraph: string;
+  };
+  services: {
+    heading: string;
+    paragraph: string;
+  };
+  locations: {
+    heading: string;
+    openingParagraph: string;
+    closingParagraph: string;
+    locationArray: LocationArrayObject[];
+  };
+  Faqs: LocationFaq[];
+};

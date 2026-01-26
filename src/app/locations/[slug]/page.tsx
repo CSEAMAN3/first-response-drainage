@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { locations } from "@/lib/locations";
 import Hero from "@/components/Hero";
 import Scrollbar from "@/components/Scrollbar";
-import Services from "@/components/Services";
+// import Services from "@/components/Services";
 import Reviews from "@/components/Reviews";
 import CommonIssues from "@/components/CommonIssues";
 import SurroundingAreas from "@/components/SurroundingAreas";
