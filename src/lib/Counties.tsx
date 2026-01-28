@@ -34,7 +34,7 @@ export const counties: County[] = [
         },
         {
           name: "Great Shelford",
-          slug: "",
+          slug: "great-shelford",
         },
         {
           name: "Littleport",
@@ -42,7 +42,7 @@ export const counties: County[] = [
         },
         {
           name: "Saffron Walden",
-          slug: "",
+          slug: "saffron-walden",
         },
         {
           name: "Soham",
@@ -50,7 +50,7 @@ export const counties: County[] = [
         },
         {
           name: "St Ives",
-          slug: "",
+          slug: "st-ives",
         },
         {
           name: "Wisbech",
@@ -129,7 +129,7 @@ export const counties: County[] = [
         },
         {
           name: "Downham Market",
-          slug: "",
+          slug: "downham-market",
         },
         {
           name: "Fakenham",
@@ -137,7 +137,7 @@ export const counties: County[] = [
         },
         {
           name: "Great Yarmouth",
-          slug: "",
+          slug: "great-yarmouth",
         },
         {
           name: "Hethersett",
@@ -149,7 +149,7 @@ export const counties: County[] = [
         },
         {
           name: "Kings Lynn",
-          slug: "",
+          slug: "kings-lynn",
         },
         {
           name: "Necton",
@@ -157,7 +157,7 @@ export const counties: County[] = [
         },
         {
           name: "North Walsham",
-          slug: "",
+          slug: "north-walsham",
         },
         {
           name: "Norwich",
@@ -244,7 +244,7 @@ export const counties: County[] = [
         },
         {
           name: "Beck Row",
-          slug: "",
+          slug: "beck-row",
         },
         {
           name: "Brandon",
@@ -256,7 +256,7 @@ export const counties: County[] = [
         },
         {
           name: "Bury St Edmunds",
-          slug: "",
+          slug: "bury-st-edmunds",
         },
         {
           name: "Haverhill",
@@ -276,7 +276,7 @@ export const counties: County[] = [
         },
         {
           name: "Red Lodge",
-          slug: "",
+          slug: "red-lodge",
         },
         {
           name: "Stowmarket",
