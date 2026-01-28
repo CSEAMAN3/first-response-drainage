@@ -61,35 +61,34 @@ export const counties: County[] = [
     Faqs: [
       {
         id: 1,
-        question:
-          "Do you provide drainage services throughout Cambridge and nearby areas?",
+        question: "What drainage services do you offer in Cambridgeshire?",
         answer:
-          "Yes. We cover Cambridge city centre as well as surrounding neighbourhoods and nearby villages. Our engineers regularly work in residential streets, new developments and commercial areas across the city.",
+          "We provide blocked drain clearance, CCTV surveys, high-pressure water jetting, root removal, repairs, and ongoing maintenance for homes and businesses.",
       },
       {
         id: 2,
-        question: "Are drainage issues common in older Cambridge properties?",
+        question:
+          "Are drainage problems different in newer Cambridgeshire developments?",
         answer:
-          "Many properties in Cambridge have older drainage systems, which can be more prone to blockages, joint defects and root intrusion. We often recommend inspections or thorough cleaning to address underlying issues rather than temporary fixes.",
+          "Newer systems can still suffer from issues such as construction debris, poor installation, or misuse. CCTV inspections are ideal for pinpointing these problems early.",
       },
       {
         id: 3,
-        question:
-          "Can you carry out CCTV drainage surveys for Cambridge homebuyers?",
+        question: "Can you deal with shared or communal drainage systems?",
         answer:
-          "Yes. CCTV drainage surveys are commonly requested by buyers and surveyors in Cambridge, particularly for older or extended properties. Our surveys provide clear footage and reports to help identify hidden drainage problems before purchase.",
+          "Yes. We regularly work on shared drains for flats, commercial premises, and managed properties, coordinating repairs and maintenance efficiently.",
       },
       {
         id: 4,
-        question: "Do you work with Cambridge landlords and rental properties?",
+        question: "Do you offer preventative drainage maintenance?",
         answer:
-          "We regularly support landlords, letting agents and property managers across Cambridge. This includes clearing blockages, carrying out inspections and providing documentation where required for maintenance or compliance purposes.",
+          "We do. Planned maintenance and jetting help reduce the risk of unexpected blockages and costly emergency repairs.",
       },
       {
         id: 5,
-        question: "How quickly can you attend a drainage issue in Cambridge?",
+        question: "What should I do if I notice slow drainage or bad smells?",
         answer:
-          "Response times depend on availability, but we aim to attend Cambridge callouts as quickly as possible. If you're experiencing an urgent drainage problem, contacting us directly allows us to prioritise your request.",
+          "These are often early warning signs. Getting the issue checked promptly can prevent a complete blockage or more serious damage.",
       },
     ],
   },
@@ -185,35 +184,34 @@ export const counties: County[] = [
     Faqs: [
       {
         id: 1,
-        question:
-          "Do you provide drainage services throughout Cambridge and nearby areas?",
+        question: "Do you provide emergency drainage callouts in Norfolk?",
         answer:
-          "Yes. We cover Cambridge city centre as well as surrounding neighbourhoods and nearby villages. Our engineers regularly work in residential streets, new developments and commercial areas across the city.",
+          "Yes. We offer rapid-response emergency drainage services across Norfolk, including blocked drains, overflows, and urgent repairs. Our engineers aim to attend as quickly as possible to prevent further damage.",
       },
       {
         id: 2,
-        question: "Are drainage issues common in older Cambridge properties?",
+        question: "What causes blocked drains in Norfolk properties?",
         answer:
-          "Many properties in Cambridge have older drainage systems, which can be more prone to blockages, joint defects and root intrusion. We often recommend inspections or thorough cleaning to address underlying issues rather than temporary fixes.",
+          "Common causes include grease and food waste, wet wipes, root intrusion, and collapsed pipework—particularly in older properties and rural areas where drainage systems can be more vulnerable.",
       },
       {
         id: 3,
         question:
-          "Can you carry out CCTV drainage surveys for Cambridge homebuyers?",
+          "Can you clear blocked drains in rural or hard-to-reach areas?",
         answer:
-          "Yes. CCTV drainage surveys are commonly requested by buyers and surveyors in Cambridge, particularly for older or extended properties. Our surveys provide clear footage and reports to help identify hidden drainage problems before purchase.",
+          "Absolutely. We regularly work in villages, countryside properties, and coastal locations, using specialist equipment to access and clear drains safely and effectively.",
       },
       {
         id: 4,
-        question: "Do you work with Cambridge landlords and rental properties?",
+        question: "Do you offer CCTV drain surveys in Norfolk?",
         answer:
-          "We regularly support landlords, letting agents and property managers across Cambridge. This includes clearing blockages, carrying out inspections and providing documentation where required for maintenance or compliance purposes.",
+          "Yes. Our CCTV surveys help identify hidden issues such as cracks, blockages, or root ingress and are ideal for homeowners, landlords, and buyers needing peace of mind.",
       },
       {
         id: 5,
-        question: "How quickly can you attend a drainage issue in Cambridge?",
+        question: "How can I prevent future drainage problems?",
         answer:
-          "Response times depend on availability, but we aim to attend Cambridge callouts as quickly as possible. If you're experiencing an urgent drainage problem, contacting us directly allows us to prioritise your request.",
+          "Regular maintenance, avoiding flushing wipes or fats, and booking preventative jetting or inspections can significantly reduce the risk of blockages.",
       },
     ],
   },
@@ -302,34 +300,33 @@ export const counties: County[] = [
       {
         id: 1,
         question:
-          "Do you provide drainage services throughout Cambridge and nearby areas?",
+          "Do you cover both residential and commercial drainage in Suffolk?",
         answer:
-          "Yes. We cover Cambridge city centre as well as surrounding neighbourhoods and nearby villages. Our engineers regularly work in residential streets, new developments and commercial areas across the city.",
+          "Yes. We work with homeowners, landlords, businesses, and commercial sites throughout Suffolk, handling everything from small blockages to large-scale drainage systems.",
       },
       {
         id: 2,
-        question: "Are drainage issues common in older Cambridge properties?",
+        question: "Are drainage issues common in older Suffolk homes?",
         answer:
-          "Many properties in Cambridge have older drainage systems, which can be more prone to blockages, joint defects and root intrusion. We often recommend inspections or thorough cleaning to address underlying issues rather than temporary fixes.",
+          "They can be. Older clay pipe systems are more prone to cracks, root intrusion, and collapses. A CCTV survey is often the best way to diagnose these issues accurately.",
       },
       {
         id: 3,
-        question:
-          "Can you carry out CCTV drainage surveys for Cambridge homebuyers?",
+        question: "Can you help with recurring drain blockages?",
         answer:
-          "Yes. CCTV drainage surveys are commonly requested by buyers and surveyors in Cambridge, particularly for older or extended properties. Our surveys provide clear footage and reports to help identify hidden drainage problems before purchase.",
+          "Definitely. If a drain keeps blocking, we'll investigate the root cause rather than just clearing the symptoms, helping to prevent repeat problems.",
       },
       {
         id: 4,
-        question: "Do you work with Cambridge landlords and rental properties?",
+        question: "Do you provide no-dig drainage repairs in Suffolk?",
         answer:
-          "We regularly support landlords, letting agents and property managers across Cambridge. This includes clearing blockages, carrying out inspections and providing documentation where required for maintenance or compliance purposes.",
+          "Yes. Where possible, we use no-dig repair methods such as patch lining to fix damaged pipes without disruptive excavation.",
       },
       {
         id: 5,
-        question: "How quickly can you attend a drainage issue in Cambridge?",
+        question: "How quickly can an engineer attend in Suffolk?",
         answer:
-          "Response times depend on availability, but we aim to attend Cambridge callouts as quickly as possible. If you're experiencing an urgent drainage problem, contacting us directly allows us to prioritise your request.",
+          "Response times depend on location and demand, but we prioritise urgent issues and always aim for a fast, reliable service.",
       },
     ],
   },
