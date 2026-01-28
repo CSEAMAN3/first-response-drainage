@@ -46,7 +46,7 @@ export default function AlternativeHero() {
           </div>
           <Link
             href={"#coverage"}
-            className="block text-center font-bold text-fr-white hover:text-fr-accent-two lg:text-start transition-colors duration-300 lg:mb-8"
+            className="block text-center font-bold text-fr-accent-two hover:text-fr-white lg:text-start transition-colors duration-300 lg:mb-8"
           >
             CHECK COVERAGE IN YOUR AREA{" "}
             <FaArrowRight className="inline-block mb-1" />
