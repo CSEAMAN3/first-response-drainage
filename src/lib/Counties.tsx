@@ -228,7 +228,7 @@ export const counties: County[] = [
         "Our drainage services are designed to resolve urgent issues quickly while also preventing repeat problems through inspection and targeted repairs.",
     },
     locations: {
-      heading: "Drainage Services For Suffolk Communities",
+      heading: "Drainage Services For All Suffolk Communities",
       openingParagraph:
         "Our drainage engineers cover towns, villages and commercial areas throughout Suffolk. Whether you're based in a larger town or a surrounding rural location, we offer the same dependable service, clear advice and effective solutions across the county.",
       closingParagraph:
