@@ -24,7 +24,7 @@ export default function WhyUseUs() {
                 className="text-fr-white flex items-center gap-2"
               >
                 <IoMdCheckmarkCircleOutline
-                  className="text-fr-accent-two"
+                  className="text-fr-accent-two shrink-0"
                   size={24}
                 />
                 {reason.reason}

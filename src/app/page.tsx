@@ -31,12 +31,6 @@ export default function Home() {
         heading="Keeping Your Drains Clear, Safe & Working Properly"
         paragraph="Our local drainage engineers deliver reliable drainage solutions, from clearing blockages to full inspections."
       />
-      {/* <Services
-        heading="Keeping your drains clear, safe and working properly"
-        paragraph="Our local engineers help homeowners and businesses across Norfolk,
-        Suffolk & Cambridgeshire with everything from blocked drains to full
-        drainage surveys, delivering a quick, dependable service every time."
-      /> */}
       <WhyUseUs />
       <div id="coverage">
         <HomeCoverage classes={true} />
