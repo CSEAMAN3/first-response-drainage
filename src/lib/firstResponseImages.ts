@@ -36,13 +36,13 @@ export const firstResponseImages = {
     height: 1220,
   },
   patchLining: {
-    src: "patch-lining_znlmwk.jpg",
+    src: "root-intrusion_akz8qn.jpg",
     alt: "update this",
     width: 945,
     height: 1063,
   },
   rootIntrusion: {
-    src: "root-intrusion_akz8qn.jpg",
+    src: "patch-lining_znlmwk.jpg",
     alt: "update this",
     width: 945,
     height: 1244,
