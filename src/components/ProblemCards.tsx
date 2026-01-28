@@ -11,7 +11,7 @@ export default function ProblemCards({ graphic, title }: ProblemCardsProps) {
         src={`/images/${graphic}.svg`}
         // need to sort alt
         alt="description here"
-        className="w-[30%] h-auto mx-auto mb-8"
+        className="w-[40%] h-auto mx-auto mb-4"
       />
       <h3 className="max-w-[20ch] text-balance text-center mx-auto font-bold text-fr-primary">
         {title}

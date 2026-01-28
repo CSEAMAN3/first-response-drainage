@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #3c52a4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="58.7" cy="88.88" r="7.5"/>
+        </g>
+        <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="38.66" cy="79.5" r="7.5"/>
+        </g>
+        <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="31.12" cy="58.7" r="7.5"/>
+        </g>
+        <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="40.5" cy="38.66" r="7.5"/>
+        </g>
+        <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="61.3" cy="31.12" r="7.5"/>
+        </g>
+        <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="81.34" cy="40.5" r="7.5"/>
+        </g>
+        <g id="_Radial_Repeat_-7" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="88.88" cy="61.3" r="7.5"/>
+        </g>
+        <g id="_Radial_Repeat_-8" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <circle class="cls-1" cx="79.5" cy="81.34" r="7.5"/>
+        </g>
+      </g>
+      <g>
+        <circle class="cls-2" cx="60" cy="60" r="9.5"/>
+        <circle class="cls-2" cx="60" cy="60" r="9.5"/>
+        <path class="cls-2" d="M108.98,98.02h0c0,3.17-2.61,5.78-5.77,5.78"/>
+        <path class="cls-2" d="M70.74,105.24c-3.52.84-7.13,1.26-10.74,1.26-25.51,0-46.5-20.99-46.5-46.5S34.49,13.5,60,13.5s46.5,20.99,46.5,46.5"/>
+        <path class="cls-2" d="M73.46,115.9c-4.41,1.06-8.92,1.6-13.46,1.6-31.54,0-57.5-25.96-57.5-57.5S28.46,2.5,60,2.5s57.5,25.96,57.5,57.5"/>
+        <path class="cls-2" d="M115.91,98.8c0,7.02-5.69,12.7-12.7,12.7s-12.7-5.69-12.7-12.7,13.09-25.8,13.09-25.8c0,0,12.32,18.78,12.32,25.8Z"/>
+        <line class="cls-2" x1="54.9" y1="54.13" x2="65.1" y2="65.87"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -29,24 +29,24 @@ export const services: Service[] = [
       paragraphTwo: "You may be experiencing:",
       cards: [
         {
-          graphic: "blocked-drains",
+          graphic: "slow-draining",
           title: "Slow-Draining Sinks and Baths",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "toilet",
           title: "Toilets That Won't Flush Properly",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "drainage-smells",
           title: "Bad Smells Coming From Drains",
         },
         {
-          graphic: "blocked-drains",
-          title: "Gurgling Sounds or Water Backing Up",
+          graphic: "overflowing-drains",
+          title: "External Drains Overflowing",
         },
         {
-          graphic: "blocked-drains",
-          title: "External Drains Overflowing",
+          graphic: "drainage-sounds",
+          title: "Gurgling Sounds or Water Backing Up",
         },
         {
           graphic: "blocked-drains",
@@ -126,7 +126,7 @@ export const services: Service[] = [
       paragraphTwo: "CCTV surveys are commonly used to:",
       cards: [
         {
-          graphic: "blocked-drains",
+          graphic: "cctv-drainage-surveys",
           title: "Diagnose Ongoing Drainage Issues",
         },
         {
@@ -134,19 +134,19 @@ export const services: Service[] = [
           title: "Drain Checks for Property Purchases",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "structural-damage",
           title: "Identifying Structural Damage",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "root-intrusion-removal",
           title: "Identifying Root Intrusion",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "insured",
           title: "Support Insurance Claims",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "patch-liners",
           title: "Support Repair Planning",
         },
       ],
@@ -229,15 +229,15 @@ export const services: Service[] = [
       paragraphTwo: "Drainage problems include:",
       cards: [
         {
-          graphic: "blocked-drains",
+          graphic: "overflowing-drains",
           title: "Drains Repeatedly Blocking",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "drain-pipe-blockage",
           title: "Heavy Grease or Fat Build Up",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "restricted-flow",
           title: "Debris, Silt or Scale Restricting Flow",
         },
         {
@@ -245,11 +245,11 @@ export const services: Service[] = [
           title: "External Drain Blockages",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "high-pressure-water-jetting",
           title: "Preventative Cleaning",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "commercial-drainage",
           title: "Commercial Drainage",
         },
       ],
@@ -332,27 +332,27 @@ export const services: Service[] = [
       paragraphTwo: "No-dig repairs are commonly used to fix:",
       cards: [
         {
-          graphic: "blocked-drains",
+          graphic: "cracked-pipe",
           title: "Cracked or Fractured Pipes",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "root-intrusion-removal",
           title: "Root Intrusion Points",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "displaced-pipe",
           title: "Displaced or Leaking Joints",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "collapsed-drainage",
           title: "Minor Collapses or Defects",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "pipe-damage",
           title: "Repeat Issues Due to Pipe Damage",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "drain-deterioration",
           title: "Preventing Deterioration",
         },
       ],
@@ -434,15 +434,15 @@ export const services: Service[] = [
           title: "Repeated Drain Blockages",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "slow-draining",
           title: "Slow Drainage and Backups",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "cracked-pipe",
           title: "Cracked or Displaced Pipes",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "root-intrusion-removal",
           title: "Drainage System Structural Damage",
         },
       ],
@@ -525,7 +525,7 @@ export const services: Service[] = [
       paragraphTwo: "We regularly assist businesses with:",
       cards: [
         {
-          graphic: "blocked-drains",
+          graphic: "toilet",
           title: "Blocked Toilets, Sinks, Waste Pipes",
         },
         {
@@ -533,19 +533,19 @@ export const services: Service[] = [
           title: "Slow Drainage or Repeat Blockages",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "drain-pipe-blockage",
           title: "Grease and Food Waste Build-Up",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "overflowing-drains",
           title: "External Drain Blockages",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "root-intrusion-removal",
           title: "Root Intrusion and Pipe Damage",
         },
         {
-          graphic: "blocked-drains",
+          graphic: "insured",
           title: "Issues Causing Downtime",
         },
       ],
