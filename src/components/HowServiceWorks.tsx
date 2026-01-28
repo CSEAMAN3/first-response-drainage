@@ -29,7 +29,7 @@ export default function HowServiceWorks({
               <li key={id} className="flex gap-2">
                 {" "}
                 <IoMdCheckmarkCircleOutline
-                  className="text-fr-accent-two"
+                  className="text-fr-accent-two shrink-0"
                   size={24}
                 />
                 {bullet}
