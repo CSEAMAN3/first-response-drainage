@@ -217,4 +217,120 @@ export const counties: County[] = [
       },
     ],
   },
+  {
+    name: "Suffolk",
+    hero: {
+      heading: "Drainage services in Suffolk",
+      paragraph:
+        "Covering towns and villages across Suffolk, our experienced engineers are on hand to help with blockages, CCTV surveys and effective drainage repairs.",
+    },
+    services: {
+      heading: "Helping Your Drains Flow Throughout Suffolk",
+      paragraph:
+        "Our drainage services are designed to resolve urgent issues quickly while also preventing repeat problems through inspection and targeted repairs.",
+    },
+    locations: {
+      heading: "Drainage Services For Suffolk Communities",
+      openingParagraph:
+        "Our drainage engineers cover towns, villages and commercial areas throughout Suffolk. Whether you're based in a larger town or a surrounding rural location, we offer the same dependable service, clear advice and effective solutions across the county.",
+      closingParagraph:
+        "Choose your area below to view drainage services available near you.",
+      locationArray: [
+        {
+          name: "Aldeburgh",
+          slug: "aldeburgh",
+        },
+        {
+          name: "Beccles",
+          slug: "beccles",
+        },
+        {
+          name: "Beck Row",
+          slug: "",
+        },
+        {
+          name: "Brandon",
+          slug: "brandon",
+        },
+        {
+          name: "Bungay",
+          slug: "bungay",
+        },
+        {
+          name: "Bury St Edmunds",
+          slug: "",
+        },
+        {
+          name: "Haverhill",
+          slug: "haverhill",
+        },
+        {
+          name: "Ipswich",
+          slug: "ipswich",
+        },
+        {
+          name: "Mildenhall",
+          slug: "mildenhall",
+        },
+        {
+          name: "Newmarket",
+          slug: "newmarket",
+        },
+        {
+          name: "Red Lodge",
+          slug: "",
+        },
+        {
+          name: "Stowmarket",
+          slug: "stowmarket",
+        },
+        {
+          name: "Sudbury",
+          slug: "Sudbury",
+        },
+        {
+          name: "Sutton",
+          slug: "sutton",
+        },
+        {
+          name: "Woolpit",
+          slug: "woolpit",
+        },
+      ],
+    },
+    Faqs: [
+      {
+        id: 1,
+        question:
+          "Do you provide drainage services throughout Cambridge and nearby areas?",
+        answer:
+          "Yes. We cover Cambridge city centre as well as surrounding neighbourhoods and nearby villages. Our engineers regularly work in residential streets, new developments and commercial areas across the city.",
+      },
+      {
+        id: 2,
+        question: "Are drainage issues common in older Cambridge properties?",
+        answer:
+          "Many properties in Cambridge have older drainage systems, which can be more prone to blockages, joint defects and root intrusion. We often recommend inspections or thorough cleaning to address underlying issues rather than temporary fixes.",
+      },
+      {
+        id: 3,
+        question:
+          "Can you carry out CCTV drainage surveys for Cambridge homebuyers?",
+        answer:
+          "Yes. CCTV drainage surveys are commonly requested by buyers and surveyors in Cambridge, particularly for older or extended properties. Our surveys provide clear footage and reports to help identify hidden drainage problems before purchase.",
+      },
+      {
+        id: 4,
+        question: "Do you work with Cambridge landlords and rental properties?",
+        answer:
+          "We regularly support landlords, letting agents and property managers across Cambridge. This includes clearing blockages, carrying out inspections and providing documentation where required for maintenance or compliance purposes.",
+      },
+      {
+        id: 5,
+        question: "How quickly can you attend a drainage issue in Cambridge?",
+        answer:
+          "Response times depend on availability, but we aim to attend Cambridge callouts as quickly as possible. If you're experiencing an urgent drainage problem, contacting us directly allows us to prioritise your request.",
+      },
+    ],
+  },
 ];
