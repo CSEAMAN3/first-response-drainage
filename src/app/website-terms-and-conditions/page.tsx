@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function WebsiteTermsAndConditionsPage() {
   return (
-    <main className="min-h-screen">
-      <div className="max-w-200 text-fr-primary px-8 py-16 mx-auto">
+    <main>
+      <div className="max-w-200 text-fr-primary px-8 py-8 mx-auto">
         <h1 className="font-bold text-center text-xl text-balance mb-8">
           Website Terms and Conditions
         </h1>
