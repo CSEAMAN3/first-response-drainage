@@ -40,18 +40,6 @@ export default function LocationHubPage() {
           operating local to you.
         </p>
         <CoverageChecker classes={false} />
-        {/* <Link
-          href="/contact"
-          className="text-fr-white bg-fr-accent-one px-8 py-4 rounded-sm block mb-6 w-fit font-bold hover:bg-fr-accent-one-mid transition-colors duration-300 cursor-pointer sm:mx-auto"
-        >
-          Request a Callout
-        </Link>
-        <a
-          href="tel+447961609836"
-          className="text-fr-accent-two font-bold text-xl hover:text-fr-white w-fit transition-colors duration-150 sm:mx-auto block"
-        >
-          Call today on 07961 609836
-        </a> */}
       </div>
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       {/* directory section */}

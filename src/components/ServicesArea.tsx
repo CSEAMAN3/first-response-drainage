@@ -24,7 +24,7 @@ export default function ServicesArea() {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={`/images/blocked-drains-white.svg`}
+                  src={`/images/${s.serviceAreaGraphic}.svg`}
                   // need to sort alt
                   alt="description here"
                   className="w-[30%] h-auto mx-auto mb-4"

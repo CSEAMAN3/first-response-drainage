@@ -156,5 +156,3 @@ export const firstResponseImages = {
 };
 
 export type ResponseImageKey = keyof typeof firstResponseImages;
-
-//bungay_c2n0uu

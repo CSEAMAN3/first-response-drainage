@@ -4,6 +4,7 @@ export const services: Service[] = [
   {
     service: "Blocked Drains",
     slug: "blocked-drains",
+    serviceAreaGraphic: "blocked-drains-white",
     seo: {
       metaTitle:
         "Blocked Drains in Norfolk, Suffolk & Cambridgeshire | 1st Response Drainage",
@@ -102,6 +103,7 @@ export const services: Service[] = [
   {
     service: "CCTV Drainage Surveys",
     slug: "cctv-drainage-surveys",
+    serviceAreaGraphic: "cctv-survey-white",
     seo: {
       metaTitle: "CCTV Drainage Surveys in Norfolk, Suffolk & Cambridgeshire",
       metaDescription:
@@ -203,6 +205,7 @@ export const services: Service[] = [
   {
     service: "High Pressure Water Jetting",
     slug: "high-pressure-water-jetting",
+    serviceAreaGraphic: "water-jetting-white",
     seo: {
       metaTitle:
         "High Pressure Water Jetting Services | Norfolk, Suffolk & Cambridgeshire",
@@ -307,6 +310,7 @@ export const services: Service[] = [
   {
     service: "Patch Liners / No-Dig Repairs",
     slug: "patch-liners-and-no-dig-repairs",
+    serviceAreaGraphic: "patch-lining-white",
     seo: {
       metaTitle: "No-Dig Drain Repairs & Patch Lining | East Anglia",
       metaDescription:
@@ -405,6 +409,7 @@ export const services: Service[] = [
   {
     service: "Root Intrusion Removal",
     slug: "root-intrusion-removal",
+    serviceAreaGraphic: "root-intrusion-white",
     seo: {
       metaTitle:
         "Root Intrusion Removal from Drains | Norfolk, Suffolk & Cambridgeshire",
@@ -499,6 +504,7 @@ export const services: Service[] = [
   {
     service: "Commercial Drainage",
     slug: "commercial-drainage",
+    serviceAreaGraphic: "commercial-drainage-white",
     seo: {
       metaTitle:
         "Commercial Drainage Services | Norfolk, Suffolk & Cambridgeshire",
