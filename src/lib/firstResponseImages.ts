@@ -54,12 +54,107 @@ export const firstResponseImages = {
     height: 1252,
   },
   // locations
+  // Cambridgeshire
+  cambridge: {
+    src: "cambridge_rcqhre.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 448,
+  },
+  ely: {
+    src: "ely_mte7zv.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 576,
+  },
+  saffronwalden: {
+    src: "saffronwalden_tr7cdx.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 683,
+  },
+  stives: {
+    src: "stives_nn0u7q.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 582,
+  },
+  wisbech: {
+    src: "wisbech_vt1z5u.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 582,
+  },
+  // Norfolk
+  cromer: {
+    src: "cromer_bwscjk.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 631,
+  },
+  diss: {
+    src: "diss_op5npp.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 768,
+  },
+  greatyarmouth: {
+    src: "greatyarmouth_fd996r.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 571,
+  },
+  kingslynn: {
+    src: "kingslynn_qik3le.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 682,
+  },
   norwich: {
     src: "norwich_dxh3e7.jpg",
     alt: "update this",
     width: 1024,
     height: 768,
   },
+  wymondham: {
+    src: "wymondham_olnxvm.jpg",
+    alt: "Update this",
+    width: 1024,
+    height: 682,
+  },
+  // Suffolk
+  aldeburgh: {
+    src: "aldeburgh_yxfl4y.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 682,
+  },
+  beccles: {
+    src: "beccles_hifqs1.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 682,
+  },
+  bungay: {
+    src: "bungay_c2n0uu.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 665,
+  },
+  ipswich: {
+    src: "Ipswich_tbnpyf.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 571,
+  },
+  sudbury: {
+    src: "sudbury_yza7qh.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 783,
+  },
 };
 
 export type ResponseImageKey = keyof typeof firstResponseImages;
+
+//bungay_c2n0uu
