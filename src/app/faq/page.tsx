@@ -3,12 +3,12 @@ import Faq from "@/components/Faq";
 
 export default function FaqPage() {
   return (
-    <main className="px-8 py-8 ">
-      <h1 className="font-bold text-2xl text-center text-fr-primary mb-2">
+    <main className="py-8">
+      <h1 className="font-bold text-2xl text-center text-fr-primary mb-2 px-8">
         Frequently Asked Questions{" "}
         <span className="block">About Our Drainage Services</span>
       </h1>
-      <p className="text-center font-light mb-8 max-w-[80ch] text-balance mx-auto">
+      <p className="text-center font-light mb-8 max-w-[80ch] text-balance mx-auto px-8">
         We&#39;ve answered some of the most common questions customers ask about
         our drainage services across Norfolk, Suffolk and Cambridgeshire. The
         information below will help you understand how we work and what to
