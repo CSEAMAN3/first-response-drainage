@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function WebsiteTermsAndConditionsPage() {
   return (
     <main>
-      <div className="max-w-200 text-fr-primary px-8 py-8 mx-auto">
+      <div className="max-w-200 text-fr-primary px-8 pt-8 pb-16 mx-auto">
         <h1 className="font-bold text-center text-xl text-balance mb-8">
           Website Terms and Conditions
         </h1>
