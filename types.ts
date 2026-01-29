@@ -156,3 +156,9 @@ export type County = {
   };
   Faqs: LocationFaq[];
 };
+
+export type WebsiteTCs = {
+  heading: string;
+  paragraphOne: string;
+  paragraphTwo?: string;
+};
