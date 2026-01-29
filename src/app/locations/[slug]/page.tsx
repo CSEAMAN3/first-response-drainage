@@ -68,7 +68,7 @@ export default async function LocationPage({ params }: PageProps) {
       <Hero
         heading={location.heroSection.heading}
         paraOne={location.heroSection.paragraph}
-        photo={`test`}
+        photo={location.heroSection.photo}
       />
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       {/* Reviews Section */}
@@ -87,7 +87,7 @@ export default async function LocationPage({ params }: PageProps) {
         heading={location.commonIssuesSection.heading}
         openingParagraph={location.commonIssuesSection.openingParagraph}
         bullets={location.commonIssuesSection.bullets}
-        photo="test.jpg"
+        photo={location.heroSection.photo}
       />
       {/* Surrounding Areas Section */}
       <SurroundingAreas

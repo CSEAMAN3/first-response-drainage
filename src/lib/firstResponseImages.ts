@@ -53,6 +53,13 @@ export const firstResponseImages = {
     width: 945,
     height: 1252,
   },
+  // locations
+  norwich: {
+    src: "norwich_dxh3e7.jpg",
+    alt: "update this",
+    width: 1024,
+    height: 768,
+  },
 };
 
 export type ResponseImageKey = keyof typeof firstResponseImages;

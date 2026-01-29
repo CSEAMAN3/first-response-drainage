@@ -98,6 +98,7 @@ export type Location = {
   heroSection: {
     heading: string;
     paragraph: string;
+    photo: ResponseImageKey;
   };
   servicesSection: {
     paragraph: string;

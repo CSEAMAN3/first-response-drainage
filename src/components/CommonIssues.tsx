@@ -1,10 +1,13 @@
-import Image from "next/image";
+// import Image from "next/image";
+import { firstResponseImages as Images } from "@/lib/firstResponseImages";
+import { ResponseImageKey } from "@/lib/firstResponseImages";
+import CloudinaryUnOptImage from "./CloudinaryUnOptImage";
 
 interface CommonIssuesProps {
   heading: string;
   openingParagraph: string;
   bullets: string[];
-  photo: string;
+  photo: ResponseImageKey;
 }
 
 export default function CommonIssues({
@@ -36,12 +39,16 @@ export default function CommonIssues({
         </p>
       </div>
       <div className="max-w-300 mx-auto">
-        <Image
+        {/* <Image
           src={`/images/${photo}`}
           alt="Image description here"
           width={500}
           height={500}
           className="w-[95%] h-60 md:h-80 object-cover mx-auto rounded-xl"
+        /> */}
+        <CloudinaryUnOptImage
+          {...Images[photo]}
+          className="w-[95%] max-w-200 h-60 md:h-80 object-cover mx-auto rounded-xl"
         />
       </div>
       <div className="absolute top-0 left-0 w-screen h-[80%] bg-fr-primary -z-10" />
