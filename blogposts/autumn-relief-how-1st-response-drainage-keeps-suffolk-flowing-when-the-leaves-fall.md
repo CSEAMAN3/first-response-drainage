@@ -2,7 +2,7 @@
 title: "Autumn Relief: How 1st Response Drainage Keeps Suffolk Flowing When the Leaves Fall"
 date: "2025-10-06"
 description: "Understand what blocks your drains as autumn falls and how 1st Response Drainage prepare for the wetter seasons."
-coverImage: "test"
+coverImage: "drainLeaves"
 coverImageAlt: "need to update"
 author: "1st Response Drainage"
 tags: ["blocked drains", "maintenance", "autumn"]

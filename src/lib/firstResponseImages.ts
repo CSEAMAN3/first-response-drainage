@@ -53,6 +53,37 @@ export const firstResponseImages = {
     width: 945,
     height: 1252,
   },
+  // blogs
+  drainLeaves: {
+    src: "utumn-leaves-blocking-a-drain_kputl3.png",
+    alt: "update this",
+    width: 980,
+    height: 653,
+  },
+  chooseDrainageCompany: {
+    src: "chooseDrainageCompany_pp5y9h.png",
+    alt: "update this",
+    width: 1024,
+    height: 675,
+  },
+  hoseDrain: {
+    src: "hoseDrain_pjcly3.png",
+    alt: "Update this",
+    width: 1024,
+    height: 675,
+  },
+  suffolkHome: {
+    src: "suffolkHome_vivanm.png",
+    alt: "Update this",
+    width: 980,
+    height: 551,
+  },
+  blockedToilet: {
+    src: "Blocked-Toilet-Plumber-Suffolk_x8sw4y.jpg",
+    alt: "update this",
+    width: 1000,
+    height: 667,
+  },
   // locations
   // Cambridgeshire
   cambridge: {
