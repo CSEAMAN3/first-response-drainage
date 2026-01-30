@@ -61,7 +61,7 @@ export default async function BlogPage() {
                       <CloudinaryUnOptImage
                         {...img}
                         alt={coverImageAlt ?? img.alt}
-                        className="object-cover rounded-sm group-hover:brightness-75 transition-all duration-300"
+                        className="w-full h-full object-cover rounded-sm group-hover:brightness-75 transition-all duration-300"
                       />
                     </div>
                     <div className="grid grid-cols-1">
