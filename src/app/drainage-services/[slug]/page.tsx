@@ -8,6 +8,8 @@ import HowServiceWorks from "@/components/HowServiceWorks";
 import ServiceHelp from "@/components/ServiceHelp";
 import Cta from "@/components/Cta";
 import Faq from "@/components/Faq";
+import StructuredData from "@/components/StructuredData";
+import { buildServiceSchema } from "@/lib/schema/serviceSchema";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -64,6 +66,7 @@ export default async function ServicePage({ params }: PageProps) {
 
   return (
     <main>
+      <StructuredData data={buildServiceSchema(service)} />
       {/* hero */}
       <Hero
         heading={service.hero.heading}
