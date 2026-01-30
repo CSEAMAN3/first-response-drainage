@@ -1,10 +1,13 @@
 import { getSortedPostData } from "@/lib/posts";
 import Link from "next/link";
-import Image from "next/image";
 import getFormattedDate from "@/utils/getFormattedDate";
 import Cta from "@/components/Cta";
 import CloudinaryOptImage from "@/components/CloudinaryOptImage";
-import { firstResponseImages as Images } from "@/lib/firstResponseImages";
+import {
+  firstResponseImages as Images,
+  ResponseImageKey,
+} from "@/lib/firstResponseImages";
+import CloudinaryUnOptImage from "@/components/CloudinaryUnOptImage";
 
 export default async function BlogPage() {
   const blogs = await getSortedPostData();
@@ -24,22 +27,12 @@ export default async function BlogPage() {
               decisions.
             </p>
           </div>
-          {/* <Image
-            src="/images/monster-water-gun.png"
-            alt="monster"
-            width={200}
-            height={200}
-            className="mx-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
-          /> */}
           <CloudinaryOptImage
             {...Images.pinkMonsterWaterJetting}
             className="mx-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
           />
         </div>
         {/* blog posts */}
-        {/* <h2 className="font-bold text-fr-accent-two text-center mb-8 text-lg">
-          Read Our Latest Posts
-        </h2> */}
         <nav>
           <ul className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto max-w-100 sm:max-w-200 md:max-w-300">
             {blogs.map((post) => {
@@ -54,6 +47,10 @@ export default async function BlogPage() {
                 // tags,
               } = post;
               const formattedDate = getFormattedDate(date);
+              const img =
+                coverImage && Images[coverImage as ResponseImageKey]
+                  ? Images[coverImage as ResponseImageKey]
+                  : Images.test; // fallback image key you have
               return (
                 <li
                   key={slug}
@@ -61,12 +58,9 @@ export default async function BlogPage() {
                 >
                   <Link href={`/blog/${slug}`} className="text-fr-white">
                     <div className="h-50 rounded-sm shadow-md mb-4 relative">
-                      <Image
-                        src={`${coverImage}`}
-                        alt={`${coverImageAlt}`}
-                        fill
-                        sizes="100%"
-                        //   quality={80}
+                      <CloudinaryUnOptImage
+                        {...img}
+                        alt={coverImageAlt ?? img.alt}
                         className="object-cover rounded-sm group-hover:brightness-75 transition-all duration-300"
                       />
                     </div>

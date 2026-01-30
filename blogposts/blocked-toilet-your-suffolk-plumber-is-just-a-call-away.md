@@ -2,7 +2,7 @@
 title: "Blocked Toilet? Your Suffolk Plumber Is Just a Call Away"
 date: "2025-05-20"
 description: "Learn what causes toilets to block, how to spot the early warning signs, and why you need to act fast."
-coverImage: "/images/test.jpg"
+coverImage: "test"
 coverImageAlt: "need to update"
 author: "1st Response Drainage"
 tags: ["blocked Toilet", "maintenance", "drainage plumber"]

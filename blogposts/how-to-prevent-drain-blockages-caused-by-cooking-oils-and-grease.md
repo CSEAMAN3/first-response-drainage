@@ -2,7 +2,7 @@
 title: "How to Prevent Drain Blockages Caused by Cooking Oils and Grease"
 date: "2025-09-25"
 description: "Know what steps to take to prevent drain blockages caused by cooking oils and grease"
-coverImage: "/images/test.jpg"
+coverImage: "test"
 coverImageAlt: "update this"
 author: "1st Response Drainage"
 tags: ["blocked drains", "maintenance", "grease"]

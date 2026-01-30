@@ -2,7 +2,7 @@
 title: "Solving Drainage Problems in Homes in Suffolk: Why Local Expertise Makes a Difference"
 date: "2025-08-11"
 description: "Learn what causes most drainage issues in Suffolk and how 1st Response Drainage help resolve them."
-coverImage: "/images/test.jpg"
+coverImage: "test"
 coverImageAlt: "update this"
 author: "1st Response Drainage"
 tags: ["drainage problems", "maintenance", "suffolk"]

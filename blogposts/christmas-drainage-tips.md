@@ -2,7 +2,7 @@
 title: "Christmas Drainage Tips: Choosing the Right Drainage Company in Suffolk and Neighbouring Regions"
 date: "2025-11-03"
 description: "Simple steps homeowners can take to reduce the risk of blocked drains during cold weather in Norfolk, Suffolk and Cambridgeshire."
-coverImage: "/images/test.jpg"
+coverImage: "test"
 coverImageAlt: "Drain cover and winter leaves"
 author: "1st Response Drainage"
 tags: ["blocked drains", "maintenance", "winter"]

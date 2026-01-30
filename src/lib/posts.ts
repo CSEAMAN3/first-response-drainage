@@ -4,6 +4,8 @@ import { remark } from "remark";
 import html from "remark-html";
 import { promises as fs } from "fs";
 import { BlogPost, BlogPostWithHtml } from "../../types";
+import { firstResponseImages } from "@/lib/firstResponseImages";
+import type { ResponseImageKey } from "@/lib/firstResponseImages";
 
 const postsDirectory = path.join(process.cwd(), "blogposts");
 
@@ -15,6 +17,9 @@ const toStringRequired = (v: unknown, field: string, fileName: string) => {
   if (!value) throw new Error(`Missing "${field}" in frontmatter: ${fileName}`);
   return value;
 };
+
+const isResponseImageKey = (v: unknown): v is ResponseImageKey =>
+  typeof v === "string" && v in firstResponseImages;
 
 export async function getSortedPostData(): Promise<BlogPost[]> {
   const fileNames = await fs.readdir(postsDirectory);
@@ -36,16 +41,19 @@ export async function getSortedPostData(): Promise<BlogPost[]> {
           description: toStringRequired(
             data.description,
             "description",
-            fileName
+            fileName,
           ),
-          coverImage: toStringOrUndefined(data.coverImage),
+          // coverImage: toStringOrUndefined(data.coverImage),
+          coverImage: isResponseImageKey(data.coverImage)
+            ? data.coverImage
+            : undefined,
           coverImageAlt: toStringOrUndefined(data.coverImageAlt),
           author: toStringOrUndefined(data.author),
           tags: Array.isArray(data.tags) ? data.tags.map(String) : undefined,
         };
 
         return post;
-      })
+      }),
   );
 
   // Sort newest first (ISO date strings work well)
@@ -53,7 +61,7 @@ export async function getSortedPostData(): Promise<BlogPost[]> {
 }
 
 export async function getPostData(
-  slug: string
+  slug: string,
 ): Promise<BlogPostWithHtml | null> {
   try {
     const fullPath = path.join(postsDirectory, `${slug}.md`);
@@ -71,9 +79,12 @@ export async function getPostData(
       description: toStringRequired(
         data.description,
         "description",
-        `${slug}.md`
+        `${slug}.md`,
       ),
-      coverImage: toStringOrUndefined(data.coverImage),
+      // coverImage: toStringOrUndefined(data.coverImage),
+      coverImage: isResponseImageKey(data.coverImage)
+        ? data.coverImage
+        : undefined,
       coverImageAlt: toStringOrUndefined(data.coverImageAlt),
       author: toStringOrUndefined(data.author),
       tags: Array.isArray(data.tags) ? data.tags.map(String) : undefined,

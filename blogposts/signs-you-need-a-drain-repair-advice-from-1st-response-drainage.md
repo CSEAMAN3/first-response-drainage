@@ -2,7 +2,7 @@
 title: "Signs You Need a Drain Repair – Advice from 1st Response Drainage"
 date: "2025-06-18"
 description: "Learn to spot the signs that indicate your drainage has a problem and may need repairing."
-coverImage: "/images/test.jpg"
+coverImage: "test"
 coverImageAlt: "need to update"
 author: "1st Response Drainage"
 tags: ["drain repairs", "maintenance", "advice"]

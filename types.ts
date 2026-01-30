@@ -123,7 +123,7 @@ export interface BlogPost {
   title: string;
   date: string;
   description: string;
-  coverImage?: string;
+  coverImage?: ResponseImageKey;
   coverImageAlt?: string;
   author?: string;
   tags?: string[];

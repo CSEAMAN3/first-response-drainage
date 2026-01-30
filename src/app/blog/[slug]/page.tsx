@@ -4,9 +4,14 @@ import { getPostData, getSortedPostData } from "@/lib/posts";
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import Image from "next/image";
+// import Image from "next/image";
 import getFormattedDate from "@/utils/getFormattedDate";
 import Cta from "@/components/Cta";
+import CloudinaryOptImage from "@/components/CloudinaryOptImage";
+import {
+  firstResponseImages as Images,
+  ResponseImageKey,
+} from "@/lib/firstResponseImages";
 
 type BlogProps = {
   params: Promise<{ slug: string }>;
@@ -68,6 +73,11 @@ export default async function BlogPostPage({ params }: BlogProps) {
 
   const formattedDate = getFormattedDate(date);
 
+  const img =
+    coverImage && Images[coverImage as ResponseImageKey]
+      ? Images[coverImage as ResponseImageKey]
+      : Images.test; // fallback image key you have
+
   return (
     <main className="bg-fr-primary">
       <div className="max-w-180 mx-auto px-8 py-16">
@@ -90,13 +100,10 @@ export default async function BlogPostPage({ params }: BlogProps) {
           </p>
         </div>
         {coverImage && (
-          <Image
-            src={coverImage}
-            alt={coverImageAlt ?? title}
-            width={1200}
-            height={675}
+          <CloudinaryOptImage
+            {...img}
+            alt={coverImageAlt ?? img.alt}
             className="w-full h-90 object-cover mb-12"
-            priority
           />
         )}
         <section
