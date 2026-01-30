@@ -1,5 +1,14 @@
 import Cta from "@/components/Cta";
 import Faq from "@/components/Faq";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "FAQs | 1st Response Drainage - Drainage help in Cambridgeshire, Norfolk & Suffolk",
+  description:
+    "Find answers to common drainage questions relating to property in Cambridgeshire, Norfolk and Suffolk.",
+  alternates: { canonical: "/faq" },
+};
 
 export default function FaqPage() {
   return (

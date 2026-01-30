@@ -1,4 +1,12 @@
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | 1st Response Drainage",
+  description:
+    "Learn how 1st Response Drainage collects, uses, and protects your personal information. Read our privacy policy to understand your rights and our responsibilities.",
+  alternates: { canonical: "/privacy-policy" },
+};
 
 export default function PrivacyPolicyPage() {
   return (

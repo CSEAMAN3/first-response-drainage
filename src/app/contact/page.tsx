@@ -2,6 +2,15 @@ import ContactForm from "@/components/ContactForm";
 import Cta from "@/components/Cta";
 import HomeCoverage from "@/components/HomeCoverage";
 import { MdStarRate } from "react-icons/md";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Contact Us | 1st Response Drainage - Rapid Response Drainage Solutions",
+  description:
+    "Have a drainage emergency? Contact 1st Response Drainage 24/7 for fast, relaible drainage services throughout Cambridgeshire, Norfolk & Suffolk.",
+  alternates: { canonical: "/contact" },
+};
 
 export default function ContactPage() {
   return (

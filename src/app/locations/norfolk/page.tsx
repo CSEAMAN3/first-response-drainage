@@ -7,6 +7,14 @@ import ServiceHelp from "@/components/ServiceHelp";
 import ServicesSlider from "@/components/ServicesSlider";
 import { counties } from "@/lib/Counties";
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Norfolk Drainage Services | 1st Response Drainage",
+  description:
+    "Rapid response drainage services in all towns, villages and cities throughout Norfolk. 24/7 emergency call out.",
+  alternates: { canonical: "/locations/norfolk" },
+};
 
 export default function NorfolkPage() {
   const county = counties.find((c) => c.name === "Norfolk");

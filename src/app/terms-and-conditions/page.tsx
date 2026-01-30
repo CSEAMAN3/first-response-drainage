@@ -1,3 +1,12 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions | 1st Response Drainage",
+  description:
+    "Read the terms and conditions for using our drainage services throughout Cambridgeshire, Norfolk and Suffolk. ",
+  alternates: { canonical: "/terms-and-conditions" },
+};
+
 export default function TermsAndConditionsPage() {
   return (
     <main className="min-h-screen">

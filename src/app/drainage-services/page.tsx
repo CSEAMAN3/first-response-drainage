@@ -7,6 +7,14 @@ import WhatWeHelpWith from "@/components/WhatWeHelpWith";
 import { MdStarRate } from "react-icons/md";
 import HomeCoverage from "@/components/HomeCoverage";
 import ServicesSlider from "@/components/ServicesSlider";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Drainage Services in Cambrdigeshire, Norfolk & Suffolk",
+  description:
+    "Need expert drainage services in East Anglia? From blocked drain clearance and CCTV surveys to 24/7 emergency callouts, 1st Response Drainage provides reliable support for domestic and commercial property.",
+  alternates: { canonical: "/drainage-services" },
+};
 
 export default function DrainageServicesPage() {
   const items = [

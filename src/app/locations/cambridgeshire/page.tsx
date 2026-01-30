@@ -7,6 +7,14 @@ import ServiceHelp from "@/components/ServiceHelp";
 import ServicesSlider from "@/components/ServicesSlider";
 import { counties } from "@/lib/Counties";
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cambridgeshire Drainage Services | 1st Response Drainage",
+  description:
+    "Rapid response drainage services in all towns, villages and cities throughout Cambridgeshire. 24/7 emergency call out.",
+  alternates: { canonical: "/locations/cambridgeshire" },
+};
 
 export default function CambridgeshirePage() {
   const county = counties.find((c) => c.name === "Cambridgeshire");

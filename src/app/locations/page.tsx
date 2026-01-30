@@ -5,6 +5,14 @@ import Scrollbar from "@/components/Scrollbar";
 import ServicesArea from "@/components/ServicesArea";
 // import Link from "next/link";
 import { MdStarRate } from "react-icons/md";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Locations | 1st Response Drainage - Locations Directory",
+  description:
+    "Covering all towns, villages and cities throughout Cambridgeshire, Norfolk & Suffolk. Find dedicated drainage services in a location near you.",
+  alternates: { canonical: "/locations" },
+};
 
 export default function LocationHubPage() {
   const items = [

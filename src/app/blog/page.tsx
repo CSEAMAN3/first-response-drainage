@@ -8,6 +8,14 @@ import {
   ResponseImageKey,
 } from "@/lib/firstResponseImages";
 import CloudinaryUnOptImage from "@/components/CloudinaryUnOptImage";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog | 1st Response Drainage - Drainage Advice, Tips & Insights",
+  description:
+    "Need Help with your domestic & commercial drainage? Check out our posts for useful advice to help you resolve your drainage issues.",
+  alternates: { canonical: "/blog" },
+};
 
 export default async function BlogPage() {
   const blogs = await getSortedPostData();
