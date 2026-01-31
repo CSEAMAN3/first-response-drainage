@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Cta from "@/components/Cta";
-// import MainServices from "@/components/MainServices";
 import Reasons from "@/components/Reasons";
 import Scrollbar from "@/components/Scrollbar";
 import WhatWeHelpWith from "@/components/WhatWeHelpWith";
@@ -8,6 +7,9 @@ import { MdStarRate } from "react-icons/md";
 import HomeCoverage from "@/components/HomeCoverage";
 import ServicesSlider from "@/components/ServicesSlider";
 import { Metadata } from "next";
+import StructuredData from "@/components/StructuredData";
+import { buildServicesListSchema } from "@/lib/schema/servicesListSchema";
+import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
   title: "Drainage Services in Cambrdigeshire, Norfolk & Suffolk",
@@ -25,6 +27,7 @@ export default function DrainageServicesPage() {
   ] as const;
   return (
     <main className="min-h-screen">
+      <StructuredData data={buildServicesListSchema(services)} />
       <section className="bg-fr-primary px-8 py-16">
         <h1 className="font-bold text-fr-white text-2xl text-balance sm:text-center max-w-[30ch] sm:max-w-[40ch] sm:mx-auto mb-2">
           Drainage Services for Homes & Businesses Across Norfolk, Suffolk &
@@ -52,7 +55,7 @@ export default function DrainageServicesPage() {
           Request a Callout
         </Link>
         <a
-          href="tel+:447961609836"
+          href="tel:+447961609836"
           className="text-fr-accent-two font-bold text-xl hover:text-fr-white w-fit transition-colors duration-150 sm:mx-auto block"
         >
           Call today on 07961 609836
