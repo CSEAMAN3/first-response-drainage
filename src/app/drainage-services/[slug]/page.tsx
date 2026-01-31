@@ -66,7 +66,10 @@ export default async function ServicePage({ params }: PageProps) {
 
   return (
     <main>
-      <StructuredData data={buildServiceSchema(service)} />
+      <StructuredData
+        id={`service-schema-${service.slug}`}
+        data={buildServiceSchema(service)}
+      />
       {/* hero */}
       <Hero
         heading={service.hero.heading}

@@ -129,7 +129,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <StructuredData data={siteStructuredData} />
+        <StructuredData id="site-schema" data={siteStructuredData} />
         <Header />
         {children}
         <BackToTopButton />

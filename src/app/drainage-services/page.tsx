@@ -27,7 +27,10 @@ export default function DrainageServicesPage() {
   ] as const;
   return (
     <main className="min-h-screen">
-      <StructuredData data={buildServicesListSchema(services)} />
+      <StructuredData
+        id="drainage-services-schema"
+        data={buildServicesListSchema(services)}
+      />
       <section className="bg-fr-primary px-8 py-16">
         <h1 className="font-bold text-fr-white text-2xl text-balance sm:text-center max-w-[30ch] sm:max-w-[40ch] sm:mx-auto mb-2">
           Drainage Services for Homes & Businesses Across Norfolk, Suffolk &
