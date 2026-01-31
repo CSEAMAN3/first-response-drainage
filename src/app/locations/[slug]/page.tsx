@@ -3,13 +3,14 @@ import { notFound } from "next/navigation";
 import { locations } from "@/lib/locations";
 import Hero from "@/components/Hero";
 import Scrollbar from "@/components/Scrollbar";
-// import Services from "@/components/Services";
 import Reviews from "@/components/Reviews";
 import CommonIssues from "@/components/CommonIssues";
 import SurroundingAreas from "@/components/SurroundingAreas";
 import Cta from "@/components/Cta";
 import FaqLocations from "@/components/FaqLocations";
 import ServicesSlider from "@/components/ServicesSlider";
+import StructuredData from "@/components/StructuredData";
+import { buildFaqSchema } from "@/lib/schema/faqSchema";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -64,6 +65,17 @@ export default async function LocationPage({ params }: PageProps) {
 
   return (
     <main>
+      <StructuredData
+        id={`location-faq-${slug}`}
+        data={buildFaqSchema({
+          pagePath: `/locations/${slug}`,
+          pageTitle: location.seo.metaTitle,
+          faqs: location.LocationFaqs.map(({ question, answer }) => ({
+            question,
+            answer,
+          })),
+        })}
+      />
       {/* hero section */}
       <Hero
         heading={location.heroSection.heading}

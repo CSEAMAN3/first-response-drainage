@@ -10,6 +10,8 @@ import Cta from "@/components/Cta";
 import Faq from "@/components/Faq";
 import StructuredData from "@/components/StructuredData";
 import { buildServiceSchema } from "@/lib/schema/serviceSchema";
+import { buildFaqSchema } from "@/lib/schema/faqSchema";
+import { faQuestions } from "@/lib/faQuestion";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -55,6 +57,10 @@ export default async function ServicePage({ params }: PageProps) {
 
   if (!service) notFound();
 
+  const serviceFaqs = faQuestions
+    .filter((q) => q.category === service.faqSection.category)
+    .map(({ question, answer }) => ({ question, answer }));
+
   const items = [
     { label: "No callout fees", iconKey: "badge" },
     { label: "Local engineers", iconKey: "building" },
@@ -69,6 +75,14 @@ export default async function ServicePage({ params }: PageProps) {
       <StructuredData
         id={`service-schema-${service.slug}`}
         data={buildServiceSchema(service)}
+      />
+      <StructuredData
+        id={`${service.slug}-faq-schema`}
+        data={buildFaqSchema({
+          pagePath: `/drainage-services/${service.slug}`,
+          pageTitle: service.seo.metaTitle,
+          faqs: serviceFaqs,
+        })}
       />
       {/* hero */}
       <Hero

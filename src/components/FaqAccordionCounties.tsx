@@ -4,7 +4,7 @@ interface FaqAccordionCountiesProps {
   location: string;
 }
 
-import { counties } from "@/lib/Counties";
+import { counties } from "@/lib/counties";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronDown } from "react-icons/fa";

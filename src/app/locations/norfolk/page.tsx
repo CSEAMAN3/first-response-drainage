@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import Reviews from "@/components/Reviews";
 import ServiceHelp from "@/components/ServiceHelp";
 import ServicesSlider from "@/components/ServicesSlider";
-import { counties } from "@/lib/Counties";
+import { counties } from "@/lib/counties";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 

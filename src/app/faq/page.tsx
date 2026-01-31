@@ -1,6 +1,9 @@
 import Cta from "@/components/Cta";
 import Faq from "@/components/Faq";
 import { Metadata } from "next";
+import { faQuestions } from "@/lib/faQuestion";
+import StructuredData from "@/components/StructuredData";
+import { buildFaqSchema } from "@/lib/schema/faqSchema";
 
 export const metadata: Metadata = {
   title:
@@ -11,8 +14,21 @@ export const metadata: Metadata = {
 };
 
 export default function FaqPage() {
+  const visibleFaqs = faQuestions.map(({ question, answer }) => ({
+    question,
+    answer,
+  }));
+
   return (
     <main className="py-8">
+      <StructuredData
+        id="faq-schema"
+        data={buildFaqSchema({
+          pagePath: "/faq",
+          pageTitle: "FAQs | 1st Response Drainage",
+          faqs: visibleFaqs,
+        })}
+      />
       <h1 className="font-bold text-2xl text-center text-fr-primary mb-2 px-8">
         Frequently Asked Questions{" "}
         <span className="block">About Our Drainage Services</span>

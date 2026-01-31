@@ -5,9 +5,11 @@ import Hero from "@/components/Hero";
 import Reviews from "@/components/Reviews";
 import ServiceHelp from "@/components/ServiceHelp";
 import ServicesSlider from "@/components/ServicesSlider";
-import { counties } from "@/lib/Counties";
+import { counties } from "@/lib/counties";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import StructuredData from "@/components/StructuredData";
+import { buildFaqSchema } from "@/lib/schema/faqSchema";
 
 export const metadata: Metadata = {
   title: "Cambridgeshire Drainage Services | 1st Response Drainage",
@@ -23,6 +25,17 @@ export default function CambridgeshirePage() {
 
   return (
     <main className="min-h-screen">
+      <StructuredData
+        id={`county-faq-${county.name.toLowerCase}`}
+        data={buildFaqSchema({
+          pagePath: `/locations/${county.name.toLowerCase()}`,
+          pageTitle: `Drainage Services in ${county.name} | 1st Response Drainage`,
+          faqs: county.Faqs.map(({ question, answer }) => ({
+            question,
+            answer,
+          })),
+        })}
+      />
       <Hero
         heading={county?.hero.heading}
         paraOne={county?.hero.paragraph}

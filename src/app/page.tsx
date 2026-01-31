@@ -8,6 +8,9 @@ import Scrollbar from "../components/Scrollbar";
 // import Services from "../components/Services";
 import WhyUseUs from "../components/WhyUseUs";
 import ServicesSlider from "@/components/ServicesSlider";
+import StructuredData from "@/components/StructuredData";
+import { buildFaqSchema } from "@/lib/schema/faqSchema";
+import { faQuestions } from "@/lib/faQuestion";
 
 export default function Home() {
   const items = [
@@ -17,8 +20,20 @@ export default function Home() {
     { label: "Domestic & commercial", iconKey: "phone" },
   ] as const;
 
+  const homeFaqs = faQuestions
+    .filter((q) => q.category === "main")
+    .map(({ question, answer }) => ({ question, answer }));
+
   return (
     <main>
+      <StructuredData
+        id={`home-faq`}
+        data={buildFaqSchema({
+          pagePath: "/",
+          pageTitle: "Drainage Services in East Anglia | 1st Response Drainage",
+          faqs: homeFaqs,
+        })}
+      />
       {/* <Hero
         heading="Rapid Response Drainage Services Across Norfolk, Suffolk & Cambridgeshire"
         paraOne="Blocked drain? Need a pre-purchase CCTV drainage survey? Our local drainage engineers have you covered 24/7."
