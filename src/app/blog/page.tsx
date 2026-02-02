@@ -39,11 +39,14 @@ export default async function BlogPage() {
       <StructuredData
         id="blog-index-schema"
         data={buildBlogIndexSchema(
-          recent.map((p) => ({
+          blogs.map((p) => ({
             slug: p.slug,
             title: p.title,
             date: p.date,
             description: p.description,
+            author: p.author ?? "1st Response Drainage",
+            imagePublicId: p.coverImage ? Images[p.coverImage].src : undefined,
+            imageAlt: p.coverImageAlt ?? p.title,
           })),
         )}
       />
