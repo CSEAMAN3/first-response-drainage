@@ -11,6 +11,8 @@ import FaqLocations from "@/components/FaqLocations";
 import ServicesSlider from "@/components/ServicesSlider";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
+import { countyToSlug } from "@/utils/countyToSlug";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -63,8 +65,19 @@ export default async function LocationPage({ params }: PageProps) {
     { label: "Domestic & commercial", iconKey: "phone" },
   ] as const;
 
+  const countySlug = countyToSlug(location.county);
+
   return (
     <main>
+      <StructuredData
+        id={`breadcrumbs-location-${slug}`}
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+          { name: location.county, path: `/locations/${countySlug}` },
+          { name: location.location, path: `/locations/${location.slug}` },
+        ])}
+      />
       <StructuredData
         id={`location-faq-${slug}`}
         data={buildFaqSchema({
@@ -91,7 +104,7 @@ export default async function LocationPage({ params }: PageProps) {
         paragraph={location.servicesSection.paragraph}
       /> */}
       <ServicesSlider
-        heading="Our Draniage Services"
+        heading="Our Drainage Services"
         paragraph={location.servicesSection.paragraph}
       />
       {/* common issues section */}
@@ -116,7 +129,7 @@ export default async function LocationPage({ params }: PageProps) {
       />
       {/* faq section */}
       <FaqLocations
-        heading={`Your ${location.location}  Drianage`}
+        heading={`Your ${location.location} Drianage`}
         paragraph={`We've answered some of the most common questions customers ask about drainage services in ${location.location}, so you know what to expect before booking a visit from our engineers.`}
         location={location.location}
       />

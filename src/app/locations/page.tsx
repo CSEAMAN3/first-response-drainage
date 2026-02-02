@@ -3,9 +3,10 @@ import Cta from "@/components/Cta";
 import DirectoryMain from "@/components/DirectoryMain";
 import Scrollbar from "@/components/Scrollbar";
 import ServicesArea from "@/components/ServicesArea";
-// import Link from "next/link";
 import { MdStarRate } from "react-icons/md";
 import { Metadata } from "next";
+import StructuredData from "@/components/StructuredData";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Locations | 1st Response Drainage - Locations Directory",
@@ -24,6 +25,13 @@ export default function LocationHubPage() {
 
   return (
     <main>
+      <StructuredData
+        id="breadcrumbs-locations"
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+        ])}
+      />
       {/* Hero Section */}
       <div className="px-8 py-16 bg-fr-primary">
         <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[30ch] text-center mx-auto mb-2">

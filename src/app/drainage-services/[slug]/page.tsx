@@ -11,6 +11,7 @@ import Faq from "@/components/Faq";
 import StructuredData from "@/components/StructuredData";
 import { buildServiceSchema } from "@/lib/schema/serviceSchema";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { faQuestions } from "@/lib/faQuestion";
 
 type PageProps = {
@@ -75,6 +76,14 @@ export default async function ServicePage({ params }: PageProps) {
       <StructuredData
         id={`service-schema-${service.slug}`}
         data={buildServiceSchema(service)}
+      />
+      <StructuredData
+        id={`breadcrumbs-${service.slug}`}
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Drainage Services", path: "/drainage-services" },
+          { name: service.service, path: `/drainage-services/${service.slug}` },
+        ])}
       />
       <StructuredData
         id={`${service.slug}-faq-schema`}

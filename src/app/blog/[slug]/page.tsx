@@ -12,6 +12,8 @@ import {
   firstResponseImages as Images,
   ResponseImageKey,
 } from "@/lib/firstResponseImages";
+import StructuredData from "@/components/StructuredData";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 type BlogProps = {
   params: Promise<{ slug: string }>;
@@ -80,6 +82,14 @@ export default async function BlogPostPage({ params }: BlogProps) {
 
   return (
     <main className="bg-fr-primary">
+      <StructuredData
+        id={`breadcrumbs-blogs-${post.slug}`}
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Blog", path: "/blog" },
+          { name: post.title, path: `/blog/${post.slug}` },
+        ])}
+      />
       <div className="max-w-180 mx-auto px-8 py-16">
         <Link
           href={"/blog"}

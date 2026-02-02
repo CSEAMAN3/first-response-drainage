@@ -8,6 +8,8 @@ import ServicesSlider from "@/components/ServicesSlider";
 import { counties } from "@/lib/counties";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
+import StructuredData from "@/components/StructuredData";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Norfolk Drainage Services | 1st Response Drainage",
@@ -23,6 +25,14 @@ export default function NorfolkPage() {
 
   return (
     <main className="min-h-screen">
+      <StructuredData
+        id="breadcrumbs-locations-norfolk"
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+          { name: "Norfolk", path: "/locations/norfolk" },
+        ])}
+      />
       <Hero
         heading={county?.hero.heading}
         paraOne={county?.hero.paragraph}

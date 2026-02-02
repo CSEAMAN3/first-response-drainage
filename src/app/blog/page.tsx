@@ -9,6 +9,8 @@ import {
 } from "@/lib/firstResponseImages";
 import CloudinaryUnOptImage from "@/components/CloudinaryUnOptImage";
 import { Metadata } from "next";
+import StructuredData from "@/components/StructuredData";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Blog | 1st Response Drainage - Drainage Advice, Tips & Insights",
@@ -22,6 +24,13 @@ export default async function BlogPage() {
 
   return (
     <main>
+      <StructuredData
+        id="breadcrumbs-blog"
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Blog", path: "/blog" },
+        ])}
+      />
       <div className="py-16 px-8 bg-fr-primary">
         {/* hero */}
         <div className="pb-16 flex flex-col sm:flex-row gap-2 max-w-200 mx-auto">

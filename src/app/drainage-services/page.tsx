@@ -9,6 +9,7 @@ import ServicesSlider from "@/components/ServicesSlider";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildServicesListSchema } from "@/lib/schema/servicesListSchema";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
@@ -30,6 +31,13 @@ export default function DrainageServicesPage() {
       <StructuredData
         id="drainage-services-schema"
         data={buildServicesListSchema(services)}
+      />
+      <StructuredData
+        id="breadcrumbs-drainage-services"
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Drainage Services", path: "drainage-services" },
+        ])}
       />
       <section className="bg-fr-primary px-8 py-16">
         <h1 className="font-bold text-fr-white text-2xl text-balance sm:text-center max-w-[30ch] sm:max-w-[40ch] sm:mx-auto mb-2">

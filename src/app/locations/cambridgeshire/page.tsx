@@ -10,6 +10,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
+import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Cambridgeshire Drainage Services | 1st Response Drainage",
@@ -35,6 +36,14 @@ export default function CambridgeshirePage() {
             answer,
           })),
         })}
+      />
+      <StructuredData
+        id="breadcrumbs-locations-cambridgeshire"
+        data={buildBreadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: "Locations", path: "/locations" },
+          { name: "Cambridgeshire", path: "/locations/cambridgeshire" },
+        ])}
       />
       <Hero
         heading={county?.hero.heading}
