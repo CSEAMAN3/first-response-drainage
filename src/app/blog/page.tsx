@@ -8,6 +8,7 @@ import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
+import { buildBlogIndexSchema } from "@/lib/schema/blogIndexSchema";
 
 export const metadata: Metadata = {
   title: "Blog | 1st Response Drainage - Drainage Advice, Tips & Insights",
@@ -19,6 +20,13 @@ export const metadata: Metadata = {
 export default async function BlogPage() {
   const blogs = await getSortedPostData();
 
+  // This was regards to building the schema
+  // One small practical tip
+  // If you end up with lots of posts, you can cap the ItemList to (say) the most recent 12:
+  // const recent = posts.slice(0, 12);
+
+  const recent = blogs.slice(0, 12);
+
   return (
     <main>
       <StructuredData
@@ -28,7 +36,17 @@ export default async function BlogPage() {
           { name: "Blog", path: "/blog" },
         ])}
       />
-
+      <StructuredData
+        id="blog-index-schema"
+        data={buildBlogIndexSchema(
+          recent.map((p) => ({
+            slug: p.slug,
+            title: p.title,
+            date: p.date,
+            description: p.description,
+          })),
+        )}
+      />
       <div className="py-16 px-8 bg-fr-primary">
         {/* hero */}
         <div className="pb-16 flex flex-col sm:flex-row gap-2 max-w-200 mx-auto">
