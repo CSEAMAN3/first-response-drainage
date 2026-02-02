@@ -3,9 +3,10 @@ title: "Autumn Relief: How 1st Response Drainage Keeps Suffolk Flowing When the 
 date: "2025-10-06"
 description: "Understand what blocks your drains as autumn falls and how 1st Response Drainage prepare for the wetter seasons."
 coverImage: "drainLeaves"
-coverImageAlt: "need to update"
+coverImageAlt: "Autumn Leaves blocking an outside drain in Suffolk"
 author: "1st Response Drainage"
 tags: ["blocked drains", "maintenance", "autumn"]
+modified: "2026-02-02"
 ---
 
 As the leaves start to turn and the rain begins to fall more often, drainage problems across Suffolk and nearby areas suddenly become very real. Autumn might bring cosy jumpers and crisp mornings, but it also brings blocked drains, overflowing gutters and unexpected callouts.

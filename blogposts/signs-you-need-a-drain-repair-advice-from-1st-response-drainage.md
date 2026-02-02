@@ -3,9 +3,10 @@ title: "Signs You Need a Drain Repair – Advice from 1st Response Drainage"
 date: "2025-06-18"
 description: "Learn to spot the signs that indicate your drainage has a problem and may need repairing."
 coverImage: "cctvSurvey"
-coverImageAlt: "need to update"
+coverImageAlt: "CCTV drainage survey being used to check external drains"
 author: "1st Response Drainage"
 tags: ["drain repairs", "maintenance", "advice"]
+modified: "2026-02-02"
 ---
 
 When it comes to keeping your home or business running smoothly, your drainage system plays a crucial role. At [1st Response Drainage](/), we know how disruptive drain problems can be if left unchecked. As a family-run company offering bespoke and affordable drain repairs in Suffolk, we’re here to help you recognise the early signs of trouble so you can avoid more serious and expensive issues down the line.

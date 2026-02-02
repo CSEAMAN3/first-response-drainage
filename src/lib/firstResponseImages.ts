@@ -1,7 +1,7 @@
 export const firstResponseImages = {
   test: {
     src: "night-drainage_myev1g.jpg",
-    alt: "test Image of night time drainage be completed",
+    alt: "Drainage engineer on a night time call out unblocking a blocked drain",
     width: 700,
     height: 465,
   },
@@ -25,7 +25,7 @@ export const firstResponseImages = {
   },
   cctvSurvey: {
     src: "blocked-drain_bok6aa.jpg",
-    alt: "update this",
+    alt: "CCTV drainage survey being used to check external drains",
     width: 945,
     height: 870,
   },
@@ -56,31 +56,31 @@ export const firstResponseImages = {
   // blogs
   drainLeaves: {
     src: "utumn-leaves-blocking-a-drain_kputl3.png",
-    alt: "update this",
+    alt: "Autumn Leaves blocking an outside drain in Suffolk",
     width: 980,
     height: 653,
   },
   chooseDrainageCompany: {
     src: "chooseDrainageCompany_pp5y9h.png",
-    alt: "update this",
+    alt: "Drainage engineer checking outside drainage on a property in Suffolk",
     width: 1024,
     height: 675,
   },
   hoseDrain: {
     src: "hoseDrain_pjcly3.png",
-    alt: "Update this",
+    alt: "Outside drain blocked with cooking oil and grease",
     width: 1024,
     height: 675,
   },
   suffolkHome: {
     src: "suffolkHome_vivanm.png",
-    alt: "Update this",
+    alt: "Old Suffolk porperty needing drainage services due to poor drainage",
     width: 980,
     height: 551,
   },
   blockedToilet: {
     src: "Blocked-Toilet-Plumber-Suffolk_x8sw4y.jpg",
-    alt: "update this",
+    alt: "Drainage engineer unblocking a blocked toilet",
     width: 1000,
     height: 667,
   },

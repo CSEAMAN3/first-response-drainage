@@ -3,9 +3,10 @@ title: "How to Prevent Drain Blockages Caused by Cooking Oils and Grease"
 date: "2025-09-25"
 description: "Know what steps to take to prevent drain blockages caused by cooking oils and grease"
 coverImage: "hoseDrain"
-coverImageAlt: "update this"
+coverImageAlt: "Outside drain blocked with cooking oil and grease"
 author: "1st Response Drainage"
 tags: ["blocked drains", "maintenance", "grease"]
+modified: "2026-02-02"
 ---
 
 A blocked drain can quickly become a major headache, leading to unpleasant odours, slow drainage, and even potential property damage. [At 1st Response Drainage](/), we provide expert drain unblocking services across Norfolk, Suffolk and Cambridgeshire ensuring your drainage issues are resolved swiftly and effectively. With our 24/7 emergency call-out service, you can count on us whenever trouble strikes.

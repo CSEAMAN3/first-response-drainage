@@ -50,6 +50,7 @@ export async function getSortedPostData(): Promise<BlogPost[]> {
           coverImageAlt: toStringOrUndefined(data.coverImageAlt),
           author: toStringOrUndefined(data.author),
           tags: Array.isArray(data.tags) ? data.tags.map(String) : undefined,
+          modified: toStringOrUndefined(data.modified),
         };
 
         return post;
@@ -88,6 +89,7 @@ export async function getPostData(
       coverImageAlt: toStringOrUndefined(data.coverImageAlt),
       author: toStringOrUndefined(data.author),
       tags: Array.isArray(data.tags) ? data.tags.map(String) : undefined,
+      modified: toStringOrUndefined(data.modified),
       contentHtml,
     };
   } catch (error) {

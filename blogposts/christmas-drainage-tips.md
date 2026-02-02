@@ -3,9 +3,10 @@ title: "Christmas Drainage Tips: Choosing the Right Drainage Company in Suffolk 
 date: "2025-11-03"
 description: "Simple steps homeowners can take to reduce the risk of blocked drains during cold weather in Norfolk, Suffolk and Cambridgeshire."
 coverImage: "chooseDrainageCompany"
-coverImageAlt: "Drain cover and winter leaves"
+coverImageAlt: "Drainage engineer checking outside drainage on a property in Suffolk"
 author: "1st Response Drainage"
 tags: ["blocked drains", "maintenance", "winter"]
+modified: "2026-02-02"
 ---
 
 As the festive season approaches, most people are thinking about decorations, food and family gatherings. But Christmas is also one of the busiest times of year for drainage emergencies. Increased cooking, visiting guests and cold weather can all put extra strain on your drains. That’s why it’s important to be prepared and know who to call if something goes wrong.

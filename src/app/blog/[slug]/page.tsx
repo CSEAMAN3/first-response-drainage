@@ -4,16 +4,13 @@ import { getPostData, getSortedPostData } from "@/lib/posts";
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-// import Image from "next/image";
 import getFormattedDate from "@/utils/getFormattedDate";
 import Cta from "@/components/Cta";
 import CloudinaryOptImage from "@/components/CloudinaryOptImage";
-import {
-  firstResponseImages as Images,
-  ResponseImageKey,
-} from "@/lib/firstResponseImages";
+import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
+import { buildBlogPostingSchema } from "@/lib/schema/blogPostingSchema";
 
 type BlogProps = {
   params: Promise<{ slug: string }>;
@@ -28,7 +25,6 @@ export async function generateMetadata({
   params,
 }: BlogProps): Promise<Metadata> {
   const { slug } = await params;
-
   const post = await getPostData(slug);
 
   if (!post) {
@@ -41,6 +37,16 @@ export async function generateMetadata({
   }
 
   const canonicalPath = `/blog/${slug}`;
+  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+
+  const imagePublicId = post.coverImage
+    ? Images[post.coverImage].src
+    : undefined;
+
+  const ogImageUrl =
+    imagePublicId && cloudName
+      ? `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_auto/${imagePublicId}`
+      : undefined;
 
   return {
     title: post.title,
@@ -53,13 +59,8 @@ export async function generateMetadata({
       description: post.description,
       url: canonicalPath,
       type: "article",
-      images: post.coverImage
-        ? [
-            {
-              url: post.coverImage,
-              alt: post.coverImageAlt ?? post.title,
-            },
-          ]
+      images: ogImageUrl
+        ? [{ url: ogImageUrl, alt: post.coverImageAlt ?? post.title }]
         : undefined,
     },
   };
@@ -67,21 +68,31 @@ export async function generateMetadata({
 
 export default async function BlogPostPage({ params }: BlogProps) {
   const { slug } = await params;
-
   const post = await getPostData(slug);
   if (!post) notFound();
 
-  const { title, date, coverImage, coverImageAlt, author, contentHtml } = post;
+  const { title, date, author, contentHtml } = post;
 
   const formattedDate = getFormattedDate(date);
 
-  const img =
-    coverImage && Images[coverImage as ResponseImageKey]
-      ? Images[coverImage as ResponseImageKey]
-      : Images.test; // fallback image key you have
+  const imageConfig = post.coverImage ? Images[post.coverImage] : undefined;
+  const imagePublicId = imageConfig?.src;
 
   return (
     <main className="bg-fr-primary">
+      <StructuredData
+        id={`blogposting-${slug}`}
+        data={buildBlogPostingSchema({
+          slug: post.slug,
+          title: post.title,
+          description: post.description,
+          date: post.date,
+          modified: post.modified,
+          imagePublicId, // Cloudinary public id/filename from your Images map
+          imageAlt: post.coverImageAlt ?? post.title,
+          author: post.author,
+        })}
+      />
       <StructuredData
         id={`breadcrumbs-blogs-${post.slug}`}
         data={buildBreadcrumbSchema([
@@ -109,10 +120,10 @@ export default async function BlogPostPage({ params }: BlogProps) {
             Created by {author}
           </p>
         </div>
-        {coverImage && (
+        {imageConfig && (
           <CloudinaryOptImage
-            {...img}
-            alt={coverImageAlt ?? img.alt}
+            {...imageConfig}
+            alt={post.coverImageAlt ?? imageConfig.alt}
             className="w-full h-90 object-cover mb-12"
           />
         )}

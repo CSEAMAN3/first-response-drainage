@@ -9,7 +9,7 @@ if (!cloudName) {
 }
 
 type CloudinaryImageProps = {
-  src: string; // e.g., 'clients/flow-plumbing-drainage/hero.jpg'
+  src: string; // Cloudinary public ID e.g. "autumn-leaves-blocking-a-drain_kputl3.png"
   alt: string;
   width: number;
   height: number;
@@ -25,10 +25,11 @@ export default function CloudinaryOptImage({
   height,
   className,
   priority = false,
-  sizes,
+  sizes = "100vw",
 }: CloudinaryImageProps) {
-  // Use Cloudinary transformations: auto format and quality
-  const cloudinaryUrl = `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_auto,c_limit,w_${width}/${src}`;
+  const normalizedSrc = src.replace(/^\/+/, "");
+
+  const cloudinaryUrl = `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_auto,dpr_auto,c_limit,w_${width}/${normalizedSrc}`;
 
   return (
     <Image

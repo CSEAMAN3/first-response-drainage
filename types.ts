@@ -127,6 +127,7 @@ export interface BlogPost {
   coverImageAlt?: string;
   author?: string;
   tags?: string[];
+  modified?: string;
 }
 
 export interface BlogPostWithHtml extends BlogPost {

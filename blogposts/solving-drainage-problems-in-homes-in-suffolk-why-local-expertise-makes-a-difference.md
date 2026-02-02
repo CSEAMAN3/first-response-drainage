@@ -3,9 +3,10 @@ title: "Solving Drainage Problems in Homes in Suffolk: Why Local Expertise Makes
 date: "2025-08-11"
 description: "Learn what causes most drainage issues in Suffolk and how 1st Response Drainage help resolve them."
 coverImage: "suffolkHome"
-coverImageAlt: "update this"
+coverImageAlt: "Old Suffolk porperty needing drainage services due to poor drainage"
 author: "1st Response Drainage"
 tags: ["drainage problems", "maintenance", "suffolk"]
+modified: "2026-02-02"
 ---
 
 Suffolk is a beautiful place to live; but with so many older houses, keeping your drains in good working order isn’t always straightforward. From country cottages with ageing pipework, to coastal homes facing salt corrosion, the county has its fair share of unique challenges when it comes to drainage.

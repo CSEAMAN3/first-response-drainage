@@ -3,9 +3,10 @@ title: "Blocked Toilet? Your Suffolk Plumber Is Just a Call Away"
 date: "2025-05-20"
 description: "Learn what causes toilets to block, how to spot the early warning signs, and why you need to act fast."
 coverImage: "blockedToilet"
-coverImageAlt: "need to update"
+coverImageAlt: "Drainage engineer unblocking a blocked toilet"
 author: "1st Response Drainage"
 tags: ["blocked Toilet", "maintenance", "drainage plumber"]
+modified: "2026-02-02"
 ---
 
 There’s never a good time to discover a blocked toilet. It’s disruptive, stressful, and if left untreated, it can quickly turn into a bigger headache than it needs to be. If you’re currently searching for a [blocked toilet plumber in Suffolk](/drainage-services), you’ve come to the right place.

@@ -3,9 +3,10 @@ title: "The Most Common Causes of Drain Emergencies at Home"
 date: "2025-08-04"
 description: "Understand some of the main causes for blocked drains and drain emergenices."
 coverImage: "test"
-coverImageAlt: "update this"
+coverImageAlt: "Drainage engineer on a night time call out unblocking a blocked drain"
 author: "1st Response Drainage"
 tags: ["blocked drains", "maintenance", "drain emergencies"]
+modified: "2026-02-02"
 ---
 
 A blocked drain can turn into a nightmare in no time. From bad smells in the kitchen to water backing up in the bathroom, drainage problems can disrupt your day and damage your home. [At 1st Response Drainage](/), we’ve seen it all. As your local drain [plumber in Suffolk](/drainage-services), we respond quickly and fix the issue before it gets worse.
