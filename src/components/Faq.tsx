@@ -18,7 +18,7 @@ export default function Faq({
 }: FaqProps) {
   return (
     <section className={`${classes ? "py-8 md:py-16" : "py-0"}`}>
-      <div className="px-8">
+      <div>
         <h2
           className={`text-center font-bold text-xl md:text-2xl text-balance ${
             classes ? "mb-2 text-fr-primary" : "mb-4 text-fr-accent-one"
