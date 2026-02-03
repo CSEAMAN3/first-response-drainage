@@ -101,7 +101,7 @@ export default function TermsAndConditionsPage() {
             charge may apply.
           </li>
           <li>
-            <span className="text-fr-accent-one">3.4</span> Delays or aborted
+            <span className="text-fr-accent-one">3.5</span> Delays or aborted
             visits caused by lack of access, unsafe conditions, or incomplete
             site preparation are chargeable.
           </li>
@@ -238,7 +238,7 @@ export default function TermsAndConditionsPage() {
         <h2 className="font-bold mb-2 text-fr-primary">
           7. Guarantee Exclusions
         </h2>
-        <p className="mb-2">
+        <p className="font-light mb-2">
           The guarantee does not cover blockages, defects, or failures caused
           by:
         </p>
@@ -264,7 +264,7 @@ export default function TermsAndConditionsPage() {
           <li>Issues occurring outside the repaired or treated section</li>
           <li>Third-party interference after completion</li>
         </ul>
-        <p className="mb-4">
+        <p className="font-light mb-4">
           Recurring blockages resulting from any of the above are not considered
           workmanship or material failures.
         </p>
@@ -323,7 +323,7 @@ export default function TermsAndConditionsPage() {
         </ul>
         {/* section 11 - Data Protection */}
         <h2 className="font-bold mb-2 text-fr-primary">11. Data Protection</h2>
-        <p>
+        <p className="font-light mb-4">
           Any personal data collected during the provision of our services,
           including CCTV footage where applicable, will be processed in
           accordance with our Privacy Policy and applicable data protection
@@ -331,7 +331,7 @@ export default function TermsAndConditionsPage() {
         </p>
         {/* section 12 - Force Majeure */}
         <h2 className="font-bold mb-2 text-fr-primary">12. Force Majeure</h2>
-        <p>
+        <p className="font-light mb-4">
           We shall not be liable for delays or failure to perform our
           obligations where caused by events beyond our reasonable control,
           including but not limited to extreme weather, flooding, access
@@ -339,7 +339,7 @@ export default function TermsAndConditionsPage() {
         </p>
         {/* section 13 - Governing Law */}
         <h2 className="font-bold mb-2 text-fr-primary">13. Governing Law</h2>
-        <p>
+        <p className="font-light mb-2">
           These Terms & Conditions are governed by and construed in accordance
           with the laws of England and Wales.
         </p>
