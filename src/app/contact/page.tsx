@@ -3,6 +3,8 @@ import Cta from "@/components/Cta";
 import HomeCoverage from "@/components/HomeCoverage";
 import { MdStarRate } from "react-icons/md";
 import { Metadata } from "next";
+import StructuredData from "@/components/StructuredData";
+import { buildContactPageSchema } from "@/lib/schema/contactPageSchema";
 
 export const metadata: Metadata = {
   title:
@@ -15,6 +17,10 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="">
+      <StructuredData
+        id="contact-page-schema"
+        data={buildContactPageSchema()}
+      />
       <div className="bg-fr-primary px-8 pt-16 pb-32 text-fr-white">
         <h1 className="font-bold text-xl mb-2 sm:text-center sm:text-2xl">
           Contact 1st Response Drainage
