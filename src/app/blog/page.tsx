@@ -11,9 +11,9 @@ import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { buildBlogIndexSchema } from "@/lib/schema/blogIndexSchema";
 
 export const metadata: Metadata = {
-  title: "Blog | 1st Response Drainage - Drainage Advice, Tips & Insights",
+  title: "Drainage Advice & Tips | 1st Response Drainage Blog",
   description:
-    "Need help with your domestic & commercial drainage? Check out our posts for useful advice to help you resolve your drainage issues.",
+    "Expert drainage advice, tips and insights from our engineers. Learn how to prevent problems and spot issues early.",
   alternates: { canonical: "/blog" },
 };
 

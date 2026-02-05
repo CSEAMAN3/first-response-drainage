@@ -6,10 +6,9 @@ export const services: Service[] = [
     slug: "blocked-drains",
     serviceAreaGraphic: "blocked-drains-white",
     seo: {
-      metaTitle:
-        "Blocked Drains in Norfolk, Suffolk & Cambridgeshire | 1st Response Drainage",
+      metaTitle: "Blocked Drains in Norfolk, Suffolk & Cambridgeshire",
       metaDescription:
-        "Fast, professional blocked drain clearance for homes and businesses. Local engineers covering Norfolk, Suffolk and Cambridgeshire. Call today for rapid help.",
+        "Fast, professional blocked drain clearance for homes and businesses. Local engineers covering Norfolk, Suffolk and Cambridgeshire.",
       //   ogImage: "",
       //   schema: "",
     },
@@ -207,10 +206,9 @@ export const services: Service[] = [
     slug: "high-pressure-water-jetting",
     serviceAreaGraphic: "water-jetting-white",
     seo: {
-      metaTitle:
-        "High Pressure Water Jetting Services | Norfolk, Suffolk & Cambridgeshire",
+      metaTitle: "High Pressure Water Jetting | 1st Response Drainage",
       metaDescription:
-        "Powerful high pressure water jetting to clear stubborn blockages, grease and debris. Effective drain cleaning for domestic and commercial systems.",
+        "Powerful high pressure water jetting to clear stubborn blockages, grease and debris. Effective drain cleaning in Norfolk, Suffolk & Cambridgeshire.",
       //   ogImage: "",
       //   schema: "",
     },
@@ -312,7 +310,7 @@ export const services: Service[] = [
     slug: "patch-liners-and-no-dig-repairs",
     serviceAreaGraphic: "patch-lining-white",
     seo: {
-      metaTitle: "No-Dig Drain Repairs & Patch Lining | East Anglia",
+      metaTitle: "No-Dig Drain Repairs & Patch Lining | 1st Response Drainage",
       metaDescription:
         "Cost-effective no-dig drain repairs using patch lining technology. Repair damaged pipes without excavation across Norfolk, Suffolk and Cambridgeshire.",
       //   ogImage: "",
@@ -411,8 +409,7 @@ export const services: Service[] = [
     slug: "root-intrusion-removal",
     serviceAreaGraphic: "root-intrusion-white",
     seo: {
-      metaTitle:
-        "Root Intrusion Removal from Drains | Norfolk, Suffolk & Cambridgeshire",
+      metaTitle: "Root Intrusion Removal from Drains | 1st Response Drainage",
       metaDescription:
         "Expert root intrusion removal to clear blockages and protect drainage pipes. Long-term solutions for homes and businesses across East Anglia.",
       //   ogImage: "",

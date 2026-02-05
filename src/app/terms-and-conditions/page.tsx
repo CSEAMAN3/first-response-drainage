@@ -17,17 +17,34 @@ export default function TermsAndConditionsPage() {
         </h1>
         <p className="mb-4 font-light">
           These Terms & Conditions apply to all drainage services provided by
-          1st Response Drainage Ltd. They are intended to ensure clarity,
+          1st Response Drainage. They are intended to ensure clarity,
           transparency, and a mutual understanding of responsibilities between
           us and our customers. By booking or accepting our services, you
           confirm that you have read, understood, and agreed to the Terms &
           Conditions set out below. Nothing in these Terms & Conditions affects
           your statutory rights as a consumer.
         </p>
+        <h2 className="font-bold mb-2 text-fr-primary">Business Details</h2>
+        <ul className="font-light mb-4 grid gap-2">
+          <li>
+            <span className="font-semibold">Business Name:</span> 1st Response
+            Drainage
+          </li>
+          <li>
+            <span className="font-semibold">Sole Trader:</span> Andy Broadley
+          </li>
+          <li>
+            <span className="font-semibold">Business Address:</span> 18
+            Riverside Way, Brandon IP27 0AN
+          </li>
+          <li>
+            <span className="font-semibold">Telephone:</span> 07961 609836
+          </li>
+        </ul>
         {/* section 1 - Definitions */}
         <h2 className="font-bold mb-2 text-fr-primary">1. Definitions</h2>
         <ul className="font-light mb-4 list-disc pl-4 grid gap-2">
-          <li>“We”, “Us”, “Our” refers to 1st Response Drainage Ltd.</li>
+          <li>“We”, “Us”, “Our” refers to 1st Response Drainage.</li>
           <li>
             “Customer”, “You”, “Your” refers to any individual or organisation
             requesting or receiving our services.

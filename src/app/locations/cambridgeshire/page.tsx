@@ -13,9 +13,9 @@ import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Cambridgeshire Drainage Services | 1st Response Drainage",
+  title: "Drainage Services in Cambridgeshire | Fast Local Callouts",
   description:
-    "Rapid response drainage services in all towns, villages and cities throughout Cambridgeshire. 24/7 emergency call out.",
+    "Reliable drainage services in Cambridgeshire for homes and businesses. Blocked drains, inspections and repairs by local engineers.",
   alternates: { canonical: "/locations/cambridgeshire" },
 };
 

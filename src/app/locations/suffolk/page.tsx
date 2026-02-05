@@ -12,9 +12,9 @@ import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Suffolk Drainage Services | 1st Response Drainage",
+  title: "Drainage Services in Suffolk | Fast Local Callouts",
   description:
-    "Rapid response drainage services in all towns, villages and cities throughout Suffolk. 24/7 emergency call out.",
+    "Reliable drainage services in Suffolk for homes and businesses. Blocked drains, inspections and repairs by local engineers.",
   alternates: { canonical: "/locations/suffolk" },
 };
 

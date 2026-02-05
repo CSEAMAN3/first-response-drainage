@@ -7,10 +7,9 @@ import StructuredData from "@/components/StructuredData";
 import { buildContactPageSchema } from "@/lib/schema/contactPageSchema";
 
 export const metadata: Metadata = {
-  title:
-    "Contact Us | 1st Response Drainage - Rapid Response Drainage Solutions",
+  title: "Contact 1st Response Drainage | Fast Callouts",
   description:
-    "Have a drainage emergency? Contact 1st Response Drainage 24/7 for fast, relaible drainage services throughout Cambridgeshire, Norfolk & Suffolk.",
+    "Have a drainage emergency? Contact 1st Response Drainage 24/7 for fast, relaible drainage services throughout Norfolk, Suffolk & Cambridgeshire.",
   alternates: { canonical: "/contact" },
 };
 

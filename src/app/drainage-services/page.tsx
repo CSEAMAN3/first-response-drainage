@@ -13,9 +13,9 @@ import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Drainage Services in Cambrdigeshire, Norfolk & Suffolk",
+  title: "Expert Drainage Services in Cambrdigeshire, Norfolk & Suffolk",
   description:
-    "Need expert drainage services in East Anglia? From blocked drain clearance and CCTV surveys to 24/7 emergency callouts, 1st Response Drainage provides reliable support for domestic and commercial property.",
+    "Explore our full range of drainage services including blocked drains, CCTV surveys and repairs. Local engineers covering East Anglia 24/7.",
   alternates: { canonical: "/drainage-services" },
 };
 
