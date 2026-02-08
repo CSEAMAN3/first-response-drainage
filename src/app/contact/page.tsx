@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main className="">
+    <main>
       <StructuredData
         id="contact-page-schema"
         data={buildContactPageSchema()}

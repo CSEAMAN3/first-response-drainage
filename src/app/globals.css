@@ -72,3 +72,7 @@ body {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.selectPadding {
+  padding: 10px;
+}

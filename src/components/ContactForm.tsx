@@ -155,7 +155,7 @@ export default function ContactForm() {
             </label>
             <select
               id="service"
-              className="w-full rounded-sm border border-fr-primary p-2 max-w-[60ch]"
+              className="w-full rounded-sm border border-fr-primary selectPadding max-w-[60ch]"
               {...register("service")}
               defaultValue="other"
             >
