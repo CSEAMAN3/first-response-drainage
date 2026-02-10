@@ -2,23 +2,49 @@
 
 import Link from "next/link";
 import { FcGoogle } from "react-icons/fc";
-import { MdStarRate } from "react-icons/md";
+import { MdStarRate, MdStarHalf, MdStarOutline } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import ReviewSlider from "./ReviewSlider";
+import { getGoogleReviews, GoogleReview } from "@/lib/googleReviews";
 
-export default function Reviews() {
+export default async function Reviews() {
+  const reviewsData = await getGoogleReviews();
+
+  const rating = reviewsData.rating ?? 0;
+  const total = reviewsData.user_ratings_total;
+  const reviews: GoogleReview[] = reviewsData.reviews;
+
+  const fullStars = Math.floor(rating);
+  const hasHalfStar = rating % 1 >= 0.25 && rating % 1 < 0.75;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
   return (
     <section className="pt-8 pb-16 px-8 max-w-280 mx-auto">
-      <h2 className="text-center font-light mb-8">
+      <h2 className="text-center font-light mb-8 text-balance">
         Our Customers say <span className="font-bold text-lg">Excellent</span>{" "}
-        <span className="text-fr-accent-two text-xl inline-block">
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />{" "}
+        <span className="inline-block">
+          <span className="text-fr-accent-two text-xl flex">
+            {Array.from({ length: fullStars }).map((_, i) => (
+              <MdStarRate
+                key={`full-${i}`}
+                className="text-fr-accent-two text-lg"
+              />
+            ))}
+
+            {hasHalfStar && (
+              <MdStarHalf className="text-fr-accent-two text-lg" />
+            )}
+
+            {Array.from({ length: emptyStars }).map((_, i) => (
+              <MdStarOutline
+                key={`empty-${i}`}
+                className="text-gray-400 text-lg"
+              />
+            ))}
+          </span>
         </span>{" "}
-        5 out of 5 based on 85 reviews{" "}
+        <span className="font-bold">{rating.toFixed(1)}</span> out of 5 based on{" "}
+        <span className="font-bold">{total} reviews</span>{" "}
         <FcGoogle className="inline-block mb-1" size={32} />
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4">
@@ -36,10 +62,11 @@ export default function Reviews() {
             href="https://www.google.com/search?q=first+response+drainage&oq=first+response+drainage&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCTEwOTIzajBqN6gCCLACAfEFvvbssswiqDjxBb727LLMIqg4&sourceid=chrome&ie=UTF-8&zx=1767615264294&no_sw_cr=1&lqi=ChdmaXJzdCByZXNwb25zZSBkcmFpbmFnZUiqqvvUrbOAgAhaJRAAEAEQAhgAGAEYAiIXZmlyc3QgcmVzcG9uc2UgZHJhaW5hZ2WSARBkcmFpbmFnZV9zZXJ2aWNlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJreFdWcHFSblJrYlhBMldURktkR1JXU25kUmJHaFdXV3QwUWxSc1JSQUL6AQQIHRBG#lkt=LocalPoiReviews&rlimm=14279126173369784989&lrd=0x47d831309e4c57b9:0xc629a599c2b05a9d,3,,,,"
             className="font-bold text-fr-primary hover:text-fr-accent-one transition-colors duration-300"
           >
-            Review us on Google <FaArrowRight className="inline-block mb-0.5" />
+            Read All Our Google Reviews{" "}
+            <FaArrowRight className="inline-block mb-0.5" />
           </Link>
         </div>
-        <ReviewSlider />
+        <ReviewSlider reviews={reviews} />
       </div>
     </section>
   );

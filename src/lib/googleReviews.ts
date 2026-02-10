@@ -16,6 +16,7 @@ const endpoint = `https://places.googleapis.com/v1/places/${SAFE_PLACE_ID}`;
 
 export type GoogleReview = {
   author_name: string;
+  author_photo_url?: string;
   rating: number;
   relative_time_description?: string;
   text?: string;
@@ -30,23 +31,42 @@ export type GoogleReviewsPayload = {
 };
 
 // ✅ Minimal, safe API review shape (no `any`)
-type GoogleApiReview = {
-  rating?: number;
-  relativePublishTimeDescription?: string;
-  authorAttribution?: {
-    displayName?: string;
-  };
-  text?: {
-    text?: string;
-  };
-};
+// type GoogleApiReview = {
+//   rating?: number;
+//   relativePublishTimeDescription?: string;
+//   authorAttribution?: {
+//     displayName?: string;
+//   };
+//   text?: {
+//     text?: string;
+//   };
+// };
 
-function mapReview(r: GoogleApiReview): GoogleReview {
+// function mapReview(r: GoogleApiReview): GoogleReview {
+//   return {
+//     author_name: r.authorAttribution?.displayName ?? "Google user",
+//     rating: Number(r.rating ?? 0),
+//     relative_time_description: r.relativePublishTimeDescription,
+//     text: r.text?.text,
+//   };
+// }
+function mapReview(r: unknown): GoogleReview {
+  const review = r as {
+    authorAttribution?: {
+      displayName?: string;
+      photoUri?: string;
+    };
+    rating?: number;
+    relativePublishTimeDescription?: string;
+    text?: { text?: string };
+  };
+
   return {
-    author_name: r.authorAttribution?.displayName ?? "Google user",
-    rating: Number(r.rating ?? 0),
-    relative_time_description: r.relativePublishTimeDescription,
-    text: r.text?.text,
+    author_name: review.authorAttribution?.displayName ?? "Google User",
+    author_photo_url: review.authorAttribution?.photoUri,
+    rating: Number(review.rating ?? 0),
+    relative_time_description: review.relativePublishTimeDescription,
+    text: review.text?.text ?? "",
   };
 }
 

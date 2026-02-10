@@ -25,16 +25,6 @@ export default function ContactPage() {
         <h1 className="font-bold text-xl mb-2 sm:text-center sm:text-2xl">
           Contact 1st Response Drainage
         </h1>
-        {/* <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1 mr-1" />
-          <span className="text-fr-white">
-            5.0 Google Rating &#183; 85 reviews
-          </span>
-        </p> */}
         <ReviewCount altClasses={true} />
         <p className="font-light text-balance mb-4 sm:text-center max-w-[80ch] sm:mx-auto">
           If you&#39;re dealing with a drainage issue or simply need some
