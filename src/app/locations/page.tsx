@@ -7,6 +7,7 @@ import { MdStarRate } from "react-icons/md";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
+import ReviewCount from "@/components/ReviewCount";
 
 export const metadata: Metadata = {
   title: "Drainage Service Areas | Norfolk, Suffolk & Cambridgeshire",
@@ -37,7 +38,7 @@ export default function LocationHubPage() {
         <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[30ch] text-center mx-auto mb-2">
           Drainage Services Throughout Norfolk, Suffolk & Cambridgeshire
         </h1>
-        <p className="text-fr-accent-two font-semibold text-sm mb-4 text-center">
+        {/* <p className="text-fr-accent-two font-semibold text-sm mb-4 text-center">
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
@@ -46,7 +47,8 @@ export default function LocationHubPage() {
           <span className="text-fr-white">
             5.0 Google Rating &#183; 85 reviews
           </span>
-        </p>
+        </p> */}
+        <ReviewCount addAltClasses={true} />
         <p className="font-light text-fr-white text-balance sm:mx-auto text-center max-w-[60ch] mb-8">
           {/* We provide professional drainage services across East Anglia,
           supporting homes and businesses throughout Norfolk, Suffolk and

@@ -1,11 +1,12 @@
 import Link from "next/link";
 // import Image from "next/image";
-import { MdStarRate } from "react-icons/md";
+// import { MdStarRate } from "react-icons/md";
 import CloudinaryOptImage from "./CloudinaryOptImage";
 import {
   firstResponseImages as Images,
   ResponseImageKey,
 } from "@/lib/firstResponseImages";
+import ReviewCount from "./ReviewCount";
 
 interface HeroProps {
   heading: string;
@@ -21,7 +22,7 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
           <h1 className="text-fr-white font-bold text-xl max-w-[36ch] md:max-w-[34ch] lg:max-w-[36ch] mb-2 text-balance">
             {heading}
           </h1>
-          <p className="text-fr-accent-two font-semibold text-sm mb-4">
+          {/* <p className="text-fr-accent-two font-semibold text-sm mb-4">
             <MdStarRate className="inline-block mb-1" />
             <MdStarRate className="inline-block mb-1" />
             <MdStarRate className="inline-block mb-1" />
@@ -30,7 +31,8 @@ export default function Hero({ heading, paraOne, photo }: HeroProps) {
             <span className="text-fr-white">
               5.0 Google Rating &#183; 85 Reviews
             </span>
-          </p>
+          </p> */}
+          <ReviewCount classes={false} />
           <p className="text-fr-white font-light mb-8 max-w-[50ch] md:max-w-[46ch] lg:max-w-[50ch] text-balance">
             {paraOne}
           </p>

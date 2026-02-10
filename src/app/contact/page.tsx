@@ -1,10 +1,11 @@
 import ContactForm from "@/components/ContactForm";
 import Cta from "@/components/Cta";
 import HomeCoverage from "@/components/HomeCoverage";
-import { MdStarRate } from "react-icons/md";
+// import { MdStarRate } from "react-icons/md";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildContactPageSchema } from "@/lib/schema/contactPageSchema";
+import ReviewCount from "@/components/ReviewCount";
 
 export const metadata: Metadata = {
   title: "Contact 1st Response Drainage | Fast Callouts",
@@ -24,7 +25,7 @@ export default function ContactPage() {
         <h1 className="font-bold text-xl mb-2 sm:text-center sm:text-2xl">
           Contact 1st Response Drainage
         </h1>
-        <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
+        {/* <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
@@ -33,7 +34,8 @@ export default function ContactPage() {
           <span className="text-fr-white">
             5.0 Google Rating &#183; 85 reviews
           </span>
-        </p>
+        </p> */}
+        <ReviewCount altClasses={true} />
         <p className="font-light text-balance mb-4 sm:text-center max-w-[80ch] sm:mx-auto">
           If you&#39;re dealing with a drainage issue or simply need some
           advice, Our team is here to help. With expert drainage engineers

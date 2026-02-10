@@ -1,10 +1,11 @@
 import Link from "next/link";
 // import Image from "next/image";
-import { MdStarRate } from "react-icons/md";
+// import { MdStarRate } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 
 import CloudinaryOptImage from "./CloudinaryOptImage";
 import { firstResponseImages as Images } from "@/lib/firstResponseImages";
+import ReviewCount from "./ReviewCount";
 
 export default function AlternativeHero() {
   return (
@@ -15,7 +16,7 @@ export default function AlternativeHero() {
             Rapid Response Drainage Services Across Norfolk, Suffolk &
             Cambridgeshire
           </h1>
-          <p className="font-bold text-fr-accent-two mb-4 text-center lg:text-start">
+          {/* <p className="font-bold text-fr-accent-two mb-4 text-center lg:text-start">
             <MdStarRate className="inline-block mb-1" />
             <MdStarRate className="inline-block mb-1" />
             <MdStarRate className="inline-block mb-1" />
@@ -24,7 +25,8 @@ export default function AlternativeHero() {
             <span className="text-fr-white ml-2 text-sm">
               5.0 Google Rating &#183; 85 Reviews
             </span>
-          </p>
+          </p> */}
+          <ReviewCount classes={true} />
           <p className="text-fr-white font-light mb-8 max-w-[50ch] text-balance text-center mx-auto lg:text-start lg:mx-0">
             Blocked drain? Need a pre-purchase CCTV drainage survey? Our local
             drainage engineers have you covered 24/7.

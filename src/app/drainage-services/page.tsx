@@ -3,7 +3,7 @@ import Cta from "@/components/Cta";
 import Reasons from "@/components/Reasons";
 import Scrollbar from "@/components/Scrollbar";
 import WhatWeHelpWith from "@/components/WhatWeHelpWith";
-import { MdStarRate } from "react-icons/md";
+// import { MdStarRate } from "react-icons/md";
 import HomeCoverage from "@/components/HomeCoverage";
 import ServicesSlider from "@/components/ServicesSlider";
 import { Metadata } from "next";
@@ -11,6 +11,7 @@ import StructuredData from "@/components/StructuredData";
 import { buildServicesListSchema } from "@/lib/schema/servicesListSchema";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { services } from "@/lib/services";
+import ReviewCount from "@/components/ReviewCount";
 
 export const metadata: Metadata = {
   title: "Expert Drainage Services in Cambrdigeshire, Norfolk & Suffolk",
@@ -44,7 +45,7 @@ export default function DrainageServicesPage() {
           Drainage Services for Homes & Businesses Across Norfolk, Suffolk &
           Cambridgeshire
         </h1>
-        <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
+        {/* <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
           <MdStarRate className="inline-block mb-1" />
@@ -53,7 +54,8 @@ export default function DrainageServicesPage() {
           <span className="text-fr-white">
             5.0 Google Rating &#183; 85 reviews
           </span>
-        </p>
+        </p> */}
+        <ReviewCount altClasses={true} />
         <p className="font-light text-fr-white max-w-[80ch] text-balance sm:text-center sm:mx-auto mb-4">
           We support homeowners and businesses across East Anglia with a wide
           range of drainage services, providing honest advice, rapid assistance
