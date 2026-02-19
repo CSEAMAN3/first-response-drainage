@@ -602,7 +602,7 @@ export const services: Service[] = [
     },
   },
   {
-    service: "Sonde and Tracing",
+    service: "Sonde and Trace",
     slug: "sonde-and-trace",
     // update graphic
     serviceAreaGraphic: "blocked-drains-white",
