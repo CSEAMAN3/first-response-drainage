@@ -697,7 +697,7 @@ export const services: Service[] = [
       paragraph:
         "Accurate underground drain tracing. Locate pipe routes, depths and connection points without unnecessary excavation.",
       price: "Prices Vary",
-      terms: "Terms and conditions apply",
+      terms: "Custom Pricing Applies",
       photo: "sondeTrace",
     },
   },
