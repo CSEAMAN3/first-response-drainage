@@ -696,7 +696,7 @@ export const services: Service[] = [
     carousel: {
       paragraph:
         "Accurate underground drain tracing. Locate pipe routes, depths and connection points without unnecessary excavation.",
-      price: "From £95 +VAT",
+      price: "Prices Vary",
       terms: "Terms and conditions apply",
       photo: "sondeTrace",
     },
