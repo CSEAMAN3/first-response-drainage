@@ -601,4 +601,104 @@ export const services: Service[] = [
       photo: "commercialDrainage",
     },
   },
+  {
+    service: "Sonde and Tracing",
+    slug: "sonde-and-trace",
+    // update graphic
+    serviceAreaGraphic: "blocked-drains-white",
+    seo: {
+      metaTitle: "Sonde & Drain Tracing in Norfolk, Suffolk & Cambridgeshire",
+      metaDescription:
+        "Professional sonde and drain tracing services to accurately locate underground pipework. Local engineers covering Norfolk, Suffolk and Cambridgeshire.",
+      //   ogImage: "",
+      //   schema: "",
+    },
+    hero: {
+      heading: "Sonde & Drain Tracing in Norfolk, Suffolk & Cambridgeshire",
+      paragraph:
+        "Need to locate underground drains or pipework? Our sonde and tracing equipment allows us to accurately identify the position and depth of drainage systems without unnecessary digging.",
+      photo: {
+        src: "sondeTrace",
+        alt: "test image to be updated",
+      },
+    },
+    problemSection: {
+      heading: "Sonde & Drain Tracing",
+      headingSplit: "When Is Drain Tracing Needed?",
+      paragraphOne:
+        "Underground pipework is often hidden and undocumented, making it difficult to identify exact drain routes or connection points.",
+      paragraphTwo: "You may need tracing if you are:",
+      cards: [
+        {
+          graphic: "slow-draining",
+          title: "Unsure Where Your Drains Run",
+        },
+        {
+          graphic: "toilet",
+          title: "Extending or Renovating",
+        },
+        {
+          graphic: "drainage-smells",
+          title: "Investigating Drainage Issues",
+        },
+        {
+          graphic: "overflowing-drains",
+          title: "Locating a Damaged Pipe",
+        },
+        {
+          graphic: "drainage-sounds",
+          title: "Identifying Shared or Boundary Drains",
+        },
+        {
+          graphic: "blocked-drains",
+          title: "Creating Accurate Drainage Layout Plans",
+        },
+      ],
+    },
+    howSection: {
+      heading: "How Sonde & Tracing Works",
+      paragraphOne:
+        "A sonde is a small transmitter inserted into the drainage system. Using specialist locating equipment above ground, we track its signal to map the drain’s exact route.",
+      paragraphTwo: "Our approach includes:",
+      bullets: [
+        "Inserting a sonde into accessible pipework or via CCTV equipment",
+        "Using surface signal detection to trace pipe direction",
+        "Measuring pipe depth below ground level",
+        "Marking the route clearly to avoid unnecessary excavation",
+      ],
+      closingParagraph:
+        "This allows us to pinpoint underground drains accurately and minimise disruption.",
+    },
+    helpSection: {
+      openingParagraph: "Our sonde and tracing services are ideal for:",
+      closingParagraph:
+        "We provide accurate drain tracing for homeowners, developers, landlords and commercial clients across East Anglia.",
+      bullets: [
+        { lineOne: "Pre-Construction", lineTwo: "Drain Mapping" },
+        { lineOne: "Locating", lineTwo: "Blocked Sections" },
+        { lineOne: "Finding", lineTwo: "Hidden Manholes" },
+        { lineOne: "Identifying", lineTwo: "Shared Drains" },
+        { lineOne: "Insurance &", lineTwo: "Repair Planning" },
+        { lineOne: "Underground Pipe", lineTwo: "Route Confirmation" },
+      ],
+    },
+    ctaSection: {
+      heading: "Need To Locate Underground Drainage?",
+      paragraph:
+        "If you're unsure where your drains run or need accurate pipe mapping before building work, our engineers can help with professional sonde and tracing services.",
+    },
+    faqSection: {
+      category: "drains",
+      heading: "Your Sonde & Drain Tracing Questions",
+      paragraph:
+        "We've answered some of the most common questions about sonde and drain tracing so you know what to expect before booking a visit.",
+    },
+    carousel: {
+      paragraph:
+        "Accurate underground drain tracing. Locate pipe routes, depths and connection points without unnecessary excavation.",
+      price: "From £95 +VAT",
+      terms: "Terms and conditions apply",
+      photo: "sondeTrace",
+    },
+  },
 ];

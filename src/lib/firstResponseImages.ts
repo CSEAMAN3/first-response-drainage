@@ -53,6 +53,12 @@ export const firstResponseImages = {
     width: 945,
     height: 1252,
   },
+  sondeTrace: {
+    src: "sonde-trace_sheql5.jpg",
+    alt: "update this",
+    width: 945,
+    height: 1560,
+  },
   // blogs
   drainLeaves: {
     src: "utumn-leaves-blocking-a-drain_kputl3.png",
