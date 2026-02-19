@@ -20,7 +20,7 @@ export default function ServicesArea() {
               <Link
                 href={`/drainage-services/${s.slug}`}
                 key={s.slug}
-                className=""
+                className="group"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -29,7 +29,7 @@ export default function ServicesArea() {
                   alt="description here"
                   className="w-[30%] h-auto mx-auto mb-4"
                 />
-                <h5 className="max-w-[14ch] text-center mx-auto">
+                <h5 className="max-w-[14ch] text-center mx-auto group-hover:text-fr-accent-two transition-colors duration-300">
                   {s.service}
                 </h5>
               </Link>

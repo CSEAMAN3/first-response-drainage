@@ -246,4 +246,39 @@ export const faQuestions: Faq[] = [
       "Yes. CCTV surveys and inspections can include written reports and footage for records, compliance or insurance purposes.",
     category: "commercial",
   },
+  {
+    id: 36,
+    question: "What is a sonde in drainage?",
+    answer:
+      "A sonde is a small electronic transmitter that is inserted into a drain or pipe. It sends a signal that can be detected above ground using specialist equipment, allowing engineers to accurately trace the route and depth of underground pipework without digging.",
+    category: "tracing",
+  },
+  {
+    id: 37,
+    question: "When would I need drain tracing?",
+    answer:
+      "Drain tracing is commonly needed when planning building work, investigating persistent drainage problems, locating damaged pipework, or identifying shared or boundary drains. It helps confirm exactly where underground pipes run before excavation or repairs.",
+    category: "tracing",
+  },
+  {
+    id: 38,
+    question: "Can you locate underground drains without digging?",
+    answer:
+      "Yes. Using sonde and tracing equipment, we can detect the route and depth of underground drains from the surface. This minimises disruption and avoids unnecessary excavation.",
+    category: "tracing",
+  },
+  {
+    id: 39,
+    question: "How accurate is sonde and drain tracing?",
+    answer:
+      "Sonde tracing is highly accurate when carried out by experienced engineers. It allows us to pinpoint the direction and depth of pipework so repairs or construction work can be planned with confidence.",
+    category: "tracing",
+  },
+  {
+    id: 40,
+    question: "Do I need drain tracing before an extension or renovation?",
+    answer:
+      "If you are building an extension, installing foundations, or making structural changes, knowing the exact location of underground drains is essential. Drain tracing helps avoid accidental damage and ensures compliance with building regulations.",
+    category: "tracing",
+  },
 ];

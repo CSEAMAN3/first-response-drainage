@@ -688,7 +688,7 @@ export const services: Service[] = [
         "If you're unsure where your drains run or need accurate pipe mapping before building work, our engineers can help with professional sonde and tracing services.",
     },
     faqSection: {
-      category: "drains",
+      category: "tracing",
       heading: "Your Sonde & Drain Tracing Questions",
       paragraph:
         "We've answered some of the most common questions about sonde and drain tracing so you know what to expect before booking a visit.",
