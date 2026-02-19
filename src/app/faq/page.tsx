@@ -81,6 +81,12 @@ export default function FaqPage() {
         showViewMoreLink={false}
         classes={false}
       />
+      <Faq
+        heading="Sonde and Trace"
+        questionCat="tracing"
+        showViewMoreLink={false}
+        classes={false}
+      />
       <Cta
         heading="Have A Question We Didn't Answer?"
         paragraph="If you couldn't find the answer you were looking for, our team is happy to help. Whether you need advice, want to book a service or have an urgent drainage issue, get in touch and we'll respond as quickly as possible."
