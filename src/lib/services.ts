@@ -602,8 +602,8 @@ export const services: Service[] = [
     },
   },
   {
-    service: "Sonde and Trace",
-    slug: "sonde-and-trace",
+    service: "Sonde and Tracing",
+    slug: "sonde-and-tracing",
     // update graphic
     serviceAreaGraphic: "blocked-drains-white",
     seo: {

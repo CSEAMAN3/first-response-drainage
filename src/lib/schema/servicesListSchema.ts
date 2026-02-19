@@ -30,8 +30,8 @@ export function buildServicesListSchema(services: ServiceListItem[]) {
         itemListElement: services.map((s, index) => ({
           "@type": "ListItem",
           position: index + 1,
-          url: `${SITE_URL}/drainage-services/${s.slug}`,
           name: s.service,
+          item: `${SITE_URL}/drainage-services/${s.slug}`,
         })),
       },
     ],
