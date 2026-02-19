@@ -12,7 +12,7 @@ export default function TermsAndConditionsPage() {
     <main className="min-h-screen">
       <div className="px-8 py-16 max-w-200 mx-auto">
         <h1 className="font-bold text-fr-primary text-center text-2xl mb-4">
-          First Response Drainage{" "}
+          1st Response Drainage{" "}
           <span className="block">Terms and Conditions</span>
         </h1>
         <p className="mb-4 font-light">
@@ -194,35 +194,52 @@ export default function TermsAndConditionsPage() {
             or cancellation charge will apply.
           </li>
         </ul>
+        {/* section 6 - Guarantee - Patch Repairs */}
+        <h2 className="font-bold mb-2 text-fr-primary">
+          6. Guarantee - Patch Repairs
+        </h2>
+        <p className="mb-2">
+          1st Response Drainage provides a 5-Year Guarantee on the structural
+          integrity of the installed patch repair from the date of installation.
+        </p>
+        <p className="mb-2">This guarantee covers:</p>
+        <ul className="px-4 list-disc mb-2 grid gap-2">
+          <li>Failure of the patch material</li>
+          <li>Delamination or bonding failure at the repair location</li>
+          <li>Structural breakdown of the installed patch</li>
+        </ul>
+        <p className="mb-4">
+          This guarantee applies strictly to the repaired section only.
+        </p>
         {/* section 6 - Guarantee – Workmanship & Materials */}
         <h2 className="font-bold mb-2 text-fr-primary">
-          6. Guarantee - Workmanship & Materials
+          7. Guarantee - Workmanship & Materials
         </h2>
         <ul className="font-light mb-4 pl-4 grid gap-2">
           <li>
-            <span className="text-fr-accent-one">6.1</span> We provide a 28-day
+            <span className="text-fr-accent-one">7.1</span> We provide a 28-day
             workmanship guarantee on standard drainage works, subject to the
             exclusions and limitations outlined in these Terms & Conditions.
           </li>
           <li>
-            <span className="text-fr-accent-one">6.2</span> The workmanship
+            <span className="text-fr-accent-one">7.2</span> The workmanship
             guarantee applies only to the specific work completed and only to
             the section of the drainage system worked on.
           </li>
           <li>
-            <span className="text-fr-accent-one">6.3</span> The workmanship
+            <span className="text-fr-accent-one">7.3</span> The workmanship
             guarantee covers labour only and does not apply to recurring or new
             issues caused by misuse, pre-existing defects, or external factors.
           </li>
           <li>
-            <span className="text-fr-accent-one">6.4</span> Materials supplied
+            <span className="text-fr-accent-one">7.4</span> Materials supplied
             and installed by us, including pipework, fittings, joints, patch
             liners, and repair components, are covered by a materials guarantee
             in line with the manufacturer&#39;s specifications.
           </li>
           <li>
             <p className="mb-2">
-              <span className="text-fr-accent-one">6.5</span> The materials
+              <span className="text-fr-accent-one">7.5</span> The materials
               guarantee:
             </p>
             <ul className="font-light mb-2 list-disc pl-6 grid gap-2">
@@ -240,20 +257,20 @@ export default function TermsAndConditionsPage() {
             </ul>
           </li>
           <li>
-            <span className="text-fr-accent-one">6.6</span> Where a material
+            <span className="text-fr-accent-one">7.6</span> Where a material
             failure is confirmed to fall within the manufacturer&#39;s
             guarantee, our liability is limited to the repair or replacement of
             the affected material only.
           </li>
           <li>
-            <span className="text-fr-accent-one">6.7</span> Any inspection,
+            <span className="text-fr-accent-one">7.7</span> Any inspection,
             return visit, or remedial work found to be outside the scope of the
             workmanship or materials guarantee will be chargeable.
           </li>
         </ul>
-        {/* section 7 - Guarantee Exclusions */}
+        {/* section 8 - Guarantee Exclusions */}
         <h2 className="font-bold mb-2 text-fr-primary">
-          7. Guarantee Exclusions
+          8. Guarantee Exclusions
         </h2>
         <p className="font-light mb-2">
           The guarantee does not cover blockages, defects, or failures caused
@@ -285,77 +302,77 @@ export default function TermsAndConditionsPage() {
           Recurring blockages resulting from any of the above are not considered
           workmanship or material failures.
         </p>
-        {/* section 8 - Liability */}
-        <h2 className="font-bold mb-2 text-fr-primary">8. Liability</h2>
+        {/* section 9 - Liability */}
+        <h2 className="font-bold mb-2 text-fr-primary">9. Liability</h2>
         <ul className="font-light mb-4 pl-4 grid gap-2">
           <li>
-            <span className="text-fr-accent-one">8.1</span> We shall not be held
+            <span className="text-fr-accent-one">9.1</span> We shall not be held
             liable for indirect or consequential losses, including damage
             arising from pre-existing drainage defects or system failure.
           </li>
           <li>
-            <span className="text-fr-accent-one">8.2</span> Our liability, where
+            <span className="text-fr-accent-one">9.2</span> Our liability, where
             applicable, shall not exceed the value of the works carried out.
           </li>
           <li>
-            <span className="text-fr-accent-one">8.3</span> Nothing in these
+            <span className="text-fr-accent-one">9.3</span> Nothing in these
             Terms & Conditions shall limit or exclude any rights that consumers
             have under the Consumer Rights Act 2015 or any other applicable
             consumer protection legislation.
           </li>
         </ul>
-        {/* section 9 - Cancellations & Abortive Visits */}
+        {/* section 10 - Cancellations & Abortive Visits */}
         <h2 className="font-bold mb-2 text-fr-primary">
-          9. Cancellations & Abortive Visits
+          10. Cancellations & Abortive Visits
         </h2>
         <ul className="font-light mb-4 pl-4 grid gap-2">
           <li>
-            <span className="text-fr-accent-one">9.1</span> We reserve the right
-            to charge for late cancellations or aborted visits where access is
-            not provided, site preparation has not been completed, incorrect
-            information has been supplied, or works cannot proceed for reasons
-            outside of our control.
+            <span className="text-fr-accent-one">10.1</span> We reserve the
+            right to charge for late cancellations or aborted visits where
+            access is not provided, site preparation has not been completed,
+            incorrect information has been supplied, or works cannot proceed for
+            reasons outside of our control.
           </li>
         </ul>
-        {/* section 10 - Complaints & Call-Backs */}
+        {/* section 11 - Complaints & Call-Backs */}
         <h2 className="font-bold mb-2 text-fr-primary">
-          10. Complaints & Call-Backs
+          11. Complaints & Call-Backs
         </h2>
         <ul className="font-light mb-4 pl-4 grid gap-2">
           <li>
-            <span className="text-fr-accent-one">10.1</span> Any concerns or
+            <span className="text-fr-accent-one">11.1</span> Any concerns or
             complaints must be raised within the applicable guarantee period.
           </li>
           <li>
-            <span className="text-fr-accent-one">10.2</span> If a call-back
+            <span className="text-fr-accent-one">11.2</span> If a call-back
             inspection determines that the issue falls outside the scope of
             workmanship or materials, or within the exclusions listed above, the
             visit and any further works will be chargeable.
           </li>
           <li>
-            <span className="text-fr-accent-one">10.3</span> We reserve the
+            <span className="text-fr-accent-one">11.3</span> We reserve the
             right to request reasonable evidence of an issue before attending
             where appropriate.
           </li>
         </ul>
-        {/* section 11 - Data Protection */}
-        <h2 className="font-bold mb-2 text-fr-primary">11. Data Protection</h2>
+        {/* section 12 - Data Protection */}
+        <h2 className="font-bold mb-2 text-fr-primary">12. Data Protection</h2>
         <p className="font-light mb-4">
           Any personal data collected during the provision of our services,
           including CCTV footage where applicable, will be processed in
           accordance with our Privacy Policy and applicable data protection
           legislation.
         </p>
-        {/* section 12 - Force Majeure */}
-        <h2 className="font-bold mb-2 text-fr-primary">12. Force Majeure</h2>
+        {/* section 13 - Force Majeure */}
+        <h2 className="font-bold mb-2 text-fr-primary">13. Force Majeure</h2>
         <p className="font-light mb-4">
           We shall not be liable for delays or failure to perform our
           obligations where caused by events beyond our reasonable control,
           including but not limited to extreme weather, flooding, access
           restrictions, emergencies, or other unforeseen circumstances.
         </p>
-        {/* section 13 - Governing Law */}
-        <h2 className="font-bold mb-2 text-fr-primary">13. Governing Law</h2>
+        {/* section 14 - Governing Law */}
+        <h2 className="font-bold mb-2 text-fr-primary">14. Governing Law</h2>
         <p className="font-light mb-2">
           These Terms & Conditions are governed by and construed in accordance
           with the laws of England and Wales.
