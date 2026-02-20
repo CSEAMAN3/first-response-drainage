@@ -630,28 +630,28 @@ export const services: Service[] = [
       paragraphTwo: "You may need tracing if you are:",
       cards: [
         {
-          graphic: "slow-draining",
+          graphic: "drain-runs",
           title: "Unsure Where Your Drains Run",
         },
         {
-          graphic: "toilet",
+          graphic: "extend",
           title: "Extending or Renovating",
         },
         {
-          graphic: "drainage-smells",
+          graphic: "sonde",
           title: "Investigating Drainage Issues",
         },
         {
-          graphic: "overflowing-drains",
+          graphic: "cracked-pipe",
           title: "Locating a Damaged Pipe",
         },
         {
-          graphic: "drainage-sounds",
+          graphic: "shared-drains",
           title: "Identifying Shared or Boundary Drains",
         },
         {
-          graphic: "blocked-drains",
-          title: "Creating Accurate Drainage Layout Plans",
+          graphic: "insured",
+          title: "Creating Drainage Layout Plans",
         },
       ],
     },
