@@ -638,7 +638,7 @@ export const services: Service[] = [
           title: "Extending or Renovating",
         },
         {
-          graphic: "sonde",
+          graphic: "sonde-trace",
           title: "Investigating Drainage Issues",
         },
         {
