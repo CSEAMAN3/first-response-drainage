@@ -605,7 +605,7 @@ export const services: Service[] = [
     service: "Sonde and Tracing",
     slug: "sonde-and-tracing",
     // update graphic
-    serviceAreaGraphic: "blocked-drains-white",
+    serviceAreaGraphic: "sonde-trace-white",
     seo: {
       metaTitle: "Sonde & Drain Tracing in Norfolk, Suffolk & Cambridgeshire",
       metaDescription:
