@@ -1,12 +1,12 @@
 import AlternativeHero from "@/components/AlternativeHero";
-import Cta from "../components/Cta";
-import Faq from "../components/Faq";
+import Cta from "../../components/Cta";
+import Faq from "../../components/Faq";
 // import Hero from "../components/Hero";
-import HomeCoverage from "../components/HomeCoverage";
-import Reviews from "../components/Reviews";
-import Scrollbar from "../components/Scrollbar";
+import HomeCoverage from "../../components/HomeCoverage";
+import Reviews from "../../components/Reviews";
+import Scrollbar from "../../components/Scrollbar";
 // import Services from "../components/Services";
-import WhyUseUs from "../components/WhyUseUs";
+import WhyUseUs from "../../components/WhyUseUs";
 import ServicesSlider from "@/components/ServicesSlider";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
