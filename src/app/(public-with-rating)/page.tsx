@@ -11,8 +11,12 @@ import ServicesSlider from "@/components/ServicesSlider";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { faQuestions } from "@/lib/faQuestion";
+import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+import { getGoogleReviews } from "@/lib/googleReviews";
 
-export default function Home() {
+export default async function Home() {
+  const reviewsData = await getGoogleReviews();
+
   const items = [
     { label: "No callout fees", iconKey: "badge" },
     { label: "Local engineers", iconKey: "building" },
@@ -27,6 +31,19 @@ export default function Home() {
   return (
     <main>
       <StructuredData
+        id={`reviews-schema-home`}
+        data={buildReviewsSchema({
+          pagePath: "/",
+          rating: reviewsData.rating ?? 0,
+          reviewCount: reviewsData.user_ratings_total ?? 0,
+          reviews: reviewsData.reviews.map((r) => ({
+            author_name: r.author_name,
+            rating: r.rating,
+            text: r.text ?? "",
+          })),
+        })}
+      />
+      <StructuredData
         id={`home-faq`}
         data={buildFaqSchema({
           pagePath: "/",
@@ -39,9 +56,9 @@ export default function Home() {
         paraOne="Blocked drain? Need a pre-purchase CCTV drainage survey? Our local drainage engineers have you covered 24/7."
         photo="test.jpg"
       /> */}
-      <AlternativeHero />
+      <AlternativeHero reviewsData={reviewsData} />
       <Scrollbar items={items} className="bg-fr-primary-dark py-2" />
-      <Reviews />
+      <Reviews reviewsData={reviewsData} />
       <ServicesSlider
         heading="Keeping Your Drains Clear, Safe & Working Properly"
         paragraph="Our local drainage engineers deliver reliable drainage solutions, from clearing blockages to full inspections."

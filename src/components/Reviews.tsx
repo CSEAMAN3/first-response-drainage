@@ -5,14 +5,16 @@ import { FcGoogle } from "react-icons/fc";
 import { MdStarRate, MdStarHalf, MdStarOutline } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import ReviewSlider from "./ReviewSlider";
-import { getGoogleReviews, GoogleReview } from "@/lib/googleReviews";
+import { GoogleReviewsPayload } from "@/lib/googleReviews";
 
-export default async function Reviews() {
-  const reviewsData = await getGoogleReviews();
+type ReviewsProps = {
+  reviewsData: GoogleReviewsPayload;
+};
 
+export default function Reviews({ reviewsData }: ReviewsProps) {
   const rating = reviewsData.rating ?? 0;
   const total = reviewsData.user_ratings_total;
-  const reviews: GoogleReview[] = reviewsData.reviews;
+  const reviews = reviewsData.reviews;
 
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 >= 0.25 && rating % 1 < 0.75;

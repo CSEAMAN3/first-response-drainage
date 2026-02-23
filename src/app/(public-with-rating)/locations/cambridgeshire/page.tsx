@@ -11,6 +11,8 @@ import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
+import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+import { getGoogleReviews } from "@/lib/googleReviews";
 
 export const metadata: Metadata = {
   title: "Drainage Services in Cambridgeshire | Fast Local Callouts",
@@ -19,13 +21,28 @@ export const metadata: Metadata = {
   alternates: { canonical: "/locations/cambridgeshire" },
 };
 
-export default function CambridgeshirePage() {
+export default async function CambridgeshirePage() {
+  const reviewsData = await getGoogleReviews();
+
   const county = counties.find((c) => c.name === "Cambridgeshire");
 
   if (!county) notFound();
 
   return (
     <main className="min-h-screen">
+      <StructuredData
+        id={`reviews-schema-locations-cambridgeshire`}
+        data={buildReviewsSchema({
+          pagePath: "/locations",
+          rating: reviewsData.rating ?? 0,
+          reviewCount: reviewsData.user_ratings_total ?? 0,
+          reviews: reviewsData.reviews.map((r) => ({
+            author_name: r.author_name,
+            rating: r.rating,
+            text: r.text ?? "",
+          })),
+        })}
+      />
       <StructuredData
         id={`county-faq-${county.name.toLowerCase}`}
         data={buildFaqSchema({
@@ -49,8 +66,9 @@ export default function CambridgeshirePage() {
         heading={county?.hero.heading}
         paraOne={county?.hero.paragraph}
         photo="test"
+        reviewsData={reviewsData}
       />
-      <Reviews />
+      <Reviews reviewsData={reviewsData} />
       <ServicesSlider
         heading={county.services.heading}
         paragraph={county.services.paragraph}

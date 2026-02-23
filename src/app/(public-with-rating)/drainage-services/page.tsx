@@ -12,6 +12,8 @@ import { buildServicesListSchema } from "@/lib/schema/servicesListSchema";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { services } from "@/lib/services";
 import ReviewCount from "@/components/ReviewCount";
+import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+import { getGoogleReviews } from "@/lib/googleReviews";
 
 export const metadata: Metadata = {
   title: "Expert Drainage Services in Cambrdigeshire, Norfolk & Suffolk",
@@ -20,7 +22,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/drainage-services" },
 };
 
-export default function DrainageServicesPage() {
+export default async function DrainageServicesPage() {
+  const reviewsData = await getGoogleReviews();
+
   const items = [
     { label: "No callout fees", iconKey: "badge" },
     { label: "Local engineers", iconKey: "building" },
@@ -29,6 +33,19 @@ export default function DrainageServicesPage() {
   ] as const;
   return (
     <main className="min-h-screen">
+      <StructuredData
+        id={`reviews-schema-drainage-services`}
+        data={buildReviewsSchema({
+          pagePath: "/drainage-services",
+          rating: reviewsData.rating ?? 0,
+          reviewCount: reviewsData.user_ratings_total ?? 0,
+          reviews: reviewsData.reviews.map((r) => ({
+            author_name: r.author_name,
+            rating: r.rating,
+            text: r.text ?? "",
+          })),
+        })}
+      />
       <StructuredData
         id="drainage-services-schema"
         data={buildServicesListSchema(services)}
@@ -45,17 +62,7 @@ export default function DrainageServicesPage() {
           Drainage Services for Homes & Businesses Across Norfolk, Suffolk &
           Cambridgeshire
         </h1>
-        {/* <p className="text-fr-accent-two font-semibold text-sm mb-4 sm:text-center">
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1 mr-1" />
-          <span className="text-fr-white">
-            5.0 Google Rating &#183; 85 reviews
-          </span>
-        </p> */}
-        <ReviewCount altClasses={true} />
+        <ReviewCount reviewsData={reviewsData} altClasses={true} />
         <p className="font-light text-fr-white max-w-[80ch] text-balance sm:text-center sm:mx-auto mb-4">
           We support homeowners and businesses across East Anglia with a wide
           range of drainage services, providing honest advice, rapid assistance

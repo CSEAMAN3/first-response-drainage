@@ -6,8 +6,13 @@ import { FaArrowRight } from "react-icons/fa";
 import CloudinaryOptImage from "./CloudinaryOptImage";
 import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 import ReviewCount from "./ReviewCount";
+import { GoogleReviewsPayload } from "@/lib/googleReviews";
 
-export default function AlternativeHero() {
+interface AlternativeHeroProps {
+  reviewsData: GoogleReviewsPayload;
+}
+
+export default function AlternativeHero({ reviewsData }: AlternativeHeroProps) {
   return (
     <div className="bg-fr-primary relative z-0 overflow-hidden">
       <div className="flex flex-col lg:flex-row max-w-300 mx-auto gap-16 px-8 pt-16 pb-8">
@@ -26,7 +31,7 @@ export default function AlternativeHero() {
               5.0 Google Rating &#183; 85 Reviews
             </span>
           </p> */}
-          <ReviewCount classes={true} />
+          <ReviewCount reviewsData={reviewsData} classes={true} />
           <p className="text-fr-white font-light mb-8 max-w-[50ch] text-balance text-center mx-auto lg:text-start lg:mx-0">
             Blocked drain? Need a pre-purchase CCTV drainage survey? Our local
             drainage engineers have you covered 24/7.

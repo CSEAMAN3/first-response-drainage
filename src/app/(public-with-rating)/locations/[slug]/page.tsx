@@ -13,6 +13,8 @@ import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { countyToSlug } from "@/utils/countyToSlug";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
+import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+import { getGoogleReviews } from "@/lib/googleReviews";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -53,6 +55,8 @@ export async function generateMetadata({
 }
 
 export default async function LocationPage({ params }: PageProps) {
+  const reviewsData = await getGoogleReviews();
+
   const { slug } = await params;
   const location = locations.find((l) => l.slug === slug);
 
@@ -69,6 +73,19 @@ export default async function LocationPage({ params }: PageProps) {
 
   return (
     <main>
+      <StructuredData
+        id={`reviews-schema-locations-${location.location}`}
+        data={buildReviewsSchema({
+          pagePath: "/locations",
+          rating: reviewsData.rating ?? 0,
+          reviewCount: reviewsData.user_ratings_total ?? 0,
+          reviews: reviewsData.reviews.map((r) => ({
+            author_name: r.author_name,
+            rating: r.rating,
+            text: r.text ?? "",
+          })),
+        })}
+      />
       <StructuredData
         id={`breadcrumbs-location-${slug}`}
         data={buildBreadcrumbSchema([
@@ -94,10 +111,11 @@ export default async function LocationPage({ params }: PageProps) {
         heading={location.heroSection.heading}
         paraOne={location.heroSection.paragraph}
         photo={location.heroSection.photo}
+        reviewsData={reviewsData}
       />
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
       {/* Reviews Section */}
-      <Reviews />
+      <Reviews reviewsData={reviewsData} />
       {/* services section */}
       {/* <Services
         heading={`Our Drainage Services`}

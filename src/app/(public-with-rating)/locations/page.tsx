@@ -3,11 +3,12 @@ import Cta from "@/components/Cta";
 import DirectoryMain from "@/components/DirectoryMain";
 import Scrollbar from "@/components/Scrollbar";
 import ServicesArea from "@/components/ServicesArea";
-import { MdStarRate } from "react-icons/md";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import ReviewCount from "@/components/ReviewCount";
+import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+import { getGoogleReviews } from "@/lib/googleReviews";
 
 export const metadata: Metadata = {
   title: "Drainage Service Areas | Norfolk, Suffolk & Cambridgeshire",
@@ -16,7 +17,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/locations" },
 };
 
-export default function LocationHubPage() {
+export default async function LocationHubPage() {
+  const reviewsData = await getGoogleReviews();
+
   const items = [
     { label: "No callout fees", iconKey: "badge" },
     { label: "Local engineers", iconKey: "building" },
@@ -26,6 +29,19 @@ export default function LocationHubPage() {
 
   return (
     <main>
+      <StructuredData
+        id={`reviews-schema-locations`}
+        data={buildReviewsSchema({
+          pagePath: "/locations",
+          rating: reviewsData.rating ?? 0,
+          reviewCount: reviewsData.user_ratings_total ?? 0,
+          reviews: reviewsData.reviews.map((r) => ({
+            author_name: r.author_name,
+            rating: r.rating,
+            text: r.text ?? "",
+          })),
+        })}
+      />
       <StructuredData
         id="breadcrumbs-locations"
         data={buildBreadcrumbSchema([
@@ -38,17 +54,7 @@ export default function LocationHubPage() {
         <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[30ch] text-center mx-auto mb-2">
           Drainage Services Throughout Norfolk, Suffolk & Cambridgeshire
         </h1>
-        {/* <p className="text-fr-accent-two font-semibold text-sm mb-4 text-center">
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1" />
-          <MdStarRate className="inline-block mb-1 mr-1" />
-          <span className="text-fr-white">
-            5.0 Google Rating &#183; 85 reviews
-          </span>
-        </p> */}
-        <ReviewCount addAltClasses={true} />
+        <ReviewCount reviewsData={reviewsData} addAltClasses={true} />
         <p className="font-light text-fr-white text-balance sm:mx-auto text-center max-w-[60ch] mb-8">
           {/* We provide professional drainage services across East Anglia,
           supporting homes and businesses throughout Norfolk, Suffolk and

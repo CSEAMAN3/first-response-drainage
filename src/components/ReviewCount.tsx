@@ -1,19 +1,19 @@
-import { getGoogleReviews } from "@/lib/googleReviews";
+import { GoogleReviewsPayload } from "@/lib/googleReviews";
 import { MdStarRate, MdStarHalf, MdStarOutline } from "react-icons/md";
 
 interface ReviewCountProps {
+  reviewsData: GoogleReviewsPayload;
   classes?: boolean;
   altClasses?: boolean;
   addAltClasses?: boolean;
 }
 
 export default async function ReviewCount({
+  reviewsData,
   classes,
   altClasses,
   addAltClasses,
 }: ReviewCountProps) {
-  const reviewsData = await getGoogleReviews();
-
   const rating = reviewsData.rating ?? 0;
   const total = reviewsData.user_ratings_total;
 

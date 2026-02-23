@@ -6,6 +6,8 @@ import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildContactPageSchema } from "@/lib/schema/contactPageSchema";
 import ReviewCount from "@/components/ReviewCount";
+import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+import { getGoogleReviews } from "@/lib/googleReviews";
 
 export const metadata: Metadata = {
   title: "Contact 1st Response Drainage | Fast Callouts",
@@ -14,9 +16,24 @@ export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
 };
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const reviewsData = await getGoogleReviews();
+
   return (
     <main>
+      <StructuredData
+        id={`reviews-schema-contact`}
+        data={buildReviewsSchema({
+          pagePath: "/contact",
+          rating: reviewsData.rating ?? 0,
+          reviewCount: reviewsData.user_ratings_total ?? 0,
+          reviews: reviewsData.reviews.map((r) => ({
+            author_name: r.author_name,
+            rating: r.rating,
+            text: r.text ?? "",
+          })),
+        })}
+      />
       <StructuredData
         id="contact-page-schema"
         data={buildContactPageSchema()}
@@ -25,7 +42,7 @@ export default function ContactPage() {
         <h1 className="font-bold text-xl mb-2 sm:text-center sm:text-2xl">
           Contact 1st Response Drainage
         </h1>
-        <ReviewCount altClasses={true} />
+        <ReviewCount reviewsData={reviewsData} altClasses={true} />
         <p className="font-light text-balance mb-4 sm:text-center max-w-[80ch] sm:mx-auto">
           If you&#39;re dealing with a drainage issue or simply need some
           advice, Our team is here to help. With expert drainage engineers

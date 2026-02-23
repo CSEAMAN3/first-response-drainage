@@ -10,6 +10,8 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
+import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+import { getGoogleReviews } from "@/lib/googleReviews";
 
 export const metadata: Metadata = {
   title: "Drainage Services in Norfolk | Fast Local Callouts",
@@ -18,13 +20,28 @@ export const metadata: Metadata = {
   alternates: { canonical: "/locations/norfolk" },
 };
 
-export default function NorfolkPage() {
+export default async function NorfolkPage() {
+  const reviewsData = await getGoogleReviews();
+
   const county = counties.find((c) => c.name === "Norfolk");
 
   if (!county) notFound();
 
   return (
     <main className="min-h-screen">
+      <StructuredData
+        id={`reviews-schema-locations-norfolk`}
+        data={buildReviewsSchema({
+          pagePath: "/locations",
+          rating: reviewsData.rating ?? 0,
+          reviewCount: reviewsData.user_ratings_total ?? 0,
+          reviews: reviewsData.reviews.map((r) => ({
+            author_name: r.author_name,
+            rating: r.rating,
+            text: r.text ?? "",
+          })),
+        })}
+      />
       <StructuredData
         id="breadcrumbs-locations-norfolk"
         data={buildBreadcrumbSchema([
@@ -37,8 +54,9 @@ export default function NorfolkPage() {
         heading={county?.hero.heading}
         paraOne={county?.hero.paragraph}
         photo="test"
+        reviewsData={reviewsData}
       />
-      <Reviews />
+      <Reviews reviewsData={reviewsData} />
       <ServicesSlider
         heading={county.services.heading}
         paragraph={county.services.paragraph}
