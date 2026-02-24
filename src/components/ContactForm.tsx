@@ -167,6 +167,7 @@ export default function ContactForm() {
               </option>
               <option value="root-removal">Root Intrusion Removal</option>
               <option value="commercial-drainage">Commercial Drainage</option>
+              <option value="sonde-trace">Sonde & Tracing</option>
               <option value="other">Other</option>
             </select>
             {errors.service?.message && (

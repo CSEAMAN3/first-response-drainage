@@ -34,6 +34,7 @@ const ServiceEnum = z.enum([
   "patch-lining",
   "root-removal",
   "commercial-drainage",
+  "sonde-trace",
   "other",
 ]);
 

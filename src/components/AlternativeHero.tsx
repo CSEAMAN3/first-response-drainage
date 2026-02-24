@@ -1,6 +1,5 @@
 import Link from "next/link";
 // import Image from "next/image";
-// import { MdStarRate } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 
 import CloudinaryOptImage from "./CloudinaryOptImage";
@@ -21,16 +20,6 @@ export default function AlternativeHero({ reviewsData }: AlternativeHeroProps) {
             Rapid Response Drainage Services Across Norfolk, Suffolk &
             Cambridgeshire
           </h1>
-          {/* <p className="font-bold text-fr-accent-two mb-4 text-center lg:text-start">
-            <MdStarRate className="inline-block mb-1" />
-            <MdStarRate className="inline-block mb-1" />
-            <MdStarRate className="inline-block mb-1" />
-            <MdStarRate className="inline-block mb-1" />
-            <MdStarRate className="inline-block mb-1" />
-            <span className="text-fr-white ml-2 text-sm">
-              5.0 Google Rating &#183; 85 Reviews
-            </span>
-          </p> */}
           <ReviewCount reviewsData={reviewsData} classes={true} />
           <p className="text-fr-white font-light mb-8 max-w-[50ch] text-balance text-center mx-auto lg:text-start lg:mx-0">
             Blocked drain? Need a pre-purchase CCTV drainage survey? Our local
