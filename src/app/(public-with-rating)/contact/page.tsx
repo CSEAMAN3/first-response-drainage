@@ -6,7 +6,6 @@ import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildContactPageSchema } from "@/lib/schema/contactPageSchema";
 import ReviewCount from "@/components/ReviewCount";
-import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
 export const metadata: Metadata = {
@@ -21,19 +20,6 @@ export default async function ContactPage() {
 
   return (
     <main>
-      <StructuredData
-        id={`reviews-schema-contact`}
-        data={buildReviewsSchema({
-          pagePath: "/contact",
-          rating: reviewsData.rating ?? 0,
-          reviewCount: reviewsData.user_ratings_total ?? 0,
-          reviews: reviewsData.reviews.map((r) => ({
-            author_name: r.author_name,
-            rating: r.rating,
-            text: r.text ?? "",
-          })),
-        })}
-      />
       <StructuredData
         id="contact-page-schema"
         data={buildContactPageSchema()}

@@ -13,7 +13,6 @@ import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { countyToSlug } from "@/utils/countyToSlug";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
-import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
 type PageProps = {
@@ -73,19 +72,6 @@ export default async function LocationPage({ params }: PageProps) {
 
   return (
     <main>
-      <StructuredData
-        id={`reviews-schema-locations-${location.location}`}
-        data={buildReviewsSchema({
-          pagePath: "/locations",
-          rating: reviewsData.rating ?? 0,
-          reviewCount: reviewsData.user_ratings_total ?? 0,
-          reviews: reviewsData.reviews.map((r) => ({
-            author_name: r.author_name,
-            rating: r.rating,
-            text: r.text ?? "",
-          })),
-        })}
-      />
       <StructuredData
         id={`breadcrumbs-location-${slug}`}
         data={buildBreadcrumbSchema([

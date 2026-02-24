@@ -10,7 +10,6 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
-import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
 export const metadata: Metadata = {
@@ -29,19 +28,6 @@ export default async function SuffolkPage() {
 
   return (
     <main className="min-h-screen">
-      <StructuredData
-        id={`reviews-schema-locations-suffolk`}
-        data={buildReviewsSchema({
-          pagePath: "/locations",
-          rating: reviewsData.rating ?? 0,
-          reviewCount: reviewsData.user_ratings_total ?? 0,
-          reviews: reviewsData.reviews.map((r) => ({
-            author_name: r.author_name,
-            rating: r.rating,
-            text: r.text ?? "",
-          })),
-        })}
-      />
       <StructuredData
         id="breadcrumbs-locations-suffolk"
         data={buildBreadcrumbSchema([

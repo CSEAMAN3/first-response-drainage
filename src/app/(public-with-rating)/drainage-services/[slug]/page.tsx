@@ -13,7 +13,6 @@ import { buildServiceSchema } from "@/lib/schema/serviceSchema";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { faQuestions } from "@/lib/faQuestion";
-import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
 type PageProps = {
@@ -77,19 +76,6 @@ export default async function ServicePage({ params }: PageProps) {
 
   return (
     <main>
-      <StructuredData
-        id={`reviews-schema-locations-${service.service}`}
-        data={buildReviewsSchema({
-          pagePath: "/locations",
-          rating: reviewsData.rating ?? 0,
-          reviewCount: reviewsData.user_ratings_total ?? 0,
-          reviews: reviewsData.reviews.map((r) => ({
-            author_name: r.author_name,
-            rating: r.rating,
-            text: r.text ?? "",
-          })),
-        })}
-      />
       <StructuredData
         id={`service-schema-${service.slug}`}
         data={buildServiceSchema(service)}

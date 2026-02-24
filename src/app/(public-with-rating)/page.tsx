@@ -11,7 +11,6 @@ import ServicesSlider from "@/components/ServicesSlider";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { faQuestions } from "@/lib/faQuestion";
-// import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
 export default async function Home() {
@@ -30,19 +29,6 @@ export default async function Home() {
 
   return (
     <main>
-      {/* <StructuredData
-        id={`reviews-schema-home`}
-        data={buildReviewsSchema({
-          pagePath: "/",
-          rating: reviewsData.rating ?? 0,
-          reviewCount: reviewsData.user_ratings_total ?? 0,
-          reviews: reviewsData.reviews.map((r) => ({
-            author_name: r.author_name,
-            rating: r.rating,
-            text: r.text ?? "",
-          })),
-        })}
-      /> */}
       <StructuredData
         id={`home-faq`}
         data={buildFaqSchema({
