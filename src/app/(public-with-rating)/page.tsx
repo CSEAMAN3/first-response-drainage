@@ -11,7 +11,7 @@ import ServicesSlider from "@/components/ServicesSlider";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { faQuestions } from "@/lib/faQuestion";
-import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
+// import { buildReviewsSchema } from "@/lib/schema/reviewsSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
 export default async function Home() {
@@ -30,7 +30,7 @@ export default async function Home() {
 
   return (
     <main>
-      <StructuredData
+      {/* <StructuredData
         id={`reviews-schema-home`}
         data={buildReviewsSchema({
           pagePath: "/",
@@ -42,7 +42,7 @@ export default async function Home() {
             text: r.text ?? "",
           })),
         })}
-      />
+      /> */}
       <StructuredData
         id={`home-faq`}
         data={buildFaqSchema({
