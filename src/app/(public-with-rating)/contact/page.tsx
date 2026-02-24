@@ -1,7 +1,6 @@
 import ContactForm from "@/components/ContactForm";
 import Cta from "@/components/Cta";
 import HomeCoverage from "@/components/HomeCoverage";
-// import { MdStarRate } from "react-icons/md";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
 import { buildContactPageSchema } from "@/lib/schema/contactPageSchema";

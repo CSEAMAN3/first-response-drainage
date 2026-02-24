@@ -103,10 +103,6 @@ export default async function LocationPage({ params }: PageProps) {
       {/* Reviews Section */}
       <Reviews reviewsData={reviewsData} />
       {/* services section */}
-      {/* <Services
-        heading={`Our Drainage Services`}
-        paragraph={location.servicesSection.paragraph}
-      /> */}
       <ServicesSlider
         heading="Our Drainage Services"
         paragraph={location.servicesSection.paragraph}

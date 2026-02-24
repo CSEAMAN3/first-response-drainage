@@ -3,7 +3,6 @@ import Cta from "@/components/Cta";
 import Reasons from "@/components/Reasons";
 import Scrollbar from "@/components/Scrollbar";
 import WhatWeHelpWith from "@/components/WhatWeHelpWith";
-// import { MdStarRate } from "react-icons/md";
 import HomeCoverage from "@/components/HomeCoverage";
 import ServicesSlider from "@/components/ServicesSlider";
 import { Metadata } from "next";

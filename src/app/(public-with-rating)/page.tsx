@@ -5,7 +5,6 @@ import Faq from "../../components/Faq";
 import HomeCoverage from "../../components/HomeCoverage";
 import Reviews from "../../components/Reviews";
 import Scrollbar from "../../components/Scrollbar";
-// import Services from "../components/Services";
 import WhyUseUs from "../../components/WhyUseUs";
 import ServicesSlider from "@/components/ServicesSlider";
 import StructuredData from "@/components/StructuredData";

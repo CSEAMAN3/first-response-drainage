@@ -42,10 +42,6 @@ export default async function LocationHubPage() {
         </h1>
         <ReviewCount reviewsData={reviewsData} addAltClasses={true} />
         <p className="font-light text-fr-white text-balance sm:mx-auto text-center max-w-[60ch] mb-8">
-          {/* We provide professional drainage services across East Anglia,
-          supporting homes and businesses throughout Norfolk, Suffolk and
-          Cambridge. Use the links below to find drainage services in your local
-          area. */}
           Check your postal area code below to see if we have drainage engineers
           operating local to you.
         </p>

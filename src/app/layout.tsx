@@ -13,20 +13,35 @@ const siteStructuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
+      "@type": ["LocalBusiness", "Plumber"],
       "@id": `${SITE_URL}/#localbusiness`,
       name: "1st Response Drainage",
       url: SITE_URL,
+      hasMap: "https://www.google.com/maps?cid=14278897114182267037",
       logo: `${SITE_URL}/images/horizontal-logo-purple.svg`,
-      image: `${SITE_URL}/images/horizontal-logo-purple.svg`,
+      image: [`${SITE_URL}/images/horizontal-logo-purple.svg`],
       telephone: "+447961609836",
       email: "info@1stresponsedrainage.co.uk",
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+447961609836",
+          contactType: "customer service",
+          availableLanguage: ["en-GB"],
+        },
+      ],
       address: {
         "@type": "PostalAddress",
         streetAddress: "18 Riverside Way",
         addressLocality: "Brandon",
+        addressRegion: "Suffolk",
         postalCode: "IP27 0AN",
         addressCountry: "GB",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 52.4528323,
+        longitude: 0.624854,
       },
       areaServed: [
         { "@type": "AdministrativeArea", name: "Norfolk" },
@@ -50,10 +65,9 @@ const siteStructuredData = {
         },
       ],
       sameAs: [
-        // add google business profile link here
+        "https://g.page/r/CZ1asMKZpSnGEBM",
         "https://www.facebook.com/p/1st-response-drainage-61575122397737/",
       ],
-      // Optional: helps Google understand what you actually do
       makesOffer: [
         {
           "@type": "Offer",
@@ -85,6 +99,10 @@ const siteStructuredData = {
           "@type": "Offer",
           itemOffered: { "@type": "Service", name: "Commercial Drainage" },
         },
+        {
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: "Sonde and Tracing" },
+        },
       ],
     },
     {
@@ -113,7 +131,6 @@ export const metadata: Metadata = {
   title: "Emergency Drain Services | Norfolk, Suffolk & Cambridgeshire",
   description:
     "Fast, reliable drainage services across Norfolk, Suffolk and Cambridgeshire. Blocked drains, CCTV surveys and urgent callouts for homes and businesses.",
-  //this will auto switch later when we set the environment variable in vercel
   robots:
     process.env.NEXT_PUBLIC_ENV === "production"
       ? { index: true, follow: true }
