@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import BackToTopButton from "@/components/BackToTopButton";
 import StructuredData from "@/components/StructuredData";
+import Providers from "./providers";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://1stresponsedrainage.co.uk";
@@ -149,7 +150,7 @@ export default function RootLayout({
       >
         <StructuredData id="site-schema" data={siteStructuredData} />
         <Header />
-        {children}
+        <Providers>{children}</Providers>
         <BackToTopButton />
         <Footer />
       </body>
