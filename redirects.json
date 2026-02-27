@@ -103,5 +103,10 @@
     "source": "/suffolk/mildenhall",
     "destination": "/locations/mildenhall",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/watton",
+    "destination": "/locations/watton",
+    "permanent": true
   }
 ]
