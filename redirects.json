@@ -128,5 +128,10 @@
     "source": "/norfolk/reliable-drainage-services-in-swaffham",
     "destination": "/locations/swaffham",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/reliable-drainage-services-in-cromer",
+    "destination": "/locations/cromer",
+    "permanent": true
   }
 ]
