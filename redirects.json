@@ -193,5 +193,10 @@
     "source": "/cambridgeshire/professional-drainage-services-in-chatteris",
     "destination": "/locations/chatteris",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/expert-drainage-solutions-in-saffron-walden",
+    "destination": "/locations/saffron-walden",
+    "permanent": true
   }
 ]
