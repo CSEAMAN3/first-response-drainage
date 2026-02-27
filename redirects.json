@@ -73,5 +73,10 @@
     "source": "/suffolk/expert-drainage-services-in-woolpit-suffolk",
     "destination": "/locations/woolpit",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/expert-drainage-services-in-beck-row",
+    "destination": "/locations/beck-row",
+    "permanent": true
   }
 ]
