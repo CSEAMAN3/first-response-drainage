@@ -68,5 +68,10 @@
     "source": "/suffolk/professional-drainage-services-in-red-lodge",
     "destination": "/locations/red-lodge",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/expert-drainage-services-in-woolpit-suffolk",
+    "destination": "/locations/woolpit",
+    "permanent": true
   }
 ]
