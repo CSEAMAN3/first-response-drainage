@@ -213,5 +213,10 @@
     "source": "/blocked-drain-in-great-yarmouth",
     "destination": "/locations/great-yarmouth",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/cambridge",
+    "destination": "/locations/cambridge",
+    "permanent": true
   }
 ]
