@@ -221,7 +221,7 @@
   },
   {
     "source": "/gallery",
-    "destination": "/",
+    "destination": "/drainage-services",
     "permanent": true
   },
   {
@@ -262,6 +262,11 @@
   {
     "source": "/blocked-toilet-your-suffolk-plumber-is-just-a-call-away",
     "destination": "/blog/blocked-toilet-your-suffolk-plumber-is-just-a-call-away",
+    "permanent": true
+  },
+  {
+    "source": "/category/uncategorized",
+    "destination": "/blog",
     "permanent": true
   }
 ]
