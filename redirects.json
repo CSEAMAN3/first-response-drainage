@@ -48,5 +48,10 @@
     "source": "/suffolk/reliable-drainage-services-in-sudbury",
     "destination": "/locations/sudbury",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/reliable-drainage-services-in-newmarket",
+    "destination": "/locations/newmarket",
+    "permanent": true
   }
 ]
