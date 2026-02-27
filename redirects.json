@@ -188,5 +188,10 @@
     "source": "/cambridgeshire/professional-drainage-services-in-ely",
     "destination": "/locations/ely",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/professional-drainage-services-in-chatteris",
+    "destination": "/locations/chatteris",
+    "permanent": true
   }
 ]
