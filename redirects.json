@@ -148,5 +148,10 @@
     "source": "/norfolk/professional-drainage-services-in-hethersett",
     "destination": "/locations/hethersett",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/expert-drainage-services-in-downham-market",
+    "destination": "/locations/downham-market",
+    "permanent": true
   }
 ]
