@@ -253,5 +253,10 @@
     "source": "/the-most-common-causes-of-drain-emergencies-at-home",
     "destination": "/blog/the-most-common-causes-of-drain-emergencies-at-home",
     "permanent": true
+  },
+  {
+    "source": "/signs-you-need-a-drain-repair-advice-from-1st-response-drainage",
+    "destination": "/blog/signs-you-need-a-drain-repair-advice-from-1st-response-drainage",
+    "permanent": true
   }
 ]
