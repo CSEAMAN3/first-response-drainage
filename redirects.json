@@ -88,5 +88,10 @@
     "source": "/suffolk/drainage-services-in-beccles",
     "destination": "/locations/beccles",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/bury-st-edmunds",
+    "destination": "/locations/bury-st-edmunds",
+    "permanent": true
   }
 ]
