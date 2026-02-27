@@ -118,5 +118,10 @@
     "source": "/norfolk/trusted-drainage-services-in-diss",
     "destination": "/locations/diss",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/thetford",
+    "destination": "/locations/thetford",
+    "permanent": true
   }
 ]
