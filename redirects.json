@@ -38,5 +38,10 @@
     "source": "/cambridgeshire/professional-drainage-services-in-st-ives-cambridgeshire",
     "destination": "/locations/st-ives",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/trusted-drainage-services-in-haverhill",
+    "destination": "/locations/haverhill",
+    "permanent": true
   }
 ]
