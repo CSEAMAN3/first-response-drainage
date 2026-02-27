@@ -143,5 +143,10 @@
     "source": "/norfolk/professional-drainage-solutions-in-holt",
     "destination": "/locations/holt",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/professional-drainage-services-in-hethersett",
+    "destination": "/locations/hethersett",
+    "permanent": true
   }
 ]
