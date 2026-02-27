@@ -183,5 +183,10 @@
     "source": "/cambridgeshire/soham",
     "destination": "/locations/soham",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/professional-drainage-services-in-ely",
+    "destination": "/locations/ely",
+    "permanent": true
   }
 ]
