@@ -53,5 +53,10 @@
     "source": "/suffolk/reliable-drainage-services-in-newmarket",
     "destination": "/locations/newmarket",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/professional-drainage-services-in-sutton-suffolk",
+    "destination": "/locations/sutton",
+    "permanent": true
   }
 ]
