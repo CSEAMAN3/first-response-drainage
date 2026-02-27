@@ -58,5 +58,10 @@
     "source": "/suffolk/professional-drainage-services-in-sutton-suffolk",
     "destination": "/locations/sutton",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/professional-drainage-services-in-stowmarket",
+    "destination": "/locations/stowmarket",
+    "permanent": true
   }
 ]
