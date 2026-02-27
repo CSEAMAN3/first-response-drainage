@@ -28,5 +28,10 @@
     "source": "/professional-drainage-services-in-wisbech-cambridgeshire",
     "destination": "/locations/wisbech",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/drainage-services-in-great-shelford",
+    "destination": "/locations/great-shelford",
+    "permanent": true
   }
 ]
