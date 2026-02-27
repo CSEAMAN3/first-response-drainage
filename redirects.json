@@ -3,5 +3,15 @@
     "source": "/suffolk",
     "destination": "/locations/suffolk",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire",
+    "destination": "/locations/cambridgeshire",
+    "permanent": true
+  },
+  {
+    "source": "/norfolk",
+    "destination": "/locations/norfolk",
+    "permanent": true
   }
 ]
