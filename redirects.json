@@ -203,5 +203,10 @@
     "source": "/blocked-drain-in-norwich",
     "destination": "/locations/norwich",
     "permanent": true
+  },
+  {
+    "source": "/blocked-drain-in-kings-lynn",
+    "destination": "/locations/kings-lynn",
+    "permanent": true
   }
 ]
