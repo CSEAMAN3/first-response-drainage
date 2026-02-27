@@ -33,5 +33,10 @@
     "source": "/cambridgeshire/drainage-services-in-great-shelford",
     "destination": "/locations/great-shelford",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/professional-drainage-services-in-st-ives-cambridgeshire",
+    "destination": "/locations/st-ives",
+    "permanent": true
   }
 ]
