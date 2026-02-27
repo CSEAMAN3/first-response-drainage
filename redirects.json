@@ -208,5 +208,10 @@
     "source": "/blocked-drain-in-kings-lynn",
     "destination": "/locations/kings-lynn",
     "permanent": true
+  },
+  {
+    "source": "/blocked-drain-in-great-yarmouth",
+    "destination": "/locations/great-yarmouth",
+    "permanent": true
   }
 ]
