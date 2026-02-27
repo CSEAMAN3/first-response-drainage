@@ -113,5 +113,10 @@
     "source": "/norfolk/trusted-drainage-services-in-north-walsham",
     "destination": "/locations/north-walsham",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/trusted-drainage-services-in-diss",
+    "destination": "/locations/diss",
+    "permanent": true
   }
 ]

@@ -1795,7 +1795,7 @@ export const locations: Location[] = [
         "Trusted drainage services in North Walsham for homes and businesses. We deliver effective solutions for blockages and drainage problems.",
     },
     heroSection: {
-      heading: "North Walsham",
+      heading: "Drainage Services in North Walsham",
       paragraph:
         "Providing professional drainage services for properties in North Walsham. From blocked drains to inspections and repairs, our engineers deliver effective solutions.",
       photo: "test",

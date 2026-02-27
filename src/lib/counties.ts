@@ -4,7 +4,7 @@ export const counties: County[] = [
   {
     name: "Cambridgeshire",
     hero: {
-      heading: "Drainage services in Cambridgeshire",
+      heading: "Drainage Services in Cambridgeshire",
       paragraph:
         "Operating throughout Cambridgeshire, our engineers provide reliable support for blocked drains, CCTV inspections and specialist repair work.",
     },
@@ -95,7 +95,7 @@ export const counties: County[] = [
   {
     name: "Norfolk",
     hero: {
-      heading: "Drainage services in Norfolk",
+      heading: "Drainage Services in Norfolk",
       paragraph:
         "Covering the whole of Norfolk. Our experienced engineers are ready to help with blockages, CCTV surveys and specialist repairs. ",
     },
@@ -218,7 +218,7 @@ export const counties: County[] = [
   {
     name: "Suffolk",
     hero: {
-      heading: "Drainage services in Suffolk",
+      heading: "Drainage Services in Suffolk",
       paragraph:
         "Covering towns and villages across Suffolk, our experienced engineers are on hand to help with blockages, CCTV surveys and effective drainage repairs.",
     },
