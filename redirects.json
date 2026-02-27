@@ -153,5 +153,10 @@
     "source": "/norfolk/expert-drainage-services-in-downham-market",
     "destination": "/locations/downham-market",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/expert-drainage-services-you-can-rely-on-in-fakenham",
+    "destination": "/locations/fakenham",
+    "permanent": true
   }
 ]
