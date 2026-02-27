@@ -218,5 +218,10 @@
     "source": "/cambridgeshire/cambridge",
     "destination": "/locations/cambridge",
     "permanent": true
+  },
+  {
+    "source": "/gallery",
+    "destination": "/",
+    "permanent": true
   }
 ]
