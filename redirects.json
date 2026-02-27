@@ -168,5 +168,10 @@
     "source": "/norfolk/dereham",
     "destination": "/locations/dereham",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/dependable-drainage-services-in-wymondham",
+    "destination": "/locations/wymondham",
+    "permanent": true
   }
 ]
