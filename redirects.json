@@ -93,5 +93,10 @@
     "source": "/suffolk/bury-st-edmunds",
     "destination": "/locations/bury-st-edmunds",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/brandon",
+    "destination": "/locations/brandon",
+    "permanent": true
   }
 ]
