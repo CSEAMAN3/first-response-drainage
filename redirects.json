@@ -198,5 +198,10 @@
     "source": "/cambridgeshire/expert-drainage-solutions-in-saffron-walden",
     "destination": "/locations/saffron-walden",
     "permanent": true
+  },
+  {
+    "source": "/blocked-drain-in-norwich",
+    "destination": "/locations/norwich",
+    "permanent": true
   }
 ]
