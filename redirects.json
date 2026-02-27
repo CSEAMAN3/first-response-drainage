@@ -178,5 +178,10 @@
     "source": "/cambridgeshire/trusted-drainage-services-in-littleport",
     "destination": "/locations/littleport",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/soham",
+    "destination": "/locations/soham",
+    "permanent": true
   }
 ]
