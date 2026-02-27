@@ -98,5 +98,10 @@
     "source": "/suffolk/brandon",
     "destination": "/locations/brandon",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/mildenhall",
+    "destination": "/locations/mildenhall",
+    "permanent": true
   }
 ]
