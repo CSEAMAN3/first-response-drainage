@@ -223,5 +223,10 @@
     "source": "/gallery",
     "destination": "/",
     "permanent": true
+  },
+  {
+    "source": "/articles",
+    "destination": "/blog",
+    "permanent": true
   }
 ]
