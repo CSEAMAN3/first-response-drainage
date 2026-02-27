@@ -78,5 +78,10 @@
     "source": "/suffolk/expert-drainage-services-in-beck-row",
     "destination": "/locations/beck-row",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/drainage-solutions-in-bungay",
+    "destination": "/locations/bungay",
+    "permanent": true
   }
 ]
