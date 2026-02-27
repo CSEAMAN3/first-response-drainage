@@ -158,5 +158,10 @@
     "source": "/norfolk/drainage-services-you-can-rely-on-in-fakenham",
     "destination": "/locations/fakenham",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/drainage-experts-serving-necton",
+    "destination": "/locations/necton",
+    "permanent": true
   }
 ]
