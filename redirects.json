@@ -163,5 +163,10 @@
     "source": "/norfolk/drainage-experts-serving-necton",
     "destination": "/locations/necton",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/dereham",
+    "destination": "/locations/dereham",
+    "permanent": true
   }
 ]
