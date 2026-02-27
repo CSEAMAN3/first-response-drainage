@@ -138,5 +138,10 @@
     "source": "/norfolk/reliable-drainage-services-in-attleborough",
     "destination": "/locations/attleborough",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/professional-drainage-solutions-in-holt",
+    "destination": "/locations/holt",
+    "permanent": true
   }
 ]
