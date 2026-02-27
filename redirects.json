@@ -83,5 +83,10 @@
     "source": "/suffolk/drainage-solutions-in-bungay",
     "destination": "/locations/bungay",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/drainage-services-in-beccles",
+    "destination": "/locations/beccles",
+    "permanent": true
   }
 ]
