@@ -228,5 +228,10 @@
     "source": "/articles",
     "destination": "/blog",
     "permanent": true
+  },
+  {
+    "source": "/christmas-drainage-tips-choosing-the-right-drainage-company-in-suffolk-and-neighbouring-regions",
+    "destination": "/blog/christmas-drainage-tips",
+    "permanent": true
   }
 ]
