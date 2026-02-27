@@ -123,5 +123,10 @@
     "source": "/norfolk/thetford",
     "destination": "/locations/thetford",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/reliable-drainage-services-in-swaffham",
+    "destination": "/locations/swaffham",
+    "permanent": true
   }
 ]
