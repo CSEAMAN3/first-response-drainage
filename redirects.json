@@ -13,5 +13,20 @@
     "source": "/norfolk",
     "destination": "/locations/norfolk",
     "permanent": true
+  },
+  {
+    "source": "/drain-unblocking-and-drainage-services-in-aldeburgh-suffolk",
+    "destination": "/locations/aldeburgh",
+    "permanent": true
+  },
+  {
+    "source": "/blocked-drains-ipswich",
+    "destination": "/locations/ipswich",
+    "permanent": true
+  },
+  {
+    "source": "/professional-drainage-services-in-wisbech-cambridgeshire",
+    "destination": "/locations/wisbech",
+    "permanent": true
   }
 ]
