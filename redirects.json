@@ -43,5 +43,10 @@
     "source": "/suffolk/trusted-drainage-services-in-haverhill",
     "destination": "/locations/haverhill",
     "permanent": true
+  },
+  {
+    "source": "/suffolk/reliable-drainage-services-in-sudbury",
+    "destination": "/locations/sudbury",
+    "permanent": true
   }
 ]
