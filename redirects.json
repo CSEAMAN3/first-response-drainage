@@ -108,5 +108,10 @@
     "source": "/norfolk/watton",
     "destination": "/locations/watton",
     "permanent": true
+  },
+  {
+    "source": "/norfolk/trusted-drainage-services-in-north-walsham",
+    "destination": "/locations/north-walsham",
+    "permanent": true
   }
 ]
