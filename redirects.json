@@ -173,5 +173,10 @@
     "source": "/norfolk/dependable-drainage-services-in-wymondham",
     "destination": "/locations/wymondham",
     "permanent": true
+  },
+  {
+    "source": "/cambridgeshire/trusted-drainage-services-in-littleport",
+    "destination": "/locations/littleport",
+    "permanent": true
   }
 ]
