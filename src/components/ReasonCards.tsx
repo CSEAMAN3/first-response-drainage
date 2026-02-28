@@ -3,6 +3,7 @@ interface ReasonCardsProps {
   heading: string;
   headingSplit: string;
   paragraph: string;
+  altText: string;
 }
 
 export default function ReasonCards({
@@ -10,6 +11,7 @@ export default function ReasonCards({
   heading,
   headingSplit,
   paragraph,
+  altText,
 }: ReasonCardsProps) {
   return (
     <div className="px-8">
@@ -17,7 +19,7 @@ export default function ReasonCards({
       <img
         src={`/images/${graphic}.svg`}
         // need to sort alt
-        alt="description here"
+        alt={altText}
         className="h-24 mx-auto mb-4"
       />
       <h4 className="font-bold text-center text-fr-primary mb-2">
