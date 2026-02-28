@@ -8,7 +8,7 @@ import StructuredData from "@/components/StructuredData";
 import Providers from "./providers";
 
 const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://1stresponsedrainage.co.uk";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
 
 const siteStructuredData = {
   "@context": "https://schema.org",
@@ -132,10 +132,6 @@ export const metadata: Metadata = {
   title: "Emergency Drain Services | Norfolk, Suffolk & Cambridgeshire",
   description:
     "Fast, reliable drainage services across Norfolk, Suffolk and Cambridgeshire. Blocked drains, CCTV surveys and urgent callouts for homes and businesses.",
-  robots:
-    process.env.NEXT_PUBLIC_ENV === "production"
-      ? { index: true, follow: true }
-      : { index: false, follow: true },
 };
 
 export default function RootLayout({
