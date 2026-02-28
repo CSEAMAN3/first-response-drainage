@@ -136,6 +136,12 @@ export default function Footer() {
             >
               Commercial Drainage
             </Link>
+            <Link
+              href="/drainage-services/sonde-and-tracing"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+            >
+              Sonde & Tracing
+            </Link>
           </div>
         </div>
         {/* small print */}
