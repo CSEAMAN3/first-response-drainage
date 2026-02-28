@@ -67,7 +67,6 @@ export default async function DrainageServicesPage() {
         </a>
       </section>
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />
-      {/* <MainServices /> */}
       <ServicesSlider
         heading="1st Response Drainage Services"
         paragraph="Explore our full range of professional drainage services, designed to resolve problems quickly and keep drainage systems working reliably."
