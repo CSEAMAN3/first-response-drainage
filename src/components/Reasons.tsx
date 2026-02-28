@@ -18,36 +18,42 @@ export default function Reasons() {
           headingSplit="response times"
           paragraph="Engineers operating across 
 Norfolk, Suffolk and Cambridge."
+          altText="stopwatch"
         />
         <ReasonCards
           graphic="callout-fee"
           heading="No call"
           headingSplit="out fees"
           paragraph="Clear, honest pricing with no hidden costs."
+          altText="pound coin and drain"
         />
         <ReasonCards
           graphic="insured"
           heading="Fully insured &"
           headingSplit="experienced engineers"
           paragraph="Professional service carried out to industry standards."
+          altText="insurance papers"
         />
         <ReasonCards
           graphic="high-pressure-water-jetting"
           heading="Advanced"
           headingSplit="drainage equipment"
           paragraph="CCTV cameras, high-pressure jetting and no-dig repair solutions."
+          altText="water jet gun"
         />
         <ReasonCards
           graphic="commercial-drainage"
           heading="Domestic &"
           headingSplit="commercial services"
           paragraph="Supporting homeowners, landlords and businesses of all sizes."
+          altText="office buildings"
         />
         <ReasonCards
           graphic="shield-solution"
           heading="Long lasting"
           headingSplit="solutions"
           paragraph="We fix the cause of the problem, not just the symptoms."
+          altText="water shield"
         />
       </div>
     </section>
