@@ -18,7 +18,6 @@ export default function ReasonCards({
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/images/${graphic}.svg`}
-        // need to sort alt
         alt={altText}
         className="h-24 mx-auto mb-4"
       />

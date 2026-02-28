@@ -9,8 +9,8 @@ export default function ProblemCards({ graphic, title }: ProblemCardsProps) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/images/${graphic}.svg`}
-        // need to sort alt
-        alt="description here"
+        // decorative only
+        alt=""
         className="w-[40%] h-auto mx-auto mb-4"
       />
       <h3 className="max-w-[20ch] text-balance text-center mx-auto font-bold text-fr-primary">
