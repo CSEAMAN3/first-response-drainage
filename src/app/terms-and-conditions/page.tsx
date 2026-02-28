@@ -40,6 +40,9 @@ export default function TermsAndConditionsPage() {
           <li>
             <span className="font-semibold">Telephone:</span> 07961 609836
           </li>
+          <li>
+            <span className="font-semibold">VAT:</span> 503021266
+          </li>
         </ul>
         {/* section 1 - Definitions */}
         <h2 className="font-bold mb-2 text-fr-primary">1. Definitions</h2>
