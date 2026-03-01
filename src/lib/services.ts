@@ -18,7 +18,7 @@ export const services: Service[] = [
         "Blocked drains can quickly become messy and disruptive. Our experienced engineers provide fast, professional unblocking to restore flow and prevent further damage.",
       photo: {
         src: "test",
-        alt: "test image to be updated",
+        alt: "Drainage engineer unblocking a drain a night",
       },
     },
     problemSection: {
@@ -116,7 +116,7 @@ export const services: Service[] = [
         "A CCTV drainage survey gives a clear view of your drainage system, helping identify hidden issues before they become costly problems.",
       photo: {
         src: "cctvSurvey",
-        alt: "test image to be updated",
+        alt: "Drainage engineer completing a CCTV drainage survey",
       },
     },
     problemSection: {
@@ -219,7 +219,7 @@ export const services: Service[] = [
         "High pressure water jetting is one of the most effective ways to clear blocked drains and restore full flow, removing stubborn build-up that causes recurring problems.",
       photo: {
         src: "waterJetting",
-        alt: "test image to be updated",
+        alt: "Drainage engineer preparing to complete high pressure water jetting on an external drain",
       },
     },
     problemSection: {
@@ -323,7 +323,7 @@ export const services: Service[] = [
         "Patch lining and no-dig drain repairs fix damaged pipes internally, without the need for digging or unnecessary disruption.",
       photo: {
         src: "patchLining",
-        alt: "test image to be updated",
+        alt: "Drainage engineer inspecting an external drain after completing a no dig patch liner repair on a damaged pipe",
       },
     },
     problemSection: {
@@ -421,7 +421,7 @@ export const services: Service[] = [
         "Tree roots invading drains are a common cause of recurring blockages and pipe damage. Root intrusion removal restores flow and helps protect your drainage system from further damage.",
       photo: {
         src: "rootIntrusion",
-        alt: "test image to be updated",
+        alt: "Drainage engineer using camera to inspect external drain for root intrusion",
       },
     },
     problemSection: {
@@ -517,7 +517,7 @@ export const services: Service[] = [
         "Commercial drainage issues can cause serious disruption to operations, staff and customers. Effective commercial drainage support helps resolve problems quickly and keep premises running smoothly.",
       photo: {
         src: "commercialDrainage",
-        alt: "test image to be updated",
+        alt: "Drainage engineer unblocking drains at a Wetherspoon commercial property",
       },
     },
     problemSection: {
@@ -619,7 +619,7 @@ export const services: Service[] = [
         "Need to locate underground drains or pipework? Our sonde and tracing equipment allows us to accurately identify the position and depth of drainage systems without unnecessary digging.",
       photo: {
         src: "sondeTrace",
-        alt: "test image to be updated",
+        alt: "Drainage engineer using a sonde device to trace drainage pipe routes, depths and connection points",
       },
     },
     problemSection: {

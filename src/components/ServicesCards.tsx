@@ -137,6 +137,7 @@ export default function ServicesCards() {
                 /> */}
                 <CloudinaryUnOptImage
                   {...Images[s.carousel.photo]}
+                  alt={s.hero.photo.alt}
                   className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000"
                 />
               </div>
