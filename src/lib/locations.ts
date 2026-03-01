@@ -16,7 +16,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing fast, professional drainage services for homes, landlords and businesses in Cambridge and nearby areas. From blocked drains and CCTV surveys to specialist repairs, our experienced engineers are ready to help.",
       photo: "cambridge",
-      alt: "",
+      alt: "an ariel landscape overlooking Cambridge showing the area 1st response drainage covers for drainage services.",
     },
     servicesSection: {
       paragraph:
@@ -105,7 +105,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Chatteris. Our engineers are experienced in resolving blockages, carrying out CCTV surveys and completing drainage repairs efficiently.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -195,7 +195,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for homes and businesses in Ely and surrounding areas. From blocked drains to detailed inspections and repairs, our team is ready to respond quickly.",
       photo: "ely",
-      alt: "",
+      alt: "An ariel view of ely showing the location 1st Response drainage covers with drainage services.",
     },
     servicesSection: {
       paragraph:
@@ -283,7 +283,7 @@ export const locations: Location[] = [
       paragraph:
         "We support homeowners and businesses in Great Shelford with dependable drainage services. Whether it's a blocked drain, inspection or repair, our engineers deliver practical solutions with minimal disruption.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -374,7 +374,7 @@ export const locations: Location[] = [
       paragraph:
         "Offering fast, professional drainage services for residential and commercial customers in Littleport. Our experienced engineers handle blockages, inspections and repairs with care and efficiency.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -463,7 +463,7 @@ export const locations: Location[] = [
       paragraph:
         "Supplying trusted drainage services for homes and businesses in Saffron Walden. Our team provides effective solutions for blockages, CCTV surveys and ongoing drainage issues.",
       photo: "saffronwalden",
-      alt: "",
+      alt: "A street view of Saffron Walden showing the homes which 1st Response Drainage covers with drainage services",
     },
     servicesSection: {
       paragraph:
@@ -554,7 +554,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing dependable drainage services for properties in Soham and nearby areas. From emergency blockages to planned inspections and repairs, our engineers are here to help.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -643,7 +643,7 @@ export const locations: Location[] = [
       paragraph:
         "Supporting homes and businesses in St Ives with professional drainage services. We respond quickly to blockages, carry out inspections and deliver long-term drainage solutions.",
       photo: "stives",
-      alt: "",
+      alt: "A view of the river flowing through St Ives showing the location where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -732,7 +732,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for domestic and commercial properties in Wisbech. Our engineers are equipped to manage blockages, inspections and drainage repairs efficiently.",
       photo: "wisbech",
-      alt: "",
+      alt: "A view overlooking the river flowing through Wisbech in Cambridgeshire showing the location where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -823,7 +823,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for homes and businesses in Attleborough. Our engineers offer fast solutions for blocked drains, inspections and drainage repairs.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -913,7 +913,7 @@ export const locations: Location[] = [
       paragraph:
         "Supporting residential and commercial properties in Cromer with reliable drainage services. From blocked drains to inspections and repairs, our team is ready to assist",
       photo: "cromer",
-      alt: "",
+      alt: "A view overlooking Cromer from the beach showing the properties which 1st Respsonse Drainage provides Drainage Services too",
     },
     servicesSection: {
       paragraph:
@@ -1004,7 +1004,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering dependable drainage services for properties in Dereham and surrounding areas. Our experienced engineers handle blockages, CCTV surveys and repair work efficiently.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -1093,7 +1093,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing trusted drainage services for homes and businesses in Diss. We respond quickly to drainage issues and deliver practical, long-lasting solutions.",
       photo: "diss",
-      alt: "",
+      alt: "A view of Diss overlooking Diss Mere showing the location which 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -1183,7 +1183,7 @@ export const locations: Location[] = [
       paragraph:
         "Offering professional drainage services for residential and commercial customers in Downham Market. From blocked drains to inspections and repairs, our engineers are on hand to help.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -1275,7 +1275,7 @@ export const locations: Location[] = [
       paragraph:
         "Supplying reliable drainage services for homes and businesses in Fakenham. Our engineers deal with blockages, inspections and drainage repairs promptly and professionally.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -1365,7 +1365,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing dependable drainage services for domestic and commercial properties in Great Yarmouth. Our engineers respond quickly to blocked drains, inspections and ongoing drainage issues.",
       photo: "greatyarmouth",
-      alt: "",
+      alt: "An ariel view of Great Yarmouth showing the area where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -1457,7 +1457,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing fast, dependable drainage services for properties in Hethersett. Our experienced engineers resolve blockages and carry out inspections with minimal disruption.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -1549,7 +1549,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering professional drainage services for residential and commercial properties in Holt. We handle blocked drains, inspections and repair work efficiently.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -1639,7 +1639,7 @@ export const locations: Location[] = [
       paragraph:
         "Offering professional drainage services for homes and businesses in King's Lynn and surrounding areas. From blocked drains to specialist inspections and repairs, we're here to help.",
       photo: "kingslynn",
-      alt: "",
+      alt: "An ariel view of Kings Lynn in Norfolk showing the location where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -1730,7 +1730,7 @@ export const locations: Location[] = [
       paragraph:
         "Supporting homes and businesses in Necton with reliable drainage services. Our team responds quickly to blockages and drainage system issues.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -1819,7 +1819,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for properties in North Walsham. From blocked drains to inspections and repairs, our engineers deliver effective solutions.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -1907,7 +1907,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing fast, reliable drainage services for homes and businesses in Norwich and the surrounding area. Our experienced engineers handle blocked drains, inspections and repairs with minimal disruption.",
       photo: "norwich",
-      alt: "",
+      alt: "A street view overlooking Norwich in Norfolk showing the cathedral on the horizon",
     },
     servicesSection: {
       paragraph:
@@ -1996,7 +1996,7 @@ export const locations: Location[] = [
       paragraph:
         "Offering dependable drainage services for homes and businesses in Swaffham. Our experienced engineers provide fast assistance with blockages and drainage concerns.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -2085,7 +2085,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Thetford. Our team is equipped to handle blockages, inspections and repairs efficiently.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -2176,7 +2176,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing trusted drainage services for homes and businesses in Watton. We respond quickly to drainage problems and deliver practical solutions.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -2266,7 +2266,7 @@ export const locations: Location[] = [
       paragraph:
         "Supporting properties in Wymondham with professional drainage services. From blocked drains to inspections and repairs, our engineers are ready to help.",
       photo: "wymondham",
-      alt: "",
+      alt: "A street view of Wymondham town center in Norfolk",
     },
     servicesSection: {
       paragraph:
@@ -2358,7 +2358,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing reliable drainage services for homes and businesses in Aldeburgh. Our engineers handle blockages, inspections and drainage repairs efficiently.",
       photo: "aldeburgh",
-      alt: "",
+      alt: "An ariel view of aldeburgh taken from the sea front",
     },
     servicesSection: {
       paragraph:
@@ -2448,7 +2448,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering professional drainage services for residential and commercial properties in Beccles. We respond quickly to blockages and carry out inspections and repairs.",
       photo: "beccles",
-      alt: "",
+      alt: "A street view of Beccles showing the location which 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -2539,7 +2539,7 @@ export const locations: Location[] = [
       paragraph:
         "Supporting homes and businesses in Beck Row with dependable drainage services. Our engineers provide fast solutions for blocked drains and drainage issues.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -2631,7 +2631,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing trusted drainage services for residential and commercial customers in Brandon. Our team delivers efficient solutions for blockages and inspections.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -2720,7 +2720,7 @@ export const locations: Location[] = [
       paragraph:
         "Offering professional drainage services for properties in Bungay. From blocked drains to inspections and repairs, our engineers are ready to assist.",
       photo: "bungay",
-      alt: "",
+      alt: "A street view of Bungay town center showing the location where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -2809,7 +2809,7 @@ export const locations: Location[] = [
       paragraph:
         "We provide professional drainage services for homes and businesses in Bury St Edmunds and nearby locations. From emergency blockages to planned CCTV surveys, our engineers deliver dependable solutions.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -2900,7 +2900,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for homes and businesses in Haverhill. We respond promptly to blockages and provide effective drainage solutions.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -2990,7 +2990,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Ipswich. Our local engineers are equipped to deal with blockages, inspections and long-term drainage repairs.",
       photo: "ipswich",
-      alt: "",
+      alt: "An ariel view of Ipswich in Suffolk showing the location where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -3080,7 +3080,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing dependable drainage services for residential and commercial properties in Mildenhall. Our engineers handle blockages and inspections efficiently.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -3172,7 +3172,7 @@ export const locations: Location[] = [
       paragraph:
         "Supporting homes and businesses in Newmarket with professional drainage services. From emergency blockages to planned inspections, our team is here to help.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -3264,7 +3264,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering professional drainage services for properties in Red Lodge. Our engineers provide fast assistance with blocked drains and drainage issues.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -3356,7 +3356,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing trusted drainage services for residential and commercial customers in Stowmarket. We deliver effective solutions for blockages and inspections.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -3447,7 +3447,7 @@ export const locations: Location[] = [
       paragraph:
         "Offering reliable drainage services for homes and businesses in Sudbury. Our experienced engineers respond quickly to drainage problems.",
       photo: "sudbury",
-      alt: "",
+      alt: "A street view of Sudbury showing old properties",
     },
     servicesSection: {
       paragraph:
@@ -3537,7 +3537,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for properties in Sutton. Our team delivers dependable solutions for blockages and drainage inspections.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
@@ -3627,7 +3627,7 @@ export const locations: Location[] = [
       paragraph:
         "Supporting residential and commercial properties in Woolpit with reliable drainage services. Our engineers respond promptly to drainage issues.",
       photo: "test",
-      alt: "",
+      alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
