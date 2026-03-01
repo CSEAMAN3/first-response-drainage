@@ -101,6 +101,7 @@ export default async function ServicePage({ params }: PageProps) {
         heading={service.hero.heading}
         paraOne={service.hero.paragraph}
         photo={service.hero.photo.src}
+        alt={service.hero.photo.alt}
         reviewsData={reviewsData}
       />
       <Scrollbar items={items} className="bg-fr-primary-mid py-2" />

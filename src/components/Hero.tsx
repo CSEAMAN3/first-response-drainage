@@ -11,6 +11,7 @@ interface HeroProps {
   heading: string;
   paraOne: string;
   photo: ResponseImageKey;
+  alt: string;
   reviewsData: GoogleReviewsPayload;
 }
 
@@ -18,6 +19,7 @@ export default function Hero({
   heading,
   paraOne,
   photo,
+  alt,
   reviewsData,
 }: HeroProps) {
   return (
@@ -56,6 +58,7 @@ export default function Hero({
       /> */}
       <CloudinaryOptImage
         {...Images[photo]}
+        alt={alt}
         className="w-full object-cover md:w-[80vw] h-[50vw] md:top-0 md:right-0 md:h-[50vw] md:min-h-120 lg:h-125 md:absolute -z-10"
       />
     </div>

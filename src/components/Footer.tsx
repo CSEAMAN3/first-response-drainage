@@ -12,7 +12,7 @@ export default function Footer() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/horizontal-logo-white.svg"
-              alt=""
+              alt="1st Response Drainage logo"
               className="w-40 md:w-44 h-auto"
             />
             <a
