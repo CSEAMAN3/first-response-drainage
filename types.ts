@@ -100,6 +100,7 @@ export type Location = {
     heading: string;
     paragraph: string;
     photo: ResponseImageKey;
+    alt: string;
   };
   servicesSection: {
     paragraph: string;

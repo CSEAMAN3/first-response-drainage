@@ -41,6 +41,7 @@ export default async function NorfolkPage() {
         paraOne={county?.hero.paragraph}
         photo="test"
         reviewsData={reviewsData}
+        alt="A drainage engineer unblocking a blocked drain a night"
       />
       <Reviews reviewsData={reviewsData} />
       <ServicesSlider
