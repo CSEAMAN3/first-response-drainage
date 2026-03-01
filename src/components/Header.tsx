@@ -9,7 +9,7 @@ export default function Header() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/horizontal-logo-purple.svg"
-            alt=""
+            alt="1st response drainage logo"
             className="w-40 md:w-44 h-auto"
           />
         </Link>
