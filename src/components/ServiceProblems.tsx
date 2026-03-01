@@ -4,6 +4,7 @@ import ServiceProblemsSlider from "./ServiceProblemsSlider";
 export type ProblemCard = {
   graphic: string;
   title: string;
+  alt: string;
 };
 
 interface ServiceProblemProps {
@@ -47,6 +48,7 @@ export default function ServiceProblems({
                 key={card.title}
                 graphic={card.graphic}
                 title={card.title}
+                alt={card.alt}
               />
             );
           })}

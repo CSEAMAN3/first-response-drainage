@@ -136,7 +136,7 @@ export default function ServiceProblemsSlider({
             >
               <Image
                 src={`/images/${c.graphic}.svg`}
-                alt=""
+                alt={c.alt}
                 width={100}
                 height={100}
                 className="mx-auto mb-8"

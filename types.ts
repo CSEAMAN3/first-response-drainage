@@ -45,7 +45,7 @@ export type Service = {
     headingSplit: string;
     paragraphOne: string;
     paragraphTwo: string;
-    cards: { graphic: string; title: string }[];
+    cards: { graphic: string; title: string; alt: string }[];
   };
 
   howSection: {

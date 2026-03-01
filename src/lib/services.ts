@@ -31,26 +31,32 @@ export const services: Service[] = [
         {
           graphic: "slow-draining",
           title: "Slow-Draining Sinks and Baths",
+          alt: "Sink hole with water drip graphic",
         },
         {
           graphic: "toilet",
           title: "Toilets That Won't Flush Properly",
+          alt: "Toilet graphic",
         },
         {
           graphic: "drainage-smells",
           title: "Bad Smells Coming From Drains",
+          alt: "Sink hole with smells graphic",
         },
         {
           graphic: "overflowing-drains",
           title: "External Drains Overflowing",
+          alt: "External drain with water drip graphic",
         },
         {
           graphic: "drainage-sounds",
           title: "Gurgling Sounds or Water Backing Up",
+          alt: "Sink hole with sounds graphic",
         },
         {
           graphic: "blocked-drains",
           title: "Recurring Drain Blockages",
+          alt: "Blocked external drain",
         },
       ],
     },
@@ -129,26 +135,32 @@ export const services: Service[] = [
         {
           graphic: "cctv-drainage-surveys",
           title: "Diagnose Ongoing Drainage Issues",
+          alt: "CCTV Drainage camera inspecting pipe graphic",
         },
         {
           graphic: "blocked-drains",
           title: "Drain Checks for Property Purchases",
+          alt: "Blocked external drain graphic",
         },
         {
           graphic: "structural-damage",
           title: "Identifying Structural Damage",
+          alt: "Damaged drain graphic",
         },
         {
           graphic: "root-intrusion-removal",
           title: "Identifying Root Intrusion",
+          alt: "Tree roots intruding drainage graphic",
         },
         {
           graphic: "insured",
           title: "Support Insurance Claims",
+          alt: "Insurance paperwork graphic",
         },
         {
           graphic: "patch-liners",
           title: "Support Repair Planning",
+          alt: "Cracked draiange pipe graphic",
         },
       ],
     },
@@ -232,26 +244,32 @@ export const services: Service[] = [
         {
           graphic: "overflowing-drains",
           title: "Drains Repeatedly Blocking",
+          alt: "Blocked external drain graphic",
         },
         {
           graphic: "drain-pipe-blockage",
           title: "Heavy Grease or Fat Build Up",
+          alt: "Blocked drainage pipe graphic",
         },
         {
           graphic: "restricted-flow",
           title: "Debris, Silt or Scale Restricting Flow",
+          alt: "Blocked drainage pipe with water graphic",
         },
         {
           graphic: "blocked-drains",
           title: "External Drain Blockages",
+          alt: "Blocked drain graphic",
         },
         {
           graphic: "high-pressure-water-jetting",
           title: "Preventative Cleaning",
+          alt: "High pressure water jet gun graphic",
         },
         {
           graphic: "commercial-drainage",
           title: "Commercial Drainage",
+          alt: "Commercial buildings graphic",
         },
       ],
     },
@@ -336,26 +354,32 @@ export const services: Service[] = [
         {
           graphic: "cracked-pipe",
           title: "Cracked or Fractured Pipes",
+          alt: "Cracked drainage pipe graphic",
         },
         {
           graphic: "root-intrusion-removal",
           title: "Root Intrusion Points",
+          alt: "Tree roots intruding drainage pipe graphic",
         },
         {
           graphic: "displaced-pipe",
           title: "Displaced or Leaking Joints",
+          alt: "Drainage pipe connection broken graphic",
         },
         {
           graphic: "collapsed-drainage",
           title: "Minor Collapses or Defects",
+          alt: "Drainage pipe connection collapsed graphic",
         },
         {
           graphic: "pipe-damage",
           title: "Repeat Issues Due to Pipe Damage",
+          alt: "Drainage pipe cracked and blocked graphic",
         },
         {
           graphic: "drain-deterioration",
           title: "Preventing Deterioration",
+          alt: "Deteriorating drainage pipes graphic",
         },
       ],
     },
@@ -434,18 +458,22 @@ export const services: Service[] = [
         {
           graphic: "blocked-drains",
           title: "Repeated Drain Blockages",
+          alt: "Blocked drain graphic",
         },
         {
           graphic: "slow-draining",
           title: "Slow Drainage and Backups",
+          alt: "Sink hole with water drip graphic",
         },
         {
           graphic: "cracked-pipe",
           title: "Cracked or Displaced Pipes",
+          alt: "Cracked drainage pipe graphic",
         },
         {
           graphic: "root-intrusion-removal",
           title: "Drainage System Structural Damage",
+          alt: "Tree roots intruding drainage pipe graphic",
         },
       ],
     },
@@ -530,26 +558,32 @@ export const services: Service[] = [
         {
           graphic: "toilet",
           title: "Blocked Toilets, Sinks, Waste Pipes",
+          alt: "Toilet graphic",
         },
         {
           graphic: "blocked-drains",
           title: "Slow Drainage or Repeat Blockages",
+          alt: "Blocked drain graphic",
         },
         {
           graphic: "drain-pipe-blockage",
           title: "Grease and Food Waste Build-Up",
+          alt: "Blocked drainage pipe graphic",
         },
         {
           graphic: "overflowing-drains",
           title: "External Drain Blockages",
+          alt: "Blocked external drain with water drip graphic",
         },
         {
           graphic: "root-intrusion-removal",
           title: "Root Intrusion and Pipe Damage",
+          alt: "Tree roots intruding drainage pipe graphic",
         },
         {
           graphic: "insured",
           title: "Issues Causing Downtime",
+          alt: "Insurance paperwork graphic",
         },
       ],
     },
@@ -632,26 +666,32 @@ export const services: Service[] = [
         {
           graphic: "drain-runs",
           title: "Unsure Where Your Drains Run",
+          alt: "house drainage map graphic",
         },
         {
           graphic: "extend",
           title: "Extending or Renovating",
+          alt: "house with extension and drainage map graphic",
         },
         {
           graphic: "sonde-trace",
           title: "Investigating Drainage Issues",
+          alt: "Sonde and tracing machine graphic",
         },
         {
           graphic: "cracked-pipe",
           title: "Locating a Damaged Pipe",
+          alt: "Cracked drainage pipe graphic",
         },
         {
           graphic: "shared-drains",
           title: "Identifying Shared or Boundary Drains",
+          alt: "Two properties with draiange map graphic",
         },
         {
           graphic: "insured",
           title: "Creating Drainage Layout Plans",
+          alt: "Insurance paperwork graphic",
         },
       ],
     },
