@@ -179,10 +179,10 @@ export const firstResponseImages = {
     height: 825,
   },
   ipswich: {
-    src: "Ipswich_tbnpyf.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 571,
+    src: "ipswich_ovaorr.jpg",
+    alt: "Ariel view overlooking Ipswich",
+    width: 1183,
+    height: 887,
   },
   sudbury: {
     src: "sudbury_yza7qh.jpg",
