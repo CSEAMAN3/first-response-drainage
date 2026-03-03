@@ -167,10 +167,10 @@ export const firstResponseImages = {
     height: 837,
   },
   beccles: {
-    src: "beccles_hifqs1.jpg",
+    src: "beccles_nc4xan.jpg",
     alt: "update this",
-    width: 1024,
-    height: 682,
+    width: 1258,
+    height: 838,
   },
   bungay: {
     src: "bungay_c2n0uu.jpg",
