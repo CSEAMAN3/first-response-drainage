@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import type { ProblemCard } from "./ServiceProblems";
 
 import { useEffect, useRef, useState } from "react";
