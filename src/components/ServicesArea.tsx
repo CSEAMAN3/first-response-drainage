@@ -21,7 +21,6 @@ export default function ServicesArea() {
                 href={`/drainage-services/${s.slug}`}
                 key={s.slug}
                 className="group"
-                prefetch={false}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
