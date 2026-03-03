@@ -185,10 +185,10 @@ export const firstResponseImages = {
     height: 887,
   },
   sudbury: {
-    src: "sudbury_yza7qh.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 783,
+    src: "sudbury_k81klx.jpg",
+    alt: "A row of old half-timbered buildings in the town of Sudbury in Suffolk",
+    width: 1171,
+    height: 895,
   },
 };
 
