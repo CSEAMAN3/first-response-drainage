@@ -99,10 +99,10 @@ export const firstResponseImages = {
     height: 810,
   },
   ely: {
-    src: "ely_mte7zv.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 576,
+    src: "ely_rwxif5.jpg",
+    alt: "Ariel view overlooking Ely",
+    width: 1365,
+    height: 768,
   },
   saffronwalden: {
     src: "saffronwalden_tr7cdx.jpg",
