@@ -111,10 +111,10 @@ export const firstResponseImages = {
     height: 836,
   },
   stives: {
-    src: "stives_nn0u7q.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 582,
+    src: "st-ives_cu4by8.jpg",
+    alt: "A view of St Ives looking across the river greta ouse",
+    width: 1357,
+    height: 772,
   },
   wisbech: {
     src: "wisbech_vt1z5u.jpg",
