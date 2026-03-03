@@ -117,10 +117,10 @@ export const firstResponseImages = {
     height: 772,
   },
   wisbech: {
-    src: "wisbech_vt1z5u.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 582,
+    src: "wisbech_rx2sil.jpg",
+    alt: "A view of Wisbech in Cambridgeshire overlooking the river",
+    width: 1262,
+    height: 831,
   },
   // Norfolk
   cromer: {
