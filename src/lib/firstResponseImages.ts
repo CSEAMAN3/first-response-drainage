@@ -148,10 +148,10 @@ export const firstResponseImages = {
     height: 836,
   },
   norwich: {
-    src: "norwich_dxh3e7.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 768,
+    src: "norwich_plrvys.jpg",
+    alt: "Street view of Norwich in Norfolk with norwich cathedral on the horizon",
+    width: 1183,
+    height: 887,
   },
   wymondham: {
     src: "wymondham_olnxvm.jpg",
