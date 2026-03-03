@@ -132,6 +132,9 @@ export const metadata: Metadata = {
   title: "Emergency Drain Services | Norfolk, Suffolk & Cambridgeshire",
   description:
     "Fast, reliable drainage services across Norfolk, Suffolk and Cambridgeshire. Blocked drains, CCTV surveys and urgent callouts for homes and businesses.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_GB",
