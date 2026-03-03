@@ -136,10 +136,10 @@ export const firstResponseImages = {
     height: 887,
   },
   greatyarmouth: {
-    src: "greatyarmouth_fd996r.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 571,
+    src: "great-yarmouth_l1kacv.jpg",
+    alt: "Ariel view overlooking Great Yarmouth",
+    width: 1372,
+    height: 765,
   },
   kingslynn: {
     src: "kingslynn_qik3le.jpg",
