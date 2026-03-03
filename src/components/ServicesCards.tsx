@@ -126,7 +126,7 @@ export default function ServicesCards() {
             }}
             className="snap-start shrink-0 w-[70vw] sm:w-[50vw] md:w-[38vw] lg:w-[34vw] max-w-96 bg-fr-primary/5 rounded-sm overflow-hidden relative group"
           >
-            <Link href={`/drainage-services/${s.slug}`} prefetch={false}>
+            <Link href={`/drainage-services/${s.slug}`}>
               <div className="w-full h-50 overflow-hidden">
                 {/* <Image
                   src="/images/test.jpg"
