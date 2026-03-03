@@ -168,15 +168,15 @@ export const firstResponseImages = {
   },
   beccles: {
     src: "beccles_nc4xan.jpg",
-    alt: "update this",
+    alt: "steet view of beccles",
     width: 1258,
     height: 838,
   },
   bungay: {
-    src: "bungay_c2n0uu.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 665,
+    src: "bungay-blue-sky_smt2ir.jpg",
+    alt: "street view of bungay high street",
+    width: 1270,
+    height: 825,
   },
   ipswich: {
     src: "Ipswich_tbnpyf.jpg",
