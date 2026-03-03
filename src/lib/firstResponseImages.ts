@@ -154,10 +154,10 @@ export const firstResponseImages = {
     height: 887,
   },
   wymondham: {
-    src: "wymondham_olnxvm.jpg",
-    alt: "Update this",
-    width: 1024,
-    height: 682,
+    src: "wymondham_f3zykj.jpg",
+    alt: "Town houses in the village of Wymondham in Norfolk",
+    width: 1254,
+    height: 836,
   },
   // Suffolk
   aldeburgh: {
