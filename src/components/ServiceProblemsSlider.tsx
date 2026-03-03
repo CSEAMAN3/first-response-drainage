@@ -134,12 +134,12 @@ export default function ServiceProblemsSlider({
               className="p-4 bg-fr-light-grey border-b-4 border-fr-accent-one w-[68vw] sm:w-[55vw] min-h-70 grid place-content-center snap-start shrink-0 max-w-80"
               data-card
             >
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={`/images/${c.graphic}.svg`}
                 alt={c.alt}
-                width={100}
-                height={100}
-                className="mx-auto mb-8"
+                className="mx-auto mb-8 h-25 w-25"
+                loading="lazy"
               />
               <h3 className="font-bold text-lg sm:text-xl text-fr-primary text-balance text-center max-w-[20ch]">
                 {c.title}
