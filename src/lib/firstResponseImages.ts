@@ -93,10 +93,10 @@ export const firstResponseImages = {
   // locations
   // Cambridgeshire
   cambridge: {
-    src: "cambridge_rcqhre.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 448,
+    src: "cambridge_btdcqx.jpg",
+    alt: "Ariel view overlooking Cambridge",
+    width: 1296,
+    height: 810,
   },
   ely: {
     src: "ely_mte7zv.jpg",
