@@ -124,10 +124,10 @@ export const firstResponseImages = {
   },
   // Norfolk
   cromer: {
-    src: "cromer_bwscjk.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 631,
+    src: "cromer_ooy327.jpg",
+    alt: "view of Cromer from the seafront",
+    width: 1305,
+    height: 804,
   },
   diss: {
     src: "diss_op5npp.jpg",
