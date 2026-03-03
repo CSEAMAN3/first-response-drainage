@@ -130,7 +130,7 @@ export const firstResponseImages = {
     height: 804,
   },
   diss: {
-    src: "diss_op5npp.jpg",
+    src: "diss_drugtd.jpg",
     alt: "update this",
     width: 1024,
     height: 768,
