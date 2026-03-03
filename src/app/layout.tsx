@@ -132,6 +132,24 @@ export const metadata: Metadata = {
   title: "Emergency Drain Services | Norfolk, Suffolk & Cambridgeshire",
   description:
     "Fast, reliable drainage services across Norfolk, Suffolk and Cambridgeshire. Blocked drains, CCTV surveys and urgent callouts for homes and businesses.",
+  openGraph: {
+    type: "website",
+    locale: "en_GB",
+    url: SITE_URL,
+    siteName: "1st Response Drainage",
+    images: [
+      {
+        url: `${SITE_URL}/images/og-image.jpg`, // or Cloudinary URL
+        width: 1200,
+        height: 630,
+        alt: "1st Response Drainage - Emergency Drain Services",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [`${SITE_URL}/images/og-image.jpg`],
+  },
 };
 
 export default function RootLayout({
