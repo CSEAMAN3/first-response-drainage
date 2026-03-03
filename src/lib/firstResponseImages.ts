@@ -131,9 +131,9 @@ export const firstResponseImages = {
   },
   diss: {
     src: "diss_drugtd.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 768,
+    alt: "view of Diss overlooking Diss Mere",
+    width: 1183,
+    height: 887,
   },
   greatyarmouth: {
     src: "greatyarmouth_fd996r.jpg",
