@@ -161,10 +161,10 @@ export const firstResponseImages = {
   },
   // Suffolk
   aldeburgh: {
-    src: "aldeburgh_yxfl4y.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 682,
+    src: "aldeburgh_rwlyuy.jpg",
+    alt: "aldeburgh ariel view from the seafront",
+    width: 1257,
+    height: 837,
   },
   beccles: {
     src: "beccles_hifqs1.jpg",
