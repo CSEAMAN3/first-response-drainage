@@ -16,7 +16,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing fast, professional drainage services for homes, landlords and businesses in Cambridge and nearby areas. From blocked drains and CCTV surveys to specialist repairs, our experienced engineers are ready to help.",
       photo: "cambridge",
-      alt: "an ariel landscape overlooking Cambridge showing the area 1st response drainage covers for drainage services.",
+      alt: "an aerial landscape overlooking Cambridge showing the area 1st response drainage covers for drainage services.",
     },
     servicesSection: {
       paragraph:
@@ -195,7 +195,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing professional drainage services for homes and businesses in Ely and surrounding areas. From blocked drains to detailed inspections and repairs, our team is ready to respond quickly.",
       photo: "ely",
-      alt: "An ariel view of ely showing the location 1st Response drainage covers with drainage services.",
+      alt: "An aerial view of ely showing the location 1st Response drainage covers with drainage services.",
     },
     servicesSection: {
       paragraph:
@@ -1365,7 +1365,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing dependable drainage services for domestic and commercial properties in Great Yarmouth. Our engineers respond quickly to blocked drains, inspections and ongoing drainage issues.",
       photo: "greatyarmouth",
-      alt: "An ariel view of Great Yarmouth showing the area where 1st Response Drainage provides drainage services",
+      alt: "An aerial view of Great Yarmouth showing the area where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -1639,7 +1639,7 @@ export const locations: Location[] = [
       paragraph:
         "Offering professional drainage services for homes and businesses in King's Lynn and surrounding areas. From blocked drains to specialist inspections and repairs, we're here to help.",
       photo: "kingslynn",
-      alt: "An ariel view of Kings Lynn in Norfolk showing the location where 1st Response Drainage provides drainage services",
+      alt: "An aerial view of Kings Lynn in Norfolk showing the location where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:
@@ -2358,7 +2358,7 @@ export const locations: Location[] = [
       paragraph:
         "Providing reliable drainage services for homes and businesses in Aldeburgh. Our engineers handle blockages, inspections and drainage repairs efficiently.",
       photo: "aldeburgh",
-      alt: "An ariel view of aldeburgh taken from the sea front",
+      alt: "An aerial view of aldeburgh taken from the sea front",
     },
     servicesSection: {
       paragraph:
@@ -2990,7 +2990,7 @@ export const locations: Location[] = [
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Ipswich. Our local engineers are equipped to deal with blockages, inspections and long-term drainage repairs.",
       photo: "ipswich",
-      alt: "An ariel view of Ipswich in Suffolk showing the location where 1st Response Drainage provides drainage services",
+      alt: "An aerial view of Ipswich in Suffolk showing the location where 1st Response Drainage provides drainage services",
     },
     servicesSection: {
       paragraph:

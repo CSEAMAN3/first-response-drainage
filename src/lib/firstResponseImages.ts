@@ -94,13 +94,13 @@ export const firstResponseImages = {
   // Cambridgeshire
   cambridge: {
     src: "cambridge_btdcqx.jpg",
-    alt: "Ariel view overlooking Cambridge",
+    alt: "Aerial view overlooking Cambridge",
     width: 1296,
     height: 810,
   },
   ely: {
     src: "ely_rwxif5.jpg",
-    alt: "Ariel view overlooking Ely",
+    alt: "Aerial view overlooking Ely",
     width: 1365,
     height: 768,
   },
@@ -137,15 +137,15 @@ export const firstResponseImages = {
   },
   greatyarmouth: {
     src: "great-yarmouth_l1kacv.jpg",
-    alt: "Ariel view overlooking Great Yarmouth",
+    alt: "Aerial view overlooking Great Yarmouth",
     width: 1372,
     height: 765,
   },
   kingslynn: {
-    src: "kingslynn_qik3le.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 682,
+    src: "kings-lynn_cs3uoy.jpg",
+    alt: "Aerial view of Kings Lynn in Norfolk",
+    width: 1255,
+    height: 836,
   },
   norwich: {
     src: "norwich_dxh3e7.jpg",
@@ -162,7 +162,7 @@ export const firstResponseImages = {
   // Suffolk
   aldeburgh: {
     src: "aldeburgh_rwlyuy.jpg",
-    alt: "aldeburgh ariel view from the seafront",
+    alt: "aldeburgh aerial view from the seafront",
     width: 1257,
     height: 837,
   },
@@ -180,7 +180,7 @@ export const firstResponseImages = {
   },
   ipswich: {
     src: "ipswich_ovaorr.jpg",
-    alt: "Ariel view overlooking Ipswich",
+    alt: "Aerial view overlooking Ipswich",
     width: 1183,
     height: 887,
   },
