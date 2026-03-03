@@ -105,10 +105,10 @@ export const firstResponseImages = {
     height: 768,
   },
   saffronwalden: {
-    src: "saffronwalden_tr7cdx.jpg",
-    alt: "update this",
-    width: 1024,
-    height: 683,
+    src: "saffron-walden_qt0tps.jpg",
+    alt: "street view of Saffron Walden with Cathedral tower visible",
+    width: 1254,
+    height: 836,
   },
   stives: {
     src: "stives_nn0u7q.jpg",
