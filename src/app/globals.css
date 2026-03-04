@@ -54,10 +54,6 @@ body {
   padding: 10px;
 }
 
-/* .mobile-nav-message {
-  margin-bottom: 
-} */
-
 @media (max-height: 540px) {
   .mobile-nav-message {
     display: none;
