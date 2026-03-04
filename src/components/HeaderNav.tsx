@@ -122,7 +122,7 @@ export default function HeaderNav() {
             </motion.ul>
           </nav>
           <motion.p
-            className="text-fr-white font-bold text-xl absolute bottom-32 left-8"
+            className="text-fr-white mobile-nav-message font-bold text-xl absolute bottom-32 left-8"
             variants={{
               open: {
                 opacity: 1,

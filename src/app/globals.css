@@ -53,3 +53,19 @@ body {
 .selectPadding {
   padding: 10px;
 }
+
+/* .mobile-nav-message {
+  margin-bottom: 
+} */
+
+@media (max-height: 540px) {
+  .mobile-nav-message {
+    display: none;
+  }
+}
+
+@media (max-height: 660px) {
+  .mobile-nav-message {
+    bottom: 8px;
+  }
+}
