@@ -130,7 +130,7 @@ export default async function LocationPage({ params }: PageProps) {
       />
       {/* faq section */}
       <FaqLocations
-        heading={`Your ${location.location} Drianage`}
+        heading={`Your ${location.location} Drainage`}
         paragraph={`We've answered some of the most common questions customers ask about drainage services in ${location.location}, so you know what to expect before booking a visit from our engineers.`}
         location={location.location}
       />
