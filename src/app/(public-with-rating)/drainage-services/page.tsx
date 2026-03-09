@@ -13,11 +13,14 @@ import { services } from "@/lib/services";
 import ReviewCount from "@/components/ReviewCount";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Expert Drainage Services in Cambrdigeshire, Norfolk & Suffolk",
   description:
     "Explore our full range of drainage services including blocked drains, CCTV surveys and repairs. Local engineers covering East Anglia 24/7.",
-  alternates: { canonical: "/drainage-services" },
+  alternates: { canonical: `${SITE_URL}/drainage-services` },
 };
 
 export default async function DrainageServicesPage() {

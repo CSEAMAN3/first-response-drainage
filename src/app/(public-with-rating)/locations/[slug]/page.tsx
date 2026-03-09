@@ -23,6 +23,9 @@ export async function generateStaticParams() {
   return locations.map((l) => ({ slug: l.slug }));
 }
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
@@ -42,12 +45,12 @@ export async function generateMetadata({
     title: location.seo.metaTitle,
     description: location.seo.metaDescription,
     alternates: {
-      canonical: `/locations/${location.slug}`,
+      canonical: `${SITE_URL}/locations/${location.slug}`,
     },
     openGraph: {
       title: location.seo.metaTitle,
       description: location.seo.metaDescription,
-      url: `/locations/${location.slug}`,
+      url: `${SITE_URL}/locations/${location.slug}`,
       type: "website",
     },
   };

@@ -1,10 +1,13 @@
 import { Metadata } from "next";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Terms & Conditions | 1st Response Drainage",
   description:
     "Read the terms and conditions for using our drainage services throughout Cambridgeshire, Norfolk and Suffolk. ",
-  alternates: { canonical: "/terms-and-conditions" },
+  alternates: { canonical: `${SITE_URL}/terms-and-conditions` },
 };
 
 export default function TermsAndConditionsPage() {

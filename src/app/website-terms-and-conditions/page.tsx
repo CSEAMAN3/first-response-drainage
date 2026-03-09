@@ -2,11 +2,14 @@ import { websitetandcs } from "@/lib/websiteTandCs";
 import Link from "next/link";
 import { Metadata } from "next";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Website Terms & Conditions | 1st Response Drainage",
   description:
     "Read the terms and conditions for using the 1st Response Drainage website. Learn about user responsibilities, content use, and legal disclaimers.",
-  alternates: { canonical: "/website-terms-and-conditions" },
+  alternates: { canonical: `${SITE_URL}/website-terms-and-conditions` },
 };
 
 export default function WebsiteTermsAndConditionsPage() {

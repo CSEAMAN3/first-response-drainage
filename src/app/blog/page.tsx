@@ -10,11 +10,14 @@ import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { buildBlogIndexSchema } from "@/lib/schema/blogIndexSchema";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Drainage Advice & Tips | 1st Response Drainage Blog",
   description:
     "Expert drainage advice, tips and insights from our engineers. Learn how to prevent problems and spot issues early.",
-  alternates: { canonical: "/blog" },
+  alternates: { canonical: `${SITE_URL}/blog` },
 };
 
 export default async function BlogPage() {

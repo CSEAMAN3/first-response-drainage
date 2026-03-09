@@ -9,11 +9,14 @@ import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import ReviewCount from "@/components/ReviewCount";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Drainage Service Areas | Norfolk, Suffolk & Cambridgeshire",
   description:
     "ind drainage services near you. We cover towns and villages across Norfolk, Suffolk and Cambridgeshire with fast local response.",
-  alternates: { canonical: "/locations" },
+  alternates: { canonical: `${SITE_URL}/locations` },
 };
 
 export default async function LocationHubPage() {

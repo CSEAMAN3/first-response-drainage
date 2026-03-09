@@ -5,12 +5,15 @@ import { faQuestions } from "@/lib/faQuestion";
 import StructuredData from "@/components/StructuredData";
 import { buildFaqSchema } from "@/lib/schema/faqSchema";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title:
     "FAQs | 1st Response Drainage - Drainage help in Cambridgeshire, Norfolk & Suffolk",
   description:
     "Find answers to common drainage questions relating to property in Cambridgeshire, Norfolk and Suffolk.",
-  alternates: { canonical: "/faq" },
+  alternates: { canonical: `${SITE_URL}/faq` },
 };
 
 export default function FaqPage() {

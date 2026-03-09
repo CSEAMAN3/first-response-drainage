@@ -7,11 +7,14 @@ import { buildContactPageSchema } from "@/lib/schema/contactPageSchema";
 import ReviewCount from "@/components/ReviewCount";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Contact 1st Response Drainage | Fast Callouts",
   description:
     "Have a drainage emergency? Contact 1st Response Drainage 24/7 for fast, relaible drainage services throughout Norfolk, Suffolk & Cambridgeshire.",
-  alternates: { canonical: "/contact" },
+  alternates: { canonical: `${SITE_URL}/contact` },
 };
 
 export default async function ContactPage() {

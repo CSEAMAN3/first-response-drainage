@@ -12,11 +12,14 @@ import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Drainage Services in Suffolk | Fast Local Callouts",
   description:
     "Reliable drainage services in Suffolk for homes and businesses. Blocked drains, inspections and repairs by local engineers.",
-  alternates: { canonical: "/locations/suffolk" },
+  alternates: { canonical: `${SITE_URL}/locations/suffolk` },
 };
 
 export default async function SuffolkPage() {

@@ -21,6 +21,9 @@ export async function generateStaticParams() {
   return blogs.map((s) => ({ slug: s.slug }));
 }
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export async function generateMetadata({
   params,
 }: BlogProps): Promise<Metadata> {
@@ -36,7 +39,7 @@ export async function generateMetadata({
     };
   }
 
-  const canonicalPath = `/blog/${slug}`;
+  const canonicalPath = `${SITE_URL}/blog/${slug}`;
   const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
 
   const imagePublicId = post.coverImage

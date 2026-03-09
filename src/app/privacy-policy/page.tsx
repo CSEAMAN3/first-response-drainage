@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { Metadata } from "next";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Privacy Policy | 1st Response Drainage",
   description:
     "Learn how 1st Response Drainage collects, uses, and protects your personal information. Read our privacy policy to understand your rights and our responsibilities.",
-  alternates: { canonical: "/privacy-policy" },
+  alternates: { canonical: `${SITE_URL}/privacy-policy` },
 };
 
 export default function PrivacyPolicyPage() {

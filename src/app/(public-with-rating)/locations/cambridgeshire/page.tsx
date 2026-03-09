@@ -13,11 +13,14 @@ import { buildFaqSchema } from "@/lib/schema/faqSchema";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { getGoogleReviews } from "@/lib/googleReviews";
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.1stresponsedrainage.co.uk";
+
 export const metadata: Metadata = {
   title: "Drainage Services in Cambridgeshire | Fast Local Callouts",
   description:
     "Reliable drainage services in Cambridgeshire for homes and businesses. Blocked drains, inspections and repairs by local engineers.",
-  alternates: { canonical: "/locations/cambridgeshire" },
+  alternates: { canonical: `${SITE_URL}/locations/cambridgeshire` },
 };
 
 export default async function CambridgeshirePage() {
