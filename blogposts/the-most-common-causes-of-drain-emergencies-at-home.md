@@ -1,7 +1,7 @@
 ---
 title: "The Most Common Causes of Drain Emergencies at Home"
 date: "2025-08-04"
-description: "Understand some of the main causes for blocked drains and drain emergenices."
+description: "Understand some of the main causes for blocked drains and drain emergencies."
 coverImage: "test"
 coverImageAlt: "Drainage engineer on a night time call out unblocking a blocked drain"
 author: "1st Response Drainage"
