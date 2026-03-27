@@ -132,7 +132,14 @@ export default async function BlogPostPage({ params }: BlogProps) {
         )}
         <section
           dangerouslySetInnerHTML={{ __html: contentHtml }}
-          className={`prose prose-sm sm:prose-base md:prose-lg text-fr-white prose-headings:text-fr-accent-two prose-a:text-fr-white prose-a:no-underline hover:prose-a:text-fr-accent-two`}
+          className="prose prose-sm sm:prose-base md:prose-lg text-fr-white 
+prose-headings:text-fr-accent-two 
+prose-a:text-fr-accent-two 
+prose-a:underline 
+prose-a:underline-offset-4 
+prose-a:decoration-fr-accent-two 
+prose-a:hover:text-fr-white 
+prose-a:transition-colors"
         ></section>
       </div>
       <Cta

@@ -60,6 +60,12 @@ export const firstResponseImages = {
     height: 1560,
   },
   // blogs
+  blockedDrainPrevention: {
+    src: "blocked-drain-prevention_tgv3o9",
+    alt: "1st Response Drainage Engineer unblocking a blocked drain in a rear graden.",
+    width: 1200,
+    height: 630,
+  },
   drainLeaves: {
     src: "utumn-leaves-blocking-a-drain_kputl3.png",
     alt: "Autumn Leaves blocking an outside drain in Suffolk",
