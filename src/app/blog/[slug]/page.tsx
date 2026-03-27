@@ -11,6 +11,7 @@ import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 import StructuredData from "@/components/StructuredData";
 import { buildBreadcrumbSchema } from "@/lib/schema/breadcrumbSchema";
 import { buildBlogPostingSchema } from "@/lib/schema/blogPostingSchema";
+import CopyButton from "@/components/CopyButton";
 
 type BlogProps = {
   params: Promise<{ slug: string }>;
@@ -141,6 +142,9 @@ prose-a:decoration-fr-accent-two
 prose-a:hover:text-fr-white 
 prose-a:transition-colors"
         ></section>
+        <CopyButton
+          link={`https://www.1stresponsedrainage.co.uk/blog/${slug}`}
+        />
       </div>
       <Cta
         heading="Need Drainage Help Today?"
