@@ -100,7 +100,7 @@ Preventing blocked drains isn’t just about habits it’s also about spotting p
 
 If you notice any of these signs, it’s best to act early.
 
-You can learn more in our guide on [signs of a blocked drain](/blog/signs-of-blocked-drain).
+<!-- You can learn more in our guide on [signs of a blocked drain](/blog/signs-of-blocked-drain). -->
 
 ---
 
