@@ -2800,40 +2800,41 @@ export const locations: Location[] = [
     location: "Bury St Edmunds",
     county: "Suffolk",
     seo: {
-      metaTitle: "Drainage Services in Bury St Edmunds | 1st Response Drainage",
+      metaTitle:
+        "Drain unblocking Bury St Edmunds | 24/7 Emergency Drain Services",
       metaDescription:
-        "Local drainage services in Bury St Edmunds for homeowners and businesses. We resolve blocked drains, carry out CCTV surveys and provide lasting repairs.",
+        "Need fast drain unblocking in Bury St Edmunds? We offer 24/7 emergency callouts with no hidden fees. Call now for a rapid response.",
     },
     heroSection: {
-      heading: "Drainage Services in Bury St Edmunds",
+      heading: "Drain unblocking in Bury St Edmunds",
       paragraph:
-        "We provide professional drainage services for homes and businesses in Bury St Edmunds and nearby locations. From emergency blockages to planned CCTV surveys, our engineers deliver dependable solutions.",
+        "We provide fast, reliable drain unblocking in Bury St Edmunds, including 24/7 emergency callouts. From blocked sinks and toilets to outside drains, our engineers deliver prompt, professional solutions across the local area.",
       photo: "test",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
       paragraph:
-        "Our drainage services in Bury St Edmunds support both residential and commercial properties with clearance, inspections and specialist repairs. We focus on resolving drainage issues properly to prevent repeat problems.",
+        "Our drain unblocking services in Bury St Edmunds support homes and businesses with blocked drains, CCTV inspections, and specialist repairs. We focus on fixing issues properly to prevent repeat problems.",
     },
     commonIssuesSection: {
       heading: "Issues in Bury St Edmunds",
       openingParagraph:
-        "Blocked drains are often a symptom of something deeper: build-up, root ingress or pipe defects can cause the same problem to return again and again. If you're dealing with repeat issues, a CCTV inspection can identify the cause and guide a lasting fix.",
+        "Many drain unblocking issues in Bury St Edmunds are caused by deeper problems such as build-up, root ingress, or pipe defects. If you're dealing with recurring blockages, a CCTV inspection can identify the cause and help prevent the issue returning.",
       bullets: [
         "Blocked toilets, sinks, baths and showers",
         "Recurring blockages and slow drainage",
         "Bad smells and gurgling noises",
         "External drains backing up or overflowing",
-        "Root intrusion entering through joints",
-        "Cracked pipes or displaced joints causing repeat issues",
+        "Tree root intrusion entering through joints",
+        "Cracked or displaced pipes causing repeat issues",
       ],
       //   photo: string;
     },
     surroundingAreas: {
       openingParagraph:
-        "Our drainage services extend beyond Bury St Edmunds to nearby towns and villages. This wider coverage allows us to support a broad local area efficiently.",
+        "We provide drain unblocking in Bury St Edmunds and surrounding towns and villages, helping homes and businesses with fast, reliable service across the local area.",
       closingParagraph:
-        "With frequent work in Bury St Edmunds, our team is well-versed in the drainage requirements of local properties.",
+        "With regular work in Bury St Edmunds and nearby areas, our team understands the drainage challenges of local properties and delivers fast, effective solutions when they're needed most.",
       nearByLocations: [
         "Great Barton",
         "Thurston",
@@ -2855,20 +2856,21 @@ export const locations: Location[] = [
         question:
           "Are drainage systems in Bury St Edmunds affected by older buildings?",
         answer:
-          "Yes. Many properties in Bury St Edmunds date back several decades, and older drainage systems can be more prone to wear, joint issues and reduced flow.",
+          "Yes. Many properties in Bury St Edmunds are older, and ageing drainage systems can be more prone to wear, joint issues and blockages that require professional drain unblocking.",
       },
       {
         id: 2,
         question:
-          "Do town-centre drains in Bury St Edmunds block more frequently?",
+          "Do drains in Bury St Edmunds block more frequently in busy areas?",
         answer:
-          "They can. Higher usage from shops, restaurants and shared drainage runs can increase the risk of grease build-up, debris and recurring blockages.",
+          "They can. Higher usage from shops, restaurants and shared drainage systems can increase the risk of grease build-up, debris and recurring blockages.",
       },
       {
         id: 3,
-        question: "Can tree-lined streets cause drainage problems locally?",
+        question:
+          "Can tree-lined streets cause blocked drains in Bury St Edmunds?",
         answer:
-          "Yes. Mature trees common around Bury St Edmunds can lead to root intrusion, especially where pipe joints or older materials are present.",
+          "Yes. Mature trees in Bury St Edmunds can lead to root intrusion, especially in older pipework, which is a common cause of blocked drains.",
       },
       {
         id: 4,
@@ -2879,10 +2881,9 @@ export const locations: Location[] = [
       },
       {
         id: 5,
-        question:
-          "Do you provide ongoing drainage support for local businesses?",
+        question: "Do you offer emergency drain unblocking in Bury St Edmunds?",
         answer:
-          "Yes. We work with businesses across Bury St Edmunds, offering both reactive repairs and planned maintenance to help prevent disruption.",
+          "Yes. We provide 24/7 emergency drain unblocking in Bury St Edmunds, helping homes and businesses deal with urgent drainage problems quickly.",
       },
     ],
   },

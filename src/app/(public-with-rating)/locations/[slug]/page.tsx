@@ -108,7 +108,7 @@ export default async function LocationPage({ params }: PageProps) {
       <Reviews reviewsData={reviewsData} />
       {/* services section */}
       <ServicesSlider
-        heading="Our Drainage Services"
+        heading="Drain Unblocking & Drainage Services in Bury St Edmunds"
         paragraph={location.servicesSection.paragraph}
       />
       {/* common issues section */}
@@ -127,14 +127,14 @@ export default async function LocationPage({ params }: PageProps) {
       />
       {/* cta section */}
       <Cta
-        heading={`Need Expert Drainage Help In ${location.location}`}
-        paragraph={`Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are on standby to help in ${location.location} and surrounding areas. Fast, reliable service, whenever you need it.`}
+        heading={`Need Your Drain Unblocking in ${location.location}?`}
+        paragraph={`Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are ready to help with fast, reliable drain unblocking in ${location.location} and surrounding areas. 24/7 when you need it most.`}
         classes={true}
       />
       {/* faq section */}
       <FaqLocations
         heading={`Your ${location.location} Drainage`}
-        paragraph={`We've answered some of the most common questions customers ask about drainage services in ${location.location}, so you know what to expect before booking a visit from our engineers.`}
+        paragraph={`We've answered some of the most common questions about drain unblocking in ${location.location}, so you know what to expect before booking a visit from our engineers.`}
         location={location.location}
       />
     </main>

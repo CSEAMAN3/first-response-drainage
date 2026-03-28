@@ -16,7 +16,7 @@ export default function SurroundingAreas({
   return (
     <section className="px-8 pb-8 md:pb-16">
       <h3 className="font-bold text-xl md:text-2xl text-balance text-center text-fr-primary mb-2">
-        We Also Cover Surrounding Areas Near {location}
+        Drain Unblocking in {location} & Surrounding Areas
       </h3>
       <p className="font-light text-center text-balance max-w-[72ch] mx-auto mb-8">
         {openingParagraph}
@@ -26,7 +26,7 @@ export default function SurroundingAreas({
           return (
             <li key={id} className="flex items-center">
               <FaLocationDot className="inline-block mr-2 text-fr-primary" />
-              Drainage Services {location}
+              Drain unblocking {location}
             </li>
           );
         })}
