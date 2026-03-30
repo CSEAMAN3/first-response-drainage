@@ -127,7 +127,7 @@ export default async function LocationPage({ params }: PageProps) {
       />
       {/* cta section */}
       <Cta
-        heading={`Need Your Drain Unblocking in ${location.location}?`}
+        heading={`Need Drain Unblocking in ${location.location}?`}
         paragraph={`Whether it's a blocked drain, CCTV survey or urgent repair, our local engineers are ready to help with fast, reliable drain unblocking in ${location.location} and surrounding areas. 24/7 when you need it most.`}
         classes={true}
       />
