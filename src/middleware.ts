@@ -49,6 +49,12 @@ export function middleware(req: NextRequest) {
     changed = true;
   }
 
+  // 4) Force lowercase pathname
+  if (target.pathname !== target.pathname.toLowerCase()) {
+    target.pathname = target.pathname.toLowerCase();
+    changed = true;
+  }
+
   if (
     changed &&
     (current.hostname !== target.hostname ||

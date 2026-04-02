@@ -30,7 +30,7 @@ export const counties: County[] = [
         },
         {
           name: "Ely",
-          slug: "Ely",
+          slug: "ely",
         },
         {
           name: "Great Shelford",
@@ -284,7 +284,7 @@ export const counties: County[] = [
         },
         {
           name: "Sudbury",
-          slug: "Sudbury",
+          slug: "sudbury",
         },
         {
           name: "Sutton",
