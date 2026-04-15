@@ -20,7 +20,7 @@ const STRIP_PARAMS = [
   "mc_eid",
 ];
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   // Only run in prod on Vercel
   if (process.env.VERCEL_ENV !== "production") return NextResponse.next();
 

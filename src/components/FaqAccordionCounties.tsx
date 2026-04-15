@@ -23,7 +23,7 @@ export default function FaqAccordionCounties({
 
   const questionsToDisplay = counties.find((c) => c.name === location)?.Faqs;
 
-  console.log(location);
+  // console.log(location);
 
   return (
     <div key={pathname} className="max-w-225 mx-auto px-8 mb-12">
