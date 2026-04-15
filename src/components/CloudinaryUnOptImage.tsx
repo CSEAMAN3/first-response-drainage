@@ -34,6 +34,7 @@ export default function CloudinaryUnOptImage({
       height={height}
       className={className}
       unoptimized
+      loading="lazy"
     />
   );
 }

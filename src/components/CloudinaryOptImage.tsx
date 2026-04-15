@@ -14,7 +14,7 @@ type CloudinaryImageProps = {
   width: number;
   height: number;
   className?: string;
-  priority?: boolean;
+  loading?: "lazy" | "eager";
   sizes?: string;
 };
 
@@ -24,7 +24,7 @@ export default function CloudinaryOptImage({
   width,
   height,
   className,
-  priority = false,
+  loading = "lazy",
   sizes = "100vw",
 }: CloudinaryImageProps) {
   const normalizedSrc = src.replace(/^\/+/, "");
@@ -38,7 +38,7 @@ export default function CloudinaryOptImage({
       width={width}
       height={height}
       className={className}
-      priority={priority}
+      loading={loading}
       sizes={sizes}
     />
   );
