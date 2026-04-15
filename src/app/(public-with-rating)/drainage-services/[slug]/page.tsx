@@ -75,7 +75,7 @@ export default async function ServicePage({ params }: PageProps) {
     { label: "Domestic & commercial", iconKey: "phone" },
   ] as const;
 
-  console.log(service.faqSection.category);
+  // console.log(service.faqSection.category);
 
   return (
     <main>

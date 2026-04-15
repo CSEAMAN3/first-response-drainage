@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-import redirects from "./redirects.json" assert { type: "json" };
+import redirects from "./redirects.json" with { type: "json" };
 
 const isDev = process.env.NODE_ENV !== "production";
 
