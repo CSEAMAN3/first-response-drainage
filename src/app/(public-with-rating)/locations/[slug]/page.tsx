@@ -108,7 +108,7 @@ export default async function LocationPage({ params }: PageProps) {
       <Reviews reviewsData={reviewsData} />
       {/* services section */}
       <ServicesSlider
-        heading="Drain Unblocking & Drainage Services in Bury St Edmunds"
+        heading={`Drain Unblocking & Drainage Services in ${location.location}`}
         paragraph={location.servicesSection.paragraph}
       />
       {/* common issues section */}
