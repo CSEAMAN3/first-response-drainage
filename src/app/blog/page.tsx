@@ -71,6 +71,7 @@ export default async function BlogPage() {
             {...Images.pinkMonsterWaterJetting}
             className="mx-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
             sizes="(max-width: 640px) 40vw, 240px"
+            priority
           />
         </div>
 

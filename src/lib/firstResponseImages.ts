@@ -60,6 +60,12 @@ export const firstResponseImages = {
     height: 1560,
   },
   // blogs
+  unblockOutsideDrain: {
+    src: "unblock-outside-drain_vt88gq.jpg",
+    alt: "Blocked outdoor drain cleared by drainage experts",
+    width: 945,
+    height: 1242,
+  },
   blockedDrainPrevention: {
     src: "blocked-drain-prevention_tgv3o9",
     alt: "1st Response Drainage Engineer unblocking a blocked drain in a rear graden.",

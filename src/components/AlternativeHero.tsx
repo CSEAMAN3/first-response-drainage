@@ -61,7 +61,7 @@ export default function AlternativeHero({ reviewsData }: AlternativeHeroProps) {
           <CloudinaryOptImage
             {...Images.brightMonsterGroup}
             alt="Drainage monsters group portrait standing with drainage tools"
-            loading="eager"
+            priority
             className="w-full max-w-120 mx-auto z-10 pl-6"
           />
         </div>

@@ -129,6 +129,7 @@ export default async function BlogPostPage({ params }: BlogProps) {
             {...imageConfig}
             alt={post.coverImageAlt ?? imageConfig.alt}
             className="w-full h-90 object-cover mb-12"
+            priority
           />
         )}
         <section

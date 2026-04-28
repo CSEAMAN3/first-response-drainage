@@ -60,7 +60,7 @@ export default function Hero({
         {...Images[photo]}
         alt={alt}
         className="w-full object-cover md:w-[80vw] h-[50vw] md:top-0 md:right-0 md:h-[50vw] md:min-h-120 lg:h-125 md:absolute -z-10"
-        loading="eager"
+        priority
       />
     </div>
   );
