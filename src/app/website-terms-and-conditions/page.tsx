@@ -65,10 +65,10 @@ export default function WebsiteTermsAndConditionsPage() {
           <p className="mb-2 font-light">
             Phone:{" "}
             <a
-              href="tel:+447961609836"
+              href="tel:07537149523"
               className="hover:underline transition duration-300"
             >
-              07961 609836
+              07537149523
             </a>
           </p>
           <p className="mb-2 font-light">

@@ -40,10 +40,10 @@ export default async function ContactPage() {
         <p className="text-lg font-bold sm:text-center">
           Call Now 24/7 on{" "}
           <a
-            href="tel:+447961609836"
+            href="tel:+447537149523"
             className="hover:text-fr-accent-two w-fit transition-colors duration-150"
           >
-            07961 609836
+            07537149523
           </a>
         </p>
         <p className="font-bold sm:text-center">

@@ -41,7 +41,7 @@ export default function TermsAndConditionsPage() {
             Riverside Way, Brandon IP27 0AN
           </li>
           <li>
-            <span className="font-semibold">Telephone:</span> 07961 609836
+            <span className="font-semibold">Telephone:</span> 07537149523
           </li>
           <li>
             <span className="font-semibold">VAT:</span> 503021266

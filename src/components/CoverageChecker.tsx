@@ -72,7 +72,7 @@ export default function CoverageChecker({ classes }: CoverageCheckerProps) {
                 </Link>
                 <a
                   // replace number
-                  href="tel:+447961609836"
+                  href="tel:+447537149523"
                   className="font-bold border border-fr-primary text-fr-primary px-5 py-3 rounded-sm hover:bg-fr-primary hover:text-fr-white transition"
                 >
                   Call Now

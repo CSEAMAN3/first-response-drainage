@@ -11,10 +11,10 @@ export default function NotFound() {
         If you think we may cover your area, but you&#39;re unsure, please
         don&#39;t hesitate to contact us directly on{" "}
         <a
-          href="tel:+447961609836"
+          href="tel:+447537149523"
           className="hover:text-fr-accent-one underline"
         >
-          07961 609836
+          07537149523
         </a>
         .
       </p>

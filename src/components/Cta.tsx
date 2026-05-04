@@ -41,14 +41,14 @@ export default function Cta({ heading, paragraph, classes }: CtaProps) {
         Request a Callout
       </Link>
       <a
-        href="tel:+447961609836"
+        href="tel:+447537149523"
         className={`font-bold block w-fit ${
           classes
             ? "text-fr-white hover:text-fr-accent-two"
             : "text-fr-primary hover:text-fr-accent-one"
         } transition-colors duration-150 mx-auto`}
       >
-        Call today on 07961 609836
+        Call today on 07537149523
       </a>
     </section>
   );

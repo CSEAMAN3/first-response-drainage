@@ -16,10 +16,10 @@ export default function Footer() {
               className="w-40 md:w-44 h-auto"
             />
             <a
-              href="tel:+447961609836"
+              href="tel:+447537149523"
               className="text-fr-white font-bold hover:text-fr-accent-two w-fit transition-colors duration-150"
             >
-              24/7 callout on 07961 609836
+              24/7 callout on 07537149523
             </a>
             <a
               href="mailto:info@1stresponsedrainage.co.uk"

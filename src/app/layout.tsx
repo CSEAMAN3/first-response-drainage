@@ -21,12 +21,12 @@ const siteStructuredData = {
       hasMap: "https://www.google.com/maps?cid=14278897114182267037",
       logo: `${SITE_URL}/images/horizontal-logo-purple.svg`,
       image: [`${SITE_URL}/images/horizontal-logo-purple.svg`],
-      telephone: "+447961609836",
+      telephone: "+447537149523",
       email: "info@1stresponsedrainage.co.uk",
       contactPoint: [
         {
           "@type": "ContactPoint",
-          telephone: "+447961609836",
+          telephone: "+447537149523",
           contactType: "customer service",
           availableLanguage: ["en-GB"],
         },

@@ -40,11 +40,11 @@ export default function Hero({
             Request a Callout
           </Link>
           <a
-            href="tel:+447961609836"
+            href="tel:+447537149523"
             aria-label="Call First Response Drainage on 07961609836"
             className="text-fr-white font-bold block hover:text-fr-accent-two transition-colors duration-300 w-fit"
           >
-            Call today on 07961 609836
+            Call today on 07537149523
           </a>
         </div>
       </div>
