@@ -30,7 +30,7 @@ export default function WhatWeHelpWith() {
             Not sure which service you need?
           </p>
           <p className="font-light mb-4">
-            Speak with our team 24/7 for honest advice.
+            Speak with our team 24/7 for honest advice
           </p>
           <a
             href="tel:+447537149523"
