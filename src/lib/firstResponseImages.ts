@@ -60,6 +60,12 @@ export const firstResponseImages = {
     height: 1560,
   },
   // blogs
+  toyCarBlockedDrain: {
+    src: "toy-car-blocking-drain_ffikgq.jpg",
+    alt: "Drainage Engineer unblocking blocked drain holding the toy car that was part of the blocakage.",
+    width: 945,
+    height: 1009,
+  },
   unblockOutsideDrain: {
     src: "unblock-outside-drain_vt88gq.jpg",
     alt: "Blocked outdoor drain cleared by drainage experts",
