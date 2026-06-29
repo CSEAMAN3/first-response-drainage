@@ -60,6 +60,12 @@ export const firstResponseImages = {
     height: 1560,
   },
   // blogs
+  underSinkBlockage: {
+    src: "blocked_drain_dysozh.jpg",
+    alt: "Drainage Engineer showing a blockage in the pipes under the sink.",
+    width: 1254,
+    height: 836,
+  },
   toyCarBlockedDrain: {
     src: "toy-car-blocking-drain_ffikgq.jpg",
     alt: "Drainage Engineer unblocking blocked drain holding the toy car that was part of the blocakage.",
