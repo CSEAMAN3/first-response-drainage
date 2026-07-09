@@ -116,7 +116,7 @@ export default function ServicesCards() {
       <div
         ref={scrollerRef}
         onScroll={onScroll}
-        className="flex gap-8 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] mb-8 md:mb-12"
+        className="flex gap-8 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth [-ms-overflow-style:none] scrollbar-none mb-8 md:mb-12"
       >
         {services.map((s, i) => (
           <div
