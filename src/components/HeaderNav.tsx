@@ -155,7 +155,7 @@ export default function HeaderNav() {
       <motion.button
         className={`w-8 h-6 ${
           toggleNav ? "fixed" : "absolute"
-        } top-8 right-8 cursor-pointer lg:hidden group z-50`}
+        } top-10 right-8 cursor-pointer lg:hidden group z-50`}
         onClick={() => setToggleNav(!toggleNav)}
         initial={false}
         type="button"
