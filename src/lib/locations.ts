@@ -2809,8 +2809,8 @@ export const locations: Location[] = [
       heading: "Drain unblocking in Bury St Edmunds",
       paragraph:
         "We provide fast, reliable drain unblocking in Bury St Edmunds, including 24/7 emergency callouts. From blocked sinks and toilets to outside drains, our engineers deliver prompt, professional solutions across the local area.",
-      photo: "test",
-      alt: "A drainage engineer unblocking a blocked drain a night",
+      photo: "burystedmunds",
+      alt: "ariel view of Bury St Edmunds showing the area 1st response drainage covers clients with drainage issues",
     },
     servicesSection: {
       paragraph:

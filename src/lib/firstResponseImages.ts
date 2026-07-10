@@ -202,6 +202,12 @@ export const firstResponseImages = {
     width: 1270,
     height: 825,
   },
+  burystedmunds: {
+    src: "bury-st-edmunds_zdcbav.jpg",
+    alt: "ariel view of Bury St Edmunds showing the area 1st response drainage covers clients with drainage issues",
+    width: 1254,
+    height: 836,
+  },
   ipswich: {
     src: "ipswich_ovaorr.jpg",
     alt: "Aerial view overlooking Ipswich",
