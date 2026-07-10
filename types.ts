@@ -25,6 +25,7 @@ export type HelpBullets = {
 export type Service = {
   service: string;
   slug: string;
+  modified: string;
   serviceAreaGraphic: string;
 
   seo: {
@@ -90,6 +91,7 @@ export type Location = {
   slug: string;
   location: string;
   county: string;
+  modified: string;
   seo: {
     metaTitle: string;
     metaDescription: string;

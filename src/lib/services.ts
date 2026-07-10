@@ -4,6 +4,7 @@ export const services: Service[] = [
   {
     service: "Blocked Drains",
     slug: "blocked-drains",
+    modified: "2026-05-01",
     serviceAreaGraphic: "blocked-drains-white",
     seo: {
       metaTitle: "Blocked Drains in Norfolk, Suffolk & Cambridgeshire",
@@ -108,6 +109,7 @@ export const services: Service[] = [
   {
     service: "CCTV Drainage Surveys",
     slug: "cctv-drainage-surveys",
+    modified: "2026-05-01",
     serviceAreaGraphic: "cctv-survey-white",
     seo: {
       metaTitle: "CCTV Drainage Surveys in Norfolk, Suffolk & Cambridgeshire",
@@ -216,6 +218,7 @@ export const services: Service[] = [
   {
     service: "High Pressure Water Jetting",
     slug: "high-pressure-water-jetting",
+    modified: "2026-05-01",
     serviceAreaGraphic: "water-jetting-white",
     seo: {
       metaTitle: "High Pressure Water Jetting | 1st Response Drainage",
@@ -326,6 +329,7 @@ export const services: Service[] = [
   {
     service: "Patch Liners / No-Dig Repairs",
     slug: "patch-liners-and-no-dig-repairs",
+    modified: "2026-05-01",
     serviceAreaGraphic: "patch-lining-white",
     seo: {
       metaTitle: "No-Dig Drain Repairs & Patch Lining | 1st Response Drainage",
@@ -431,6 +435,7 @@ export const services: Service[] = [
   {
     service: "Root Intrusion Removal",
     slug: "root-intrusion-removal",
+    modified: "2026-05-01",
     serviceAreaGraphic: "root-intrusion-white",
     seo: {
       metaTitle: "Root Intrusion Removal from Drains | 1st Response Drainage",
@@ -529,6 +534,7 @@ export const services: Service[] = [
   {
     service: "Commercial Drainage",
     slug: "commercial-drainage",
+    modified: "2026-05-01",
     serviceAreaGraphic: "commercial-drainage-white",
     seo: {
       metaTitle:
@@ -638,6 +644,7 @@ export const services: Service[] = [
   {
     service: "Sonde and Tracing",
     slug: "sonde-and-tracing",
+    modified: "2026-05-01",
     // update graphic
     serviceAreaGraphic: "sonde-trace-white",
     seo: {
@@ -698,7 +705,7 @@ export const services: Service[] = [
     howSection: {
       heading: "How Sonde & Tracing Works",
       paragraphOne:
-        "A sonde is a small transmitter inserted into the drainage system. Using specialist locating equipment above ground, we track its signal to map the drain’s exact route.",
+        "A sonde is a small transmitter inserted into the drainage system. Using specialist locating equipment above ground, we track its signal to map the drain's exact route.",
       paragraphTwo: "Our approach includes:",
       bullets: [
         "Inserting a sonde into accessible pipework or via CCTV equipment",

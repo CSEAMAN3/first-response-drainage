@@ -75,7 +75,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // --- Service detail pages ---
   const serviceRoutes: MetadataRoute.Sitemap = services.map((s) => ({
     url: `${SITE_URL}/drainage-services/${s.slug}`,
-    lastModified,
+    lastModified: new Date(s.modified),
     changeFrequency: "monthly",
     priority: 0.7,
   }));
@@ -95,7 +95,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // --- Location detail pages (towns/villages/cities) ---
   const locationRoutes: MetadataRoute.Sitemap = locations.map((l) => ({
     url: `${SITE_URL}/locations/${l.slug}`,
-    lastModified,
+    lastModified: new Date(l.modified),
     changeFrequency: "monthly",
     priority: 0.6,
   }));
@@ -106,7 +106,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${SITE_URL}/blog/${p.slug}`,
     lastModified: p.modified ? new Date(p.modified) : new Date(p.date),
     changeFrequency: "yearly",
-    priority: 0.5,
+    priority: 0.6,
   }));
 
   return [

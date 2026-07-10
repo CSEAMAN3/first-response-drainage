@@ -6,6 +6,7 @@ export const locations: Location[] = [
     slug: "cambridge",
     location: "Cambridge",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Cambridge | 1st Response Drainage",
       metaDescription:
@@ -95,6 +96,7 @@ export const locations: Location[] = [
     slug: "chatteris",
     location: "Chatteris",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Chatteris | 1st Response Drainage",
       metaDescription:
@@ -185,6 +187,7 @@ export const locations: Location[] = [
     slug: "ely",
     location: "Ely",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Ely | 1st Response Drainage",
       metaDescription:
@@ -273,6 +276,7 @@ export const locations: Location[] = [
     slug: "great-shelford",
     location: "Great Shelford",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Great Shelford | 1st Response Drainage",
       metaDescription:
@@ -364,6 +368,7 @@ export const locations: Location[] = [
     slug: "littleport",
     location: "Littleport",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Littleport | 1st Response Drainage",
       metaDescription:
@@ -453,6 +458,7 @@ export const locations: Location[] = [
     slug: "saffron-walden",
     location: "Saffron Walden",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Saffron Walden | 1st Response Drainage",
       metaDescription:
@@ -544,6 +550,7 @@ export const locations: Location[] = [
     slug: "soham",
     location: "Soham",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Soham | 1st Response Drainage",
       metaDescription:
@@ -633,6 +640,7 @@ export const locations: Location[] = [
     slug: "st-ives",
     location: "St Ives",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in St Ives | 1st Response Drainage",
       metaDescription:
@@ -722,6 +730,7 @@ export const locations: Location[] = [
     slug: "wisbech",
     location: "Wisbech",
     county: "Cambridgeshire",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Wisbech | 1st Response Drainage",
       metaDescription:
@@ -813,6 +822,7 @@ export const locations: Location[] = [
     slug: "attleborough",
     location: "Attleborough",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Attleborough | 1st Response Drainage",
       metaDescription:
@@ -903,6 +913,7 @@ export const locations: Location[] = [
     slug: "cromer",
     location: "Cromer",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Cromer | 1st Response Drainage",
       metaDescription:
@@ -994,6 +1005,7 @@ export const locations: Location[] = [
     slug: "dereham",
     location: "Dereham",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Dereham | 1st Response Drainage",
       metaDescription:
@@ -1083,6 +1095,7 @@ export const locations: Location[] = [
     slug: "diss",
     location: "Diss",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Diss | 1st Response Drainage",
       metaDescription:
@@ -1173,6 +1186,7 @@ export const locations: Location[] = [
     slug: "downham-market",
     location: "Downham Market",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Downham Market | 1st Response Drainage",
       metaDescription:
@@ -1265,6 +1279,7 @@ export const locations: Location[] = [
     slug: "fakenham",
     location: "Fakenham",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Fakenham | 1st Response Drainage",
       metaDescription:
@@ -1355,6 +1370,7 @@ export const locations: Location[] = [
     slug: "great-yarmouth",
     location: "Great Yarmouth",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Great Yarmouth | 1st Response Drainage",
       metaDescription:
@@ -1447,6 +1463,7 @@ export const locations: Location[] = [
     slug: "hethersett",
     location: "Hethersett",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Hethersett | 1st Response Drainage",
       metaDescription:
@@ -1539,6 +1556,7 @@ export const locations: Location[] = [
     slug: "holt",
     location: "Holt",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Holt | 1st Response Drainage",
       metaDescription:
@@ -1629,6 +1647,7 @@ export const locations: Location[] = [
     slug: "kings-lynn",
     location: "King's Lynn",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in King's Lynn | 1st Response Drainage",
       metaDescription:
@@ -1720,6 +1739,7 @@ export const locations: Location[] = [
     slug: "necton",
     location: "Necton",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Necton | 1st Response Drainage",
       metaDescription:
@@ -1809,6 +1829,7 @@ export const locations: Location[] = [
     slug: "north-walsham",
     location: "North Walsham",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in North Walsham | 1st Response Drainage",
       metaDescription:
@@ -1897,6 +1918,7 @@ export const locations: Location[] = [
     slug: "norwich",
     location: "Norwich",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Norwich | 1st Response Drainage",
       metaDescription:
@@ -1986,6 +2008,7 @@ export const locations: Location[] = [
     slug: "swaffham",
     location: "Swaffham",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Swaffham | 1st Response Drainage",
       metaDescription:
@@ -2075,6 +2098,7 @@ export const locations: Location[] = [
     slug: "thetford",
     location: "Thetford",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Thetford | 1st Response Drainage",
       metaDescription:
@@ -2166,6 +2190,7 @@ export const locations: Location[] = [
     slug: "watton",
     location: "Watton",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Watton | 1st Response Drainage",
       metaDescription:
@@ -2256,6 +2281,7 @@ export const locations: Location[] = [
     slug: "wymondham",
     location: "Wymondham",
     county: "Norfolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Wymondham | 1st Response Drainage",
       metaDescription:
@@ -2348,6 +2374,7 @@ export const locations: Location[] = [
     slug: "aldeburgh",
     location: "Aldeburgh",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Aldeburgh | 1st Response Drainage",
       metaDescription:
@@ -2438,6 +2465,7 @@ export const locations: Location[] = [
     slug: "beccles",
     location: "Beccles",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Beccles | 1st Response Drainage",
       metaDescription:
@@ -2529,6 +2557,7 @@ export const locations: Location[] = [
     slug: "beck-row",
     location: "Beck Row",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Beck Row | 1st Response Drainage",
       metaDescription:
@@ -2621,6 +2650,7 @@ export const locations: Location[] = [
     slug: "brandon",
     location: "Brandon",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Brandon | 1st Response Drainage",
       metaDescription:
@@ -2710,6 +2740,7 @@ export const locations: Location[] = [
     slug: "bungay",
     location: "Bungay",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Bungay | 1st Response Drainage",
       metaDescription:
@@ -2799,6 +2830,7 @@ export const locations: Location[] = [
     slug: "bury-st-edmunds",
     location: "Bury St Edmunds",
     county: "Suffolk",
+    modified: "2026-07-10",
     seo: {
       metaTitle:
         "Drain unblocking Bury St Edmunds | 24/7 Emergency Drain Services",
@@ -2891,6 +2923,7 @@ export const locations: Location[] = [
     slug: "haverhill",
     location: "Haverhill",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Haverhill | 1st Response Drainage",
       metaDescription:
@@ -2981,6 +3014,7 @@ export const locations: Location[] = [
     slug: "ipswich",
     location: "Ipswich",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Ipswich | 1st Response Drainage",
       metaDescription:
@@ -3071,6 +3105,7 @@ export const locations: Location[] = [
     slug: "mildenhall",
     location: "Mildenhall",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Mildenhall | 1st Response Drainage",
       metaDescription:
@@ -3163,6 +3198,7 @@ export const locations: Location[] = [
     slug: "newmarket",
     location: "Newmarket",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Newmarket | 1st Response Drainage",
       metaDescription:
@@ -3255,6 +3291,7 @@ export const locations: Location[] = [
     slug: "red-lodge",
     location: "Red Lodge",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Red Lodge | 1st Response Drainage",
       metaDescription:
@@ -3347,6 +3384,7 @@ export const locations: Location[] = [
     slug: "stowmarket",
     location: "Stowmarket",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Stowmarket | 1st Response Drainage",
       metaDescription:
@@ -3438,6 +3476,7 @@ export const locations: Location[] = [
     slug: "sudbury",
     location: "Sudbury",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Sudbury | 1st Response Drainage",
       metaDescription:
@@ -3528,6 +3567,7 @@ export const locations: Location[] = [
     slug: "sutton",
     location: "Sutton",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Sutton | 1st Response Drainage",
       metaDescription:
@@ -3618,6 +3658,7 @@ export const locations: Location[] = [
     slug: "woolpit",
     location: "Woolpit",
     county: "Suffolk",
+    modified: "2026-05-01",
     seo: {
       metaTitle: "Drainage Services in Woolpit | 1st Response Drainage",
       metaDescription:
