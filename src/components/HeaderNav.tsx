@@ -153,7 +153,7 @@ export default function HeaderNav() {
       </motion.div>
       {/* nav bars */}
       <motion.button
-        className={`w-8 h-8 ${
+        className={`w-8 h-6 ${
           toggleNav ? "fixed" : "absolute"
         } top-8 right-8 cursor-pointer lg:hidden group z-50`}
         onClick={() => setToggleNav(!toggleNav)}
@@ -166,9 +166,9 @@ export default function HeaderNav() {
       >
         {/* top bar */}
         <motion.div
-          className={`w-full h-1.5 ${
+          className={`w-full h-1.5 rounded-xs ${
             toggleNav ? "bg-fr-white" : "bg-fr-primary"
-          } group-hover:bg-fr-primary-dark transition-colors duration-150 absolute`}
+          } group-hover:bg-fr-accent-two group-hover:shadow-xl transition-colors duration-150 absolute`}
           style={{
             top: "0%",
             y: "0%",
@@ -189,9 +189,9 @@ export default function HeaderNav() {
         />
         {/* middle bar */}
         <motion.div
-          className={`w-full h-1.5 ${
+          className={`w-full h-1.5 rounded-xs ${
             toggleNav ? "bg-fr-white" : "bg-fr-primary"
-          } group-hover:bg-fr-primary-dark transition-colors duration-150 absolute`}
+          } group-hover:bg-fr-accent-two group-hover:shadow-xl transition-colors duration-150 absolute`}
           style={{
             top: "50%",
             y: "-50%",
@@ -208,9 +208,9 @@ export default function HeaderNav() {
         />
         {/* bottom bar */}
         <motion.div
-          className={`w-full h-1.5 ${
+          className={`w-full h-1.5 rounded-xs ${
             toggleNav ? "bg-fr-white" : "bg-fr-primary"
-          } group-hover:bg-fr-primary-dark transition-colors duration-150 absolute`}
+          } group-hover:bg-fr-accent-two group-hover:shadow-xl transition-colors duration-150 absolute`}
           style={{
             top: "100%",
             y: "-100%",
