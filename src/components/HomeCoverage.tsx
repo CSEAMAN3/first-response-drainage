@@ -27,7 +27,7 @@ export default function HomeCoverage({ classes }: HomeCoverageProps) {
           <CloudinaryUnOptImage
             {...Images.purpleMonsterPlunger}
             alt="drainage monster walking with a plunger in his hand ready to unblock a blocked drain"
-            className="w-30 md:w-42 lg:w-60 absolute bottom-0 left-16 md:left-24 lg:left-40"
+            className="w-24 md:w-36 lg:w-48 absolute bottom-1 left-16 md:left-24 lg:left-40"
           />
           <div className="w-full h-2 absolute bg-fr-primary-mid bottom-0 left-0 -z-10" />
         </div>
