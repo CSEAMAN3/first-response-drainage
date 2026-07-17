@@ -143,7 +143,7 @@ export default function ServicesCards() {
               </div>
 
               <div className="px-4 pt-8 pb-32 relative">
-                <h3 className="font-bold text-lg text-fr-primary mb-4">
+                <h3 className="font-bold text-lg text-fr-primary mb-4 tracking-tight">
                   {s.service}
                 </h3>
                 <p className="mb-8">{s.carousel.paragraph}</p>

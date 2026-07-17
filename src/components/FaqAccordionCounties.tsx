@@ -42,7 +42,7 @@ export default function FaqAccordionCounties({
               aria-expanded={isOpen}
               aria-controls={contentId}
             >
-              <span className="text-fr-primary group-hover:text-fr-primary-dark text-balance cursor-pointer">
+              <span className="text-fr-primary group-hover:text-fr-primary-dark text-balance cursor-pointer tracking-tight">
                 {question.question}
               </span>
               <motion.span

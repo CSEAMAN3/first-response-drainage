@@ -20,7 +20,7 @@ export default function Faq({
     <section className={`${classes ? "py-8 md:py-16" : "py-0"}`}>
       <div>
         <h2
-          className={`text-center font-bold text-xl md:text-2xl text-balance ${
+          className={`text-center tracking-tight font-bold text-xl md:text-2xl text-balance ${
             classes ? "mb-2 text-fr-primary" : "mb-4 text-fr-accent-one"
           }`}
         >
@@ -35,7 +35,7 @@ export default function Faq({
         {showViewMoreLink && (
           <Link
             href="/faq"
-            className="font-bold bg-fr-accent-one text-fr-white hover:bg-fr-accent-one-mid px-8 py-4 mt-16 block mx-auto w-fit rounded-sm"
+            className="font-bold bg-fr-accent-one text-fr-white hover:bg-fr-accent-one-mid px-8 py-4 mt-16 block mx-auto w-fit rounded-sm tracking-tight"
           >
             View More FAQs
           </Link>

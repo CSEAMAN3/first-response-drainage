@@ -19,7 +19,7 @@ export default function FaqAccordion({ questionCat }: FaqAccordianProps) {
   };
 
   const questionsToDisplay = faQuestions.filter(
-    (q) => q.category === questionCat
+    (q) => q.category === questionCat,
   );
 
   return (
@@ -39,7 +39,7 @@ export default function FaqAccordion({ questionCat }: FaqAccordianProps) {
               aria-expanded={isOpen}
               aria-controls={contentId}
             >
-              <span className="text-fr-primary group-hover:text-fr-primary-dark text-balance cursor-pointer">
+              <span className="text-fr-primary group-hover:text-fr-primary-dark text-balance cursor-pointer tracking-tight">
                 {question.question}
               </span>
               <motion.span

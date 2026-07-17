@@ -15,7 +15,7 @@ export default function HomeCoverage({ classes }: HomeCoverageProps) {
     <section className="relative">
       <div className="">
         <div className="px-8 pt-16 pb-28 md:pt-24 md:pb-40 lg:pt-32 lg:pb-60">
-          <h3 className="font-bold text-2xl mb-2 text-fr-primary text-center text-balance md:text-3xl">
+          <h3 className="font-bold text-2xl mb-2 text-fr-primary text-center text-balance md:text-3xl tracking-tight">
             Check Coverage In Your Area
           </h3>
           <p className="font-light md:max-w-[60ch] mx-auto text-balance mb-4 text-center">

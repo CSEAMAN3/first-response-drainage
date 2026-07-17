@@ -110,7 +110,7 @@ export default function HeaderNav() {
                       href={link.href}
                       onClick={() => setToggleNav(!toggleNav)}
                       aria-current={isActive ? "page" : undefined}
-                      className={`font-bold text-xl ${
+                      className={`font-bold text-xl tracking-tight ${
                         isActive ? "text-fr-accent-two" : "text-fr-white"
                       } hover:text-fr-accent-two transition-colors duration-150`}
                     >
@@ -238,7 +238,7 @@ export default function HeaderNav() {
             return (
               <li
                 key={link.href}
-                className={`font-bold hover:text-fr-accent-one cursor-pointer ${
+                className={`font-bold hover:text-fr-accent-one cursor-pointer tracking-tight ${
                   isActive ? "text-fr-accent-one" : "text-fr-primary"
                 } transition-colors duration-150`}
               >

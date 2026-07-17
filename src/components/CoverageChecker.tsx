@@ -47,7 +47,7 @@ export default function CoverageChecker({ classes }: CoverageCheckerProps) {
         </label>
         <button
           type="submit"
-          className="font-bold bg-fr-accent-one text-fr-white px-6 py-3 rounded-sm hover:bg-fr-accent-one-mid transition cursor-pointer w-full"
+          className="font-bold bg-fr-accent-one text-fr-white px-6 py-3 rounded-sm hover:bg-fr-accent-one-mid transition cursor-pointer w-full tracking-tight"
         >
           Check
         </button>
@@ -66,14 +66,14 @@ export default function CoverageChecker({ classes }: CoverageCheckerProps) {
               <div className="mt-3 flex flex-wrap gap-3">
                 <Link
                   href="/contact"
-                  className="font-bold bg-fr-primary text-fr-white px-5 py-3 rounded-sm hover:bg-fr-primary-dark transition"
+                  className="font-bold bg-fr-primary text-fr-white px-5 py-3 rounded-sm hover:bg-fr-primary-dark transition tracking-tight"
                 >
                   Request a Callout
                 </Link>
                 <a
                   // replace number
                   href="tel:+447537149523"
-                  className="font-bold border border-fr-primary text-fr-primary px-5 py-3 rounded-sm hover:bg-fr-primary hover:text-fr-white transition"
+                  className="font-bold border border-fr-primary text-fr-primary px-5 py-3 rounded-sm hover:bg-fr-primary hover:text-fr-white transition tracking-tight"
                 >
                   Call Now
                 </a>
@@ -91,7 +91,7 @@ export default function CoverageChecker({ classes }: CoverageCheckerProps) {
               <div className="mt-3">
                 <Link
                   href="/contact"
-                  className="font-bold bg-fr-primary text-fr-white px-5 py-3 rounded-sm hover:bg-fr-primary-dark transition inline-block"
+                  className="font-bold bg-fr-primary text-fr-white px-5 py-3 rounded-sm hover:bg-fr-primary-dark transition inline-block tracking-tight"
                 >
                   Contact Us
                 </Link>

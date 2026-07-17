@@ -20,7 +20,7 @@ export default function FaqAccordionLoc({ location }: FaqAccordionLocProps) {
   };
 
   const questionsToDisplay = locations.find(
-    (l) => l.location === location
+    (l) => l.location === location,
   )?.LocationFaqs;
 
   return (
@@ -40,7 +40,7 @@ export default function FaqAccordionLoc({ location }: FaqAccordionLocProps) {
               aria-expanded={isOpen}
               aria-controls={contentId}
             >
-              <span className="text-fr-primary group-hover:text-fr-primary-dark text-balance cursor-pointer">
+              <span className="text-fr-primary group-hover:text-fr-primary-dark text-balance cursor-pointer tracking-tight">
                 {question.question}
               </span>
               <motion.span

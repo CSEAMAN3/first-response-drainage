@@ -23,6 +23,12 @@ export const firstResponseImages = {
     width: 687,
     height: 886,
   },
+  wideRoadsideDrainageMonsters: {
+    src: "wide-drainage-monsters-in-road_kimjel.png",
+    alt: "The drainage monster crew unblocking a blocked drain in the road",
+    width: 1831,
+    height: 859,
+  },
   pinkMonsterWaterJetting: {
     src: "monsterjetting_evxxwb.png",
     alt: "monster with water gun",

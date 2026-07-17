@@ -102,7 +102,7 @@ export default function ReviewSlider({ reviews }: ReviewSliderProps) {
       </p>
       <button
         onClick={() => setExpanded(!expanded)}
-        className="font-bold text-sm cursor-pointer hover:text-fr-accent-one transition-colors duration-300 mb-8"
+        className="font-bold text-sm cursor-pointer hover:text-fr-accent-one transition-colors duration-300 mb-8 tracking-tight"
       >
         {expanded ? "Read Less" : "Read More"}
       </button>
@@ -110,14 +110,14 @@ export default function ReviewSlider({ reviews }: ReviewSliderProps) {
         {/* back button */}
         <button
           onClick={previousReview}
-          className="hover:text-fr-accent-one cursor-pointer"
+          className="hover:text-fr-accent-one cursor-pointer tracking-tight"
         >
           <FaChevronLeft className="inline-block mb-0.5 mr-1" /> Previous
         </button>
         {/* forward button */}
         <button
           onClick={nextReview}
-          className="hover:text-fr-accent-one cursor-pointer"
+          className="hover:text-fr-accent-one cursor-pointer tracking-tight"
         >
           Next
           <FaChevronRight className="inline-block mb-0.5 ml-1" />

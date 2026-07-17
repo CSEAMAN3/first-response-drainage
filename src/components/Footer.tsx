@@ -17,24 +17,25 @@ export default function Footer() {
             />
             <a
               href="tel:+447537149523"
-              className="text-fr-white font-bold hover:text-fr-accent-two w-fit transition-colors duration-150"
+              className="text-fr-white font-bold hover:text-fr-accent-two w-fit transition-colors duration-150 tracking-tight"
             >
-              24/7 callout on 07537149523
+              <span className="tracking-normal">24/7</span> callout on
+              07537149523
             </a>
             <a
               href="mailto:info@1stresponsedrainage.co.uk"
-              className="text-fr-white font-bold hover:text-fr-accent-two w-fit transition-colors duration-150"
+              className="text-fr-white font-bold hover:text-fr-accent-two w-fit transition-colors duration-150 tracking-tight"
             >
               info@1stresponsedrainage.co.uk
             </a>
             <Link
               href="/contact"
-              className="font-bold bg-fr-accent-one w-fit px-8 py-4 text-fr-white rounded-sm hover:bg-fr-accent-one-mid transition-colors duration-150"
+              className="font-bold bg-fr-accent-one w-fit px-8 py-4 text-fr-white rounded-sm hover:bg-fr-accent-one-mid transition-colors duration-150 tracking-tight"
             >
               Contact Us Online
             </Link>
             <div>
-              <h5 className="font-bold text-fr-accent-two mb-2">
+              <h5 className="font-bold text-fr-accent-two mb-2 tracking-tight">
                 Visit Us On Social
               </h5>
               <Link
@@ -53,92 +54,96 @@ export default function Footer() {
           </div>
           {/* navigation */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="text-fr-accent-two font-bold">Navigation</h5>
+            <h5 className="text-fr-accent-two font-bold tracking-tight">
+              Navigation
+            </h5>
             <Link
               href="/"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Home
             </Link>
             <Link
               href="/drainage-services"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Drainage Services
             </Link>
             <Link
               href="/locations"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Locations
             </Link>
             <Link
               href="/faq"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               FAQs
             </Link>
             <Link
               href="/blog"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Blog
             </Link>
             <Link
               href="/terms-and-conditions"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               T&Cs
             </Link>
             <Link
               href="/contact"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Contact
             </Link>
           </div>
           {/* Services */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="font-bold text-fr-accent-two">Drainage Services</h5>
+            <h5 className="font-bold text-fr-accent-two tracking-tight">
+              Drainage Services
+            </h5>
             <Link
               href="/drainage-services/blocked-drains"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Blocked Drains
             </Link>
             <Link
               href="/drainage-services/cctv-drainage-surveys"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               CCTV Drainage Surveys
             </Link>
             <Link
               href="/drainage-services/high-pressure-water-jetting"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               High Pressure Water Jetting
             </Link>
             <Link
               href="/drainage-services/patch-liners-and-no-dig-repairs"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Patch Liners / No-Dig Repairs
             </Link>
             <Link
               href="/drainage-services/root-intrusion-removal"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Root Intrusion Removal
             </Link>
             <Link
               href="/drainage-services/commercial-drainage"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Commercial Drainage
             </Link>
             <Link
               href="/drainage-services/sonde-and-tracing"
-              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit"
+              className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
             >
               Sonde & Tracing
             </Link>
@@ -152,13 +157,13 @@ export default function Footer() {
             </p>
             <Link
               href="/website-terms-and-conditions"
-              className="font-light text-sm text-fr-white hover:text-fr-accent-two transition-colors duration-150"
+              className="font-light text-sm text-fr-white hover:text-fr-accent-two transition-colors duration-150 tracking-tight"
             >
               Website Terms & Conditions
             </Link>
             <Link
               href="/privacy-policy"
-              className="font-light text-sm text-fr-white hover:text-fr-accent-two transition-colors duration-150"
+              className="font-light text-sm text-fr-white hover:text-fr-accent-two transition-colors duration-150 tracking-tight"
             >
               Privacy Policy
             </Link>
@@ -168,7 +173,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Website designed and built by Fulltilt Digital"
-            className="font-light text-sm text-fr-white hover:text-fr-accent-two sm:mx-auto"
+            className="font-light text-sm text-fr-white hover:text-fr-accent-two sm:mx-auto tracking-tight"
           >
             Website designed, built and maintained with{" "}
             <FaHeart aria-hidden="true" className="inline-block" /> by Fulltilt

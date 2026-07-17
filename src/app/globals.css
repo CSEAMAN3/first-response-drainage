@@ -46,6 +46,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  letter-spacing: -0.02em;
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

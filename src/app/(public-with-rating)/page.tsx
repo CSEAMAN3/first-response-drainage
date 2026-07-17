@@ -45,7 +45,8 @@ export default async function Home() {
       <Scrollbar items={items} className="bg-fr-primary-dark py-2" />
       <Reviews reviewsData={reviewsData} />
       <ServicesSlider
-        heading="Keeping Your Drains Clear, Safe & Working Properly"
+        headingOpening="Keeping Your Drains"
+        heading="Clear, Safe & Working Properly"
         paragraph="Our local drainage engineers deliver reliable drainage solutions, from clearing blockages to full inspections."
       />
       <WhyUseUs />

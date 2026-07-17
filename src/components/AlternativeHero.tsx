@@ -16,7 +16,7 @@ export default function AlternativeHero({ reviewsData }: AlternativeHeroProps) {
     <div className="bg-fr-primary relative z-0 overflow-hidden">
       <div className="flex flex-col lg:flex-row max-w-300 mx-auto gap-16 px-8 pt-16 pb-8">
         <div className="lg:flex-1 z-10">
-          <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[40ch] mb-2 text-center mx-auto lg:mx-0 lg:text-start lg:max-w-[80ch]">
+          <h1 className="font-bold text-2xl text-fr-white text-balance max-w-[40ch] mb-2 text-center mx-auto lg:mx-0 lg:text-start lg:max-w-[80ch] tracking-tight">
             Rapid Response Drainage Services Across Norfolk, Suffolk &
             Cambridgeshire
           </h1>
@@ -28,24 +28,24 @@ export default function AlternativeHero({ reviewsData }: AlternativeHeroProps) {
           <div className="flex gap-8 place-content-center mb-8">
             <Link
               href="/contact"
-              className="text-sm sm:text-base text-fr-white bg-fr-accent-one px-8 py-4 rounded-sm mb-6 font-bold hover:bg-fr-accent-one-mid transition-colors duration-300 cursor-pointer w-full max-w-60 text-center grid place-content-center"
+              className="text-sm sm:text-base text-fr-white bg-fr-accent-one px-8 py-4 rounded-sm mb-6 font-bold hover:bg-fr-accent-one-mid transition-colors duration-300 cursor-pointer w-full max-w-60 text-center grid place-content-center tracking-tight"
             >
               Request Callout
             </Link>
             <a
               href="tel:+447537149523"
               aria-label="Call First Response Drainage on 07537149523"
-              className="text-fr-white border-2 border-fr-accent-two px-8 py-4 rounded-sm mb-6 font-bold hover:bg-fr-primary-dark transition-colors duration-300 cursor-pointer w-full text-center max-w-60 text-sm sm:text-base grid place-content-center"
+              className="text-fr-white border-2 border-fr-accent-two px-8 py-4 rounded-sm mb-6 font-bold hover:bg-fr-primary-dark transition-colors duration-300 cursor-pointer w-full text-center max-w-60 text-sm sm:text-base grid place-content-center tracking-tight"
             >
               Call Now
             </a>
           </div>
           <Link
             href={"#coverage"}
-            className="block text-center font-bold text-fr-accent-two hover:text-fr-white lg:text-start transition-colors duration-300 lg:mb-8"
+            className="block text-center font-bold text-fr-primary hover:bg-fr-accent-two lg:text-start transition-colors duration-300 lg:mb-8 tracking-tight bg-fr-white w-fit px-8 py-4 rounded-sm mx-auto lg:mx-0 text-sm"
           >
-            CHECK COVERAGE IN YOUR AREA{" "}
-            <FaArrowRight className="inline-block mb-1" />
+            Check Coverage In Your Area{" "}
+            <FaArrowRight className="inline-block ml-2 mb-px" />
           </Link>
         </div>
         <div className="w-full lg:flex-1 place-content-center">
