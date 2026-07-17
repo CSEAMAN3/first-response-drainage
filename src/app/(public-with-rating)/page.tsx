@@ -46,7 +46,7 @@ export default async function Home() {
       <Reviews reviewsData={reviewsData} />
       <ServicesSlider
         headingOpening="Keeping Your Drains"
-        heading="Clear, Safe & Working Properly"
+        heading="Clear, Safe & Working"
         paragraph="Our local drainage engineers deliver reliable drainage solutions, from clearing blockages to full inspections."
       />
       <WhyUseUs />
