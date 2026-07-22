@@ -49,20 +49,12 @@ export default function AlternativeHero({ reviewsData }: AlternativeHeroProps) {
           </Link>
         </div>
         <div className="w-full lg:flex-1 place-content-center">
-          {/* <Image
-            // src="/images/monster-group-vibrant.png"
-            src="/images/bright-monster-group.png"
-            alt="update this"
-            width={867}
-            height={867}
-            className="w-full max-w-120 mx-auto z-10 pl-6"
-            priority
-          /> */}
           <CloudinaryOptImage
             {...Images.monsterhifi}
             alt="Drainage monsters group portrait standing with drainage tools"
-            priority
-            className="w-full max-w-md mx-auto z-10"
+            sizes="(max-width: 511px) calc(100vw - 64px), 448px"
+            preload
+            className="w-full h-auto max-w-md mx-auto"
           />
         </div>
       </div>

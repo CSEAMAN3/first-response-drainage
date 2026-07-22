@@ -36,11 +36,6 @@ export default async function Home() {
           faqs: homeFaqs,
         })}
       />
-      {/* <Hero
-        heading="Rapid Response Drainage Services Across Norfolk, Suffolk & Cambridgeshire"
-        paraOne="Blocked drain? Need a pre-purchase CCTV drainage survey? Our local drainage engineers have you covered 24/7."
-        photo="test.jpg"
-      /> */}
       <AlternativeHero reviewsData={reviewsData} />
       <Scrollbar items={items} className="bg-fr-primary-dark py-2" />
       <Reviews reviewsData={reviewsData} />
