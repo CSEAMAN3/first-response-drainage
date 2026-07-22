@@ -125,12 +125,16 @@ export default async function BlogPostPage({ params }: BlogProps) {
           </p>
         </div>
         {imageConfig && (
-          <CloudinaryOptImage
-            {...imageConfig}
-            alt={post.coverImageAlt ?? imageConfig.alt}
-            className="w-full h-90 object-cover mb-12"
-            priority
-          />
+          <div className="relative mb-12 aspect-video w-full overflow-hidden rounded-sm">
+            <CloudinaryOptImage
+              {...imageConfig}
+              alt={post.coverImageAlt ?? imageConfig.alt}
+              fill
+              preload
+              sizes="(max-width: 767px) calc(100vw - 64px), 656px"
+              className="object-cover"
+            />
+          </div>
         )}
         <section
           dangerouslySetInnerHTML={{ __html: contentHtml }}
