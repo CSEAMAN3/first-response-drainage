@@ -54,7 +54,7 @@ export default async function CambridgeshirePage() {
       <Hero
         heading={county?.hero.heading}
         paraOne={county?.hero.paragraph}
-        photo="test"
+        photo="drainageEngineer"
         reviewsData={reviewsData}
         alt="A drainage engineer unblocking a blocked drain a night"
       />

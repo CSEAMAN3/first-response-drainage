@@ -3,7 +3,6 @@ import Link from "next/link";
 import getFormattedDate from "@/utils/getFormattedDate";
 import Cta from "@/components/Cta";
 import CloudinaryOptImage from "@/components/CloudinaryOptImage";
-import CloudinaryUnOptImage from "@/components/CloudinaryUnOptImage";
 import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 import { Metadata } from "next";
 import StructuredData from "@/components/StructuredData";
@@ -69,39 +68,40 @@ export default async function BlogPage() {
 
           <CloudinaryOptImage
             {...Images.pinkMonsterWaterJetting}
-            className="mx-auto w-[40%] h-auto max-w-60 mt-auto lg:mr-auto lg:ml-0"
-            sizes="(max-width: 640px) 40vw, 240px"
             preload
+            sizes="(max-width: 599px) 40vw, 240px"
+            className="mx-auto mt-auto h-auto w-[40%] max-w-60 lg:mr-auto lg:ml-0"
           />
         </div>
 
         {/* blog posts */}
-        <nav>
-          <ul className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mx-auto max-w-100 sm:max-w-200 md:max-w-300">
+        <nav aria-label="Blog posts">
+          <ul className="mx-auto grid max-w-100 grid-cols-1 gap-8 sm:max-w-200 sm:grid-cols-2 md:max-w-300 md:grid-cols-3">
             {blogs.map((post) => {
               const formattedDate = getFormattedDate(post.date);
 
-              // ✅ Fully type-safe: coverImage is ResponseImageKey | undefined
               const img = post.coverImage
                 ? Images[post.coverImage]
-                : Images.test;
+                : Images.drainageEngineer;
 
               return (
                 <li
                   key={post.slug}
-                  className="group border-b border-transparent hover:border-primary_green transition-colors duration-300 pb-4"
+                  className="group border-b border-transparent pb-4 transition-colors duration-300 hover:border-primary_green"
                 >
                   <Link href={`/blog/${post.slug}`} className="text-fr-white">
-                    <div className="h-50 rounded-sm shadow-md mb-4 relative overflow-hidden">
-                      <CloudinaryUnOptImage
+                    <div className="relative mb-4 h-50 overflow-hidden rounded-sm shadow-md">
+                      <CloudinaryOptImage
                         {...img}
                         alt={post.coverImageAlt ?? img.alt}
-                        className="w-full h-full object-cover rounded-sm group-hover:brightness-75 transition-all duration-300"
+                        fill
+                        sizes="(max-width: 639px) calc(100vw - 64px), (max-width: 767px) calc((100vw - 96px) / 2), 379px"
+                        className="object-cover transition-all duration-300 group-hover:brightness-75"
                       />
                     </div>
 
                     <div className="grid grid-cols-1">
-                      <h2 className="font-bold mb-2 text-primary_green order-2 group-hover:text-fr-accent-two transition-all duration-300">
+                      <h2 className="order-2 mb-2 font-bold text-primary_green transition-colors duration-300 group-hover:text-fr-accent-two">
                         {post.title}
                       </h2>
 
@@ -109,7 +109,7 @@ export default async function BlogPage() {
                         Uploaded on {formattedDate}
                       </p>
 
-                      <p className="text-sm order-3 text-fr-accent-two">
+                      <p className="order-3 text-sm text-fr-accent-two">
                         Created by {post.author ?? "1st Response Drainage"}
                       </p>
                     </div>

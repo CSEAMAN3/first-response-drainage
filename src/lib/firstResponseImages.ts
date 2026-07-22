@@ -1,5 +1,5 @@
 export const firstResponseImages = {
-  test: {
+  drainageEngineer: {
     src: "night-drainage_myev1g.jpg",
     alt: "Drainage engineer on a night time call out unblocking a blocked drain",
     width: 700,
@@ -7,7 +7,7 @@ export const firstResponseImages = {
   },
   brightMonsterGroup: {
     src: "bright-monster-group_x5tkwj.png",
-    alt: "test Image of night time drainage be completed",
+    alt: "Image of night time drainage be completed",
     width: 1048,
     height: 596,
   },

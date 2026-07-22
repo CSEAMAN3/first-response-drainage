@@ -106,7 +106,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Chatteris",
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Chatteris. Our engineers are experienced in resolving blockages, carrying out CCTV surveys and completing drainage repairs efficiently.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -286,7 +286,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Great Shelford",
       paragraph:
         "We support homeowners and businesses in Great Shelford with dependable drainage services. Whether it's a blocked drain, inspection or repair, our engineers deliver practical solutions with minimal disruption.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -378,7 +378,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Littleport",
       paragraph:
         "Offering fast, professional drainage services for residential and commercial customers in Littleport. Our experienced engineers handle blockages, inspections and repairs with care and efficiency.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -560,7 +560,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Soham",
       paragraph:
         "Providing dependable drainage services for properties in Soham and nearby areas. From emergency blockages to planned inspections and repairs, our engineers are here to help.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -832,7 +832,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Attleborough",
       paragraph:
         "Providing professional drainage services for homes and businesses in Attleborough. Our engineers offer fast solutions for blocked drains, inspections and drainage repairs.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -1015,7 +1015,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Dereham",
       paragraph:
         "Delivering dependable drainage services for properties in Dereham and surrounding areas. Our experienced engineers handle blockages, CCTV surveys and repair work efficiently.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -1196,7 +1196,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Downham Market",
       paragraph:
         "Offering professional drainage services for residential and commercial customers in Downham Market. From blocked drains to inspections and repairs, our engineers are on hand to help.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -1289,7 +1289,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Fakenham",
       paragraph:
         "Supplying reliable drainage services for homes and businesses in Fakenham. Our engineers deal with blockages, inspections and drainage repairs promptly and professionally.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -1473,7 +1473,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Hethersett",
       paragraph:
         "Providing fast, dependable drainage services for properties in Hethersett. Our experienced engineers resolve blockages and carry out inspections with minimal disruption.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -1566,7 +1566,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Holt",
       paragraph:
         "Delivering professional drainage services for residential and commercial properties in Holt. We handle blocked drains, inspections and repair work efficiently.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -1749,7 +1749,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Necton",
       paragraph:
         "Supporting homes and businesses in Necton with reliable drainage services. Our team responds quickly to blockages and drainage system issues.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -1839,7 +1839,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in North Walsham",
       paragraph:
         "Providing professional drainage services for properties in North Walsham. From blocked drains to inspections and repairs, our engineers deliver effective solutions.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -2018,7 +2018,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Swaffham",
       paragraph:
         "Offering dependable drainage services for homes and businesses in Swaffham. Our experienced engineers provide fast assistance with blockages and drainage concerns.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -2108,7 +2108,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Thetford",
       paragraph:
         "Delivering reliable drainage services for residential and commercial properties in Thetford. Our team is equipped to handle blockages, inspections and repairs efficiently.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -2200,7 +2200,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Watton",
       paragraph:
         "Providing trusted drainage services for homes and businesses in Watton. We respond quickly to drainage problems and deliver practical solutions.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -2567,7 +2567,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Beck Row",
       paragraph:
         "Supporting homes and businesses in Beck Row with dependable drainage services. Our engineers provide fast solutions for blocked drains and drainage issues.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -2660,7 +2660,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Brandon",
       paragraph:
         "Providing trusted drainage services for residential and commercial customers in Brandon. Our team delivers efficient solutions for blockages and inspections.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -2933,7 +2933,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Haverhill",
       paragraph:
         "Delivering reliable drainage services for homes and businesses in Haverhill. We respond promptly to blockages and provide effective drainage solutions.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -3115,7 +3115,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Mildenhall",
       paragraph:
         "Providing dependable drainage services for residential and commercial properties in Mildenhall. Our engineers handle blockages and inspections efficiently.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -3208,7 +3208,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Newmarket",
       paragraph:
         "Supporting homes and businesses in Newmarket with professional drainage services. From emergency blockages to planned inspections, our team is here to help.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -3301,7 +3301,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Red Lodge",
       paragraph:
         "Delivering professional drainage services for properties in Red Lodge. Our engineers provide fast assistance with blocked drains and drainage issues.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -3394,7 +3394,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Stowmarket",
       paragraph:
         "Providing trusted drainage services for residential and commercial customers in Stowmarket. We deliver effective solutions for blockages and inspections.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -3577,7 +3577,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Sutton",
       paragraph:
         "Providing professional drainage services for properties in Sutton. Our team delivers dependable solutions for blockages and drainage inspections.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {
@@ -3668,7 +3668,7 @@ export const locations: Location[] = [
       heading: "Drainage Services in Woolpit",
       paragraph:
         "Supporting residential and commercial properties in Woolpit with reliable drainage services. Our engineers respond promptly to drainage issues.",
-      photo: "test",
+      photo: "drainageEngineer",
       alt: "A drainage engineer unblocking a blocked drain a night",
     },
     servicesSection: {

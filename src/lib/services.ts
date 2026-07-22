@@ -18,7 +18,7 @@ export const services: Service[] = [
       paragraph:
         "Blocked drains can quickly become messy and disruptive. Our experienced engineers provide fast, professional unblocking to restore flow and prevent further damage.",
       photo: {
-        src: "test",
+        src: "drainageEngineer",
         alt: "Drainage engineer unblocking a drain a night",
       },
     },
@@ -103,7 +103,7 @@ export const services: Service[] = [
         "Blocked drains cleared fast. From toilets, sinks, baths and showers, to full system blockages.",
       price: "From £95 +VAT",
       terms: "Terms and conditions apply",
-      photo: "test",
+      photo: "drainageEngineer",
     },
   },
   {
