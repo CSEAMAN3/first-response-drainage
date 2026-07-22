@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { services } from "@/lib/services";
 
-import CloudinaryUnOptImage from "./CloudinaryUnOptImage";
+import CloudinaryOptImage from "./CloudinaryOptImage";
 import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 
 export default function ServicesCards() {
@@ -127,18 +127,13 @@ export default function ServicesCards() {
             className="snap-start shrink-0 w-[70vw] sm:w-[50vw] md:w-[38vw] lg:w-[34vw] max-w-96 bg-fr-primary/5 rounded-sm overflow-hidden relative group"
           >
             <Link href={`/drainage-services/${s.slug}`}>
-              <div className="w-full h-50 overflow-hidden">
-                {/* <Image
-                  src="/images/test.jpg"
-                  alt="update this"
-                  width={300}
-                  height={300}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000"
-                /> */}
-                <CloudinaryUnOptImage
+              <div className="relative h-50 w-full overflow-hidden">
+                <CloudinaryOptImage
                   {...Images[s.carousel.photo]}
                   alt={s.hero.photo.alt}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-all duration-1000"
+                  fill
+                  sizes="(max-width: 639px) 70vw, (max-width: 767px) 50vw, (max-width: 1023px) 38vw, (max-width: 1129px) 34vw, 384px"
+                  className="object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
               </div>
 
