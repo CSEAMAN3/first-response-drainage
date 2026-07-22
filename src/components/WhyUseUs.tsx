@@ -1,16 +1,18 @@
 import { reasons } from "../lib/reasons";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import CloudinaryUnOptImage from "./CloudinaryUnOptImage";
+import CloudinaryOptImage from "./CloudinaryOptImage";
 import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 
 export default function WhyUseUs() {
   return (
     <section className="bg-fr-primary">
-      <div className="w-full h-64 sm:h-80 md:h-96 bg-pink-500">
-        <CloudinaryUnOptImage
+      <div className="relative h-64 w-full overflow-hidden sm:h-80 md:h-96">
+        <CloudinaryOptImage
           {...Images.wideRoadsideDrainageMonsters}
           alt="The drainage monster crew unblocking a blocked drain in the road"
-          className="w-full h-full object-cover"
+          fill
+          sizes="100vw"
+          className="object-cover"
         />
       </div>
       <div className="px-8 py-16 grid grid-cols-1 md:grid-cols-2 md:gap-x-4 md:py-24 max-w-280 mx-auto">
