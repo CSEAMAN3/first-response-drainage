@@ -1,7 +1,6 @@
-// import Image from "next/image";
 import CoverageChecker from "./CoverageChecker";
 import { FaMapSigns } from "react-icons/fa";
-import CloudinaryUnOptImage from "./CloudinaryUnOptImage";
+import CloudinaryOptImage from "./CloudinaryOptImage";
 import { firstResponseImages as Images } from "@/lib/firstResponseImages";
 
 // import CoverageTabs from "./CoverageTabs";
@@ -20,14 +19,18 @@ export default function HomeCoverage({ classes }: HomeCoverageProps) {
           </h3>
           <p className="font-light md:max-w-[60ch] mx-auto text-balance mb-4 text-center">
             Enter your postal area code to see if our drainage engineers cover
-            your location across Norfolk, Suffolk and Cambridge
+            your location across Norfolk, Suffolk and Cambridgeshire
           </p>
           <CoverageChecker classes={classes} />
-          <FaMapSigns className="absolute bottom-0 right-[10vw] text-8xl text-fr-primary md:text-[150px] lg:text-[200px] -z-20" />
-          <CloudinaryUnOptImage
+          <FaMapSigns
+            className="absolute bottom-0 right-[10vw] text-8xl text-fr-primary md:text-[150px] lg:text-[200px] -z-20"
+            aria-hidden="true"
+          />
+          <CloudinaryOptImage
             {...Images.purpleMonsterPlunger}
-            alt="drainage monster walking with a plunger in his hand ready to unblock a blocked drain"
-            className="w-24 md:w-36 lg:w-48 absolute bottom-1 left-16 md:left-24 lg:left-40"
+            alt="purple monster carrying a plunger"
+            sizes="(max-width: 767px) 96px, (max-width: 1023px) 144px, 192px"
+            className="absolute bottom-1 left-16 h-auto w-24 md:left-24 md:w-36 lg:left-40 lg:w-48"
           />
           <div className="w-full h-2 absolute bg-fr-primary-mid bottom-0 left-0 -z-10" />
         </div>
