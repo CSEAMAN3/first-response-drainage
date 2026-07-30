@@ -56,10 +56,13 @@ export default async function BlogPage() {
         {/* hero */}
         <div className="pb-16 flex flex-col sm:flex-row gap-2 max-w-200 mx-auto">
           <div className="place-content-center">
-            <h1 className="font-bold text-center sm:text-start text-2xl sm:text-3xl mb-2 text-balance text-fr-white">
-              Drainage Advice, Tips & Insights
+            <h1 className="font-bold text-center sm:text-start text-2xl sm:text-3xl md:text-4xl mb-2 text-balance text-fr-white w-fit mx-auto sm:mx-0 tracking-tight">
+              <span className="block text-lg text-center sm:text-left sm:text-xl md:text-2xl">
+                Drainage
+              </span>
+              Advice, Tips & Insights
             </h1>
-            <p className="mb-4 max-w-[60ch] font-light text-center sm:text-start text-balance text-fr-white">
+            <p className="mb-4 max-w-[60ch] font-light text-center sm:text-start text-pretty text-fr-white mx-auto">
               Practical guidance, expert advice and helpful insights from our
               drainage engineers to help you prevent problems and make informed
               decisions.

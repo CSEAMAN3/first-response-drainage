@@ -72,6 +72,12 @@ export const firstResponseImages = {
     height: 1560,
   },
   // blogs
+  summerDroughtDrainage: {
+    src: "water-jetting-drain_zjujh6.jpg",
+    alt: "Drianage Engineer using high pressure water jetting in small open drain during hot weather",
+    width: 1254,
+    height: 836,
+  },
   underSinkBlockage: {
     src: "blocked_drain_dysozh.jpg",
     alt: "Drainage Engineer showing a blockage in the pipes under the sink.",
