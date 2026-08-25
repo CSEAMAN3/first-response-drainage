@@ -172,7 +172,7 @@ export default function Footer() {
             href="https://www.betterknownas.co.uk"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Website designed and built by Fulltilt Digital"
+            aria-label="Website designed and built by Better Known As"
             className="font-light text-sm text-fr-white hover:text-fr-accent-two sm:mx-auto tracking-tight"
           >
             Website designed, built and maintained with{" "}
