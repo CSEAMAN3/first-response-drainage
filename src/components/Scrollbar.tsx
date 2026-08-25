@@ -78,7 +78,7 @@ export default function Scrollbar({
               className="flex items-center gap-2 whitespace-nowrap"
             >
               {Icon && <Icon className="w-4 h-4 text-fr-white" />}
-              <span className="text-sm tracking-tight font-bold text-white/90">
+              <span className="text-sm tracking-tight font-bold text-white">
                 {label}
               </span>
             </div>
