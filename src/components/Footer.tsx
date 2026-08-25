@@ -13,6 +13,8 @@ export default function Footer() {
             <img
               src="/images/horizontal-logo-white.svg"
               alt="1st Response Drainage logo"
+              width={1000}
+              height={355}
               className="w-40 md:w-44 h-auto"
             />
             <a

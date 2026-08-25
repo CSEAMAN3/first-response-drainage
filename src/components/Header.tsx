@@ -10,6 +10,8 @@ export default function Header() {
           <img
             src="/images/horizontal-logo-purple.svg"
             alt="1st response drainage logo"
+            width={1000}
+            height={355}
             className="w-40 md:w-44 h-auto"
           />
         </Link>
