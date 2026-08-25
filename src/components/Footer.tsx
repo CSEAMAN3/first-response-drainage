@@ -176,8 +176,8 @@ export default function Footer() {
             className="font-light text-sm text-fr-white hover:text-fr-accent-two sm:mx-auto tracking-tight"
           >
             Website designed, built and maintained with{" "}
-            <FaHeart aria-hidden="true" className="inline-block" /> by Fulltilt
-            Digital
+            <FaHeart aria-hidden="true" className="inline-block" /> by Better
+            Known As
           </a>
         </div>
       </div>
