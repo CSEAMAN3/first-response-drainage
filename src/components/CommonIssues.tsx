@@ -31,7 +31,7 @@ export default function CommonIssues({
             return <li key={id}>{bullet}</li>;
           })}
         </ul>
-        <p className="text-fr-accent-two font-bold max-w-[62ch] text-balance">
+        <p className="text-fr-accent-two-light font-bold max-w-[62ch] text-balance">
           {/* {closingParagraph} */}
           We&#39;ll clear the blockage quickly and advise whether a CCTV
           inspection or targeted repairs are needed to stop the problem

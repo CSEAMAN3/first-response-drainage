@@ -37,7 +37,7 @@ export default function Footer() {
               Contact Us Online
             </Link>
             <div>
-              <h5 className="font-bold text-fr-accent-two mb-2 tracking-tight">
+              <h5 className="font-bold text-fr-accent-two-light mb-2 tracking-tight">
                 Visit Us On Social
               </h5>
               <Link
@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
           {/* navigation */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="text-fr-accent-two font-bold tracking-tight">
+            <h5 className="text-fr-accent-two-light font-bold tracking-tight">
               Navigation
             </h5>
             <Link
@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
           {/* Services */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="font-bold text-fr-accent-two tracking-tight">
+            <h5 className="font-bold text-fr-accent-two-light tracking-tight">
               Drainage Services
             </h5>
             <Link

@@ -13,7 +13,9 @@
   --fr-accent-one-mid: #b71828;
   --fr-accent-one-dark: #d70f19;
   --fr-accent-two: #f0b516;
-  --fr-accent-two-light: #edbe5f;
+  --fr-accent-two-light: #f4c952;
+  /* --fr-accent-two-light: #edbe5f; */
+  /* F4C952 */
 }
 
 @theme inline {
