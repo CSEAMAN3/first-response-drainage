@@ -18,6 +18,7 @@ type CloudinaryImageProps = {
   fetchPriority?: "high" | "low" | "auto";
   sizes?: string;
   fill?: boolean;
+  quality?: number;
 };
 
 export default function CloudinaryOptImage({
@@ -30,6 +31,7 @@ export default function CloudinaryOptImage({
   fetchPriority,
   sizes = "100vw",
   fill = false,
+  quality,
 }: CloudinaryImageProps) {
   const normalizedSrc = src.replace(/^\/+/, "");
 
@@ -48,6 +50,7 @@ export default function CloudinaryOptImage({
         preload={preload}
         fetchPriority={fetchPriority}
         sizes={sizes}
+        quality={quality}
       />
     );
   }
@@ -62,6 +65,7 @@ export default function CloudinaryOptImage({
       preload={preload}
       fetchPriority={fetchPriority}
       sizes={sizes}
+      quality={quality}
     />
   );
 }
