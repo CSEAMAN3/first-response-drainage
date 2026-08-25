@@ -133,7 +133,8 @@ export default function ServicesCards() {
                   alt={s.hero.photo.alt}
                   fill
                   quality={60}
-                  sizes="(max-width: 639px) 70vw, (max-width: 767px) 50vw, (max-width: 1023px) 38vw, (max-width: 1129px) 34vw, 384px"
+                  // sizes="(max-width: 639px) 70vw, (max-width: 767px) 50vw, (max-width: 1023px) 38vw, (max-width: 1129px) 34vw, 384px"
+                  sizes="(max-width: 639px) 288px, (max-width: 767px) 50vw, (max-width: 1023px) 38vw, (max-width: 1129px) 34vw, 384px"
                   className="object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
               </div>
