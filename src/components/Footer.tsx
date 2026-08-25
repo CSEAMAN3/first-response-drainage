@@ -169,7 +169,7 @@ export default function Footer() {
             </Link>
           </div>
           <a
-            href="https://www.fulltiltdigital.co.uk"
+            href="https://www.betterknownas.co.uk"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Website designed and built by Fulltilt Digital"
