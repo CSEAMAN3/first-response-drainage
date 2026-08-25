@@ -54,6 +54,7 @@ export default function AlternativeHero({ reviewsData }: AlternativeHeroProps) {
             alt="Drainage monsters group portrait standing with drainage tools"
             sizes="(max-width: 511px) calc(100vw - 64px), 448px"
             preload
+            fetchPriority="high"
             className="w-full h-auto max-w-md mx-auto"
           />
         </div>

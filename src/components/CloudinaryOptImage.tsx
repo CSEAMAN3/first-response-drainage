@@ -1,49 +1,3 @@
-// import Image from "next/image";
-
-// const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
-
-// if (!cloudName) {
-//   throw new Error(
-//     "Missing Cloudinary cloud name. Set NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME in .env.local",
-//   );
-// }
-
-// type CloudinaryImageProps = {
-//   src: string; // Cloudinary public ID e.g. "autumn-leaves-blocking-a-drain_kputl3.png"
-//   alt: string;
-//   width: number;
-//   height: number;
-//   className?: string;
-//   preload?: boolean;
-//   sizes?: string;
-// };
-
-// export default function CloudinaryOptImage({
-//   src,
-//   alt,
-//   width,
-//   height,
-//   className,
-//   preload,
-//   sizes = "100vw",
-// }: CloudinaryImageProps) {
-//   const normalizedSrc = src.replace(/^\/+/, "");
-
-//   const cloudinaryUrl = `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_auto,c_limit,w_${width}/${normalizedSrc}`;
-
-//   return (
-//     <Image
-//       src={cloudinaryUrl}
-//       alt={alt}
-//       width={width}
-//       height={height}
-//       className={className}
-//       preload={preload}
-//       sizes={sizes}
-//     />
-//   );
-// }
-
 import Image from "next/image";
 
 const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
@@ -61,6 +15,7 @@ type CloudinaryImageProps = {
   height: number;
   className?: string;
   preload?: boolean;
+  fetchPriority?: "high" | "low" | "auto";
   sizes?: string;
   fill?: boolean;
 };
@@ -72,6 +27,7 @@ export default function CloudinaryOptImage({
   height,
   className,
   preload,
+  fetchPriority,
   sizes = "100vw",
   fill = false,
 }: CloudinaryImageProps) {
@@ -90,6 +46,7 @@ export default function CloudinaryOptImage({
         fill
         className={className}
         preload={preload}
+        fetchPriority={fetchPriority}
         sizes={sizes}
       />
     );
@@ -103,6 +60,7 @@ export default function CloudinaryOptImage({
       height={height}
       className={className}
       preload={preload}
+      fetchPriority={fetchPriority}
       sizes={sizes}
     />
   );
