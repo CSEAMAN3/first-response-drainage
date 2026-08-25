@@ -146,7 +146,7 @@ export default function ServicesCards() {
                 <p className="mb-8">{s.carousel.paragraph}</p>
 
                 <div className="absolute top-48">
-                  <p className="font-bold text-fr-accent-one text-sm">
+                  <p className="font-bold text-fr-accent-one-dark text-sm">
                     {s.carousel.price}
                   </p>
                   <p className="text-xs">{s.carousel.terms}</p>
