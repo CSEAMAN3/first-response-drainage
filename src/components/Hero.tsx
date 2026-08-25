@@ -58,6 +58,7 @@ export default function Hero({
           {...Images[photo]}
           alt={alt}
           fill
+          quality={60}
           preload
           fetchPriority="high"
           sizes="(max-width: 767px) 100vw, 80vw"
