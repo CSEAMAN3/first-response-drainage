@@ -174,7 +174,7 @@ export default function ServicesCards() {
             type="button"
             onClick={() => scrollToIndex(i)}
             aria-label={`Go to ${s.service} (${i + 1} of ${count})`}
-            aria-current={i === activeIndex ? "true" : "false"}
+            aria-current={i === activeIndex ? "true" : undefined}
             className={[
               "h-3.5 w-3.5 rounded-full transition cursor-pointer border-2 border-fr-primary-dark",
               i === activeIndex ? "bg-fr-primary-dark" : "bg-fr-transparent",
