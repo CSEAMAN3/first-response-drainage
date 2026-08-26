@@ -53,7 +53,7 @@ export default function Hero({
         </div>
       </div>
 
-      {/* <div className="relative h-64 w-full md:absolute md:inset-y-0 md:right-0 md:h-auto md:w-[80vw] lg:h-125">
+      <div className="relative h-64 w-full md:absolute md:inset-y-0 md:right-0 md:h-auto md:w-[80vw] lg:h-125">
         <CloudinaryOptImage
           {...Images[photo]}
           alt={alt}
@@ -64,8 +64,8 @@ export default function Hero({
           sizes="(max-width: 767px) 100vw, 80vw"
           className="object-cover"
         />
-      </div> */}
-      <div className="w-full md:absolute md:inset-y-0 md:right-0 md:w-[80vw] lg:h-125">
+      </div>
+      {/* <div className="w-full md:absolute md:inset-y-0 md:right-0 md:w-[80vw] lg:h-125">
         <CloudinaryOptImage
           {...Images[photo]}
           alt={alt}
@@ -75,7 +75,7 @@ export default function Hero({
           sizes="(max-width: 767px) 100vw, 80vw"
           className="h-64 w-full object-cover md:h-full"
         />
-      </div>
+      </div> */}
     </section>
   );
 }
