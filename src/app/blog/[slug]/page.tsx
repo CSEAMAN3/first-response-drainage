@@ -131,6 +131,7 @@ export default async function BlogPostPage({ params }: BlogProps) {
               alt={post.coverImageAlt ?? imageConfig.alt}
               fill
               preload
+              fetchPriority="high"
               sizes="(max-width: 767px) calc(100vw - 64px), 656px"
               className="object-cover"
             />
