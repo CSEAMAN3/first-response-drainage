@@ -65,17 +65,6 @@ export default function Hero({
           className="object-cover"
         />
       </div>
-      {/* <div className="w-full md:absolute md:inset-y-0 md:right-0 md:w-[80vw] lg:h-125">
-        <CloudinaryOptImage
-          {...Images[photo]}
-          alt={alt}
-          quality={60}
-          preload
-          fetchPriority="high"
-          sizes="(max-width: 767px) 100vw, 80vw"
-          className="h-64 w-full object-cover md:h-full"
-        />
-      </div> */}
     </section>
   );
 }
