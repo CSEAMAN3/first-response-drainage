@@ -57,12 +57,13 @@ export async function generateMetadata({
 }
 
 export default async function LocationPage({ params }: PageProps) {
-  const reviewsData = await getGoogleReviews();
-
   const { slug } = await params;
+
   const location = locations.find((l) => l.slug === slug);
 
   if (!location) notFound();
+
+  const reviewsData = await getGoogleReviews();
 
   const items = [
     { label: "No callout fees", iconKey: "badge" },

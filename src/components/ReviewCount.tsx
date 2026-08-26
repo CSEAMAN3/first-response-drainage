@@ -8,7 +8,7 @@ interface ReviewCountProps {
   addAltClasses?: boolean;
 }
 
-export default async function ReviewCount({
+export default function ReviewCount({
   reviewsData,
   classes,
   altClasses,
