@@ -37,9 +37,9 @@ export default function Footer() {
               Contact Us Online
             </Link>
             <div>
-              <h5 className="font-bold text-fr-accent-two-light mb-2 tracking-tight">
+              <h2 className="font-bold text-fr-accent-two-light mb-2 tracking-tight">
                 Visit Us On Social
-              </h5>
+              </h2>
               <Link
                 href="https://www.facebook.com/p/1st-response-drainage-61575122397737/"
                 target="_blank"
@@ -56,9 +56,9 @@ export default function Footer() {
           </div>
           {/* navigation */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="text-fr-accent-two-light font-bold tracking-tight">
+            <h2 className="text-fr-accent-two-light font-bold tracking-tight">
               Navigation
-            </h5>
+            </h2>
             <Link
               href="/"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
@@ -104,9 +104,9 @@ export default function Footer() {
           </div>
           {/* Services */}
           <div className="grid grid-cols-1 gap-4">
-            <h5 className="font-bold text-fr-accent-two-light tracking-tight">
+            <h2 className="font-bold text-fr-accent-two-light tracking-tight">
               Drainage Services
-            </h5>
+            </h2>
             <Link
               href="/drainage-services/blocked-drains"
               className="text-fr-white hover:text-fr-accent-two transition-colors duration-150 w-fit tracking-tight"
