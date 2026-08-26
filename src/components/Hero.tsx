@@ -60,6 +60,7 @@ export default function Hero({
           fill
           quality={75}
           fetchPriority="high"
+          loading="eager"
           sizes="(max-width: 767px) 100vw, 80vw"
           className="object-cover"
         />
