@@ -41,7 +41,7 @@ export default function CommonIssues({
       <div className="max-w-300 mx-auto">
         <CloudinaryOptImage
           {...Images[photo]}
-          quality={75}
+          // quality={75}
           sizes="(max-width: 767px) 95vw, 800px"
           className="w-[95%] max-w-200 h-60 md:h-80 object-cover mx-auto rounded-xl"
         />

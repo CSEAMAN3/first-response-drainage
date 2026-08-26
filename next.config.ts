@@ -30,14 +30,26 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  // images: {
+  //   deviceSizes: [320, 375, 414, 640, 750, 828, 1080, 1200, 1920],
+  //   imageSizes: [96, 128, 192, 256, 320, 384],
+  //   qualities: [60, 75],
+  //   remotePatterns: [
+  //     { protocol: "https", hostname: "res.cloudinary.com" },
+  //     // if you render Google profile photos in <img> this isn’t needed,
+  //     // but if you ever switch them to next/image, you’ll want it:
+  //     { protocol: "https", hostname: "lh3.googleusercontent.com" },
+  //   ],
+  // },
   images: {
+    loader: "custom",
+    loaderFile: "./src/lib/cloudinaryLoader.ts",
+
     deviceSizes: [320, 375, 414, 640, 750, 828, 1080, 1200, 1920],
     imageSizes: [96, 128, 192, 256, 320, 384],
-    qualities: [60, 75],
+
     remotePatterns: [
       { protocol: "https", hostname: "res.cloudinary.com" },
-      // if you render Google profile photos in <img> this isn’t needed,
-      // but if you ever switch them to next/image, you’ll want it:
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
     ],
   },
