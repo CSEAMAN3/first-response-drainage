@@ -59,8 +59,8 @@ export default function Hero({
           alt={alt}
           fill
           quality={75}
+          preload
           fetchPriority="high"
-          loading="eager"
           sizes="(max-width: 767px) 100vw, 80vw"
           className="object-cover"
         />
