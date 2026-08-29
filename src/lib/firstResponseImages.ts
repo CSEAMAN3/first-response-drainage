@@ -78,6 +78,12 @@ export const firstResponseImages = {
     width: 1254,
     height: 836,
   },
+  cctvDrainInspection: {
+    src: "cctv-drain-inspection_qoiiar.jpg",
+    alt: "Find out how a CCTV drain survey works, what problems it can identify and when you should consider having your drains professionally inspected.",
+    width: 1181,
+    height: 887,
+  },
   underSinkBlockage: {
     src: "blocked_drain_dysozh.jpg",
     alt: "Drainage Engineer showing a blockage in the pipes under the sink.",
