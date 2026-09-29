@@ -72,6 +72,12 @@ export const firstResponseImages = {
     height: 1560,
   },
   // blogs
+  heavyRainDrainage: {
+    src: "heavy-rain-blocked-drain_kivqwx",
+    alt: "Heavy autumn rain flooding a road affecting the drainage to nearby properties.",
+    width: 1254,
+    height: 836,
+  },
   summerDroughtDrainage: {
     src: "water-jetting-drain_zjujh6.jpg",
     alt: "Drianage Engineer using high pressure water jetting in small open drain during hot weather",
