@@ -3,15 +3,44 @@ import redirects from "./redirects.json" with { type: "json" };
 
 const isDev = process.env.NODE_ENV !== "production";
 
+// const csp = [
+//   "default-src 'self'",
+//   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
+//   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+//   "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com",
+//   "font-src 'self' https://fonts.gstatic.com data:",
+//   // allow fetch/XHR to google for maps/places if you ever add frontend usage
+//   "connect-src 'self' https://places.googleapis.com https://maps.googleapis.com",
+//   "frame-src https://www.google.com https://maps.google.com",
+//   "frame-ancestors 'none'",
+//   "base-uri 'self'",
+//   "form-action 'self'",
+//   "object-src 'none'",
+//   "upgrade-insecure-requests",
+// ].join("; ");
+
 const csp = [
   "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
+
+  // JavaScript: Next.js, Cookiebot and Google Tag Manager
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://www.gstatic.com`,
+
+  // Styles
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-  "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com",
+
+  // Images, including tracking pixels
+  "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com https://consent.cookiebot.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://www.googleadservices.com https://googleads.g.doubleclick.net",
+
+  // Fonts
   "font-src 'self' https://fonts.gstatic.com data:",
-  // allow fetch/XHR to google for maps/places if you ever add frontend usage
-  "connect-src 'self' https://places.googleapis.com https://maps.googleapis.com",
+
+  // API requests, Cookiebot and Google tracking
+  "connect-src 'self' https://places.googleapis.com https://maps.googleapis.com https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://www.google.com https://www.google.co.uk https://googleads.g.doubleclick.net",
+
+  // Frames
   "frame-src https://www.google.com https://maps.google.com",
+
+  // Existing security restrictions
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",
