@@ -20,17 +20,46 @@ export default function ContactForm() {
     defaultValues: { service: "other", honeypot: "", phone: "" },
   });
 
-  const processForm: SubmitHandler<ContactFormInputs> = async (data) => {
-    const result = await sendEmail(data);
+  // const processForm: SubmitHandler<ContactFormInputs> = async (data) => {
+  //   const result = await sendEmail(data);
 
-    if (result?.success) {
-      console.log({ data: result.data });
-      toast.success("email sent");
-      reset();
-      return;
-    } else {
-      console.log("sendEmail error", result?.error);
-      toast.error("something went wrong");
+  //   if (result?.success) {
+  //     console.log({ data: result.data });
+  //     toast.success("email sent");
+  //     reset();
+  //     return;
+  //   } else {
+  //     console.log("sendEmail error", result?.error);
+  //     toast.error("something went wrong");
+  //   }
+  // };
+
+  const processForm: SubmitHandler<ContactFormInputs> = async (data) => {
+    try {
+      const result = await sendEmail(data);
+
+      if (result.success) {
+        // Record successful contact form submission
+        window.dataLayer?.push({
+          event: "generate_lead",
+          lead_type: "contact_form",
+          service: data.service,
+        });
+
+        toast.success("Your message has been sent successfully.");
+
+        reset();
+
+        return;
+      }
+
+      console.error("sendEmail error", result.error);
+
+      toast.error("Something went wrong. Please try again.");
+    } catch (error) {
+      console.error("Contact form submission error:", error);
+
+      toast.error("Something went wrong. Please try again.");
     }
   };
 
