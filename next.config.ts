@@ -19,7 +19,7 @@ const csp = [
   "font-src 'self' https://fonts.gstatic.com data:",
 
   // API requests, Cookiebot and Google tracking
-  "connect-src 'self' https://places.googleapis.com https://maps.googleapis.com https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://www.google.com https://www.google.co.uk https://googleads.g.doubleclick.net",
+  "connect-src 'self' https://places.googleapis.com https://maps.googleapis.com https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://www.google.com https://www.google.co.uk https://googleads.g.doubleclick.net",
 
   // Frames
   "frame-src https://www.google.com https://maps.google.com https://consentcdn.cookiebot.com",
