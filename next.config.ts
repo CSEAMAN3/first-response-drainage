@@ -13,7 +13,7 @@ const csp = [
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
 
   // Images, including tracking pixels
-  "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com https://consent.cookiebot.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://www.googleadservices.com https://googleads.g.doubleclick.net",
+  "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com https://consent.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://www.googleadservices.com https://googleads.g.doubleclick.net",
 
   // Fonts
   "font-src 'self' https://fonts.gstatic.com data:",
