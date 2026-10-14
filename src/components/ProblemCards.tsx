@@ -16,6 +16,8 @@ export default function ProblemCards({
         src={`/images/${graphic}.svg`}
         // decorative only
         alt={alt}
+        loading="lazy"
+        decoding="async"
         className="w-[40%] h-auto mx-auto mb-4"
       />
       <h3 className="max-w-[20ch] text-balance text-center mx-auto font-bold text-fr-primary">
