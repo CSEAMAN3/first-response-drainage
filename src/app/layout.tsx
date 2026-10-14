@@ -201,14 +201,18 @@ export default function RootLayout({
           }}
         />
 
-        {/* Cookiebot */}
-        <Script
-          id="Cookiebot"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid={COOKIEBOT_ID}
-          data-blockingmode="auto"
-          strategy="beforeInteractive"
-        />
+        {/* Cookiebot - production only */}
+        {process.env.NODE_ENV === "production" &&
+          process.env.NEXT_PUBLIC_SITE_URL ===
+            "https://www.1stresponsedrainage.co.uk" && (
+            <Script
+              id="Cookiebot"
+              src="https://consent.cookiebot.com/uc.js"
+              data-cbid={COOKIEBOT_ID}
+              data-blockingmode="auto"
+              strategy="beforeInteractive"
+            />
+          )}
 
         {/* Google Tag Manager */}
         <Script

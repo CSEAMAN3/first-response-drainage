@@ -21,7 +21,8 @@ export async function sendEmail(data: ContactFormInputs) {
   const { name, phone, email, location, service, message } = result.data;
 
   try {
-    const sent = await resend.emails.send({
+    // return { success: true, data: sent };
+    const { data: sent, error: resendError } = await resend.emails.send({
       from: "contactform@1stresponsedrainage.co.uk",
       to: emailAddress,
       replyTo: email,
@@ -43,7 +44,18 @@ export async function sendEmail(data: ContactFormInputs) {
       }),
     });
 
-    return { success: true, data: sent };
+    if (resendError || !sent) {
+      console.error("Resend error:", resendError);
+
+      return {
+        success: false,
+        error: "Unable to send email",
+      };
+    }
+
+    return {
+      success: true,
+    };
   } catch (error) {
     console.error("Resend send error:", error);
     const message =

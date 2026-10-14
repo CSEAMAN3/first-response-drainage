@@ -20,20 +20,6 @@ export default function ContactForm() {
     defaultValues: { service: "other", honeypot: "", phone: "" },
   });
 
-  // const processForm: SubmitHandler<ContactFormInputs> = async (data) => {
-  //   const result = await sendEmail(data);
-
-  //   if (result?.success) {
-  //     console.log({ data: result.data });
-  //     toast.success("email sent");
-  //     reset();
-  //     return;
-  //   } else {
-  //     console.log("sendEmail error", result?.error);
-  //     toast.error("something went wrong");
-  //   }
-  // };
-
   const processForm: SubmitHandler<ContactFormInputs> = async (data) => {
     try {
       const result = await sendEmail(data);

@@ -6,20 +6,20 @@ const isDev = process.env.NODE_ENV !== "production";
 const csp = [
   "default-src 'self'",
 
-  // JavaScript: Next.js, Cookiebot and Google Tag Manager
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://www.gstatic.com`,
+  // JavaScript: Next.js, Cookiebot, GTM and Google Ads
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.gstatic.com`,
 
   // Styles
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
 
   // Images, including tracking pixels
-  "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com https://consent.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://www.googleadservices.com https://googleads.g.doubleclick.net",
+  "img-src 'self' data: blob: https://res.cloudinary.com https://lh3.googleusercontent.com https://consent.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com https://www.google.co.uk https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net",
 
   // Fonts
   "font-src 'self' https://fonts.gstatic.com data:",
 
   // API requests, Cookiebot and Google tracking
-  "connect-src 'self' https://places.googleapis.com https://maps.googleapis.com https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://www.google.com https://www.google.co.uk https://googleads.g.doubleclick.net",
+  "connect-src 'self' https://places.googleapis.com https://maps.googleapis.com https://consent.cookiebot.com https://consentcdn.cookiebot.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://www.google.com https://www.google.co.uk https://www.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net",
 
   // Frames
   "frame-src https://www.google.com https://maps.google.com https://consentcdn.cookiebot.com",
@@ -49,8 +49,6 @@ const nextConfig: NextConfig = {
     qualities: [60, 75],
     remotePatterns: [
       { protocol: "https", hostname: "res.cloudinary.com" },
-      // if you render Google profile photos in <img> this isn’t needed,
-      // but if you ever switch them to next/image, you’ll want it:
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
     ],
   },
