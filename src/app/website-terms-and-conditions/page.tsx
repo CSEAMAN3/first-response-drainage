@@ -20,14 +20,12 @@ export default function WebsiteTermsAndConditionsPage() {
           Website Terms and Conditions
         </h1>
         <p className="font-light text-sm mb-8 text-fr-primary-mid">
-          Last updated: 29th January 2026
+          Last updated: 14 October 2026
         </p>
         <p className="font-light mb-8">
-          Welcome to the website of 1st Response Drainage, located at
-          https://www.1stresponsedrainage.co.uk &#40;&#34;Website&#34;&#41;. By
-          accessing or using this Website, you agree to be bound by these Terms
-          and Conditions. If you do not agree with any part of these terms,
-          please do not use our Website.
+          These Website Terms and Conditions explain the rules and conditions
+          associated with using the 1st Response Drainage website. Please read
+          them carefully when accessing or using our website.
         </p>
         <div className="grid grid-cols-1 gap-y-8 mb-8">
           {websitetandcs.map((t) => {
@@ -46,40 +44,94 @@ export default function WebsiteTermsAndConditionsPage() {
             );
           })}
         </div>
+        <div className="mb-8">
+          <h2 className="font-bold mb-2 text-fr-accent-one">
+            Related Policies
+          </h2>
+
+          <p className="font-light mb-4">
+            For further information about how we operate our website and provide
+            our services, please refer to the following:
+          </p>
+
+          <ul className="font-light list-disc pl-6 grid gap-2">
+            <li>
+              <Link
+                href="/privacy-policy"
+                className="underline hover:text-fr-accent-one transition"
+              >
+                Privacy Policy
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="/cookie-policy"
+                className="underline hover:text-fr-accent-one transition"
+              >
+                Cookie Policy
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="/terms-and-conditions"
+                className="underline hover:text-fr-accent-one transition"
+              >
+                Drainage Service Terms and Conditions
+              </Link>
+            </li>
+          </ul>
+        </div>
         <div>
           <h2 className="font-bold mb-2 text-fr-accent-one">Contact Us</h2>
-          <p className="mb-2 font-light">
+          <p className="mb-4 font-light">
             If you have questions about these Terms and Conditions, please
             contact us:
           </p>
-          <p className="mb-2 font-light">1st Response Drainage</p>
-          <p className="mb-2 font-light">
-            Email:{" "}
-            <a
-              href="mailto:info@1stresponsedrainage.co.uk"
-              className="hover:underline transition duration-300"
-            >
-              info@1stresponsedrainage.co.uk
-            </a>
-          </p>
-          <p className="mb-2 font-light">
-            Phone:{" "}
-            <a
-              href="tel:07537149523"
-              className="hover:underline transition duration-300"
-            >
-              07537149523
-            </a>
-          </p>
-          <p className="mb-2 font-light">
-            Website:{" "}
-            <Link
-              href="/contact"
-              className="hover:underline transition duration-300"
-            >
-              https://www.1stresponsedrainage.co.uk/contact
-            </Link>
-          </p>
+          <div className="text-sm">
+            <p className="mb-2 font-bold">1st Response Drainage</p>
+
+            <p className="mb-2 font-light">
+              18 Riverside Way
+              <br />
+              Brandon
+              <br />
+              Suffolk
+              <br />
+              IP27 0AN
+              <br />
+              United Kingdom
+            </p>
+            {/* <p className="mb-2 font-light">1st Response Drainage</p> */}
+            <p className="mb-2 font-light">
+              Email:{" "}
+              <a
+                href="mailto:info@1stresponsedrainage.co.uk"
+                className="hover:underline transition duration-300"
+              >
+                info@1stresponsedrainage.co.uk
+              </a>
+            </p>
+            <p className="mb-2 font-light">
+              Phone:{" "}
+              <a
+                href="tel:07537149523"
+                className="hover:underline transition duration-300"
+              >
+                07537149523
+              </a>
+            </p>
+            <p className="mb-2 font-light">
+              Website:{" "}
+              <Link
+                href="/contact"
+                className="hover:underline transition duration-300"
+              >
+                https://www.1stresponsedrainage.co.uk/contact
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </main>
