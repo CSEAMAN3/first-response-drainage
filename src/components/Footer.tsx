@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { FaFacebook } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import CookieSettingsButton from "./CookieSettingsButton";
 
 export default function Footer() {
   return (
@@ -169,6 +170,7 @@ export default function Footer() {
             >
               Privacy Policy
             </Link>
+            <CookieSettingsButton />
           </div>
           <a
             href="https://www.betterknownas.co.uk"
