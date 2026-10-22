@@ -17,6 +17,8 @@ type BlogProps = {
   params: Promise<{ slug: string }>;
 };
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const blogs = await getSortedPostData();
   return blogs.map((s) => ({ slug: s.slug }));
