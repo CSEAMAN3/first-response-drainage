@@ -78,6 +78,12 @@ export const firstResponseImages = {
     width: 1254,
     height: 836,
   },
+  treeRoots: {
+    src: "tree-roots_kpde9c.webp",
+    alt: "A tree being planted in a garden close to the property's drainage. Showing a potential problem of the tree roots entering the drainage system.",
+    width: 1254,
+    height: 836,
+  },
   summerDroughtDrainage: {
     src: "water-jetting-drain_zjujh6.jpg",
     alt: "Drianage Engineer using high pressure water jetting in small open drain during hot weather",

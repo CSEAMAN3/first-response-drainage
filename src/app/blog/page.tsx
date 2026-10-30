@@ -80,7 +80,7 @@ export default async function BlogPage() {
         {/* blog posts */}
         <nav aria-label="Blog posts">
           <ul className="mx-auto grid max-w-100 grid-cols-1 gap-8 sm:max-w-200 sm:grid-cols-2 md:max-w-300 md:grid-cols-3">
-            {blogs.map((post) => {
+            {blogs.map((post, index) => {
               const formattedDate = getFormattedDate(post.date);
 
               const img = post.coverImage
@@ -98,6 +98,8 @@ export default async function BlogPage() {
                         {...img}
                         alt={post.coverImageAlt ?? img.alt}
                         fill
+                        loading={index < 3 ? "eager" : "lazy"}
+                        fetchPriority={index === 0 ? "high" : "auto"}
                         sizes="(max-width: 639px) calc(100vw - 64px), (max-width: 767px) calc((100vw - 96px) / 2), 379px"
                         className="object-cover transition-all duration-300 group-hover:brightness-75"
                       />
