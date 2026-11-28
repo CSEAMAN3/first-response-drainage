@@ -38,12 +38,6 @@ export default function HowServiceWorks({
           })}
         </ul>
         <p className="max-w-[52ch]">{closingParagraph}</p>
-        {/* <img
-          src={`/images/house.svg`}
-          // just for decoration
-          alt=""
-          className="hidden sm:block absolute bottom-0 right-0 sm:w-[20%] md:w-[24%] lg:w-[40%] max-w-90"
-        /> */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/house.svg"
