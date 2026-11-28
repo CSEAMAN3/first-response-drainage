@@ -12,6 +12,7 @@ export default function Header() {
             alt="1st response drainage logo"
             width={1000}
             height={355}
+            loading="eager"
             className="w-40 md:w-44 h-auto"
           />
         </Link>

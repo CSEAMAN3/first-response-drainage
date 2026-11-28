@@ -38,13 +38,23 @@ export default function ReviewSlider({ reviews }: ReviewSliderProps) {
     return (first + last).toUpperCase() || "?";
   }
 
-  const current = reviews[review];
-  const rating = current.rating ?? 0;
-  const fullStars = Math.floor(rating);
-  const hasHalfStar = rating % 1 >= 0.25 && rating % 1 < 0.75;
-  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+  // const current = reviews[review];
+  // const rating = current.rating ?? 0;
+  // const fullStars = Math.floor(rating);
+  // const hasHalfStar = rating % 1 >= 0.25 && rating % 1 < 0.75;
+  // const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
 
-  if (!reviews?.length) {
+  // if (!reviews?.length) {
+  //   return (
+  //     <div className="bg-fr-light-grey rounded-sm p-8 shadow-xl">
+  //       <p className="font-bold text-fr-primary">Reviews</p>
+  //       <p className="font-light text-sm">No reviews available right now.</p>
+  //     </div>
+  //   );
+  // }
+  const current = reviews?.[review];
+
+  if (!current) {
     return (
       <div className="bg-fr-light-grey rounded-sm p-8 shadow-xl">
         <p className="font-bold text-fr-primary">Reviews</p>
@@ -52,15 +62,24 @@ export default function ReviewSlider({ reviews }: ReviewSliderProps) {
       </div>
     );
   }
+
+  const rating = current.rating ?? 0;
+  const fullStars = Math.floor(rating);
+  const hasHalfStar = rating % 1 >= 0.25 && rating % 1 < 0.75;
+  const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
   return (
     <div className="bg-fr-light-grey rounded-sm p-8 relative shadow-xl">
       <div className="flex gap-4 items-center mb-4">
-        <div className="w-12 h-12 rounded-full overflow-hidden bg-fr-accent-one grid place-content-center">
+        <div className="w-12 h-12 shrink-0 rounded-full overflow-hidden bg-fr-accent-one grid place-content-center">
           {current.author_photo_url ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={current.author_photo_url}
               alt={`${current.author_name} profile photo`}
+              width={48}
+              height={48}
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />

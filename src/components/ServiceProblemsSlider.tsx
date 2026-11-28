@@ -120,7 +120,7 @@ export default function ServiceProblemsSlider({
       <div
         ref={scrollRef}
         onScroll={onScroll}
-        className="flex gap-8 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] mb-8"
+        className="flex gap-8 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth [-ms-overflow-style:none] scrollbar-none mb-8"
       >
         {cards.map((c, i) => {
           return (
@@ -133,12 +133,21 @@ export default function ServiceProblemsSlider({
               className="p-4 bg-fr-light-grey border-b-4 border-fr-accent-one w-[68vw] sm:w-[55vw] min-h-70 grid place-content-center snap-start shrink-0 max-w-80"
               data-card
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              {/* <img
                 src={`/images/${c.graphic}.svg`}
                 alt={c.alt}
                 className="mx-auto mb-8 h-25 w-25"
                 loading="lazy"
+              /> */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={`/images/${c.graphic}.svg`}
+                alt={c.alt}
+                width={120}
+                height={120}
+                loading="lazy"
+                decoding="async"
+                className="mx-auto mb-8 h-25 w-25"
               />
               <h3 className="font-bold text-lg sm:text-xl text-fr-primary text-balance text-center max-w-[20ch]">
                 {c.title}

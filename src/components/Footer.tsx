@@ -16,6 +16,8 @@ export default function Footer() {
               alt="1st Response Drainage logo"
               width={1000}
               height={355}
+              loading="lazy"
+              decoding="async"
               className="w-40 md:w-44 h-auto"
             />
             <a

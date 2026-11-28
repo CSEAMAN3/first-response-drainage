@@ -1,10 +1,71 @@
+// import ReasonCards from "./ReasonCards";
+
+// export default function Reasons() {
+//   return (
+//     <section className="px-8 py-8 sm:py-16 max-w-200 mx-auto">
+//       <h4 className="font-bold text-center text-xl text-balance text-fr-primary mb-2">
+//         Reliable Support From Local Drainage Specialists
+//       </h4>
+//       <p className="font-light text-center text-balance mb-8">
+//         We combine professional equipment, experienced engineers and fast local
+//         response times to deliver dependable drainage services across East
+//         Anglia.
+//       </p>
+//       <div className="grid grid-cols-1 sm:grid-cols-2 gap-16">
+//         <ReasonCards
+//           graphic="stopwatch"
+//           heading="Fast, local"
+//           headingSplit="response times"
+//           paragraph="Engineers operating across Norfolk, Suffolk and Cambridgeshire."
+//           altText="stopwatch"
+//         />
+//         <ReasonCards
+//           graphic="callout-fee"
+//           heading="No call"
+//           headingSplit="out fees"
+//           paragraph="Clear, honest pricing with no hidden costs."
+//           altText="pound coin and drain"
+//         />
+//         <ReasonCards
+//           graphic="insured"
+//           heading="Fully insured &"
+//           headingSplit="experienced engineers"
+//           paragraph="Professional service carried out to industry standards."
+//           altText="insurance papers"
+//         />
+//         <ReasonCards
+//           graphic="high-pressure-water-jetting"
+//           heading="Advanced"
+//           headingSplit="drainage equipment"
+//           paragraph="CCTV cameras, high-pressure jetting and no-dig repair solutions."
+//           altText="water jet gun"
+//         />
+//         <ReasonCards
+//           graphic="commercial-drainage"
+//           heading="Domestic &"
+//           headingSplit="commercial services"
+//           paragraph="Supporting homeowners, landlords and businesses of all sizes."
+//           altText="office buildings"
+//         />
+//         <ReasonCards
+//           graphic="shield-solution"
+//           heading="Long lasting"
+//           headingSplit="solutions"
+//           paragraph="We fix the cause of the problem, not just the symptoms."
+//           altText="water shield"
+//         />
+//       </div>
+//     </section>
+//   );
+// }
+
 import ReasonCards from "./ReasonCards";
 
 export default function Reasons() {
   return (
     <section className="px-8 py-8 sm:py-16 max-w-200 mx-auto">
       <h4 className="font-bold text-center text-xl text-balance text-fr-primary mb-2">
-        Relaible Support From Local Drainage Specialists
+        Reliable Support From Local Drainage Specialists
       </h4>
       <p className="font-light text-center text-balance mb-8">
         We combine professional equipment, experienced engineers and fast local
@@ -16,9 +77,10 @@ export default function Reasons() {
           graphic="stopwatch"
           heading="Fast, local"
           headingSplit="response times"
-          paragraph="Engineers operating across 
-Norfolk, Suffolk and Cambridge."
+          paragraph="Engineers operating across Norfolk, Suffolk and Cambridgeshire."
           altText="stopwatch"
+          width={99}
+          height={120}
         />
         <ReasonCards
           graphic="callout-fee"
@@ -26,6 +88,8 @@ Norfolk, Suffolk and Cambridge."
           headingSplit="out fees"
           paragraph="Clear, honest pricing with no hidden costs."
           altText="pound coin and drain"
+          width={100}
+          height={120}
         />
         <ReasonCards
           graphic="insured"
@@ -40,6 +104,8 @@ Norfolk, Suffolk and Cambridge."
           headingSplit="drainage equipment"
           paragraph="CCTV cameras, high-pressure jetting and no-dig repair solutions."
           altText="water jet gun"
+          width={119}
+          height={118}
         />
         <ReasonCards
           graphic="commercial-drainage"
