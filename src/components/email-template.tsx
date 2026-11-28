@@ -1,11 +1,4 @@
-import {
-  Html,
-  Body,
-  Container,
-  Text,
-  Preview,
-  Head,
-} from "@react-email/components";
+import { Html, Body, Container, Text, Preview, Head } from "react-email";
 
 interface ContactFormEmailProps {
   name: string;
